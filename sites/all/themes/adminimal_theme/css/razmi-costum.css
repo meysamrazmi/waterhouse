@@ -1,0 +1,580 @@
+@font-face {
+  font-family: "yekan";
+  src:url(/sites/all/themes/waterhouse/fonts/yekan/bYekan.eot);
+  src:url(/sites/all/themes/waterhouse/fonts/yekan/bYekan.eot?#iefix) format("embedded-opentype"), 
+      url(/sites/all/themes/waterhouse/fonts/yekan/bYekan.woff) format("woff"), 
+      url(/sites/all/themes/waterhouse/fonts/yekan/bYekan.ttf) format("truetype"), 
+      url(/sites/all/themes/waterhouse/fonts/yekan/bYekan.svg#BYekan) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  }
+  @font-face {
+    font-family: 'glyphi';
+    src: url('/sites/all/themes/waterhouse/fonts/glyphicons-halflings-regular.eot');
+    src: url('/sites/all/themes/waterhouse/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+      url('/sites/all/themes/waterhouse/fonts/glyphicons-halflings-regular.woff2') format('woff2'), 
+      url('/sites/all/themes/waterhouse/fonts/glyphicons-halflings-regular.woff') format('woff'), 
+      url('/sites/all/themes/waterhouse/fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
+      url('/sites/all/themes/waterhouse/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  }
+  @font-face{
+     font-family:'aw';
+     src:url('/sites/all/themes/waterhouse/fonts/fontawesome-webfont.eot');
+     src:url('/sites/all/themes/waterhouse/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/sites/all/themes/waterhouse/fonts/fontawesome-webfont.woff') format('woff'),
+     url('/sites/all/themes/waterhouse/fonts/fontawesome-webfont.ttf') format('truetype'),
+     url('/sites/all/themes/waterhouse/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+     font-weight:normal;
+    font-style:normal;
+  }
+  @font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('/sites/all/themes/waterhouse/fonts/sans/eot/IRANSansWeb_Bold.eot');
+    src: url('/sites/all/themes/waterhouse/fonts/sans/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+       url('/sites/all/themes/waterhouse/fonts/sans/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('/sites/all/themes/waterhouse/fonts/sans/eot/IRANSansWeb_Medium.eot');
+    src: url('/sites/all/themes/waterhouse/fonts/sans/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+       url('/sites/all/themes/waterhouse/fonts/sans/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/sites/all/themes/waterhouse/fonts/sans/eot/IRANSansWeb.eot');
+    src: url('/sites/all/themes/waterhouse/fonts/sans/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+       url('/sites/all/themes/waterhouse/fonts/sans/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/ttf/IRANSansWeb.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: 200;
+    src: url('/sites/all/themes/waterhouse/fonts/sans/eot/IRANSansWeb_Light.eot');
+    src: url('/sites/all/themes/waterhouse/fonts/sans/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+       url('/sites/all/themes/waterhouse/fonts/sans/woff2/IRANSansWeb_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/woff/IRANSansWeb_Light.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/ttf/IRANSansWeb_Light.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: iransans;
+    font-style: normal;
+    font-weight: 100;
+    src: url('/sites/all/themes/waterhouse/fonts/sans/eot/IRANSansWeb_UltraLight.eot');
+    src: url('/sites/all/themes/waterhouse/fonts/sans/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8*/
+       url('/sites/all/themes/waterhouse/fonts/sans/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/woff/IRANSansWeb_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/ttf/IRANSansWeb_UltraLight.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: fanum;
+    font-style: normal;
+    font-weight: 100;
+    src: url('/sites/all/themes/waterhouse/fonts/sans/fanum/irsfanum.eot');
+    src: url('/sites/all/themes/waterhouse/fonts/sans/fanum/irsfanum.eot?#iefix') format('embedded-opentype'),  /* IE6-8*/
+       url('/sites/all/themes/waterhouse/fonts/sans/fanum/irsfanum.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/fanum/irsfanum.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('/sites/all/themes/waterhouse/fonts/sans/fanum/irsfanum.ttf') format('truetype');
+  }
+  @font-face {
+    font-family:'mat';
+    src:	url('/sites/all/themes/waterhouse/fonts/material/material.eot');
+    src:	url('/sites/all/themes/waterhouse/fonts/material/material.eot?#iefix') format('embedded-opentype'),
+        url('/sites/all/themes/waterhouse/fonts/material/material.woff') format('woff'),
+        url('/sites/all/themes/waterhouse/fonts/material/material.ttf') format('truetype'),
+        url('/sites/all/themes/waterhouse/fonts/material/material.svg#materialdesigniconsregular') format('svg');
+    font-weight:normal;
+    font-style:normal;
+  }
+
+
+#admin-menu .dropdown li li.expandable ul {
+  margin-left: 0;
+  margin-right: 160px;
+}
+#admin-menu .dropdown li ul {
+  left: auto;
+  right: inherit;
+}
+.shortcut-toolbar #toolbar {
+  display: none;
+}
+.shortcut-toolbar.active #toolbar {
+    display: block;
+	  position: relative;
+}
+#admin-menu,
+#toolbar {
+  font: normal small "Lucida Grande",iransans, Verdana, sans-serif !important;
+    font-size: 12px !important;
+}
+#admin-menu .shortcut-toolbar li {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+#branding h1.page-title {
+  font-family: iransans !important;
+  font-size: 28px !important;
+}  
+body {
+  font: normal 12px/1.8em iransans,"Helvetica", sans-serif !important;
+} 
+*{
+  font-family: iransans, "Helvetica", sans-serif !important;
+} 
+ul.action-links a {
+  font-family: iransans, "Helvetica", sans-serif !important;
+  padding-bottom: 4px !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: iransans, "Segoe UI", "Helvetica", sans-serif !important;
+  font-weight: bold !important;
+}
+html body.page-admin-appearance fieldset legend {
+  font-family: iransans, "Segoe UI", "Helvetica", sans-serif !important;
+  font-weight: bold !important;
+}
+.form-item label {
+  font-family: iransans, "Segoe UI", "Helvetica", sans-serif !important;
+}
+input[type="submit"][id^="edit-submit"],
+input#edit-actions-submit,
+input[id^="save-continue"],
+input[type="submit"][id^="edit-save"],
+input#edit-save, input#edit-submit,
+input#edit-actions-save,
+.field-widget-inline-entity-form .container-inline .form-submit,
+#media-browser-page a.button-yes,
+input.add-new-condition,
+#edit-field-product-und-form-actions input.ief-entity-submit{
+  font-family: iransans,Verdana,sans-serif !important;
+}
+#backtotop {
+  height: 50px !important;
+  width: 50px !important;
+  background-size: cover !important;
+}  
+#toolbar {
+  font: iransans, Verdana, sans-serif !important;
+    font-size: 12px !important;
+}
+input.form-submit, a.button, div.exposed-filters input#edit-submit{
+  font-family: iransans,Verdana,sans-serif !important;
+}
+table th {
+  font-family: iransans, "Helvetica", sans-serif !important;
+}
+input, select, textarea {
+  font-family: "Helvetica Neue",iransans, Helvetica, Arial, sans-serif !important;
+  font-size: 12px !important;
+}
+td.ctools-export-ui-operations {
+  position: relative !important;
+}
+fieldset legend,
+fieldset legend a {
+  font-family: iransans, "Segoe UI", "Helvetica", sans-serif !important;
+}
+body div.warning,
+body div.status,
+body div.error {
+  background-position: 99% 50% !important;
+    padding: 10px 50px 10px 10px;
+}
+.views-exposed-form label {
+  font-family: iransans !important;
+}
+.views-ui-display-tab-bucket .ctools-button-processed {
+  right: -5px !important;
+  float: left !important;
+}
+.ctools-dropbutton .ctools-content {
+  border-right: 1px solid #e8e8e8;
+  border-left: 0 !important;
+  margin-right: 1px;
+}
+body.adminimal-theme .views-ui-display-tab-bucket h3 {
+  border-right: 5px solid #ddd;
+  border-left: 0 !important;
+  font-size: 16px;
+}
+body.adminimal-theme ul#views-display-menu-tabs {
+  float: right !important;
+background-color: transparent;
+  margin-left: 18em !important;
+  margin-right: 0 !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: iransans, "Helvetica", sans-serif;
+}
+.views-exposed-widget.views-submit-button {
+  clear: both;
+}
+table th {
+  font-size: 15px;
+  padding: 5px 10px;
+}
+body strong {
+  font-family: iransans !important;
+}
+/*-----------------------------------------imported from seven css-------------------------------------------*/
+.ds-2col-stacked-fluid > .group-left {
+  float: left;
+}
+.ds-2col-stacked-fluid > .group-right {
+  float: right;
+}
+#edit-field-gallery-tags .form-type-checkbox {
+  width: 30%;
+  display: inline-block;
+}
+div#edit-field-filmtags-und .form-item {
+  display: inline-block;
+  width: 49%;
+  margin: 3px 0;
+}
+div#edit-field-enable {
+  background-color: #f5f5f5;
+  padding: 10px;
+  font: 18px b yekan;
+}
+div#edit-field-course-undertype, div#edit-field-course-field, div#edit-field-course-type {
+width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 1%;
+  margin-left: 2%;
+  border-right: 1px solid #ddd;
+}
+div#edit-field-course-code, div#edit-field-edu-duration, div#edit-field-edu-price {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+}
+.page-node-edit .field-name-field-pictags,
+.page-node-edit .field-name-field-filmtags,
+.page-node-edit .field-name-field-gallery-tags,
+.page-node-add .field-name-field-pictags,
+.page-node-add .field-name-field-filmtags,
+.page-node-add .field-name-field-gallery-tags {
+  background: #f5f5f5;
+  border: solid #aaa;
+  border-width: 1px;
+  border-radius: 5px;
+  margin: 1px;
+  padding: 5px;
+    height: 280px;
+  overflow-y: overlay;
+}
+.page-node-edit .field-name-field-pictags .description,
+.page-node-edit .field-name-field-filmtags .description,
+.page-node-edit .field-name-field-gallery-tags .description,
+.page-node-add .field-name-field-pictags .description,
+.page-node-add .field-name-field-filmtags .description,
+.page-node-add .field-name-field-gallery-tags .description  {
+  line-height: 30px !important;
+  padding: 0 10px !important;
+  color: #f35 !important;
+}
+#body-add-more-wrapper .tips {
+  display: none;
+}
+#block-webform-client-block-3403 .fieldset-wrapper * {
+  margin: 0;
+}
+#block-webform-client-block-3403 fieldset {
+  display: inline-block;
+  width: 90%;
+  background: #fefefe;
+}
+#block-webform-client-block-3403 .form-actions {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 15px;
+}
+#block-webform-client-block-3403 .webform-component--support--field, 
+#block-webform-client-block-3403 .webform-component--support--content-type {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  font-size: 13px;
+}
+.group-right #edit-field-files div#edit-field-files-und-ajax-wrapper {
+  max-width: 99%;
+  overflow: overlay;
+}
+div#block-webform-client-block-3403 {
+  background: #f5f5f5;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+div#block-webform-client-block-3403 .form-submit {
+  padding: 3px 15px;
+  border-radius: 3px;
+  background: #07f;
+  color: #fff;
+  font-family: b yekan;
+  border: 0;
+  margin: 5px 0 -2px 0;
+}
+div#block-webform-client-block-3403 a.fieldset-title {
+  color: #666;
+  text-decoration: none;
+  font-family: b yekan;
+  font-size: 17px;
+  font-weight: normal;
+}
+#block-webform-client-block-3403 .form-actions:after {
+  content: "صفحه reload نخواهد شد !";
+  position: absolute;
+  width: 150px;
+  left: -30px;
+  top: 43px;
+}
+div#edit-field-posterfilm{
+  border: 1px solid #ccc;
+  margin: 13px 2px 0 0;
+  padding: 10px;
+}
+.chzn-container-single-nosearch .chzn-search {
+  left: 0;
+}
+div#edit-field-backend {
+  /*display: none;*/
+}
+div#edit-field-difficulty-und > div {
+  width: 15%;
+  display: inline-block;
+    min-width: 150px;
+}
+div#edit-field-difficulty-und > div:nth-child(1):before, div#edit-field-difficulty-und > div:nth-child(6):before, div#edit-field-difficulty-und > div:nth-child(11):before {
+  height: 21px;
+  content: "";
+  position: absolute;
+  border-right: 1px dashed #999;
+  margin: 18px 8px 0 0;
+}
+div#edit-field-difficulty-und > div:nth-child(2):before, div#edit-field-difficulty-und > div:nth-child(7):before, div#edit-field-difficulty-und > div:nth-child(12):before {
+  content: "";
+  position: absolute;
+  width: 87px;
+  border-bottom: 1px dashed #999;
+  right: 9px;
+  margin-top: 9px;
+}
+div#edit-field-difficulty-und > div:nth-child(2), div#edit-field-difficulty-und > div:nth-child(7), div#edit-field-difficulty-und > div:nth-child(12) {
+  margin-right: 100px;
+}
+div#edit-field-difficulty-und > div:nth-child(1), div#edit-field-difficulty-und > div:nth-child(6), div#edit-field-difficulty-und > div:nth-child(11) {
+  display: block;
+}
+div#edit-field-difficulty-und > div:nth-child(1) input, div#edit-field-difficulty-und > div:nth-child(6) input, div#edit-field-difficulty-und > div:nth-child(11) input {
+  display: none;
+}
+div#edit-field-backend-und > * {
+  display: inline-block;
+    min-width: 19%;
+}
+/*-----------------------------------------imported from seven css-------------------------------------------*/
+.messages.error {
+  /*display: none;*/
+}
+.field-type-taxonomy-term-reference.field-name-field-news-taxonomy{
+	width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: aliceblue;
+    padding: 20px;
+	height: 373px;
+}
+.field-type-taxonomy-term-reference.field-name-field-news-tag{
+	width: 72%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: lavenderblush;
+    padding: 20px;
+    margin-left: 1%;
+    box-sizing: border-box;
+}
+#edit-field-news-tag-und .form-item {
+    width: 30%;
+    vertical-align: top;
+    display: inline-block;
+}
+.field-type-taxonomy-term-reference.field-name-field-site-structure{
+	background-color: azure;
+    padding: 20px;
+}
+.view-uc-orders tbody td{
+	text-align:right !important;
+}
+.field-type-field-collection.field-name-field-reports .form-item > div{
+	/* width:50%;	 */
+}
+
+.page-admin-store-orders-view td {
+    text-align: right !important;
+}
+.node-product-form .field-name-field-taxonomy-catalog .description,
+.page-node-add-product .field-name-field-taxonomy-catalog .description{
+    position: absolute;
+    bottom: 8px;
+    right: 2%;
+    padding: 17px 20px 0px 20px;
+    /* border-right: 4px solid #ff0000; */
+    background: #fdfdfd;
+    width: 93%;
+    line-height: 29px;
+    text-align: center;
+    border: 1px solid #eee;
+    font-size: 15px;
+}
+.node-product-form .field-name-field-taxonomy-catalog .description b,
+.page-node-add-product .field-name-field-taxonomy-catalog .description b {
+    color: #ea0000;
+    font-size: 15px;
+}
+#field-percent-values td:not(.draggable) {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  overflow: auto;
+}
+#field-percent-values td > div {
+  margin: 0 10px;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none;
+}
+#field-percent-values td > div label {
+  font-size: 15px;
+}
+#field-percent-values td > input {
+  margin: 3px 10px;
+}
+.order-pane-table th {
+  padding: 10px;
+  font-weight: 500;
+  font-size: 15px;
+background: #fbfbfb !important;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+.order-pane-table td {
+  padding: 15px;
+  border: none !important;
+}
+.order-pane-table {
+  border: 1px solid #eee;
+}
+table tr.even {
+  background: #fbfbfb;
+}
+div#order-pane-line_items td {
+  padding: 3px 10px;
+  border: none;
+border: none !important;
+}
+div#order-pane-line_items {
+  width: 200px;
+  margin-right: auto;
+  border: solid #6d0;
+  border-width: 0 2px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+}
+form div#order-pane-line_items {
+  width: inherit;
+}
+.order-pane {
+  border-color: #eee;
+}
+.page-admin-store-orders fieldset#edit-redirect,
+div#order-pane-admin_comments,
+fieldset#edit-admin-comment-field,
+div#order-pane-update .order-pane-title,
+div#order-pane-packages,
+div#order-pane-ship_to .order-pane-title,
+div#order-pane-order_comments .order-pane-title,
+div#order-pane-products .order-pane-title {
+  display: none;
+}
+div#order-pane-payment,
+div#order-pane-customer {
+  border: none;
+  border-right: 5px solid #2196F3;
+  background: #fbfbfb;
+  padding: 10px;
+}
+div#order-pane-payment {
+  border-color: #8BC34A;
+}
+div#order-pane-ship_to ~div#order-pane-bill_to {
+  display: none;
+}
+.ADRES-CONTEINER ~ br,
+.order-pane br ~ br {
+  display: none;
+}
+.POSTI, .PHON {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 3px 5px;
+}
+.ADRES {
+  padding: 0px 5px 0px !important;
+  margin: 8px 0 5px 0;
+}
+.order-pane br ~strong {
+  font-weight: normal !important;
+  padding: 0 5px;
+}
+.ADRES-CONTEINER > div:first-child {
+  font-size: 15px !important;
+  padding: 0 5px;
+}
+div#order-pane-bill_to,
+div#order-pane-ship_to {
+  border: none;
+  border-right: 5px solid #FF9800;
+  background: #fbfbfb;
+}
+.order-pane {
+  line-height: initial;
+}
+table.line-item-table {
+  margin: 0;
+}
+.page-admin-store-orders- div#block-system-main >.content > .field-name-field-text {
+  background: #fbfbfb;
+  float: right;
+  margin: 6px;
+  padding: 10px;
+  border-right: 5px solid #F44336;
+}
+select#edit-ship-to-select-address {
+  max-width: 800px;
+}
+div#order-pane-webform_nid3403, div#webform-client-form-3403 {
+  display: none;
+}
+div#order-pane-quotes, #edit-field-text {
+  clear: both;
+}
+
+
+
+
+

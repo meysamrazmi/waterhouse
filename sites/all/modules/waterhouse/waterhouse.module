@@ -1,0 +1,311 @@
+<?php
+
+function waterhouse_menu() {
+	$items['iframe/%node'] = array(
+		'title' => 'Video iframe',
+		'page callback' => 'waterhouse_iframe',
+		'access arguments' => array('access content'),
+		'page arguments' => array(1),
+		'type' => MENU_LOCAL_TASK,
+		);
+	
+		
+		return $items;
+}
+
+function waterhouse_iframe($node){
+	
+	if(isset($node->field_film['und'][0]['uri'])){
+		$value = substr($node->field_film['und'][0]['uri'],9);
+		
+		$video_attrs = array(
+        	'src' => '/sites/default/files/' . $value,
+        	'width' => '840px',
+        	'height' => '447px',
+        	'videoWidth' => '840px',
+        	'videoHeight' => '447px',
+        	'controls' => true,
+		);
+	
+        $video_sett =  array(
+        	'download_link' => true,
+        );
+		return theme('mediaelement_video', array('attributes' => $video_attrs, 'settings' => $video_sett));
+		//print style();
+	}
+}
+
+function style(){
+	return '    
+	<style>
+
+	/*--buttons--*/
+	.mejs-controls .mejs-fullscreen-button button,
+	.mejs-controls .mejs-pause button,
+	.mejs-controls .mejs-play button,
+	.mejs-controls .mejs-unmute button,
+	.mejs-controls .mejs-mute button {
+	  background: none;
+	}
+	.mejs-controls .mejs-fullscreen-button button:before,
+	.mejs-controls .mejs-pause button:before,
+	.mejs-controls .mejs-play button:before,
+	.mejs-controls .mejs-unmute button:before,
+	.mejs-controls .mejs-mute button:before {
+	  content: "\f028";
+	  font-family: aw;
+	  font-size: 18px;
+	  font-weight: normal;
+	  padding: 4px 0;
+	  display: inline-block;
+	  transition: all 0.15s;
+	  color: #fff;
+	}
+	.mejs-controls .mejs-play button:before {
+	  content: "\f04b";
+	  font-size: 18px;
+	  padding: 7px 0;
+	}
+	.mejs-controls .mejs-unmute button:before {
+	  content: "\f026";
+	}
+	.mejs-controls .mejs-fullscreen-button button:before {
+	  content: "\f065";
+	}
+	.mejs-controls .mejs-pause button:before {
+		content: "\f04c";
+	  font-size: 18px;
+	  padding: 7px 0;
+	}
+	.mejs-overlay-button {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+	.mejs-button.mejs-fullscreen-button.mejs-unfullscreen button:before {
+	  content: "\f066";
+	}
+	.mejs-controls .mejs-button button:hover:before {
+	  color: #8414e6;
+	}
+	.mejs-button.mejs-fullscreen-button {
+	  width: 30px !important;
+	}
+	.mejs-button.mejs-playpause-button.mejs-play, 
+	.mejs-button.mejs-playpause-button.mejs-pause {
+	  width: 40px;
+	}
+	.mejs-controls .mejs-volume-button .mejs-volume-slider {
+	  height: 90px;
+	  width: 27px;
+	  background: rgba(0, 0, 0, 0.65);
+	  left: -2px;
+	  top: -97px;
+	  border-radius: 3px;
+	}
+	.mejs-controls .mejs-volume-button .mejs-volume-slider:before {
+	  border: 6px solid;
+	  border-color: rgba(0, 0, 0, 0.65) transparent transparent transparent;
+	  content: "";
+	  position: absolute;
+	  bottom: -12px;
+	  right: 8px;
+	}
+	.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-current {
+	  background: #8414e6;
+	  width: 3px;
+	  left: 13px;
+	  max-height: 80px;
+	}
+	.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-total {
+	  left: 13px;
+	  width: 2px;
+	  background: rgba(255,255,255,0.75);
+	  height: 80px;
+	  top: 5px;
+	}
+	.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle {
+	  width: 11px;
+	  height: 11px;
+	  border-radius: 50%;
+	  background: #fff;
+	  left: 9px;
+	  position: relative;
+	  box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+	}
+	.mejs-controls .mejs-volume-button .mejs-volume-slider .mejs-volume-handle:before {
+	  content: "";
+	  width: 5px;
+	  height: 5px;
+	  position: absolute;
+	  background: #8414e6;
+	  right: 3px;
+	  top: 3px;
+	  border-radius: 50%;
+	}
+	.mejs-container .mejs-controls .mejs-time span {
+	  font-family: fanum;
+	  font-size: 13px !important;
+	}
+	.mejs-controls {
+	  display: flex !important;
+	  flex-direction: row-reverse;
+	}
+	.mejs-controls .mejs-time-rail .mejs-time-total {
+	  background: rgba(255, 255, 255, 0.5);
+	  top: 8px;
+	}
+	.mejs-controls .mejs-time-rail span {
+	  height: 4px;
+	}
+	.mejs-controls .mejs-time-rail .mejs-time-loaded {
+	  background: #fff;
+	}
+	.mejs-controls .mejs-time-rail .mejs-time-current {
+	  background: #8414e6;
+	}
+	.mejs-controls button:focus {
+	  outline: none !important;
+	}
+	.mejs-controls .mejs-unmute button {
+	  background: none;
+	}
+	.mejs-controls .mejs-time-rail .mejs-time-handle {
+	  width: 11px;
+	  display: block;
+	  height: 11px;
+	  border-radius: 50%;
+	  background: #fff;
+	  position: relative;
+	  box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.5);
+	  border: none;
+	  top: -4px;
+	  transition: all 0.15s;
+	}
+	.mejs-button.mejs-playpause-button.mejs-play {
+	  width: 40px;
+	}
+	.mejs-container .mejs-controls {
+	  border-radius: 0;
+	  background: linear-gradient(to bottom , rgba(0, 0, 0, 0) , rgba(0, 0, 0, 0.5));
+	  height: 40px;
+	  box-sizing: border-box;
+	}
+	.mejs-controls .mejs-time-rail .mejs-time-float {
+	  background: rgba(0, 0, 0, 0.65);
+	  color: #fff;
+	  width: 48px;
+	  height: 21px;
+	  top: -32px;
+	  margin-left: -20px;
+	  font-family: fanum;
+	  font-size: 15px;
+	  border: none;
+	  padding: 2px 0;
+	  box-sizing: border-box;
+	  box-shadow: #fff 0 0px 10px -2px;
+	}
+	.mejs-controls .mejs-time-rail .mejs-time-float-corner {
+	  border-color: rgba(0, 0, 0, 0.65) transparent transparent transparent;
+	  top: 21px;
+	  left: 17px;
+	}
+	.mejs-controls .mejs-time-rail .mejs-time-handle:before {
+	  content: "";
+	  width: 5px;
+	  height: 5px;
+	  background: #8414e6;
+	  display: block;
+	  border-radius: 50%;
+	  position: absolute;
+	  left: 3px;
+	  top: 3px;
+	  transition: all 0.15s;
+	}
+	.mejs-controls .mejs-time-rail:hover .mejs-time-handle {
+	  width: 15px;
+	  height: 15px;
+	  top: -6px;
+	  margin-left: -2px;
+	}
+	.mejs-controls .mejs-time-rail:hover .mejs-time-handle:before {
+	  left: 4px;
+	  top: 4px;
+	  width: 7px;
+	  height: 7px;
+	}
+	.mejs-overlay-button {
+	  background: none;
+	}
+	.mejs-overlay-button:before {
+		content: "\f144";
+		font-family: aw;
+		color: #770aad;
+		font-size: 65px;
+		position: absolute;
+		top: 6px;
+		left: 8px;
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background: #fff;
+		line-height: 58px;
+		padding: 2px;
+		box-sizing: border-box;
+		transition: all 0.15s;
+	}
+	.mejs-overlay {
+		width: 100% !important;
+		height: 100% !important;
+	}
+	.mediaelement-video {
+		max-width: 840px;
+		margin: auto;
+	}
+	.mejs-container {
+		margin: auto;
+		width: 100% !important;
+		height: inherit !important;
+	}
+	.mejs-inner{
+		margin: auto;
+		margin-top: 5px;
+		border-radius: 0;
+		max-width: 100%;
+		height: 0 !important;
+		padding-bottom: 56.25%;
+		border: 1px solid #aaa;
+		position: relative;
+	}
+	video{
+		width: 100%;
+		height: 100%;
+	} 
+
+	</style>
+	';
+}
+
+/*
+ * helper function for printing arrays and objects with max level
+ *
+ * Usage:
+	$array = array_map(function ($v){
+		return parse($v, "...", 2);
+		}, $item);
+	mdump($array);
+ * */
+function parse($v, $r, $max_d = 1, $d = 0) {
+	if (is_array($v) || is_object($v)) {
+		if ($d >= $max_d) {
+			return $r;
+		} else {
+			$d++;
+			return array_map(function ($v) use ($max_d, $r,  $d) {
+				return parse($v, $r, $max_d, $d);
+			}, $v);
+		}
+	} else {
+		return $v;
+	}
+}

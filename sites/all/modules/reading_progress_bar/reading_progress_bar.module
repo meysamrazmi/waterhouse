@@ -1,0 +1,98 @@
+<?php
+
+/**
+ * @file
+ * Module file for reading progress.
+ */
+
+define('READING_PROGRESS_BAR_HEIGHT', '5px');
+define('READING_PROGRESS_BAR_COLOR', '2579d9');
+define('READING_PROGRESS_BAR_BACKGROUND_COLOR', 'ba6b11');
+define('READING_PROGRESS_BAR_BORDER', 'none');
+
+/**
+ * Implements hook_help().
+ */
+function reading_progress_bar_help($path, $arg) {
+  $output = '';
+  switch ($path) {
+    case 'admin/help#reading_progress_bar':
+      $output = '<p>' . t("When scrolling down the page, you can track your reading progress on a top bar.") . '</p>';
+      $output .= '<p>' . t("This is also configurable according to user's need. Don't add semicolons (;) after the css configuration strings.") . '</p>';
+      $output .= '<p>' . t("As this will be hidden behind toolbar or admin_menu if enabled in admin interface, check it as anonymous user.") . '</p>';
+      break;
+  }
+  return $output;
+}
+
+/**
+ * Implements hook_menu().
+ */
+function reading_progress_bar_menu() {
+  $items['admin/config/user-interface/reading-progress-bar'] = array(
+    'title' => 'Reading Progress Bar',
+    'description' => 'Configurations for Reading Progress Bar',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('_reading_progress_bar_configuration'),
+    'access arguments' => array('administer reading progress bar'),
+    'file' => 'includes/reading_progress_bar.admin.inc',
+  );
+  $items['admin/config/user-interface/reading-progress-bar/default'] = array(
+    'title' => 'Top Progress Bar',
+    'description' => 'Configurations for Top Progress Bar',
+    'type' => MENU_DEFAULT_LOCAL_TASK,
+    'weight' => 1,
+  );
+  return $items;
+}
+
+/**
+ * Implements hook_permission().
+ */
+function reading_progress_bar_permission() {
+  return array(
+    'administer reading progress bar' => array(
+      'title' => t('Administer Reading Progress Bar'),
+      'description' => t('Perform administrative tasks on reading progress bar module'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_page_alter().
+ */
+function reading_progress_bar_page_alter(&$page) {
+  $top_bar_values = variable_get('reading_progress_bar_top_bar', array());
+  $top_bar_height = isset($top_bar_values['height']) ? $top_bar_values['height'] : READING_PROGRESS_BAR_HEIGHT;
+  $top_bar_color = isset($top_bar_values['color']) ? '#' . $top_bar_values['color'] : '#' . READING_PROGRESS_BAR_COLOR;
+  $top_bar_background_color = isset($top_bar_values['background_color']) ? '#' . $top_bar_values['background_color'] : '#' . READING_PROGRESS_BAR_BACKGROUND_COLOR;
+  $top_bar_border = isset($top_bar_values['border']) ? $top_bar_values['border'] : READING_PROGRESS_BAR_BORDER;
+  $top_bar_background_transparent = isset($top_bar_values['background_transparent']) ? $top_bar_values['background_transparent'] : 1;
+  if (!empty($top_bar_background_transparent)) {
+    $top_bar_background_color = 'transparent';
+  }
+  $js_settings = array(
+    'scope' => 'footer',
+    'every_page' => TRUE,
+  );
+  $css_settings = array(
+    'every_page' => TRUE,
+    'media' => 'screen',
+  );
+  $progress_class = 'reading-progress-bar';
+  $page['page_bottom']['reading_progress_bar'] = array(
+    '#markup' => '<progress class="' . $progress_class . '" value="0"></progress>',
+    '#attached' => array(
+      'js' => array(
+        drupal_get_path('module', 'reading_progress_bar') . '/js/reading_progress_bar.js' => $js_settings,
+      ),
+      'css' => array(
+        drupal_get_path('module', 'reading_progress_bar') . '/css/reading_progress_bar.css' =>
+        $css_settings,
+        "progress.$progress_class{color: $top_bar_color; height: $top_bar_height;  background-color: $top_bar_background_color; border: $top_bar_border;} progress.$progress_class::-webkit-progress-value {background-color: $top_bar_color;} progress.$progress_class::-moz-progress-bar {background-color: $top_bar_color;} progress.$progress_class::-webkit-progress-bar {background-color: $top_bar_background_color;}" => array(
+          'type' => 'inline',
+        ) + $css_settings,
+      ),
+    ),
+  );
+}

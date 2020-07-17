@@ -1,0 +1,61 @@
+<?php
+function functions_theme()
+{
+  return array(
+    'uc_product_kit_products' => array(
+      'arguments' => array('product' => NULL),
+      'file' => 'functions.theme.inc',
+    ),
+  );
+}
+function is_bought_product($nid){
+  global $user;
+  $query = db_select('uc_orders', 'o');
+  $query->join('uc_order_products', 'p', 'o.order_id = p.order_id');
+  $results = $query->fields('o', array('order_id'))
+    ->fields('p', array('qty', 'data'))
+    ->condition('o.uid', $user->uid)
+    ->condition('p.nid', $nid)
+    //->condition('o.order_status', array('completed', 'pending'), 'IN')
+    ->condition('o.order_status', array('completed', 'payment_received'), 'IN')
+    ->execute()->fetchAll();
+  return count($results) > 0 ;
+}
+
+/**
+ * Implementation of hook_uc_order();
+ */
+function functions_uc_order($op, $order, $status) {
+  switch ($op) {
+    case 'update':
+      if ($order->order_status != 'completed' && (($status == 'completed' || $status == 'payment_received') && $order->uid > 0) &&
+        (is_array($order->products) && count($order->products)) ) {
+        foreach ($order->products as $product) {
+          if ($product->data['type'] == 'video_course') {
+            $nid = db_select('uc_product_kits', 'kit')
+              ->fields('kit', array('nid'))
+              ->condition('kit.product_id', $product->nid)
+              ->execute()->fetchObject();
+
+            Header('Location: /node/'. $nid->nid . '#products');
+            die();
+          }
+        }
+      }
+  }
+}
+
+//global $user;
+//$query = db_select('uc_orders', 'o');
+//$query->join('uc_order_products', 'p', 'o.order_id = p.order_id');
+//$query->join('uc_product_kits', 'k', 'k.product_id = p.nid');
+//$results = $query->fields('k', array('nid'))->distinct()
+//  ->condition('o.uid', $user->uid)
+//  ->condition('o.order_status', array('completed', 'payment_received'), 'IN')
+//  ->execute()->fetchAll();
+//$nids = array();
+//foreach ($results as $key=>$val){
+//  array_push($nids, $val);
+//}
+//$nodes = node_load_multiple($nids);
+//print node_view_multiple($nodes, 'teaser');

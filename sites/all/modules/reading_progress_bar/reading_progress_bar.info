@@ -1,0 +1,13 @@
+name = Reading Progress Bar
+description = This module provides a reading bar on top of the page which shows the reading progress according to the current location of user on the page.
+core = 7.x
+configure = admin/config/user-interface/reading-progress-bar
+package = User interface
+dependencies[] = jquery_update
+
+; Information added by Drupal.org packaging script on 2016-11-24
+version = "7.x-1.0"
+core = "7.x"
+project = "reading_progress_bar"
+datestamp = "1480023183"
+

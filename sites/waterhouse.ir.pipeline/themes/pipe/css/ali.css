@@ -1,0 +1,15 @@
+/* news page - slide show */
+.news-mainpage .views-slideshow-controls-bottom .views-slideshow-pager-fields a {
+	color: #eee !important;
+}
+
+.slide-news .views-field-created {
+	padding-top: 2px;
+	padding-bottom: 11px;
+}
+
+.slide-news .views-field-field-roo-titr {
+	padding-top: 30px;
+	font-size: 13px;
+	color: #ddd;
+}

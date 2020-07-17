@@ -1,0 +1,2477 @@
+﻿@import "colors.css.less"; //@mat-grey-50 ,red, ping, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, brown, gray, blue-grey
+@import "vars.css.less";
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+#uc_Progressbar .num{
+    margin:-24px 0;
+}
+.front .whole-taghvim .taghvim-mainpage2 {
+    z-index: 1;
+}
+.front .whole-taghvim .taghvim-mainpage2 .pane-1 .pane-content {
+    z-index: 1;
+}
+.front .waterchallenge_self .pane-4 {
+    display: none;
+}
+//main page 
+.front.admin-menu {
+    .waterchallenge_self .pane-4 {
+        display: block;
+    }
+    .last_news_row, .waterchallenge_row, .media_row, .document_row, .college_row, .shop_row {
+        position: relative;
+        padding: 90px 0px;
+        .more-link {
+            background: none repeat scroll 0 0;
+            border-radius: 50px;
+            padding: 5px 15px;
+            text-transform: capitalize;
+            border: 1px solid #0c91bd;
+            &:hover {
+                background: #0c91bd none repeat scroll 0 0;
+                color: #ffffff;
+            }
+            a {
+                color: #0c91bd;
+                &:after {
+                    content: "\f060";
+                    font-family: aw;
+                    width: 30px;
+                    text-align: center;
+                    opacity: 1;
+                    -webkit-transition: 0.2s all;
+                    transition: 0.2s all;
+                }
+                &:hover {
+                    color: #fff
+                }
+            }
+        }
+        h2.pane-title {
+            display: block;
+            position: absolute;
+            right: 44%;
+            top: 12%;
+            cursor: default;
+            font-size: 28px;
+            color: rgba(110, 110, 110, 1);
+            font-weight: bold;
+            letter-spacing: -0.01em;
+        }
+        .pane-content p img {
+            filter: drop-shadow(8px 8px 10px gray);
+        }
+    }
+    .media_row, .document_row, .college_row, .shop_row {
+        .owl-carousel {
+            .owl-nav, .owl-dots {
+                display: none
+            }
+        }
+    }
+    .last_news_row {
+        .last_news_pic {
+            float: right;
+            .pane-content p {
+                margin-top: 125px;
+            }
+            &:after {
+                content: '';
+                background: linear-gradient(to bottom, transparent, #a2b9dc);
+                position: absolute;
+                width: 1531px;
+                height: 2229px;
+                top: 0px;
+                right: 1px;
+                transform: skewY(-12deg);
+                z-index: -1;
+                border-radius: 9% 0 3% 15%;
+                filter: drop-shadow(0px 0px 20px gray);
+            }
+        }
+        .last_news_self {
+            .view-content {
+                margin: 20% 5% 0 13%;
+            }
+            .views-row {
+                display: block;
+                width: 65%;
+                background: #fff;
+                margin: 3% auto;
+                box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+                border-radius: 20px;
+                height: 120px
+            }
+            .more-link {
+                left: 16%;
+                top: 85%;
+            }
+            img.img-responsive {
+                height: 120px;
+                float: right;
+                border-radius: 0 18% 18% 0;
+            }
+            .views-field.views-field-title {
+                text-align: center;
+                margin: auto;
+                height: 100px;
+                padding: 5px 130px 0px 15px;
+                a {
+                    line-height: 2em;
+                }
+            }
+            .views-field-created .data {
+                float: left;
+                margin: -15px;
+                margin-left: 10px
+            }
+        }
+    }
+    .waterchallenge_row {
+        .waterchallenge_pic {
+            .pane-content p {
+                margin-left: 15%;
+            }
+        }
+        .waterchallenge_self {
+            .pane-content {
+                margin: 20% 8% 0 0 !important;
+                p{
+                     background: none repeat scroll 0 0;
+                     border-radius: 50px;
+                     padding: 5px 15px;
+                     text-transform: capitalize;
+                     border: 1px solid #0c91bd;
+                     width:200px;
+                     &:hover {
+                         background: #0c91bd none repeat scroll 0 0;
+                         color: #ffffff;
+                         a {
+                             color: #fff;
+                     }
+                     }
+                 }
+             }
+    }
+    }
+    .media_row {
+        .media_pic {
+            float: right;
+            .pane-content p {
+                margin-right: 10%;
+            }
+        }
+        .media_self {
+            .view-content {
+                margin: 15% 0% 0 0%;
+                .owl-stage-outer {
+                    height: 275px;
+                    padding-top: 15px
+                }
+            }
+            .views-row {
+                float: right;
+                width: 80%;
+                transition: box-shadow 0.5s,transform 0.5s;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+            .node-video {
+                border-radius: 15px 50px;
+                overflow: hidden;
+            }
+            .more-link {
+                left: 9%;
+                top: 73%;
+            }
+        }
+    }
+    .document_row {
+        .document_self {
+            .view-content {
+                margin: 10% 5% 0 -15%;
+                .owl-stage-outer {
+                    height: 370px;
+                    padding-top: 17px
+                }
+                .node-waterchallenge {
+                    border-radius: 15px;
+                    overflow: hidden;
+                    &:hover {
+                        transform: scale(1.1);
+                        box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+                    }
+                }
+            }
+            .views-row {
+                float: right;
+                width: 75%;
+            }
+            .more-link {
+                left: 42%;
+                top: 85%;
+            }
+        }
+        .document_pic {
+            .pane-content p {
+                margin-left: 10%;
+            }
+        }
+    }
+    .college_row {
+        .college_pic {
+            float: right;
+        }
+        .pane-content p {
+            margin-right: 10%;
+            margin-top: 10%;
+        }
+        .college_self {
+            .view-content {
+                margin: 12% 0% 0 0%;
+                .owl-stage-outer {
+                    height: 350px;
+                    padding-top: 15px
+                }
+            }
+            .views-row {
+                box-shadow: 0 1px 6px rgba(0,0,0,0.12);
+                float: right;
+                width: 80%;
+                margin: 0px 3px;
+                background: white;
+                overflow: hidden;
+                border-radius: 10px 10px 10px 10px;
+                transition: box-shadow 0.5s, transform 0.5s;
+                height: 300px;
+                &:hover {
+                    transform: scale(1.1);
+                    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+                }
+                .views-field-display-price {
+                    color: deepskyblue;
+                    position: absolute;
+                    right: 24px;
+                    bottom: 8px;
+                }
+                h3.field-content {
+                    font-size: 15px;
+                    padding: 4px;
+
+                    a {
+                        color: #121212
+                    }
+                }
+            }
+            .more-link {
+                left: 6%;
+                top: 75%;
+            }
+        }
+    }
+    .shop_row {
+        .shop_self {
+            .node-teaser.node-product {
+                height: auto;
+            }
+            .view-content {
+                margin: 15% 8% 0 -30%;
+            }
+            .views-row {
+                float: right;
+                width: 65%;
+                margin: 0 1px;
+                .view-mode-teaser {
+                    overflow: hidden;
+                    border-radius: 10px 10px 10px 10px;
+                    transition: box-shadow 0.5s, transform 0.5s;
+                    &:hover {
+                        transform: scale(1.1);
+                        box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+                    }
+                    .img-responsive {
+                        width: 100%;
+                    }
+                }
+            }
+            .more-link {
+                left: 44%;
+                top: 82%;
+            }
+        }
+        .shop_pic {
+            .pane-content p {
+                margin-left: 10%;
+                margin-top: 10%;
+            }
+        }
+    }
+}
+//animate
+.swip-right {
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    &:before{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #2098D1;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 0 50%;
+        transform-origin: 0 50%;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+
+    }
+    &:hover{
+        color:white;
+        &:before{
+             -webkit-transform: scaleX(1);
+             transform: scaleX(1);
+        }
+    }
+    &:focus{
+        color:white;
+        &:before{
+             -webkit-transform: scaleX(1);
+             transform: scaleX(1);
+        }
+    }
+    &:active{
+        color:white;
+        &:before{
+             -webkit-transform: scaleX(1);
+             transform: scaleX(1);
+        }
+    }
+}
+.swip-left {
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    &:before{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #2098D1;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+    }
+    &:hover{
+        color:white;
+        &:before{
+             -webkit-transform: scaleX(1);
+             transform: scaleX(1);
+        }
+    }
+    &:focus{
+        color:white;
+        &:before{
+             -webkit-transform: scaleX(1);
+             transform: scaleX(1);
+        }
+    }
+    &:active{
+        color:white;
+        &:before{
+             -webkit-transform: scaleX(1);
+             transform: scaleX(1);
+        }
+    }
+}
+//hr line
+.page-node-1469, .page-node-1620{
+    .line {
+        display: flex;
+        margin: 50px 100px;
+        .hr-line {
+            width: 100%;
+            position: relative;
+            margin: 15px 0px;
+            border-bottom: 2px solid #337ab7;
+        }
+        .hr-text {
+            position: relative;
+            top: 3px;
+            width: 300px;
+            font-size: 24px;
+            text-align: center;
+        }
+    }
+    @media(max-width:768px){
+        .line{
+            margin:5px 10px;
+        }
+    }
+}
+//گالری
+.page-node-1620{
+    .album{
+        display:none;
+        position:fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color:rgba(0,0,0,0.7);
+        z-index:10000;
+        .album-content {
+            position: relative;
+            background-color: #fefefe;
+            margin: auto;
+            padding: 0;
+            width: 100%;
+            direction:ltr;
+            .close {
+                color: white;
+                position: absolute;
+                top: 10px;
+                right: 25px;
+                font-size: 35px;
+                font-weight: bold;
+                &:hover,&:focus{
+                    color: #999;
+                    text-decoration: none;
+                    cursor: pointer;
+                    transform:scale(1.5);
+                    transition:0.3s ease-in;
+                }
+            }
+            .mySlides{
+                display:none
+            }
+            .prev,
+            .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -50px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+                -webkit-user-select: none;
+                &:hover{
+                    background:rgba(0,0,0,0.8)
+                }
+            }
+            .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
+            .numbertext {
+                color: #f2f2f2;
+                font-weight:bold;
+                font-size: 14px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+            }
+            img{
+                margin-bottom:-4px;
+                width:100%;
+                height:730px;
+            }
+        }
+    }
+}
+//اطلاعات همایش سازگاری
+.page-node-1724 {
+    .p {
+        font-weight: bold;
+        background: linear-gradient(to bottom left, #ffffff,#ccdee9);
+        width: 20%;
+        text-align: center;
+        padding: 10px 0;
+        border-top: 3px solid deepskyblue;
+        margin: 25px 0;
+    }
+}
+// منوی سازگاری با کم آبی
+.page-node-1690, .page-node-1704{
+    #block-system-main{
+        #header{
+            .header{
+                background:#0e6693;
+                position:relative;
+                z-index:11;
+                display:-webkit-box;
+                #logo{
+                    width:125px;
+                    margin-right:100px;
+                    padding-top:15px;
+                }
+                div{
+                    padding:30px;
+                    text-align:center;
+                    h1{
+                        font-size:24px;
+                        font-weight:100;
+                        color:white;
+                        padding-top:15px;
+                    }
+                }
+            }
+        }
+        #main{
+            position:relative;
+            z-index:10;
+            width:100%;
+            .menu{
+                .title-mobile {
+                    display: none;
+                }
+                .nav-wsa{
+                    background:#03A9F4;
+                    box-shadow:0 2px 5px 0 rgba(0,0,0,0.26);
+                    ul{
+                        list-style-type:none;
+                        margin:0;
+                        padding:0;
+                        display:block;
+                        li{
+                            display:inline-block;
+                            position:relative;
+                            color:#def1f0;
+                            ul.dropdown {
+                                position: absolute;
+                                display: none;
+                                width: 200px;
+                                background: #2980B9;
+                                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+                                padding-top: 0;
+                                li {
+                                    display: block;
+                                    list-style-type: none;
+                                    border:1px solid #14B0BF;
+                                    &:last-child a { border-bottom: none; }
+                                }
+                            }
+                            &:hover{
+                                ul.dropdown{
+                                    display:block;
+                                }
+                                a{
+                                    background:#2980B9;
+                                }
+                            }
+                            a {
+                                padding: 15px 20px;
+                                color: #def1f0;
+                                display: inline-block;
+                                outline: 0;
+                                font-weight: 400;
+                                .arrow-down {
+                                    width: 0;
+                                    height: 0;
+                                    border-left: 5px solid transparent;
+                                    border-right: 5px solid transparent;
+                                    border-top: 5px solid #def1f0;
+                                    position: relative;
+                                    top: 15px;
+                                    left: -5px;
+                                    content: '';
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+         @media only screen and (max-width:900px) {
+             #header{
+                 display:none;
+             }
+             .fixed{
+                 top:0;
+             }
+             #main{
+                 position:fixed;
+                 top:0;
+                 .menu{
+                    .nav-wsa {
+                       background: #fff;
+                       width: 200px;
+                       height: 100%;
+                       display: block;
+                       position: fixed;
+                       left: -200px;
+                       top: 0px;
+                       transition: left 0.25s ease;
+                       margin: 0;
+                       border: 0;
+                       border-radius: 0;
+                       overflow-y: auto;
+                       overflow-x: hidden;
+                       height: 100%;
+                       ul{
+                           padding-top:50px;
+                           li{
+                               display:block;
+                               &:hover{
+                                   a{
+                                       background:#03A9F4;
+                                       color:#fff !important;
+                                   }
+                               }
+                               ul.dropdown{
+                                   position:relative;
+                                   li{
+                                       &:hover{
+                                           a{
+                                               background:rgba(0,0,0,0.1);
+                                               color:#fff !important;
+                                           }
+                                       }
+                                       a{
+                                            background: #2980B9 !important;
+                                            border-bottom: none;
+                                            color: #fff !important;
+                                       }
+                                   }
+                               }
+                               a{
+                                   display: block;
+                                   color: #505050;
+                                   font-weight: 600;
+                                   .arrow-down {
+                                      border-top: 5px solid #505050;
+                                      position: absolute;
+                                      top: 20px;
+                                      right: 10px;
+                                   }
+                               }
+                           }
+                       }
+                    }
+                    .nav-wsa.visible {
+                       left: 0px;
+                       transition: left 0.25s ease;
+                    }
+                    .nav-bg-wsa {
+                        display: inline-block;
+                        vertical-align: middle;
+                        width: 100%;
+                        height: 50px;
+                        margin: 0;
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        background: #03A9F4;
+                        padding: 12px 0 0 10px;
+                        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+                        .navbar-wsa {
+                            display: inline-block;
+                            vertical-align: middle;
+                            height: 50px;
+                            cursor: pointer;
+                            margin: 0;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            padding: 12px;
+                            span {
+                                height: 2px;
+                                background: #fff;
+                                margin: 5px;
+                                display: block;
+                                width: 20px;
+                                &:nth-child(2), &:nth-child(3){
+                                    width:20px
+                                }
+                            }
+                        }
+                       .title-mobile {
+                          position: fixed;
+                          display: block;
+                          top: 10px;
+                          font-size: 13px;
+                          font-weight:bold;
+                          left: 100px;
+                          right: 100px;
+                          text-align: center;
+                          color: #FFF;
+                       }
+                    }
+                 }
+             }
+         }
+    }
+}
+//ارائه تجارب سازگاری با کم آبی
+.page-node-1695, .page-node-1697, .page-node-1698, .page-node-1727, .page-node-2004, .page-node-99, .page-node-2127, .page-node-2170 {
+    .webform-client-form-1695, .webform-client-form-1697, .webform-client-form-1698, .webform-client-form-1727, .webform-client-form-2004,
+    .webform-client-form-99, .webform-client-form-2127, .webform-client-form-2170  {
+        text-align:center;
+        .control-label{
+            padding:25px 0;
+        }
+        .form-managed-file{
+            display:flex;
+            #edit-submitted-file-upload-button{
+                width: 20%;
+                background: #2dc22c;
+                color: #fff;
+                margin-right:25px;
+            }
+        }
+        .webform-component--desc {
+            margin-bottom: 80px;
+            box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+            border: solid #3d15b9 !important;
+            border-width: 3px 0 !important;
+            text-align: center;
+            line-height: 36px;
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 18px 20px;
+        }
+        .webform-component--home{
+            a{
+                position:absolute;
+                color: white;
+                background: #337ab7;
+                left:10%;
+            }
+        }
+        .form-actions{
+            button{
+                position:absolute;
+                right:10%;
+            }
+        }
+    }
+}
+//نوع محتوای پروژه ها
+.node-type-proje {
+    .main-container {
+        background:none !important;
+        width:100%;
+        .line{
+            margin:45px 0;
+            font-size:24px;
+            text-align:center;
+            &:after, &:before{
+                content:''; 
+                position: absolute;
+                width: 35%;
+                left: 80px;
+                height: 3px;
+                margin-top: 20px;
+                background: #337ab7;
+            }
+            &:before{
+                right: 80px;
+            }
+        }
+        #block-system-main{
+            margin:0 65px;
+            .field-type-image{
+                float:left;
+                border:2px solid white;
+                padding:5px;
+                .field-label{
+                    display:none;
+                }
+            }
+            .field-name-field-title{
+                font-size:17px;
+                margin-bottom:10px;
+                .field-label{
+                    display:none
+                }
+            }
+            .field-name-field-explain{
+                font-size:15px;
+                text-align:justify;
+            }
+            .field-name-field-startdate, .field-name-field-enddate, .field-name-field-progress{
+                font-size:15px;
+                display:-webkit-box;
+            }
+            .field-name-field-purpose{
+                float:right;
+                margin-top:100px;
+                .field-items{
+                text-align:justify;
+                background:white;
+                padding:50px;
+                box-shadow:0 2px 7px 1px #eee;
+                line-height:2.2;
+                }
+                .field-label{
+                    .line();
+                }
+            }
+        }
+        .breadcrumb {
+            display: none;
+        }
+        @media (max-width: 768px){
+            #block-system-main{
+                margin: 0 5px;
+                .field-type-image{
+                    margin-bottom:20px;
+                }
+            }
+        }
+    }
+}
+//
+.page-taxonomy-term-313, .page-taxonomy-term-316, .page-taxonomy-term-317, .page-taxonomy-term-330, .page-taxonomy-term-362, .page-wsa-edu.wsa-pedia, .page-wsa-search.page-search{
+    &:before{
+        background:url(/sites/all/themes/waterhouse/images/meysam/background/wiki.jpg) center;
+        background-size:cover;
+    }
+    .main-container{
+        margin-top:175px;
+    }
+    .breadcrumb{
+        background:none !important;
+        span{
+            font-size: 1.5em;
+            background: #fff;
+            border: 0 solid #50457b;
+            border-width: 0px 3px 2px 0px;
+            border-radius: 30px;
+            padding: 5px 25px;
+        }
+    }
+}
+//جستجو پایگاه دانش
+.page-wsa-search.page-search{
+    .main-container{
+        font-family:fanum;
+        .views-exposed-form{
+            margin-bottom:75px;
+        }
+        .views-row{
+            display:inline-block;
+            width:18%;
+            margin-left:10px;
+            height:285px;
+            overflow:hidden;
+            background:white;
+            header{
+                display:none;
+            }
+            .views-field-title{
+                font-size:15px;
+                padding:5px;
+            }
+            .field-type-image{
+                .field-label{
+                    display:none;
+                }
+            }
+            .field-name-title{
+                .field-label{
+                    display:none;
+                }
+            }
+        }
+    }
+    @media(max-width:768px){
+        .main-container{
+            .views-row{
+                margin-left:0px;
+                width:100%;
+                .field-type-image{
+                    img{
+                        width:100%
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width:768px) and (max-width:1200px){
+        .main-container{
+            .views-row{
+                margin-left:5px;
+            }
+        }
+    }
+}
+//تکسونومی پایگاه دانش
+.page-taxonomy-term-313, .page-taxonomy-term-316, .page-taxonomy-term-317, .page-taxonomy-term-330,  .page-taxonomy-term-362{
+    .main-container {
+        a.btn-info{
+            position: absolute;
+            top: 10%;
+            left: 0;
+        }
+        .page-header{
+            display:table;
+            border-bottom:1px solid #45ada8 !important;
+        }
+        .node-teaser{
+            display:block;
+            width:19%;
+            margin-left:10px;
+            height:285px;
+            overflow:hidden;
+            header{
+                display:none;
+            }
+            .field-name-title{
+                h2{
+                    font-size:15px;
+                    padding:5px;
+                }
+            }
+            ul.links{
+                margin-top:0;
+            }
+        }
+        .text-center{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform:translate(-50%,0)
+        }
+    }
+    @media(max-width:768px){
+        .main-container{
+            a.btn-info{
+                top: -2%;
+                left:50%;
+            }
+            .node-teaser{
+                margin-left:0px;
+                width:100%;
+                .field-type-image{
+                    img{
+                        width:100%
+                    }
+                }
+            }
+        }
+    }
+    @media(min-width:768px) and (max-width:1200px){
+        .main-container{
+            .node-teaser{
+                margin-left:5px;
+            }
+        }
+    }
+}
+//پنل پایگاه دانش
+.page-wsa-edu.wsa-pedia{
+    .page-header{
+        display:none;
+    }
+    .main-container{
+        .col-lg-3{
+            background:white;
+            margin:50px 0;
+            .pane-content{
+                .views-row{
+                    margin:20px 0;
+                    display:flex;
+                    padding:15px 0;
+                    border-bottom:1px solid #e2e2e2;
+                    .views-field-field-data-img{
+                       max-width:30%;
+                    }
+                    .views-field-title{
+                        padding:10px;
+                    }
+                }
+            }
+        }
+        .col-lg-9{
+            .pane-title{
+                margin:50px 0;
+            }
+            .pane-content{
+                .views-row{
+                    display:inline-grid;
+                    width:30%;
+                    margin:15px 5px;
+                    box-shadow:0 2px 2px #edeef0;
+                    background:white;
+                    height:300px;
+                    &:hover{
+                        border-bottom:2px solid deepskyblue;
+                        transition:all 0.1s ease-in-out;
+                    }
+                    .views-field-title{
+                        height:100px;
+                        padding:30px 10px;
+                        font-size:16px;
+                    }
+                    .date-display-single{
+                        font-family:fanum;
+                        color:#aaa;
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width:768px){
+        .main-container{
+            .col-lg-9{
+                .pane-content{
+                    .views-row{
+                        display:inline-block;
+                        width:100%;
+                    }
+                }
+            }
+        }
+    }
+}
+// نوع محتوای پایگاه دانش
+.node-type-wsa-data {
+    header{
+        background: #03A9F4 !important;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+        #block-menu-menu-wsa-menu{
+            .menu{
+                padding:0;
+                li.dropdown:after{
+                    top: 20px;
+                    content: '﹀';
+                    position: absolute;
+                    font-weight: bold;
+                    color: #def1f0;
+                    left: 0%;
+                }
+                li{
+                    display: inline-block;
+                    position: relative;
+                    .caret{
+                        display:none;
+                    }
+                    ul.dropdown-menu {
+                         position: absolute;
+                         display: none;
+                         width: 200px;
+                         background: #2980B9;
+                         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+                         padding-top: 0;
+                         text-align:right;
+                         li {
+                             display: block;
+                             list-style-type: none;
+                             border:1px solid #14B0BF;
+                             &:last-child a { border-bottom: none; }
+                         }
+                    }
+                    a, span{
+                        color: #def1f0;
+                        padding:15px;
+                    }
+                    &:hover{
+                        a, span{
+                            background-color:#2980b9;
+                        }
+                    }
+                }
+            }
+        }
+        .navbar-header, .navbar-right,#block-block-3,.block-title{
+            display:none;
+        }
+    }
+    .main-container {
+        .col-md-3{
+            .views-row{
+                margin:20px 0;
+                display:flex;
+                padding:15px 0;
+                border-bottom:1px solid #e2e2e2;
+                .views-field-field-data-img{
+                   max-width:30%;
+                }
+                .views-field-title{
+                    padding:10px;
+                }
+            }
+        }
+        background: none !important;
+        .field{
+            margin:50px 0;
+        }
+        blockquote{
+            font-size:14px !important;
+            font-weight:500;
+            font-style:italic;
+        }
+        .field-name-field-data-name{
+            font-size:24px;
+            font-weight:500;
+        }
+        .breadcrumb{
+            display:none;
+        }
+        .field-name-field-data-video{
+            padding:0 100px;
+        }
+        .field-name-field-data-link, .field-name-field-data-type{
+            display:-webkit-box;
+            font-size:18px;
+            font-weight:500;
+            .field-label{
+                display:inherit
+            }
+        }
+        .field-name-field-data-type{
+            .field-items{
+                display:-webkit-box;
+                .field-item{
+                    margin:0 15px;
+                    background: white;
+                    padding: 5px 10px;
+                    border-radius: 20px;
+                    border: 1px solid #e2e2e2;
+                }
+            }
+        }
+        .field-name-field-data-cap{
+            .field-items{
+                background: white;
+                text-align: justify;
+                padding: 50px;
+                box-shadow: 0 2px 7px 1px #eee;
+                line-height: 2.2;
+            }
+        }
+        .field-name-field-data-doc{
+            font-size:18px;
+        }
+    }
+    @media(max-width:768px){
+        header{
+            .navbar-header{
+                display:inherit;
+                a{
+                    opacity:0;
+                }
+            }
+        }
+        .main-container{
+            .field-name-field-data-name{
+                font-size:16px;
+            }
+            .field-name-field-data-video{
+                padding:0;
+            }
+            .field-name-field-data-link, .field-name-field-data-type, .field-name-field-data-doc{
+                font-size:14px;
+            }
+            .field-name-field-data-type{
+                display:none;
+            }
+        }
+    }
+}
+//راهنمای ارائه تجارب برای همایش سازگاری با کم آبی
+.page-node-1827 {
+    &:before {
+        background: url(/sites/all/themes/waterhouse/images/meysam/image/1690/exp.jpg) center no-repeat;
+    }
+    .main-container {
+        margin-top: 200px;
+        .guide {
+            font-family: fanum;
+            h2 {
+                margin-bottom: 50px;
+            }
+            table {
+                margin-bottom: 50px;
+                td {
+                    text-align: justify;
+                }
+                tbody {
+                    td {
+                        border: 1px solid #f5f5f5;
+                        span {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+            a {
+                position: absolute;
+                top: -6%;
+                font-size: 1.6em;
+                background: #fff;
+                border: 0 solid #50457b;
+                border-width: 0px 3px 2px 0px;
+                border-radius: 30px;
+                padding: 7px 24px;
+            }
+            .send {
+                p {
+                    margin-top: 25px;
+                    a {
+                        position: relative;
+                    }
+                }
+            }
+        }
+        .main{
+            text-align:center;
+            a{
+                padding:14px 10px;
+                border:1px solid;
+                &:hover{
+                    background-color:#337ab7;
+                    color:white;
+                    transition:all 0.2s ease-in-out;
+                }
+            }
+        }
+        .field-type-addthis {
+            display: none
+        }
+    }
+}
+//اهنمای ارائه تجارب برای همایش سازگاری با کم آبی
+.page-node-1775 {
+    &:before {
+        background: url(/sites/all/themes/waterhouse/images/meysam/image/1690/exp.jpg) center no-repeat;
+    }
+    .ostani{
+        #a {
+            position: absolute;
+            top: -6%;
+            font-size: 1.6em;
+            background: #fff;
+            border: 0 solid #50457b;
+            border-width: 0px 3px 2px 0px;
+            border-radius: 30px;
+            padding: 7px 24px;
+        }
+    }
+    .nemone{
+        text-align:center;
+        margin:50px 0;
+        a{
+            padding:14px 10px;
+            margin-left:25px;
+            border:1px solid;
+            &:hover{
+                color:white;
+                background:#337ab7;
+            }
+        }
+    }
+    .main-container {
+        margin-top: 200px;
+        font-family:fanum;
+        h2{
+            margin-bottom:50px;
+        }
+        .sec-right{
+            float:right;
+            margin-bottom:100px;
+            #asar{
+                background: #00800040;
+                display: table;
+                margin: 0 10px;
+                float: left;
+                font-weight: bold;
+                padding: 0 10px;
+                color: #438e43;
+            }
+            .main{
+                border:1px solid #eee;
+                p{
+                    border-bottom:1px solid #eee;
+                    font-weight:bold;
+                    padding:10px;
+                }
+            }
+        }
+        .secs{
+            margin-bottom:100px;
+            .one{
+                border:1px solid #00800040;
+                margin-bottom:20px;
+                th{
+                    text-align: center;
+                    background: #00800040;
+                    padding: 5px;
+                }
+                td{
+                    border:1px solid #00800040;
+                }
+            }
+            .two{
+                background: #f9b8ce;
+                margin-bottom: 20px;
+                color:#a30a3e;
+                td{
+                    border:1px solid #fd96b9;
+                }
+            }
+            .three{
+                background: #b7dee8;
+                margin-bottom: 20px;
+                color: #6a8288;
+                td{
+                    border:1px solid #98c5d0;
+                }
+            }
+            .four{
+                background:#c8c6c6;
+                margin-bottom:20px;
+                td{
+                    border:1px solid #b3b3b3;
+                }
+            }
+            .five{
+                background: #c1c8af;
+                color: #545b42;
+                text-align: center;
+                border: 1px solid #8d9578;
+                border-bottom: none;
+                p{border-bottom:1px solid #8d9578}
+            }
+        }
+        .rahnama{
+            p span{
+                font:15px;
+                font-weight:bold;
+                color:red
+            }
+            h4{
+                margin:50px 0;
+            }
+        }
+        .f-form{
+            .sec-right{
+                p span{
+                    font-weight:300;
+                }
+            }
+        }
+        .field-type-addthis {
+            display: none
+        }
+    }
+}
+//غرفه نمایشگاهی
+.page-node-1741{
+    .rez{
+        background: grey;
+        color: white;
+        text-align: center;
+    }
+    .form-item .radio, .rez{
+        display: inline-block;
+        width: 132px;
+        margin: 8px 11px;
+    }
+}
+.page-node-1742{
+    #block-system-main{
+     margin-top:100px;
+         .tariff{
+             margin:50px auto;
+             p{
+                 font-weight:bold;
+                 color:#757679;
+                 font-family:fanum;
+             }
+         }
+         input{
+             margin:0 15px;
+         }
+         .link{
+             text-align:center;
+             a{
+                 color: #fff;
+                 background-color: #398439;
+                 padding:10px;
+             }
+         }
+         .add-to-cart, .display-price, .model{
+             display:none;
+         }
+    }
+}
+.page-node-2056, .page-node-2064 {
+    .help-block, .model, .display-price{
+        opacity:0;
+    }
+    .form-item-varprice{
+        display:flex;
+        input{
+            margin:0 30px;
+        }
+    }
+    .form-item-attributes-30{
+        label{display:block!important}
+    }
+}
+//ثبت اطلاعات سازگاری با کم آبی
+.page-node-1782{
+    .main-container{
+        .form-item{
+            button{
+                margin-bottom:40px;
+            }
+        }
+        .form-actions{
+            text-align:center;
+        }
+    }
+}
+//workshop
+.page-node-383 {
+    background:#0e6693;
+    font-family:fanum;
+    .main-container{
+        background:none!important;
+        width:100%;
+        .back{
+            text-decoration:none;
+            padding:10px 14px;
+            border-radius:30px;
+        }
+         .hvr-shutter-out-horizontal {
+             display: inline-block;
+             transform: perspective(1px) translateZ(0);
+             box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+             background: #e1e1e1;
+             transition-duration: 0.3s;
+             &:before{
+                 content: "";
+                 position: absolute;
+                 z-index: -1;
+                 top: 0;
+                 bottom: 0;
+                 left: 0;
+                 right: 0;
+                 background: #2098D1;
+                 transform: scaleX(0);
+                 transition-property: transform;
+                 transition-duration: 0.3s;
+                 transition-timing-function: ease-out;
+                 border-radius:30px;
+             }
+             &:hover{
+                 color:white;
+                 &:before{
+                      transform: scaleX(1);
+                 }
+             }
+         }
+        .container{
+            .content{
+                height:501px;
+                margin:50px 0;
+                background: #fff;
+                box-shadow: 0 10px 30px 0 rgba(56, 219, 211, 0.65);
+                border-radius: 40px;
+                padding-bottom: 50px;
+                text-align: center;
+                cursor: pointer;
+                display: block;
+                padding:0;
+                overflow:hidden;
+                h4{
+                    font-weight:700;
+                    span{
+                        font-size:14px;
+                        font-weight:400;
+                    }
+                }
+                p {
+                    font-weight: 500;
+                    padding: 0px 20px;
+                    color: #666767;
+                }
+                .link{
+                    margin:25px 0;
+                    a{
+                        text-decoration:none;
+                        padding:10px 14px;
+                        border-radius:30px;
+                    }
+                }
+            }
+        }
+    }
+    header, footer, .breadcrumb, .field-type-addthis{
+        display:none;
+    }
+}
+//
+.page-node-2129, .page-node-2131 {
+    .attribute-3 {
+        &:after {
+            content: "در صورت ثبت نام دانشجویی،شماره دانشجویی خود را در کادر زیر وارد نمایید. همچنین به همراه داشتن کارت دانشجویی، در روز کارگاه الزامیست" !important;
+        }
+    }
+}
+//نظرسنجی سازگاری
+.page-node-2192 {
+    &:before {
+        background: url(/sites/default/files/aras5.JPG)!important;
+        background-size: cover!important;
+        @media @425 {
+            height: 51vw !important;
+        }
+    }
+}
+//pedia
+.node-type-pedia.page-pedia {
+    .main-container{
+        background:#f9f9f9 !important;
+        .breadcrumb{
+            display:none;
+        }
+        #block-system-main{
+            .field-type-image{
+                img{
+                    border-radius: 50%;
+                    border: 2px deepskyblue dotted;
+                    padding: 7px;
+                    margin-bottom: 50px;
+                    &:hover{
+                        padding:0;
+                        transition:.4s ease-in-out;
+                        border:none;
+                    }
+                }
+            }
+            .field-type-ds{
+                text-align:center;
+                margin-bottom:50px;
+                h2{
+                    font-weight:bold;
+                }
+            }
+            .field-type-text-with-summary{
+                    text-align: center;
+                    padding: 20px 30px;
+                    background-color: #fff;
+                    box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12);
+                    font-size: 13px;
+                    margin-bottom: 50px;
+            }
+            .field-type-taxonomy-term-reference{
+                .field-label{
+                    font-weight:bold;
+                }
+                display:-webkit-box;
+                .field-items{
+                    display:-webkit-box;
+                    a{
+                        color: black !important;
+                        font-size: 11px;
+                        display: inline-block;
+                        margin: 0 5px;
+                        padding: 3px 10px;
+                        background-color: white;
+                        box-shadow: 0 0 1px #dadada, 0 1px 5px #dadada;
+                    }
+                }
+            }
+        }
+    }
+}
+//pedia taxonomy
+.page-taxonomy-term-296, .page-taxonomy-term-297, .page-taxonomy-term-298, .page-taxonomy-term-299, .page-taxonomy-term-300, .page-taxonomy-term-301, .page-taxonomy-term-302, .page-taxonomy-term-303,
+.page-taxonomy-term-304, .page-taxonomy-term-305, .page-taxonomy-term-335, .page-taxonomy-term-336, .page-taxonomy-term-337, .page-taxonomy-term-338, .page-taxonomy-term-339,
+.page-taxonomy-term-340, .page-taxonomy-term-341, .page-taxonomy-term-342, .page-taxonomy-term-343, .page-taxonomy-term-344, .page-taxonomy-term-345, .page-taxonomy-term-346,
+.page-taxonomy-term-347, .page-taxonomy-term-348, .page-taxonomy-term-349, .page-taxonomy-term-350, .page-taxonomy-term-351, .page-taxonomy-term-352, .page-taxonomy-term-353,
+.page-taxonomy-term-354, .page-taxonomy-term-355, .page-taxonomy-term-356, .page-taxonomy-term-357, .page-taxonomy-term-358, .page-taxonomy-term-359, .page-taxonomy-term-360,
+.page-taxonomy-term-361 {
+    .main-container{
+        #block-system-main{
+            .panel-2col-stacked {
+                display: inline-block;
+                vertical-align: top;
+                margin: 25px 10px 0 10px;
+                text-align:center;
+                width: 18%;
+                padding: 0;
+                h5{
+                    a{
+                        color:black;
+                    }
+                }
+            }
+        }
+    }
+}
+//مشاهده طرح ها و تجارب
+.not-front.node-type-tarh{
+    .main-container{
+        .col-md-3{
+            .views-row{
+                margin:20px 0;
+                display:flex;
+                padding:15px 0;
+                border-bottom:1px solid #e2e2e2;
+                .views-field-field-image-t{
+                   max-width:30%;
+                }
+                .views-field-title{
+                    padding:0 10px;
+                    max-height: 50px;
+                    overflow: hidden;
+                    a{
+                        color:#767573;
+                    }
+                }
+            }
+        }
+        .col-md-9{
+            .breadcrumb{
+                display:none;
+            }
+            #block-system-main{
+                .group-left{
+                    .field-name-collegetabs{
+                        .view-collegetabs{
+                            .views-row-4{
+                                p{
+                                    text-align:center;
+                                    font-weight:bold;
+                                    a{
+                                        color:black;
+                                        &:before{
+                                            content: '\f1da';
+                                            font-family: mat;
+                                            padding: 7px;
+                                            color: #3a87ba;
+                                            border: 1px solid;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .field-name-field-sharein{
+                        text-align: center;
+                        font-family: irans;
+                        border: 1px solid #eee;
+                        padding: 15px 0px 5px;
+                        background-color: #f9f9f9;
+                        clear: both;
+                        border-radius: 5px;
+                        .field-label{
+                            font-size:18px;
+                        }
+                        .field-items{
+                            display:inline-block;
+                            .at-icon-wrapper{
+                                transform:scale(2);
+                                margin:15px;
+                                border-radius:50%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//جستجو طرح ها وتجارب
+.page-tajarob {
+    .main-container{
+        .breadcrumb{
+            display:none;
+        }
+        .views-exposed-widget{
+			width:20%
+		}
+		#edit-submit-tarha{
+			width:100%
+		}
+        .views-row{
+             display: inline-block;
+             margin: 15px 5px 30px 5px;
+             vertical-align: top;
+             transition: all 450ms cubic-bezier(0.23,1,0.32,1) 0ms;
+             -webkit-tap-highlight-color: rgba(0,0,0,0);
+             box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12);
+             width: 25%;
+             height:350px;
+             overflow:hidden;
+             background: #fff;
+             transition: box-shadow 0.5s,transform 0.5s;
+             &:hover {
+                 box-shadow:rgba(0,0,0,0.227451) 0px 3px 10px, rgba(0,0,0,0.227451) 0px 3px 10px;
+             }
+             .views-field-field-image-t{
+                 img{
+                     height:150px;
+                 }
+             }
+             .views-field-field-furmat{
+                 background: #f14970;
+                 color: white;
+                 font-weight: bold;
+                 padding: 2px 10px;
+                 text-align:center;
+             }
+             .views-field-title{
+                  text-align: center;
+                  padding: 7px;
+                  font-size: 15px;
+                  font-weight: 500;
+                  height:110px;
+                  overflow:hidden;
+                  a{
+                      color:black;
+                  }
+             }
+             .views-field-field-nevisandeh{
+                  padding: 15px;
+                  text-align: center;
+                  display: list-item;
+             }
+        }
+    }
+    @media(max-width:768px){
+        .main-container{
+            .views-row{
+                width:100%;
+            }
+            .views-exposed-widget{
+                width:50%;
+            }
+            .views-submit-button{
+                width:100%
+            }
+        }
+    }
+}
+//نوع محتوای اخبار گردشگری
+.node-type-tourism{
+    .main-container {
+        .col-md-3{
+            .views-row{
+                margin:20px 0;
+                display:flex;
+                padding:15px 0;
+                border-bottom:1px solid #e2e2e2;
+                .views-field-field-tourpic{
+                   max-width:30%;
+                }
+                .views-field-title{
+                    padding:10px;
+                }
+            }
+        }
+        background: none !important;
+        .field{
+            margin:50px 0;
+        }
+        blockquote{
+            font-size:14px !important;
+            font-weight:500;
+            font-style:italic;
+        }
+        .field-name-title{
+            font-size:24px;
+            font-weight:500;
+        }
+        .breadcrumb{
+            display:none;
+        }
+        .field-name-field-tourfilm{
+            padding:0 100px;
+        }
+        .field-name-field-toursrc{
+            display:-webkit-box;
+            font-size:18px;
+            font-weight:500;
+            .field-label{
+                display:inherit
+            }
+        }
+        .field-name-field-tozih{
+            margin-bottom:0;
+            .field-items{
+                background: white;
+                text-align: justify;
+                padding: 50px;
+                box-shadow: 0 2px 7px 1px #eee;
+                line-height: 2.2;
+            }
+        }
+        .field-name-field-t-tags{
+            margin-top: 0;
+            background: white;
+            padding: 0 15px 10px 0px;
+            .even, .odd{
+                display:inline-flex !important;
+            }
+            a{
+                padding: 5px 15px;
+                background: #e9e8e8;
+                border-bottom: 2px solid;
+                color: darkred;
+                margin:2px;
+            }
+        }
+    }
+    @media(max-width:768px){
+        .main-container{
+            .field-name-title{
+                font-size:16px;
+            }
+            .field-name-field-tourfilm{
+                padding:0;
+            }
+        }
+    }
+}
+//تکسونومی اخبار گردشگری و گنجینه آب
+.page-taxonomy-term-407 , .page-taxonomy-term-408{
+    .main-container{
+        .breadcrumb{
+            display:none;
+        }
+        .page-header{
+            display:table;
+            border-bottom:1px solid #45ada8 !important;
+        }
+        #block-system-main{
+            .panel-2col-stacked {
+                display: inline-block;
+                vertical-align: top;
+                margin: 25px 10px 0 10px;
+                text-align:center;
+                width: 17%;
+                padding: 0;
+                .panel-col-top{
+                    background:white;
+                    box-shadow: 0 2px 2px #d8cfae;
+                    height:270px;
+                    overflow:hidden;
+                }
+                h5{
+                    a{
+                        color:black;
+                    }
+                }
+            }
+        }
+    }
+    @media(max-width:768px){
+        .main-container{
+            #block-system-main{
+                .panel-2col-stacked{
+                    width:100%;
+                    margin:0;
+                    .panel-col-top{
+                        height:285px;
+                        .field-name-title{
+                            margin-top:-25px;
+                        }
+                    }
+                    img{
+                        width:100%
+                    }
+                }
+            }
+        }
+    }
+}
+//گالری تصاویر
+.node-type-gallery.page-gallery{
+    background:url("https://www.transparenttextures.com/patterns/black-felt.png");
+    font-family:fanum;
+    .main-container{
+        padding:0;
+        margin:30px auto;
+        background:none !important;
+        #block-system-main, #block-views-gallery-block-3{
+            background: white;
+            box-shadow: 0 10px 30px 0 #a4adad;
+            border-radius: 15px;
+        }
+        .breadcrumb{
+            display:none;
+        }
+        .col-sm-12{
+            padding:0;
+            .field-name-title{
+                background: #292929;
+                border-top-right-radius: 15px;
+                border-top-left-radius: 15px;
+                border-right: 25px solid #2bbfbd;
+                color: white;
+                h2{
+                    font-size: 17px;
+                    padding: 10px 20px;
+                }
+            }
+            .field-type-image{
+                img{
+                    height:175px;
+                }
+            }
+            .field-name-field-date, .field-name-field-number{
+                padding-right:30px;
+                margin-bottom: 15px;
+                font-weight: 500;
+                &:before{
+                    font-family:glyphi;
+                    display: inline-block;
+                    float: right;
+                    font-size: 20px;
+                    color: #2bbfbd;
+                    padding-left: 15px;
+                }
+                .field-label{
+                    font-weight:bold;
+                }
+            } 
+            .field-name-field-date:before{content: "\e109";}
+            .field-name-field-number:before{content: "\e046";}
+            .field-name-field-back{
+                position:absolute;
+                left:0;
+                top:4%;
+                a{
+                    margin: 5px 15px;
+                    border: 1px solid #2bbfbd;
+                    border-radius: 35px;
+                    padding: 5px 15px;
+                    transition:all .1s ease-in-out;
+                    color:#2bbfbd;
+                    &:before{
+                        content:'\e092';
+                        font-family:glyphi;
+                        opacity:0;
+                    }
+                    &:hover{
+                        color:white;
+                        background:#2bbfbd;
+                        &:before{   
+                            padding-left: 10px;
+                            opacity:1;
+                        }
+                    }
+                }
+            }
+        }
+        .block-title{
+            background: #292929;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            border-right: 25px solid #2bbfbd;
+            color: white;
+            font-size: 17px;
+            padding: 10px 20px;
+            margin-top:0;
+        }
+        .view-content{
+            text-align:-webkit-center;
+            padding:25px 0;
+            .views-row{
+                display: inline-block;
+                width: 23%;
+                .views-field-field-main-image{
+                    img{
+                        min-height:220px;
+                        border-radius:50%;
+                    }
+                }
+                .views-field-title{
+                    padding:25px 0;
+                }
+            }
+        }
+    }
+    #cboxTitle{
+        bottom: 0;
+        right: 0;
+        color: #2bbfbd;
+        background: rgba(41,41,41,0.7);
+        width: 100%;
+        padding: 15px;
+        top:inherit;
+    }
+    @media(max-width:768px){
+        .main-container{
+            padding:20px;
+            .view-content{
+                .views-row{
+                    width:46%;
+                }
+            }
+        }
+        .field-name-field-images .field-item{
+            width:100%;
+            margin:0;
+            padding:0 10px;
+        }
+    }
+}
+//مدرسین
+.page-academy {
+    .main-container {
+         .field-type-ds h2{
+             margin-right:25px;
+         }
+        .col-md-3 {
+            #block-views-college-block {
+                .view-display-id-attachment_1 .views-row {
+                    display: inline-flex;
+                    .views-field-picture{
+                        padding: 4px;
+                        border-radius: 50%;
+                        border: 1px solid #3e8fc4;
+                        img{
+                            border-radius:50%
+                        }
+                    }
+                    .views-field-field-nameandfamily{
+                        text-align:center;
+                        width:80%;
+                    }
+                }
+            }
+        }
+        #block-system-main{
+            .group-header{
+                a.flag-link-toggle{
+                    position:absolute;
+                    top:-35px;
+                    right:10px;
+                }
+                .field-type-ds{
+                     background: #3e8fc4;
+                     color: white;
+                     border-top-right-radius: 15px;
+                     border-top-left-radius: 15px;
+                     h2{
+                        margin: 0;
+                        padding: 6px 18px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        margin-right:25px;
+                     }
+                }
+            }
+            .group-footer{
+                #comments{
+                    .title{
+                        color:#3e8fc4;
+                        &:before{
+                            content:"\e111";
+                            font-family:glyphi;
+                            margin-left: 15px;
+                            font-size: 20px;
+
+                        }
+                    }
+                    .comment{
+                        line-height: 1;
+                        border-radius: 4px;
+                        border: 1px solid #e5ebf1;
+                        padding: 15px;
+                        margin-bottom: 10px;
+                        .group-left{
+                            padding: 0;
+                            background-color: #fff;
+                            box-shadow: none;
+                            font-family: fanum;
+                            text-align:center;
+                            img{
+                                border-radius: 50%;
+                                height: 70px;
+                                width: 70px;
+                                margin-bottom:10px;
+                            }
+                            span a{
+                                color: #6f7a8c;
+                                font-size: 13px;
+                                font-weight: bold;
+                            }
+                        }
+                        .group-middle{
+                            font-size: 13px;
+                            line-height: 25px;
+                            color: #333;
+                            ul.list-inline{
+                                opacity:1!important;
+                                a{transition:all .2s ease-in-out}
+                                .comment-delete{
+                                    a{
+                                        color: #d9534f;
+                                        border: 1px solid;
+                                        &:hover{
+                                            color:white
+                                        }
+                                    }
+                                }
+                                .comment-edit{
+                                    a{
+                                        color: #94a2e3;
+                                        border: 1px solid;
+                                        &:hover{
+                                            background: #94a2e3;
+                                            color:white;
+                                        }
+                                    }
+                                }
+                                .comment-reply{
+                                    a{
+                                        color: #17ea17;
+                                        border: 1px solid;
+                                        &:hover{
+                                            background: #17ea17;
+                                            color:white;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//مشخصات سفر گردشگری
+.page-node-2999{
+    font-family: fanum;
+    &:before{
+        height: 440px;
+        background: url(/sites/all/themes/waterhouse/images/meysam/image/tabas/abas.jpg);
+        background-size: cover;
+    }
+    .main-container.container{
+        background: none;
+        color: white;
+        .row{
+            background: url(/sites/all/themes/waterhouse/images/meysam/background/doc-texture.png);
+            border-radius: 10px;
+            margin: 200px 0;
+            .col-sm-12{
+                width: 100%;
+                background: rgba(0, 54, 100, 0.43);
+                border-radius: 10px;
+                box-shadow: 0 35px 50px 0 rgba(0,0,0,0.25);
+                .breadcrumb{opacity:0}
+                #webform-client-form-2999{
+                    input[type="text"] {
+                        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+                        border-radius: 10px;
+                        background: white;
+                        text-align: center;
+                        color:#46a2c0;
+                    }
+                    .webform-component--f1, .webform-component--f2{
+                        p{
+                            font-size: 22px;
+                            font-weight: bold;
+                        }
+                    }
+                    .webform-component--f2{
+                        margin-top:75px
+                    }
+                    .form-item-submitted-type1, .form-item-submitted-type2{
+                        color: transparent;
+                        label{
+                            color:white
+                        }
+                        span{
+                            opacity:0
+                        }
+                    }
+                    .table-responsive{
+                        .sticky-header{
+                            position:relative!important;
+                            visibility: hidden !important;
+                        }
+                        #edit-mat1-0-table, #edit-mat2-0-table{
+                            caption{
+                                color:red!important;
+                                font-weight:bold;
+                            }
+                            tr{
+                                background:none!important;
+                                &:hover{
+                                    background:none!important
+                                }
+                            }
+                        }
+                    }
+                    .btn.btn-success.form-submit{
+                        position:absolute;
+                        left:3%;
+                        border-color:#fdb90b!important;
+                        font-size: 14px;
+                        font-weight: bold;
+                        width: 125px;
+                        background-color: #FDB90B;
+                        box-shadow: 0px 9px 0px #b89d38;
+                    }
+                    .form-actions{
+                        text-align:center;
+                        button{
+                            border-color: deepskyblue!important;
+                            background: deepskyblue;
+                            padding: 10px 20px;
+                            box-shadow: 0px 9px 0px #46a2c0;
+                            font-size: 15px;
+                            margin-top: 75px;
+                        }
+                    }
+                }
+                #gtx-trans{opacity:0}
+            }
+            @media (max-width:768px){
+                #edit-mat1-0-table, #edit-mat2-0-table{
+                    .form-group{
+                        input{
+                            width: 100px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//
+.page-node-2990 {
+    .form-item-submitted-product , .add-to-cart, .uc-price{
+        display:none
+    }
+}
+//تماس با ما جدید
+.page-node-794 {
+    background: url("https://www.transparenttextures.com/patterns/black-felt.png");
+    .main-container{
+        background:none!important;
+        .row{
+            background: url(/sites/all/themes/waterhouse/images/meysam/background/doc-texture.png);
+            border-radius: 15px;
+            margin: 100px 0;
+            box-shadow: 0 1px 4px rgba(81, 65, 29, 0.28), 0 1px 4px rgba(81, 65, 29, 0.28);
+            .col-sm-12{
+                background: #fdb9135e;
+                border-radius: 15px;
+                .field-name-field-share{
+                    display:none
+                }
+                .breadcrumb{
+                    font-size:16px;
+                }
+                #block-system-main{
+                    font-size:16px;
+                    font-family:fanum;
+                    h3{
+                        text-align: center;
+                        font-size: 24px;
+                        font-weight: bold;
+                        color: #3f729b;
+                        margin: 30px 0;
+                    }
+                    .col-md-4{
+                        float:right;
+                        .text{
+                            .item{
+                                margin:10px 0;
+                                img{
+                                    background: white;
+                                    border-radius: 50%;
+                                    width: 40px;
+                                }
+                                a{
+                                    color: #562d49;
+                                }
+                            }
+                        }
+                    }
+                    .contact-form{
+                        #webform-ajax-wrapper-22{
+                             .form-actions{
+                                 text-align:center;
+                                 button{
+                                     min-width: 150px;
+                                     height: 55px;
+                                     border-radius: 40px;
+                                     box-shadow: 0 9px 0 #3a6da1;
+                                     border: none;
+                                 }
+                             }
+                            .form-item{
+                                input.form-control{
+                                    border:none;
+                                    height:55px;
+                                    border-radius:40px;
+                                    max-width:400px;
+                                    text-align:center;
+                                }
+                                .form-textarea-wrapper{
+                                    border-radius:40px;
+                                    max-width:400px;
+                                    text-align:center;
+                                    textarea{
+                                        border: none;
+                                        border-top-right-radius: 40px;
+                                        border-top-left-radius: 40px;
+                                        opacity: 1;
+                                        height: 128px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*بلوک ورود کاربر*/
+.html.not-logged-in {
+    #block-user-login {
+        top: 0;
+        position: fixed;
+        text-align: -webkit-center;
+        left: 50%;
+        background: rgba(0,0,0,.5);
+        transform: translate(-50%,0);
+        width: 100%;
+        display: none;
+        height:100%;
+        .block-title{
+            max-width: 400px;
+            padding: 10px 0;
+            margin-top: 50px;
+            background: whitesmoke;
+            margin-bottom: 0;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            font-size: 18px;
+            color:#5a5a5a;
+            &:before{
+                font-family:glyphi;
+                content:'\e008';
+                position:relative;
+                top:2px;
+                left:15px;
+            }
+            &:after{
+                font-family: glyphi;
+                content: '\e014';
+                position: relative;
+                top: 2px;
+                right: 100px;
+                font-size: 14px;
+                border-radius: 50%;
+                padding: 2px;
+                color: darkgrey;
+                transition: all .3s ease-in-out;
+                &:hover{
+                    color:orangered;
+                    transform:scale(1.09)
+                }
+            }
+        }
+        form{
+            max-width: 400px;
+            background: url(/sites/all/themes/waterhouse/images/meysam/background/doc-texture.png);
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            label{
+                padding: 10px 0;
+            }
+            input.form-control{
+                border: none;
+                height: 40px;
+                border-radius: 10px;
+                max-width: 300px;
+                text-align: center;
+                box-shadow: 0 0px 0px 0 rgba(0,0,0,0.14), 0 0px 0px 0px rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.2);
+            }
+            ul{list-style: none;}
+            #edit-submit{
+                border: none;
+                height: 40px;
+                border-radius: 10px;
+                width: 300px;
+                text-align: center;
+                box-shadow: 0 0px 0px 0 rgba(0,0,0,0.14), 0 0px 0px 0px rgba(0,0,0,0.12), 0 1px 1px 0 rgba(0,0,0,0.2);
+                background-color: #12d518;
+                margin: 25px 0;
+            }
+        }
+    }
+    #block-block-3{
+        .formshow{cursor:pointer;}
+    }
+}
+//caption bottom video in page news
+.node-type-news {
+    .field-name-field-caption {
+        .field-items {
+            text-align: center;
+            margin: 10px 0;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    }
+}
+//tag for type tourism
+.page-news-tag{
+    .main-container.container{
+        h1{
+            display: table;
+            border-bottom: 1px solid #fdb913 !important;
+        }
+        #block-system-main{
+            .panel-2col-stacked{
+                width: 23%;
+                margin:9px;
+                background: white;
+                box-shadow: 0 2px 2px #d1d1d1;
+                overflow: hidden;
+                display:inline-block;
+                height:275px;
+                .field-name-field-tourpic{
+                    overflow: hidden;
+                    max-height: 150px;
+                    img{
+                        width:100%;
+                    }
+                }
+                .field-name-title{
+                    padding:0 20px;
+                }
+            }
+            @media(max-width:768px){
+                .panel-2col-stacked{
+                    width:100%;
+                    margin:15px 0;
+                }
+            }
+        }
+    }
+}

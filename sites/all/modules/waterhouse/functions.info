@@ -1,0 +1,5 @@
+name = waterhouse functions
+description = waterhouse custome module
+version = "1"
+package= 808
+core = 7.x
