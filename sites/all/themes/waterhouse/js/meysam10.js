@@ -119,5 +119,9 @@ $(document).ready(function () {
      $('.group-prices .list-price .uc-price').addClass('deco');
 }
   })
+  // link to page tourism
+  $(".page-taxonomy-term-408, .page-taxonomy-term-407").ready(function () {
+    $(".breadcrumb").html("<div class='linke'><a href='http://waterhouse.ir/tourism' فشق>بازگشت به صفحه اصلی</a></div>");
+  });
         // End Of document
 });

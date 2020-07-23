@@ -6,8 +6,7 @@
           <a href="http://waterhouse.ir/tourism/ganjineh" target="_blank">گنجینه آب</a>
 			    <a href="http://waterhouse.ir/content/421" class="hidden-sm hidden-xs">ظرفیت استانها</a>
 			    <a href="http://waterhouse.ir/content/3164">سرمایه گذاری</a>
-			    <a href="#trip">برنامه های اجرا شده</a>
-			    <a href="#trip">برنامه های پیش رو</a>
+			    <a href="#trip">برنامه های گردشگری آبی</a>
 			    <a href="http://waterhouse.ir/gallery">گالری</a>
 			    <a href="http://waterhouse.ir/tourism/news" target="_blank">اخبار گردشگری</a>
 			    <a class="icon" onclick="myFunction()">
@@ -51,14 +50,13 @@
 		        <div class="grid">
 		            <div class="col-md-2" style="margin-top:-30px">
 		                <div class="menu">
-		                    <div class="active"><span data-links-to="slide_3">سفر به جنوب خوزستان</span></div>
+		                    <div class="active"><span data-links-to="slide_3">سفرهای آتی گردشگری آب</span></div>
 		                    <div><span data-links-to="slide_3">ماجراجوی درونت رو پیدا کن!</span></div>
 		                    <div><span data-links-to="slide_4">گردشگری آب و کودک</span></div>
 		                    <div><span data-links-to="slide_5">یه حال خوب رو به خودت هدیه کن </span></div>
 		                    <div><span data-links-to="slide_6">سفرهای مقرون به صرفه</span></div>
 		                    <div><span data-links-to="slide_7">فروشگاه گردشگری آب</span></div>
-		                    <div><span data-links-to="slide_8">سفر بعدی کجاست؟ </span></div>
-		                    <div><span data-links-to="slide_9">سفرهای آتی گردشگری آب</span></div>
+		                    <div><span data-links-to="slide_7">سفر بعدی کجاست؟</span></div>
 		                </div>
 		            </div>
 		            <div class="col-md-8" style="margin-top:-30px">
@@ -66,7 +64,7 @@
 		                    <li class="active" id="slide_3">
 		                        <div>
 		                            <div>
-		                                <img src="/sites/all/themes/waterhouse/images/tour/khuzestan/banner2.jpg" />
+                                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/lazm.jpg" />
 		                            </div>
 		                        </div>
 		                    </li>
@@ -109,13 +107,6 @@
 		                        <div>
 		                            <div>
 		                                <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/nex.jpg" />
-		                            </div>
-		                        </div>
-		                    </li>
-		                    <li id="slide_9">
-		                        <div>
-		                            <div>
-		                                <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/lazm.jpg" />
 		                            </div>
 		                        </div>
 		                    </li>
@@ -392,7 +383,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="media" class="media">
+		<section id="media" class="media" style="display: none">
 			<div>
 			    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/safar-negar.png" />
 			</div>
@@ -448,7 +439,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="media2">
+		<section class="media2" style="display: none">
 			<div class="row">
         <a href="" target="_blank">
           <div class="col-md-4 pr">
@@ -520,6 +511,7 @@
 			        </div>
 			        <div class="tab">
 			            <ul class="city" style="height:300px">
+                    <h3 style="position: relative;top: -25px;background: #fdb913;color: white;font-size: 18px;padding: 2px 12px;left: 50px;">سفر های چند روزه</h3>
 			                <li class="active row">
 			                    <div class="image-border" >
 								      <img title="سفر گردشگری یزد" alt="سفر گردشگری یزد" src="/sites/all/themes/waterhouse/images/meysam/y1.jpg" />
@@ -558,7 +550,7 @@
 								<div class="txt">
 									<h2 class="city-name">سفر شماره سه : رودخانه ارس</h2>
 									<p class="city-cap">
-										سد ارس در ۴۰ کیلومتری شهر جلفا در شمال غربی ایران و بر روی رودخانه ارس در مرز ایران و جمهوری آذربایجان قرار دارد.
+                    بازدید از طبیعت زیبا و تاسیسات سد و نیروگاه ارس، تجربه ای بی نظیر از چگونگی تسهیم منابع مشترک مرزی کشورهای ایران و جمهوری آذربایجان است
 									</p>
 									<span class="city-link swip-right">
 										<a href="http://waterhouse.ir/tourism/aras" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
@@ -604,9 +596,10 @@
 			        </div>
 			        <div class="tab2">
 			            <ul class="city2" style="height:300px">
+                    <h3 style="position: relative;top: -25px;background: #fdb913;color: white;font-size: 18px;padding: 2px 12px;left: -75px;">سفر های یک روزه</h3>
 							<li class="active2">
 			                    <div class="image-border2" >
-								      <img title="سفر گردشگری سد لار" alt="سفر گردشگری سد لار"  src="/sites/all/themes/waterhouse/images/meysam/image/lar/daryache.jpg" />
+								      <img title="سفر گردشگری سد لار" alt="سفر گردشگری سد لار"  src="/sites/all/themes/waterhouse/images/meysam/image/tourism/lars.jpg" />
 									  <div class="img-shape"></div>
 								</div>
 								<div class="txt2">
@@ -621,13 +614,13 @@
 			                </li>
 							<li>
 			                    <div class="image-border2" >
-								      <img title="سفر گردشگری سد امیرکبیر" alt="سفر گردشگری سد امیر کبیر"  src="/sites/all/themes/waterhouse/images/meysam/image/karaj/sad.jpg" />
+								      <img title="سفر گردشگری سد امیرکبیر" alt="سفر گردشگری سد امیر کبیر"  src="/sites/all/themes/waterhouse/images/meysam/image/tourism/am1.jpg" />
 									  <div class="img-shape"></div>
 								</div>
 								<div class="txt2">
-									<h2 class="city-name2">برنامه شماره پنج : سد امیرکبیر</h2>
+									<h2 class="city-name2">برنامه شماره پنج : سد امیرکبیر </h2>
 									<p class="city-cap2">
-										در سال 1328 مطالعات سد آغاز گردید و در سال 1336 عملیات احداث آن شروع و در سال 1340 به بهره برداری رسید.
+                    در این سفر یکروزه به اندازه سه روز برنامه بازدید از تاسیسات آبی و همینطور مناطق طبیعی داریم
 									</p>
 									<span class="city-link2 swip-left">
 										<a href="http://waterhouse.ir/tourism/amirkabir">مشاهده و کسب اطلاعات بیشتر</a>
@@ -636,13 +629,13 @@
 			                </li>
 							<li>
 			                    <div class="image-border2" >
-								      <img title="سفر گردشگری سد امیرکبیر" alt="سفر گردشگری سد امیر کبیر"  src="/sites/all/themes/waterhouse/images/meysam/image/karaj/sad.jpg" />
+								      <img title="سفر گردشگری سد امیرکبیر" alt="سفر گردشگری سد امیر کبیر"  src="/sites/all/themes/waterhouse/images/meysam/image/karaj/amm2.jpg" />
 									  <div class="img-shape"></div>
 								</div>
 								<div class="txt2">
 									<h2 class="city-name2">برنامه شماره هفت : سد امیرکبیر (سفر دوم)</h2>
 									<p class="city-cap2">
-										در سال 1328 مطالعات سد آغاز گردید و در سال 1336 عملیات احداث آن شروع و در سال 1340 به بهره برداری رسید.
+                    سفر اول مجابمون کرد که بازدید از سد امیرکبیر و روستای زیبای واریان توی زمستون لطف دیگه ای داره
 									</p>
 									<span class="city-link2 swip-left">
 										<a href="http://waterhouse.ir/tourism/amirkabir2">مشاهده و کسب اطلاعات بیشتر</a>
@@ -655,10 +648,10 @@
 			</div>
 		</section>
 
-		<div>
+		<div style="display: none">
 	        <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/safar.png" />
 	    </div>
-		<div class="container next" style="direction:ltr">
+		<div class="container next" style="display:none;direction:ltr "  >
 		    <div id="myCarousel8" class="carousel slide" data-ride="carousel">
 		        <!-- Indicators -->
 		        <ol class="carousel-indicators">
@@ -1250,7 +1243,7 @@
 		 /*menu top*/
         .topnav {
             overflow: hidden;
-            background-color: #fdb913;
+            background-color: #0b103a;
         }
         .topnav a {
             float: right;
@@ -1260,7 +1253,10 @@
             padding: 14px 16px;
             text-decoration: none;
             font-size: 17px;
-			transition:all .45s ease-in-out
+			      transition:all .45s ease-in-out;
+          text-shadow: 2px 1px #7d5f5f;
+          font-weight: bold;
+          border-left: 1px solid;
         }
 		.fa-bars:before{
 			content:"\e236";

@@ -1,46 +1,18 @@
-<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="<?php print $container_class; ?>">
-    <div class="navbar-header">
-      <?php if ($logo): ?>
-        <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-        </a>
-      <?php endif; ?>
-
-      <?php if (!empty($site_name)): ?>
-        <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-      <?php endif; ?>
-
-      <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="sr-only"><?php print t('Toggle navigation'); ?></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      <?php endif; ?>
+<div id="block-system-main" style="font-family: fanum !important;">
+  <section id="menu" style="position: relative">
+    <div class="topnav" id="myTopnav">
+      <a href="http://waterhouse.ir/tourism" target="_blank">صفحه اصلی</a>
+      <a href="http://waterhouse.ir/tourism/ganjineh" target="_blank">گنجینه آب</a>
+      <a href="http://waterhouse.ir/content/421" class="hidden-sm hidden-xs">ظرفیت استانها</a>
+      <a class="actives" href="#">سرمایه گذاری</a>
+      <a href="http://waterhouse.ir/tourism#trip">برنامه های گردشگری آبی</a>
+      <a href="http://waterhouse.ir/gallery">گالری</a>
+      <a href="http://waterhouse.ir/tourism/news" target="_blank">اخبار گردشگری</a>
+      <a class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-
-    <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-      <div class="navbar-collapse collapse">
-        <nav role="navigation">
-          <?php if (!empty($primary_nav)): ?>
-            <?php print render($primary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($secondary_nav)): ?>
-            <?php print render($secondary_nav); ?>
-          <?php endif; ?>
-          <?php if (!empty($page['navigation'])): ?>
-            <?php print render($page['navigation']); ?>
-          <?php endif; ?>
-        </nav>
-      </div>
-    <?php endif; ?>
-  </div>
-</header>
-
-<div id="block-system-main">
-
+  </section>
   <div id="header_zarfiat">
 
     <section id="sectionBanner">
@@ -188,7 +160,7 @@
       float: right;
     }
     .view-zarfiats #edit-field-ustan-value-wrapper, .view-zarfiats #edit-field-mablaq-value-wrapper, .view-zarfiats .views-submit-button{
-        width: 33%;
+        width:33%;
     }
     #edit-submit-zarfiats{
       width: 100%;
@@ -196,6 +168,66 @@
       background: green;
       font-weight: bold;
       border-color: white;
+    }
+
+    /*menu top*/
+    .topnav {
+      overflow: hidden;
+      background-color: #0b103a;
+    }
+    .topnav a {
+      float: right;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      transition:all .45s ease-in-out;
+      text-shadow: 2px 1px #7d5f5f;
+      font-weight: bold;
+      border-left: 1px solid;
+    }
+    .fa-bars:before{
+      content:"\e236";
+      font-family:glyphi;
+    }
+    .topnav a:hover, .topnav .actives {
+      color:white;
+      box-shadow:inset 0 0 50px 0 #652d92
+
+    }
+    .topnav .icon {
+      display: none;
+    }
+    @media screen and (max-width: 768px) {
+      .topnav a {
+        display: none;
+      }
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .topnav.responsive {
+        position: relative;
+      }
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+      }
+    }
+
+    .view-content{
+      margin-right: 15px;
+      margin-top: 50px;
     }
   </style>
 </div>
