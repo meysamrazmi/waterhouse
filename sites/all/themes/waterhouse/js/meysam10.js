@@ -120,8 +120,7 @@ $(document).ready(function () {
 }
   })
   // link to page tourism
-  $(".page-taxonomy-term-408, .page-taxonomy-term-407").ready(function () {
-    $(".breadcrumb").html("<div class='linke'><a href='http://waterhouse.ir/tourism' فشق>بازگشت به صفحه اصلی</a></div>");
-  });
+  
+    $('.page-taxonomy-term-408 header#navbar, .page-taxonomy-term-407 header#navbar, .page-taxonomy-term-499 header#navbar').prepend($('<img>',{id:'theImg',src:'/sites/all/themes/waterhouse/images/hkuz.png'}))
         // End Of document
 });

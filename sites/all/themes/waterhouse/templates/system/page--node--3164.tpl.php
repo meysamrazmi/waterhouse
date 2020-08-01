@@ -1,18 +1,10 @@
 <div id="block-system-main" style="font-family: fanum !important;">
-  <section id="menu" style="position: relative">
-    <div class="topnav" id="myTopnav">
-      <a href="http://waterhouse.ir/tourism" target="_blank">صفحه اصلی</a>
-      <a href="http://waterhouse.ir/tourism/ganjineh" target="_blank">گنجینه آب</a>
-      <a href="http://waterhouse.ir/content/421" class="hidden-sm hidden-xs">ظرفیت استانها</a>
-      <a class="actives" href="#">سرمایه گذاری</a>
-      <a href="http://waterhouse.ir/tourism#trip">برنامه های گردشگری آبی</a>
-      <a href="http://waterhouse.ir/gallery">گالری</a>
-      <a href="http://waterhouse.ir/tourism/news" target="_blank">اخبار گردشگری</a>
-      <a class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-  </section>
+
+  
+		<section id="menu">
+		    <img src="/sites/all/themes/waterhouse/images/hkuz.png"/>
+			<?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
+		</section>
   <div id="header_zarfiat">
 
     <section id="sectionBanner">
@@ -31,8 +23,27 @@
       <div class="title">
         <h2>دستورالعمل های سرمایه گذاری اطراف مخازن</h2>
       </div>
-      <div class="main-text">
+      <div class="main-text container">
+      <p>
         وزارت نیرو وظیفه شناسایی و معرفی مکان‌های اطراف بسترهای آبی را دارد. در چنین شرایطی بازار گردشگری بر بستر آبی توسعه خواهد یافت به همین دلیل وزارت نیرو به تدوین شیوه‌نامه اجرایی فعالیت‌های گردشگری و تفریحی در منابع و تاسیسات آبی پیرامون آنها پرداخته است.
+      </p>
+      <div class="ouo">
+            <div class="col-md-5">
+              <div>
+              <a href="/sites/default/files/taf.pdf">
+                <h3>تفاهم‌نامه همکاری مشترک وزارت نیرو و وزارت میراث فرهنگی، صنایع دستی و گردشگری در منابع و تاسیسات آبی</h3>
+              </a>  
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5">
+              <div>
+              <a href="/sites/default/files/shiv.pdf">
+                <h3>شیوه‌نامه اجرایی فعالیت‌های گردشگری و تفریحی</h3>
+              </a>  
+              </div>
+            </div>
+      </div>
       </div>
     </div>
   </section>
@@ -41,7 +52,11 @@
       <div class="title">
         <h2>ظرفیت های سرمایه گذاری</h2>
       </div>
-      <div class="main-text">
+      <div class="main-text container">
+      <p>
+        در راستای توسعه و تقویت صنعت گردشگری آبی مطابق با دستورالعملهای اعلامی وزارت نیرو، دستگاه‌ها و کمیته‌های ذیربط در استانهای مختلف، پس از بررسی و شناسایی ظرفیتهای گردشگری در این حوزه، اقدام به اعلام فراخوان عمومی به منظور شناسایی و جذب سرمایه‌گذاران ذیصلاح نموده است. علاقه‌مندان به مشارکت و سرمایه‌گذاری در این بخش می‌توانند ضمن مشاهده فراخوانهای صادره، به اسناد و فرمهای مرتبط دسترسی داشته و در زمان مقرر در این فراخوانها مشارکت نمایند.
+      </p>
+
         <?php print views_embed_view('zarfiats', 'page','arguments'); ?>
 
       </div>
@@ -52,8 +67,7 @@
       <div class="title">
         <h2>ثبت اطلاعات سرمایه گذار</h2>
       </div>
-      <div class="main-text">
-
+      <div class="main-text container">
         <?php $block = module_invoke('webform', 'block_view', 'client-block-3165'); print render($block['content']); ?>
 
       </div>
@@ -169,62 +183,35 @@
       font-weight: bold;
       border-color: white;
     }
-
-    /*menu top*/
-    .topnav {
-      overflow: hidden;
-      background-color: #0b103a;
+    .ouo .col-md-5{
+      text-align: -webkit-center;
     }
-    .topnav a {
-      float: right;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      transition:all .45s ease-in-out;
-      text-shadow: 2px 1px #7d5f5f;
-      font-weight: bold;
-      border-left: 1px solid;
+    .ouo{
+      margin-top:50px;
     }
-    .fa-bars:before{
-      content:"\e236";
-      font-family:glyphi;
+    .ouo .col-md-5 div{
+      max-width: 450px;
+    background: #f2f2f2;
+    box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
+    font-size: 15px;
+    border: 1px solid #00bcd4;
+    border-width: 0px 5px 0px;
+    padding: 5px 0;
+    min-height:100px
     }
-    .topnav a:hover, .topnav .actives {
-      color:white;
-      box-shadow:inset 0 0 50px 0 #652d92
-
+    
+    .ouo .col-md-5 div h3{
+      font-size:16px
     }
-    .topnav .icon {
-      display: none;
+	.ouo .col-md-5 h3:before{
+      font-family: glyphi;
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    color: #2bbfbd;
+    padding-right: 15px;
+    content: "\e025";
     }
-    @media screen and (max-width: 768px) {
-      .topnav a {
-        display: none;
-      }
-      .topnav a.icon {
-        float: right;
-        display: block;
-      }
-    }
-    @media screen and (max-width: 768px) {
-      .topnav.responsive {
-        position: relative;
-      }
-      .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: center;
-      }
-    }
-
     .view-content{
       margin-right: 15px;
       margin-top: 50px;

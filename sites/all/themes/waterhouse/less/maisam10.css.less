@@ -1849,15 +1849,21 @@
 }
 //menu termali
 
-.page-taxonomy-term-407 , .page-taxonomy-term-408{
-  .menu.nav.navbar-nav.navbar-right, #block-block-3{
+.page-taxonomy-term-407 , .page-taxonomy-term-408, .page-taxonomy-term-499, .page-node-1548, .page-node-421, .page-node-3164, .page-node-1480,
+.page-node-1644, .page-node-2550, .page-node-3033, .page-node-2858, .page-node-3105, .page-node-2914, .page-node-3162{
+  .menu.nav.navbar-nav.navbar-right, #block-block-3, .navbar-header{
     display: none !important;
   }
-  #block-menu-menu-tourismmain{
+  #navbar{
+    background: white !important;
+  }
+  #block-menu-menu-tourismmain, #menu{
+      background: white;
     .block-title{
       display: none !important;
     }
     ul{
+        border-top:1px solid #c8c6c6 ;
       li{
         display: inline-block;
       }
@@ -2487,6 +2493,76 @@
                 .panel-2col-stacked{
                     width:100%;
                     margin:15px 0;
+                }
+            }
+        }
+    }
+}
+// water tourism gallery
+.page-taxonomy-term-499{
+    font-family: fanum !important;
+    .page-header{
+        border-bottom: 1px solid #fdb913 !important;
+        display: table;
+        font-size: 24px !IMPORTANT;
+    }
+    .breadcrumb{
+        display: none !important;
+    }
+    .main-container{
+        .region.region-content{
+            #block-system-main{
+                margin-top: 125px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:center;
+                .node-teaser{
+                    width: 31% !important;
+                    border-radius: 5px;
+                    box-shadow: rgba(0,0,0,0.117647) 0 1px 6px, rgba(0,0,0,0.117647) 0 1px 4px !important;
+                    display: inline-block !important;
+                    margin: 15px 5px;
+                    h3{
+                        a{
+                            color: #252525;
+                            font-weight: bold;
+                            font-size: 16px;
+                        }
+                    }
+                    .field-name-field-number{
+                        padding: 5px 15px;
+                        &:before{
+                            content: "\e046";
+                        }
+                    }
+                    .field-name-field-date{
+                        padding: 5px 15px 20px;
+                        &:before{
+                            content: "\e109";
+                        }
+                    }
+                    .field-name-field-number, .field-name-field-date{
+                        &:before{
+                            font-family: glyphi;
+                            display: inline-block;
+                            float: right;
+                            font-size: 20px;
+                            color: #2bbfbd;
+                            padding-left: 15px;
+                        }
+                    }
+                    .field-name-field-main-image{
+                        .field-item{
+                            margin: 0 15px;
+                            border-radius: 10px;
+                            position: relative;
+                            top: -15px;
+                            img{
+                                border-radius: 10px;
+                                box-shadow: rgba(0,0,0,0.117647) 0 1px 6px, rgba(0,0,0,0.117647) 0 1px 4px;
+                            }
+                        }
+                    }
                 }
             }
         }

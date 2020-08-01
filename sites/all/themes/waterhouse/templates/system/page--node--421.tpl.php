@@ -1,18 +1,10 @@
 <div id="block-system-main">
-  <section id="menu" style="position: relative">
-    <div class="topnav" id="myTopnav">
-      <a href="http://waterhouse.ir/tourism" target="_blank">صفحه اصلی</a>
-      <a href="http://waterhouse.ir/tourism/ganjineh" target="_blank">گنجینه آب</a>
-      <a class="actives" href="#" class="hidden-sm hidden-xs">ظرفیت استانها</a>
-      <a href="http://waterhouse.ir/content/3164">سرمایه گذاری</a>
-      <a href="http://waterhouse.ir/tourism#trip">برنامه های گردشگری آبی</a>
-      <a href="http://waterhouse.ir/gallery">گالری</a>
-      <a href="http://waterhouse.ir/tourism/news" target="_blank">اخبار گردشگری</a>
-      <a class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-  </section>
+  
+
+    <section id="menu">
+		    <img src="/sites/all/themes/waterhouse/images/hkuz.png"/>
+			<?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
+		</section>
   <div id="header_zarfiat">
 
     <section id="sectionBanner">
@@ -181,60 +173,6 @@
       display: none;
     }
 
-    /*menu top*/
-    .topnav {
-      overflow: hidden;
-      background-color: #0b103a;
-    }
-    .topnav a {
-      float: right;
-      display: block;
-      color: #f2f2f2;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      transition:all .45s ease-in-out;
-      text-shadow: 2px 1px #7d5f5f;
-      font-weight: bold;
-      border-left: 1px solid;
-    }
-    .fa-bars:before{
-      content:"\e236";
-      font-family:glyphi;
-    }
-    .topnav a:hover, .topnav .actives {
-      color:white;
-      box-shadow:inset 0 0 50px 0 #652d92
-
-    }
-    .topnav .icon {
-      display: none;
-    }
-    @media screen and (max-width: 768px) {
-      .topnav a {
-        display: none;
-      }
-      .topnav a.icon {
-        float: right;
-        display: block;
-      }
-    }
-    @media screen and (max-width: 768px) {
-      .topnav.responsive {
-        position: relative;
-      }
-      .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: center;
-      }
-    }
   </style>
   <script>
     $(".tehran").click(function(){
