@@ -170,10 +170,22 @@
       
       min-height: 250px;
       max-height: 250px;
+      width:100%;
     }
     .col-md-4{
-        float:right
+        float:right;
+        margin-bottom: 20px;
     }
+    .iner {
+        background: white;
+        box-shadow: rgba(0,0,0,0.117647) 0 1px 6px, rgba(0,0,0,0.117647) 0 1px 4px;
+        background-image: url(https://www.transparenttextures.com/patterns/light-wool.png)
+    }
+    h3, .h3 {
+        font-size: 18px !important;
+        padding: 0 20px 15px 0;
+    }
+
   </style>
 </div>
 

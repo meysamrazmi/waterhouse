@@ -11,7 +11,7 @@
       <div class="container" style="padding: 25px 10px;">
         <div class="caption_slide">
           <div class="caption_write">
-            <h1>سرمایه گذاری</h1>
+            <h1>ضوابط و قوانین</h1>
           </div>
         </div>
       </div>
@@ -21,26 +21,28 @@
   <section id="top">
     <div class="container">
       <div class="title">
-        <h2>ظرفیت های سرمایه گذاری</h2>
+        <h2>دستورالعمل های سرمایه گذاری اطراف مخازن</h2>
       </div>
       <div class="main-text container">
       <p>
-        در راستای توسعه و تقویت صنعت گردشگری آبی مطابق با دستورالعملهای اعلامی وزارت نیرو، دستگاه‌ها و کمیته‌های ذیربط در استانهای مختلف، پس از بررسی و شناسایی ظرفیتهای گردشگری در این حوزه، اقدام به اعلام فراخوان عمومی به منظور شناسایی و جذب سرمایه‌گذاران ذیصلاح نموده است. علاقه‌مندان به مشارکت و سرمایه‌گذاری در این بخش می‌توانند ضمن مشاهده فراخوانهای صادره، به اسناد و فرمهای مرتبط دسترسی داشته و در زمان مقرر در این فراخوانها مشارکت نمایند.
+        وزارت نیرو وظیفه شناسایی و معرفی مکان‌های اطراف بسترهای آبی را دارد. در چنین شرایطی بازار گردشگری بر بستر آبی توسعه خواهد یافت به همین دلیل وزارت نیرو به تدوین شیوه‌نامه اجرایی فعالیت‌های گردشگری و تفریحی در منابع و تاسیسات آبی پیرامون آنها پرداخته است.
       </p>
-
-        <?php print views_embed_view('zarfiats', 'page','arguments'); ?>
-
+      <div class="ouo">
+            <div class="colmd-5">
+              <div>
+              <a href="/sites/default/files/taf.pdf">
+                <h3>تفاهم‌نامه همکاری مشترک وزارت نیرو و وزارت میراث فرهنگی، صنایع دستی و گردشگری </h3>
+              </a>  
+              </div>
+            </div>
+            <div class="colmd-5">
+              <div>
+              <a href="/sites/default/files/shiv.pdf">
+                <h3>شیوه‌نامه اجرایی فعالیت‌های گردشگری و تفریحی در منابع و تاسیسات آبی</h3>
+              </a>  
+              </div>
+            </div>
       </div>
-    </div>
-  </section>
-  <section id="top" class="top2">
-    <div class="container">
-      <div class="title">
-        <h2>ثبت اطلاعات سرمایه گذار</h2>
-      </div>
-      <div class="main-text container">
-        <?php $block = module_invoke('webform', 'block_view', 'client-block-3165'); print render($block['content']); ?>
-
       </div>
     </div>
   </section>
@@ -123,36 +125,31 @@
         top: 25px;
       }
     }
-    .webform-component-file label, .btn-default{
-      margin-right: 15px;
+    .ouo{
+      margin-top:50px;
     }
-    .form-managed-file{
-      display: flex;
-      max-width: 47%;
-      margin-right: 15px;
+    .ouo .colmd-5 div{
+     max-width: 600px;
+    background: #f2f2f2;
+    box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
+    border: 1px solid #00bcd4;
+    border-width: 0px 2px 0px 0px;
+    padding: 5px 0;
+    margin-bottom: 15px;
     }
-
-    .form-actions {
-      text-align: -webkit-center;
+    
+    .ouo .colmd-5 div h3{
+      font-size:14px
     }
-    .form-actions #edit-webform-ajax-submit-3165{
-      width: 200px;
-      font-weight: bold;
-      background: green;
-      border-color: snow;
-    }
-    .col-md-6{
-      float: right;
-    }
-    .view-zarfiats #edit-field-ustan-value-wrapper, .view-zarfiats #edit-field-mablaq-value-wrapper, .view-zarfiats .views-submit-button{
-        width:33%;
-    }
-    #edit-submit-zarfiats{
-      width: 100%;
-      margin-top: 36px;
-      background: green;
-      font-weight: bold;
-      border-color: white;
+	.ouo .colmd-5 h3:before{
+      font-family: glyphi;
+    display: inline-block;
+    float: right;
+    font-size: 18px;
+    color: #2bbfbd;
+    padding-right: 15px;
+    content: "\e025";
+    margin-left:10px
     }
     .view-content{
       margin-right: 15px;

@@ -8,16 +8,16 @@ function waterhouse_menu() {
 		'page arguments' => array(1),
 		'type' => MENU_LOCAL_TASK,
 		);
-	
-		
+
+
 		return $items;
 }
 
 function waterhouse_iframe($node){
-	
+
 	if(isset($node->field_film['und'][0]['uri'])){
 		$value = substr($node->field_film['und'][0]['uri'],9);
-		
+
 		$video_attrs = array(
         	'src' => '/sites/default/files/' . $value,
         	'width' => '840px',
@@ -26,7 +26,7 @@ function waterhouse_iframe($node){
         	'videoHeight' => '447px',
         	'controls' => true,
 		);
-	
+
         $video_sett =  array(
         	'download_link' => true,
         );
@@ -36,7 +36,7 @@ function waterhouse_iframe($node){
 }
 
 function style(){
-	return '    
+	return '
 	<style>
 
 	/*--buttons--*/
@@ -91,7 +91,7 @@ function style(){
 	.mejs-button.mejs-fullscreen-button {
 	  width: 30px !important;
 	}
-	.mejs-button.mejs-playpause-button.mejs-play, 
+	.mejs-button.mejs-playpause-button.mejs-play,
 	.mejs-button.mejs-playpause-button.mejs-pause {
 	  width: 40px;
 	}
@@ -280,7 +280,7 @@ function style(){
 	video{
 		width: 100%;
 		height: 100%;
-	} 
+	}
 
 	</style>
 	';
@@ -308,4 +308,20 @@ function parse($v, $r, $max_d = 1, $d = 0) {
 	} else {
 		return $v;
 	}
+}
+
+function mdump($var, $depth = 0){
+  global $user;
+  if($user->uid == 1){
+    if($depth > 0){
+      $new_array = array_map(function ($v) use ($depth) {
+        return parse($v, "...", $depth);
+      }, $var);
+      $var = $new_array;
+    }
+    echo '<pre>';
+    print_r($var);
+    echo '</pre>';
+    die();
+  }
 }

@@ -7,7 +7,17 @@
 		<section class="slideshow-tour row">
 			<div id="myCarousel" class="carousel slide col-md-10" data-ride="carousel">
 			    <div class="carousel-inner">
+			    
 			        <div class="item active">
+			            <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/zer2.png" style="width:100%"/>
+
+			        </div>
+			        
+			        <div class="item">
+			            <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/zer.png" style="width:100%"/>
+
+			        </div>
+			        <div class="item">
 			            <img alt="water_tourism airplane" title="water_tourism plane" src="/sites/all/themes/waterhouse/images/meysam/image/tourism/qatar.jpg" style="width:100%"/>
 
 			        </div>
@@ -17,10 +27,6 @@
 			        </div>
 			        <div class="item">
 			            <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/hava.jpg" style="width:100%"/>
-
-			        </div>
-			        <div class="item">
-			            <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/zer.png" style="width:100%"/>
 
 			        </div>
 			    </div>
