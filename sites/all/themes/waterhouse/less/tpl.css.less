@@ -1,6 +1,7 @@
 @import "colors.css.less"; //@mat-grey-50 ,red, ping, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, brown, gray, blue-grey
 @import "vars.css.less";
 
+
 /*-------------------------- ghable foroshgah-->content/1007 & water ------------------------------*/
 .page-node-1007{
   #block-system-main{
@@ -4798,104 +4799,153 @@
     }
   }
 }
-/*----------------------------------------- tarha -> content 2371------------------------------------- */
-.page-node-2371{
-  #block-system-main{
-    .intro{
-      .title{
-        position:absolute;
-        color:white;
-        top:40%;
-        right:10%;
+/*----------------------------------------- wsa/document -> content 1704------------------------------------- */
+.page-node-1704, .page-node-421 {
+  #block-system-main {
+    background: #F9F9F9;
+    padding-bottom: 1px;
+
+    .intro {
+      text-align: center;
+      padding: 25px;
+
+      h3 a {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
       }
     }
-    .container{
-      .views-exposed-widget{
-        width:20%
-      }
-      #edit-submit-tarha{
-        width:100%
-      }
-      .card{
-        .views-row{
-          display: inline-block;
-          margin: 15px 5px 30px 5px;
-          vertical-align: top;
-          transition: all 450ms cubic-bezier(0.23,1,0.32,1) 0ms;
-          -webkit-tap-highlight-color: rgba(0,0,0,0);
-          box-shadow: 0 1px 6px rgba(0,0,0,0.12), 0 1px 4px rgba(0,0,0,0.12);
-          width: 100%;
-          height:350px;
-          overflow:hidden;
-          background: #fff;
-          transition: box-shadow 0.5s,transform 0.5s;
-          &:hover {
-            box-shadow:rgba(0,0,0,0.227451) 0px 3px 10px, rgba(0,0,0,0.227451) 0px 3px 10px;
-          }
-          .views-field-field-image-t{
-            img{
-              height:150px;
-            }
-          }
-          .views-field-field-furmat{
-            position: absolute;
-            top: 20px;
-            right: -10px;
-            background: #f14970;
-            color: white;
-            font-weight: bold;
-            padding: 2px 10px;
-            &:before{
-              content:'';
-              position: absolute;
-              border-top: 15px solid #f149709e;
-              border-right: 15px solid transparent;
-              right: 0;
-              bottom: -15px;
-            }
-          }
-          .views-field-title{
-            text-align: center;
-            padding: 7px;
-            font-size: 15px;
-            font-weight: 500;
-            height:110px;
-            overflow:hidden;
-            a{
-              color:black;
-            }
-          }
-          .views-field-field-nevisandeh{
-            padding: 15px;
-            text-align: center;
-            display: list-item;
-          }
+
+    .one, .two, .three, .five {
+      margin: 0 40px;
+
+      .col-lg-4 {
+        float: right;
+        width: 350px;
+
+        .titr {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          font-size: 20px;
+          font-weight: 500;
+          color: #0e95e6;
         }
       }
-      .line{
-        margin:20px 0 100px 0;
-        .hr-text{
-          position: relative;
-          top: 50px;
-          width: 300px;
-          h3{
-            font-size:14px;
+
+      .col-lg-8 {
+        display: flex;
+
+        .owl-carousel {
+          .owl-stage-outer {
+            direction: ltr;
           }
+        }
+
+        .file {
+          background: deepskyblue;
+          padding: 10px;
           text-align: center;
-          border: 2px solid #337ab7;
-          border-radius: 34px;
-          background: #337ab7;
-          color: white;
-          z-index: 2;
-        }
-        .hr-line{
-          width: 100%;
-          position: relative;
-          margin: 15px 0px;
-          border-bottom: 2px solid #337ab7;
+          border-radius: 50px;
+          margin: 200px 10px 70px;
+
+          a {
+            color: white;
+          }
         }
       }
     }
+
+    .two {
+      .col-lg-4 {
+        float: left;
+      }
+    }
+
+    .four {
+      width: 100%;
+      display: block;
+      position: relative;
+      direction: rtl;
+      text-align: right;
+      font-family: Tahoma;
+      font-size: 11px;
+
+      .map {
+        display: block;
+        width: 90%;
+        text-align: left;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+
+        svg {
+          height: 100%;
+          width: 100%;
+        }
+
+        .border path, .island path {
+          fill: #fff;
+        }
+
+        .province path {
+          fill: #999;
+        }
+
+        .sea path, .lake path {
+          fill: #01ADE8;
+        }
+
+        .province path:hover, .island path:hover, .province path.hover, .island path.hover {
+          fill: #6caed8 !important;
+          cursor: pointer;
+        }
+      }
+    }
+
+    @media(max-width:768px) {
+      .one, .three, .two, .five {
+        .col-lg-4 {
+          .titr {
+            font-size: 13px;
+          }
+        }
+
+        .col-lg-8 {
+          .file {
+            margin: 50px 10px;
+          }
+        }
+      }
+      /*.four {
+          .map {
+              float: right;
+
+              svg {
+                  width: 330px;
+              }
+          }
+      }*/
+    }
+
+    @media(min-width:768px) and (max-width:1200px) {
+      .one, .three, .two, .five {
+        img {
+          position: relative;
+          right: 25%;
+        }
+
+        .col-lg-4 {
+          .titr {
+            font-size: 14px;
+          }
+        }
+      }
+
+        }
     @media(max-width:768px){
       .intro{
         .title{
