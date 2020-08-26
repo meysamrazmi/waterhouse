@@ -1,6 +1,7 @@
 @import "colors.css.less"; //@mat-grey-50 ,red, ping, purple, deep-purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, brown, gray, blue-grey
 @import "vars.css.less";
 
+
 /*-------------------------- ghable foroshgah-->content/1007 & water ------------------------------*/
 .page-node-1007{
     #block-system-main{
@@ -4215,126 +4216,145 @@
 /*----------------------------------------- wsa/document -> content 1704------------------------------------- */
 .page-node-1704, .page-node-421 {
     #block-system-main {
-        background:url(/sites/all/themes/waterhouse/images/meysam/background/doc-texture.png);
-        padding-bottom:1px;
-        .intro{
-            text-align:center;
-            padding:25px;
-            h3 a{
-                position:absolute;
-                top:75%;
-                left:50%;
-                transform:translate(-50%,-50%);
-                text-align:center;
+        background: #F9F9F9;
+        padding-bottom: 1px;
+
+        .intro {
+            text-align: center;
+            padding: 25px;
+
+            h3 a {
+                position: absolute;
+                top: 75%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
             }
         }
-        .one, .two, .three, .five{
-            margin:0 40px;
-            .col-lg-4{
-                float:right;
-                width:350px;
-                .titr{
-                    position:absolute;
-                    top:50%;
-                    left:50%;
-                    transform:translate(-50%,-50%);
-                    font-size:20px;
-                    font-weight:500;
-                    color:#0e95e6;
+
+        .one, .two, .three, .five {
+            margin: 0 40px;
+
+            .col-lg-4 {
+                float: right;
+                width: 350px;
+
+                .titr {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #0e95e6;
                 }
             }
-            .col-lg-8{
-                display:flex;
-                .owl-carousel{
-                    .owl-stage-outer{
-                        direction:ltr;
+
+            .col-lg-8 {
+                display: flex;
+
+                .owl-carousel {
+                    .owl-stage-outer {
+                        direction: ltr;
                     }
                 }
-                .file{
+
+                .file {
                     background: deepskyblue;
                     padding: 10px;
                     text-align: center;
                     border-radius: 50px;
-                    margin:200px 10px 70px;
-                    a{
-                        color:white;
+                    margin: 200px 10px 70px;
+
+                    a {
+                        color: white;
                     }
                 }
             }
         }
-        .two{
-            .col-lg-4{
-                float:left;
+
+        .two {
+            .col-lg-4 {
+                float: left;
             }
         }
-        .four{
+
+        .four {
+            width: 100%;
             display: block;
             position: relative;
             direction: rtl;
             text-align: right;
-            padding: 0;
             font-family: Tahoma;
             font-size: 11px;
-            width: 90%;
-            margin: 50px auto;
-            .map{
+
+            .map {
                 display: block;
-                float: left;
-                width: 50%;
+                width: 90%;
                 text-align: left;
                 -webkit-user-select: none;
                 -moz-user-select: none;
                 -ms-user-select: none;
-                svg{
-                    height: 500px;
-                    width: 500px;
+
+                svg {
+                    height: 100%;
+                    width: 100%;
                 }
-                .border path, .island path{
-                     fill: #fff;
+
+                .border path, .island path {
+                    fill: #fff;
                 }
-                .province path{
+
+                .province path {
                     fill: #999;
                 }
-                .sea path, .lake path{
-                    fill: #6caed8;
+
+                .sea path, .lake path {
+                    fill: #01ADE8;
                 }
-                .province path:hover, .island path:hover, .province path.hover, .island path.hover{
-                    fill: #c33a2c !important;
+
+                .province path:hover, .island path:hover, .province path.hover, .island path.hover {
+                    fill: #6caed8 !important;
                     cursor: pointer;
                 }
             }
         }
-        @media(max-width:768px){
-            .one, .three, .two, .five{
-                .col-lg-4{
-                    .titr{
-                        font-size:13px;
+
+        @media(max-width:768px) {
+            .one, .three, .two, .five {
+                .col-lg-4 {
+                    .titr {
+                        font-size: 13px;
                     }
                 }
-                .col-lg-8{
-                    .file{
-                        margin:50px 10px;
-                    }
-                }
-            }
-            .four{
-                .map{
-                    float:right;
-                    svg{
-                        width:330px;
+
+                .col-lg-8 {
+                    .file {
+                        margin: 50px 10px;
                     }
                 }
             }
+            /*.four {
+                .map {
+                    float: right;
+
+                    svg {
+                        width: 330px;
+                    }
+                }
+            }*/
         }
-        @media(min-width:768px) and (max-width:1200px){
-            .one, .three, .two, .five{
-                img{
-                    position:relative;
-                    right:25%;
+
+        @media(min-width:768px) and (max-width:1200px) {
+            .one, .three, .two, .five {
+                img {
+                    position: relative;
+                    right: 25%;
                 }
-                .col-lg-4{
-                    .titr{
-                        font-size:14px;
+
+                .col-lg-4 {
+                    .titr {
+                        font-size: 14px;
                     }
                 }
             }
