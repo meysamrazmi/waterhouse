@@ -20,6 +20,7 @@
     }
     #sectionBanner h1{
       font-size: 26px;
+      font-size: 26px;
     }
     .block-title{
       display: none;
@@ -120,11 +121,11 @@
         display: flex;
         justify-content: center;
 	}
-    
+
   </style>
 
 <div id="block-system-main">
-  
+
     <section id="menu">
 		    <img src="/sites/all/themes/waterhouse/images/hkuz.png"/>
 			<?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
@@ -274,7 +275,7 @@
             $(".province-name").text($(this).attr('alt'));
 
             var ostan = $(this).attr('name');
-                switch (ostan) 
+                switch (ostan)
                 {
                     case "3327":
                         $(".TD").text("0");
@@ -400,12 +401,12 @@
                         $(".TD").text("0");
                         $(".TF").text("1");
                         $(".TZ").text("0");
-                    break;                  
+                    break;
                     case "3338":
                         $(".TD").text("0");
                         $(".TF").text("1");
                         $(".TZ").text("0");
-                    break;         
+                    break;
                     case "3339":
                         $(".TD").text("0");
                         $(".TF").text("1");
