@@ -8,6 +8,7 @@ sites/*/files
 sites/*/private
 sites/default/
 dev
+pipeline
 
 # Ignore default text files
 robots.txt
