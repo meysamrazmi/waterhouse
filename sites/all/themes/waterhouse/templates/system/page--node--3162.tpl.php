@@ -1,6 +1,6 @@
 <div id="block-system-main" style="font-family: fanum !important;">
 
-  
+
 		<section id="menu">
 		    <img src="/sites/all/themes/waterhouse/images/hkuz.png"/>
 			<?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
@@ -11,7 +11,7 @@
       <div class="container" style="padding: 25px 10px;">
         <div class="caption_slide">
           <div class="caption_write">
-            <h1>برنامه های خانه آب</h1>
+            <h1>برنامه های گردشگری</h1>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@
     </div>
   </section>
   <style>
-    
+
     #header_zarfiat{
       z-index: 5;
       position: relative;
@@ -143,8 +143,7 @@
       padding: 1.5rem;
     }
     [dir=rtl] .caption_write {
-      border-right: 4px solid #fff;
-      border-left: 4px solid #fff;
+      border-bottom: 2px solid white;
       margin-right: -5px
     }
     .lable-lbl:after{
@@ -167,7 +166,7 @@
       padding: 0 10px;
     }
     section a img{
-      
+
       min-height: 250px;
       max-height: 250px;
       width:100%;

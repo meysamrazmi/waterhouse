@@ -312,7 +312,7 @@ function parse($v, $r, $max_d = 1, $d = 0) {
 
 function mdump($var, $depth = 0){
   global $user;
-  if($user->uid == 1){
+  if($user->uid == 1 || $user->uid == 3364 || $user->uid == 3340){
     if($depth > 0){
       $new_array = array_map(function ($v) use ($depth) {
         return parse($v, "...", $depth);

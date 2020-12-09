@@ -31,7 +31,14 @@ stylesheets[all][] = css/marjan.css
 stylesheets[all][] = css/media.css
 stylesheets[all][] = css/aos.css
 stylesheets[all][] = css/ali.css
-stylesheets[all][] = css/owl.carousel.min.css
+
+stylesheets[all][] = css/Aminch/fontawesome.css
+stylesheets[all][] = css/Aminch/owl.carousel.css
+stylesheets[all][] = css/Aminch/owl.carousel.min.css
+stylesheets[all][] = css/Aminch/pgwslider.min.css
+stylesheets[all][] = css/Aminch/owl.theme.default.css
+stylesheets[all][] = css/Aminch/owl.theme.default.min.css
+
 stylesheets[all][] = less/main.css.less
 stylesheets[all][] = less/mh.css.less
 stylesheets[all][] = less/tpl.css.less
@@ -46,6 +53,13 @@ scripts[] = js/lib/owl.carousel.min.js
 scripts[] = js/ali.js
 scripts[] = js/mh.js
 scripts[] = js/meysam10.js
+
+
+scripts[] = js/Aminch/fontawesome.js
+scripts[] = js/Aminch/owl.carousel.min
+
+
+
 ;scripts[] = 'bootstrap/js/affix.js'
 ;scripts[] = 'bootstrap/js/alert.js'
 ;scripts[] = 'bootstrap/js/button.js'

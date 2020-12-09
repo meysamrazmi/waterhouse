@@ -1082,19 +1082,50 @@
 /*----------------------------------------- Tourism -> content 1548------------------------------------- */
 .page-node-1548 {
   #block-system-main {
-    background-image:url('/sites/all/themes/waterhouse/images/meysam/background/ok2.jpg');
+    /*background-image:url('/sites/all/themes/waterhouse/images/meysam/background/ok2.jpg');*/
     background-size:cover;
     margin-top:-41px;
     overflow:hidden;
     font-family:fanum;
+    font-size: 17px !important;
+
+    .tourism-search {
+      width: 46%;
+      margin: 0px auto;
+      position: absolute;
+      right: 27%;
+      top: 33%;
+    }
+
+    .tourism-news {
+      background-color: #fdb913;
+      //-webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+      //box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+      //border-radius: 6px;
+
+    }
+    .tourism-news >
     a{
       cursor: pointer!important;
+    }
+    #menu img {
+      height: 145px;
+    }
+    .testback{
+      background: url(/sites/all/themes/waterhouse/images/tourismdate/mehr99.jpg);
+      background-size:100%;
     }
     #menu{
       position: relative;
       z-index: 100;
       margin: 40px 0 0 0;
     }
+
+    .pgwSlider {
+      width:95%;
+      margin: 0 auto;
+    }
+
     .ganj{
       padding-right:0;
       img{
@@ -1483,14 +1514,14 @@
                 margin-bottom:25px;
               }
               .city-cap{
-                font-size:16px;
+                font-size:17px;
                 margin-bottom:35px;
               }
               .city-link{
                 border:2px solid white;
                 padding:10px 15px;
                 a{
-                  color:white
+                  color: #aaa;
                 }
               }
               .swip-right{
@@ -1588,7 +1619,7 @@
                 border:2px solid white;
                 padding:10px 15px;
                 a{
-                  color:white
+                  color: #aaa;
                 }
               }
               .swip-left{
@@ -1601,11 +1632,150 @@
         }
       }
     }
-    .timeline{
-      margin-bottom:150px;
+    .Main-timeline{
+      width:100%;
+      background-color: #EEEEEE;
+      min-height: 650px;
+      margin : 50px 0;
+      p{
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .Tslide{
+      .listnumber {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        div {
+          padding: 5px 0px 15px 110px;
+          margin-bottom: 10px;
+          color: #fdb913;
+          cursor: pointer;
+          position: relative;
+        }
+        a{
+          margin: 5px 0;
+          width: 100%;
+          text-align: center;
+          padding: 5px 0;
+          color : black;
+        }
+        a.active{
+          background-color: #FDB913;
+          color : white;
+          box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
+          div{
+            &:before{
+              content:'';
+              position:absolute;
+              right:46%;
+              height:6px;
+              width:6px;
+              background-color:1;
+              border-radius:50%;
+            }
+          }
+        }
+      }
+      li {
+        opacity: 0;
+        transform: translateY(150px);
+        position: absolute;
+        list-style: none;
+        transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+        color:white;
+        .info {
+          text-align: center;
+          position: absolute;
+          right : 20%;
+          text-align: justify;
+          direction:rtl;
+          top: 15%;
+          width: 50%;
+          z-index: 2;
+          transform: translate3d(-100px,0px,0px);
+          transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+          h6{
+            color:#fdb913;
+            font-size:17px;
+            margin-bottom:-20px;
+          }
+          h2{
+            color : white;
+            text-shadow: 0px 0px 10px black;
+            font-size:30px;
+            font-weight:bold;
+            margin-bottom:25px;
+          }
+        }
+        /*&:after{
+          content:'';
+          box-shadow:100px 0px 82px 247px rgba(0, 0, 0, 0.55);
+          right:0%;
+          bottom:50%;
+          height:0%;
+          width:340px;
+          position:absolute;
+        }
+        &:before{
+          content:'';
+          position:absolute;
+          background:rgba(255,255,255,1);
+          width:1px;
+          height:100%;
+          left:83%;
+        }*/
+      }
+      li.active {
+        -webkit-transition-delay: .5s;
+        transition-delay: .5s;
+        z-index: 2;
+        opacity: 1;
+        transform: translateY(0px);
+        .info {
+          transition-delay: .5s;
+          transform: translate3d(0,0,0);
+        }
+      }
+      .img {
+        background: url(/sites/all/themes/waterhouse/images/meysam/background/coming.jpg);
+        background-size: cover;
+        background-repeat: round!important;
+        width: 100%;
+        height: 500px;
+        box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4)
+      }
+      .trip1{
+        background: url(/sites/all/themes/waterhouse/images/tourismdate/mehr99.jpg);
+        background-size:100%;
+      }
+      .trip2{
+        background:url(/sites/all/themes/waterhouse/images/tourismdate/aban99.jpg);
+        background-size:100%;
+      }
+      .trip3{
+        background:url(/sites/all/themes/waterhouse/images/tourismdate/azar99.jpg);
+        background-size:100%;
+      }
+      .trip4{
+        background:url(/sites/all/themes/waterhouse/images/tourismdate/dey99.jpg);
+        background-size:100%;
+      }
+      .trip5{
+        background:url(/sites/all/themes/waterhouse/images/tourismdate/bahman99.jpg);
+        background-size:100%;
+      }
+      .trip6{
+        background:url(/sites/all/themes/waterhouse/images/tourismdate/esfand99.jpg);
+        background-size:100%;
+      }
+    }
+
+    /*.timeline{
       direction:ltr;
       .show {
-        margin-right: -9.25em;
+
       }
       .list {
         div {
@@ -1623,7 +1793,7 @@
               right:46%;
               height:6px;
               width:6px;
-              background-color:#fdb913;
+              background-color:1;
               border-radius:50%;
             }
           }
@@ -1639,11 +1809,11 @@
         .info {
           text-align: center;
           position: absolute;
-          left: 60%;
+          right : 20%;
           text-align: justify;
           direction:rtl;
-          top: 25%;
-          width: 17%;
+          top: 15%;
+          width: 50%;
           z-index: 2;
           transform: translate3d(-100px,0px,0px);
           transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -1658,7 +1828,7 @@
             margin-bottom:25px;
           }
         }
-        &:after{
+        !*&:after{
           content:'';
           box-shadow:100px 0px 82px 247px rgba(0, 0, 0, 0.55);
           right:0%;
@@ -1674,7 +1844,7 @@
           width:1px;
           height:100%;
           left:83%;
-        }
+        }*!
       }
       ul.city li.active {
         -webkit-transition-delay: .5s;
@@ -1694,38 +1864,75 @@
         height: 500px;
       }
       .trip1{
-        background: url(/sites/all/themes/waterhouse/images/meysam/image/tabas/abas.jpg);
+        background: url(/sites/all/themes/waterhouse/images/tourismdate/mehr99.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
       }
       .trip2{
-        background:url(/sites/all/themes/waterhouse/images/meysam/slideshow/lat.jpg);
+        background:url(/sites/all/themes/waterhouse/images/tourismdate/aban99.jpg);
         background-size:100%;
       }
       .trip3{
-        background:url(/sites/all/themes/waterhouse/images/meysam/slideshow/karon.jpg);
+        background:url(/sites/all/themes/waterhouse/images/tourismdate/azar99.jpg);
         background-size:100%;
       }
       .trip4{
-        background:url(/sites/all/themes/waterhouse/images/meysam/slideshow/horm.jpg);
+        background:url(/sites/all/themes/waterhouse/images/tourismdate/dey99.jpg);
         background-size:100%;
       }
       .trip5{
-        background:url(/sites/all/themes/waterhouse/images/meysam/image/taleghan/sad2.jpg);
+        background:url(/sites/all/themes/waterhouse/images/tourismdate/bahman99.jpg);
         background-size:100%;
       }
-      .month{
-        z-index:1;
-        left:75%;
-        margin-top:100px;
+      .trip6{
+        background:url(/sites/all/themes/waterhouse/images/tourismdate/esfand99.jpg);
+        background-size:100%;
       }
-      .result{
-        z-index:0
-      }
+    }*/
+
+
+    .main-2-bottom-bottom {
+      padding: 50px 0;
+      margin-bottom: 25px;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+      min-height: 450px;
+      box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
     }
+
+    .main-2-bottom-bottom img {
+      width: 300px;
+    }
+
+    .main-2-bottom-bottom ul {
+      list-style-type: none;
+    }
+
+    .main-2-bottom-bottom li {
+      padding: 10px 0;
+      text-align: right;
+    }
+    .main-2-bottom-bottom li:after {
+      width:100%;
+    }
+
+    .main-2-bottom-bottom-right-ul p {
+      margin: 0;
+      width: 250px;
+      cursor: pointer;
+      text-align: left;
+      display: inline-block;
+      transition: 0.9s;
+    }
+    .main-2-bottom-bottom-left {
+      width: 70% !important;
+      margin: 0 auto;
+    }
+
     .news{
-      margin-bottom:150px;
+      margin: 50px 0;
       .view-content{
         text-align:-webkit-center;
         .views-slideshow-cycle-main-frame{
@@ -1949,10 +2156,15 @@
         to {-webkit-transform: translate(0, -0px);}
       }
     }
+    /*-------------------------- Tourism Site Changes  By Saman------------------------------*/
+    ul.menu li {
+      float: right; //float right for submenus
+    }
   }
   @media(max-width:768px){
     #block-system-main{
       background-position:unset;
+      font-size: 16px !important;
       #menu{
         nav ul li{
           display:block;
@@ -3713,7 +3925,7 @@
   }
 }
 /*----------------------------------------- wsa -> content 1690------------------------------------- */
-.page-node-1690{
+.page-node-1690,.page-node-3350{
   #block-system-main{
     .rc-anchor-normal{
       width:80% !important;
@@ -4216,8 +4428,9 @@
 /*----------------------------------------- wsa/document -> content 1704------------------------------------- */
 .page-node-1704, .page-node-421 {
   #block-system-main {
-    background: url(/sites/all/themes/waterhouse/images/meysam/background/doc-texture.png);
+    /*background: url(/sites/all/themes/waterhouse/images/meysam/background/doc-texture.png);*/
     padding-bottom: 1px;
+    background-color: #eeeeee;
 
     .intro {
       text-align: center;
@@ -4802,7 +5015,7 @@
 /*----------------------------------------- wsa/document -> content 1704------------------------------------- */
 .page-node-1704, .page-node-421 {
   #block-system-main {
-    background: #F9F9F9;
+    background: #eeeeee;
     padding-bottom: 1px;
 
     .intro {
@@ -7596,4 +7809,1229 @@
       }
     }
   }
+}
+
+/*----------------------------------------- WetlandJournalism -> content 3350------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+.container-nav3350 {
+  width: var(--container-width);
+  height: var(--container-height);
+  margin-left: -350px;
+  margin-top: -170px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.main-menu-3350 {
+  display: flex;
+  list-style: none;
+  margin: auto 0;
+  padding: 0.6em 0 0 0;
+}
+.main-menu-3350 a {
+  color: white;
+}
+
+.main-menu-3350 > li {
+  box-sizing: border-box;
+  height: var(--menu-item-size);
+  width: calc(3.5 * var(--menu-item-size));
+  line-height: var(--menu-item-size);
+  padding: 0 2em;
+  margin: 1px;
+  transition: 0.5s linear all;
+  background: var(--green-color);
+  color: var(--dark-green-color);
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+}
+
+.main-menu-3350 > li:not(.with-submenu) {
+  clip-path: polygon(10% 0%, 0% 100%, 95% 100%, 100% 50%, 95% 0%);
+  shape-outside: polygon(10% 0%, 0% 100%, 95% 100%, 100% 50%, 95% 0%);
+}
+
+.main-menu-3350 > li:nth-child(2) {
+  transform: translateX(-5%);
+}
+
+.main-menu-3350 > li:nth-child(3) {
+  transform: translateX(-10%)
+}
+
+.main-menu-3350 > li:nth-child(4) {
+  transform: translateX(-15%)
+}
+
+.main-menu-3350 i {
+  margin-right: 5px;
+}
+
+.main-menu-3350 > li:hover:not(.active) {
+  background: linear-gradient(to right, var(--green-color), var(--blue-color));
+  color: var(--white-color);
+}
+
+.main-menu-3350 > li:active:not(.active),
+.main-menu-3350 > li:active:not(.with-submenu){
+  background: var(--blue-color);
+  color: var(--white-color);
+}
+
+.main-menu-3350 > li:hover i:not(li.active) {
+  color: #175c58;
+}
+
+.main-menu-3350 .active {
+  color: var(--white-color);
+  background: var(--blue-color);
+  cursor: default;
+  text-shadow: 1px 1px 1px var(--dark-green-color);
+  font-size: 18px;
+}
+
+
+
+.submenu-3350 {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  list-style: none;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  min-width: calc(3.5 * var(--menu-item-size) - 5%);
+  box-shadow: 5px 5px 5px #CCC;
+}
+
+.with-submenu-3350 {
+  position: relative;
+  display: inline-block;
+  clip-path: polygon(10% 0%, 0% 100%, 0% 500%, 95% 500%, 95% 100%, 100% 50%, 95% 0%);
+  shape-outside: polygon(10% 0%, 0% 100%, 95% 100%, 100% 50%, 95% 0%);
+}
+
+.with-submenu-3350:hover .submenu {
+  display: block;
+}
+
+.submenu-3350 > li {
+  background: #dedede;
+  border-bottom: 1px solid var(--gray-color);
+  color: #777;
+  padding: 1.2em 1em;
+  transition: 0.3s all linear;
+  display: block;
+  line-height: 0%;
+}
+
+.submenu-3350 > li:hover {
+  background: var(--gray-color)
+}
+
+.submenu-3350 > li:active {
+  background: var(--white-color);
+}
+
+.head-3350 {
+  background: url('/sites/all/themes/waterhouse/images/meysam/image/3350/talab-header.jpg');
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0  20% 20%;
+}
+.head-3350 .overlay-3350{
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+
+}
+
+.h1-3350 {
+  font-family: sans-serif, cursive;
+  font-size: 80px;
+  margin-bottom: 30px;
+  text-shadow: #2bbfbd 1px 0 10px;
+}
+
+.h3-3350, .p-3350 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 30px;
+}
+
+#header-3350 .topbanner-3350{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+.title-3350 {
+  position: absolute;
+}
+.title-3350  h1{
+  color: white;
+  text-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+}
+.col-lg-3-3350, .col-lg-6-3350 {
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card-3350 {
+  padding: 30px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(204,204,204,0.2);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(204,204,204,0.2);
+  box-shadow: 0px 0px 14px 0px rgba(204,204,204,0.2);
+
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+#first-3350 .sidebarmenu-3350{
+  width: 100%;
+  border-radius: 8px;
+}
+#first-3350 .sidebarmenu-3350  ul{
+  padding: 0;
+}
+#first-3350 .sidebarmenu-3350 li{
+  list-style: none;
+  margin-bottom: 8px;
+
+}
+#first-3350 .sidebarmenu-3350  ul li a{
+  color: #737373;
+  font-family: "IRANSans Light";
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: 12px;
+}
+#first-3350 .sidebarmenu-3350  ul li a:hover{
+  color: #00909e;
+  font-family: "IRANSans Medium";
+}
+#first-3350 .socialmedia-3350 ul{
+  padding: 0;
+}
+#first-3350 .socialmedia-3350 ul .social-3350{
+  list-style: none;
+  float: right;
+
+}
+#first-3350 .socialmedia-3350 ul .social-3350 a svg{
+  margin-right: 15px;
+  font-size: 28px;
+  color: #999999;
+  transition: 0.2s;
+}
+#first-3350 .socialmedia-3350 ul .social-3350 .fa-twitter{
+  color:#4EB8ED ;
+}
+#first-3350 .socialmedia-3350 ul  .social-3350 .fa-facebook{
+  color: #516FA3 ;
+}
+#first-3350 .socialmedia-3350 ul  .social-3350 .fa-linkedin{
+  color: #3C86AD ;
+}
+#first-3350 .socialmedia-3350 ul  .social-3350 .fa-telegram{
+  color: #2D9FDA ;
+}
+#first-3350 .socialmedia-3350 ul  .social-3350 .fa-whatsapp-square{
+  color: #17AA10 ;
+}
+#first-3350 .banner1-3350{
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+}
+
+
+
+div.news-description {
+  width:90%;
+  overflow:hidden;
+  margin: 0 auto;
+  height: auto;
+  //padding: 1.2em 0;
+  font-size: 1.5em;
+  font-family: "Agency FB";
+  color: #E4F6F8;
+}
+div.slide-right p {
+  -moz-animation: 10s slide-right;
+  -webkit-animation: 10s slide-right;
+  -o-animation: 10s slide-right;
+  animation: 10s slide-right;
+  margin:0;
+}
+div.slide-left p {
+  -moz-animation: 10s slide-left;
+  -webkit-animation: 10s slide-left;
+  -o-animation: 10s slide-left;
+  animation: 10s slide-left;
+  margin:0;
+}
+
+
+#first-3350 .news-description{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -8px;
+  overflow: hidden;
+}
+#first-3350  .news-description p{
+  color: black !important;
+  font-family: "IRANSans Light";
+  font-size: 14px;
+  display: block;
+  text-align:right;
+  //animation: slide-new 8s linear infinite;
+  //animation-delay: 2.5s;
+
+}
+//@keyframes slide-new {
+//  0% {
+//    transform: translate(-100%, 0);
+//  }
+//  100% {
+//    transform: translate(0, 0);
+//  }
+//}
+
+#first-3350  .news-description p{
+  font-family: "IRANSans Light";
+  font-size: 12px;
+  display: block;
+  text-align:right ;
+  color: #999999;
+  margin-top: 10px;
+}
+
+.cta-3350{
+  font-family: "IRANSans Light";
+  font-size: 12px;
+  float: left;
+  margin-left: 10px;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  padding: 5px 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color :#00909e;
+  border-radius: 4px;
+}
+.cta-3350 i {
+  font-size: 16px;
+  position: relative;
+  top: 3px;
+}
+.fa-long-arrow-left-3350:before {
+  content: "\f177";
+}
+
+.row-3350 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.poster-3350{
+  margin-top: 14px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 325px;
+  border-radius: 8px;
+}
+.col-3350{
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.fa-circle-notch-3350:before {
+  content: "\f1ce";
+}
+
+#information-3350 .info-3350{
+  padding: 10px;
+  border: 1px dashed rgba(0, 144, 158,0.3);
+  background-color: rgba(0, 144, 158,0.03);
+  border-radius: 5px;
+}
+#information-3350 .info-3350 span{
+  font-family: "IRANSans Light";
+  color:#737373 ;
+  font-size: 11px;
+}
+#information-3350 .info-3350 p{
+  font-family: "IRANSans Light";
+  font-size: 14px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#second-3350 {
+  width: 100%;
+  background-image:url("../img/water.jpg");
+  padding: 30px 0px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#second-3350 .darklayer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  top: -1px;
+}
+
+#second-3350 .login-register-3350{
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  position: relative;
+  top: 20%;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+
+}
+#second-3350 .login-register-3350 a{
+  display: block;
+  color: #ffffff;
+  text-decoration:none;
+  text-align: center;
+  font-family: "IRANSans Light";
+  font-size: 12px;
+
+}
+#second-3350 .login-register-3350 a i{
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  top: 3px;
+}
+#second-3350 .tiser{
+  border-radius: 8px;
+}
+
+#date-3350{
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#demo-3350 {
+  direction: rtl;
+  text-align: right;
+  display: inline;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "IRANSans Light";
+}
+#date-3350 .fa-calendar-alt{
+  font-size: 18px;
+  color: #dae1e7;
+  position: relative;
+  top: 2px;
+}
+#date-3350 #registered p{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-family: "IRANSans Light";
+}
+#date-3350 #registered p span{
+  font-family: iransansmedium;
+  color: #2a6496;
+}
+#second-3350 .count{
+  font-size: 20px;
+  font-family:iransansbold ;
+  color: #ffffff;
+}
+#second-3350 .count-desc{
+  margin-bottom:25px;
+  display: block;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -10px;
+  font-family: "IRANSans UltraLight";
+}
+
+#first-3350 .container-3350,#second-3350 .container-3350, #third-3350 .container-3350, #fourth-3350 .container-3350{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#first-3350 .container-3350 .row-3350, #second-3350 .container-3350 .row-3350, #third-3350 .container-3350 .row-3350, #fourth-3350 .container-3350 .row-3350{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/**video**/
+.video-3350 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.video-3350:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(#ffffff00, 85%, #000000c9);
+  opacity: 1;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.video-3350-preview {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  z-index: 10;
+  background-origin: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all 0.3s ease;
+}
+.video-3350-preview .video-3350-start-btn {
+  border: 5px solid white;
+  background: rgb(255, 255, 255);
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  user-select: none;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  transition: all 0.3s ease;
+  position: relative;
+  appearance: none;
+}
+.video-3350-preview .video-3350-start-btn svg {
+  fill: var(--primary);
+  overflow: hidden;
+}
+.video-3350-top {
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: transparent;
+  z-index: 1;
+}
+.video-3350-player-controls {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.video-3350-player-controls .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.video-3350-player-controls .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-3350-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+  margin-right: 0.5rem;
+}
+.video-3350-control .video-3350-control-btn {
+  border: none;
+  background: transparent;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  position: relative;
+  cursor: pointer;
+  transition: all 350ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  appearance: none;
+  outline: none;
+  user-select: none;
+}
+.video-3350-control .video-3350-control-btn:hover {
+  background: rgb(255, 255, 255);
+}
+
+.video-3350-control .video-3350-control-btn .video-3350-control-play {
+  overflow: hidden;
+  position: relative;
+}
+.video-3350-control .video-3350-control-btn .video-3350-control-pause {
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+.video-3350-views {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+.video-3350-counts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+  margin-right: 0.5rem;
+}
+
+.video-3350-voice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+  margin-right: 0.5rem;
+}
+.video-3350-voice .video-3350-voice-btn {
+  border: none;
+  background: transparent;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  position: relative;
+  cursor: pointer;
+  transition: all 350ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  appearance: none;
+  outline: none;
+  user-select: none;
+}
+.video-3350-voice .video-3350-voice-btn:hover {
+  background: rgb(255, 255, 255);
+}
+
+.video-3350-voice .video-3350-voice-btn .video-3350-voice-on {
+  overflow: hidden;
+  position: relative;
+}
+.video-3350-voice .video-3350-voice-btn .video-3350-voice-off {
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+.video-3350-voice:hover .video-3350-voice-slider {
+  visibility: visible;
+  opacity: 1;
+}
+
+.video-3350-voice-slider {
+  width: 120px;
+  transition: all 0.4s ease;
+  transform: rotate(-90deg);
+  position: absolute;
+  bottom: 80px;
+  z-index: 9999;
+  background: #0000002e;
+  padding: 13px;
+  border-radius: 9999px;
+  visibility: hidden;
+  opacity: 0;
+}
+.video-3350-voice-slider-rail {
+  width: fit-content;
+  height: 6px;
+  background: #b7b7b74d;
+  border-radius: 9999px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.video-3350-voice-slider-rail:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.video-3350-voice-slider-buffer {
+  height: 6px;
+  background: #ffffff;
+  border-radius: 9999px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 0;
+}
+
+.video-3350-voice-slider-range {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  z-index: 15;
+  position: relative;
+}
+
+.video-3350-voice-slider-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+.video-3350-voice-slider-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 9999px;
+  cursor: pointer;
+  margin-top: -4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.video-3350-voice-slider-range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 6px;
+  cursor: pointer;
+  background: none;
+  border-radius: 9999px;
+}
+
+.video-3350-voice-slider-range:focus::-webkit-slider-runnable-track {
+  background: none;
+}
+.video-3350-voice-slider-range:active::-webkit-slider-runnable-track {
+  background: none;
+}
+
+.video-3350-voice-slider-range::-webkit-slider-thumb:active {
+  box-shadow: 0 0 26px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 4),
+  0 0 0 5px rgba(255, 255, 255, 0.2);
+}
+.video-3350-voice-slider-range::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 26px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 4),
+  0 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.full-screen-3350 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: fit-content;
+}
+.full-screen-3350 .full-screen-btn-3350 {
+  border: none;
+  background: transparent;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  position: relative;
+  cursor: pointer;
+  transition: all 350ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  appearance: none;
+  outline: none;
+  user-select: none;
+}
+.full-screen-3350 .full-screen-btn-3350:hover {
+  background: rgb(255, 255, 255);
+}
+
+.full-screen-3350 .full-screen-btn-3350 .full-screen-open-3350 {
+  overflow: hidden;
+  position: relative;
+}
+.full-screen-3350 .full-screen-btn-3350 .full-screen-exit-3350 {
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+.video-3350 .video-3350-player {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  user-select: none;
+}
+.video-3350 .video-3350-player video {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  object-fit: contain;
+  object-position: center;
+  user-select: none;
+}
+
+.video-3350-slider{
+  width: 100%;
+  position: relative;
+}
+.video-3350-slider-container {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.video-3350-slider-bg {
+  width: 100%;
+  background: #ffffff6b;
+  height: 5px;
+  border-radius: 9999px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transition: background 100ms cubic-bezier(0.6, -0.28, 0.74, 0.05);
+}
+.video-3350-slider-bg:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.video-3350-slider-rail {
+  width: 0;
+  background: #ffffff;
+  height: 5px;
+  border-radius: 9999px;
+  position: relative;
+}
+.video-3350-slider-buffer {
+  position: absolute;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: transform 100ms cubic-bezier(0.6, -0.28, 0.74, 0.05);
+  transform: scale(0);
+  opacity: 0;
+}
+.video-3350-slider-buffer:hover {
+  box-shadow: 0 0 26px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 4),
+  0 0 0 5px rgba(255, 255, 255, 0.2);
+}
+.video-3350-slider-container:hover .video-3350-slider-buffer {
+  transform: scale(1);
+  opacity: 1;
+}
+.video-3350-slider-container:hover .video-3350-slider-bg {
+  background: #ffffff82;
+}
+
+.video-3350-loading-spinner {
+  width: 55px;
+  height: 55px;
+  border: 5px solid #ffffff;
+  border-top: 5px solid #9e9e9e;
+  border-radius: 50%;
+}
+
+.video-3350-loading-spinner {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1.2s;
+  -webkit-animation-name: rotate;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+
+  -moz-transition-property: -moz-transform;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 1.2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+
+  transition-property: transform;
+  animation-name: rotate;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.video-3350-loading {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00000061;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.video-3350-reset {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00000061;
+  z-index: 1;
+  transition: all 0.3s ease;
+  display: none;
+}
+.video-3350-reset-btn {
+  border: none;
+  background: #000000d9;
+  border-radius: 9999px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  outline: none;
+  user-select: none;
+  cursor: pointer;
+  appearance: none;
+}
+.video-3350-reset-btn:hover {
+  background: #000000;
+}
+
+.video-3350-contextMenu {
+  position: absolute;
+  background: white;
+  border-radius: 6px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  z-index: 4;
+  transition: all 0.1s ease;
+  overflow: hidden;
+  width: fit-content;
+  height: fit-content;
+  display: none;
+}
+
+.video-3350-contextMenu-btn {
+  border: none;
+  background: white;
+  padding: 8px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  outline: none;
+  user-select: none;
+  appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s ease;
+}
+
+.img-thumbnail-3350 {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: 185px;
+}
+
+#contactus-3350{
+  padding: 30px;
+
+}
+#contactus-3350 ul{
+  list-style: none;
+  padding: 0;
+}
+#contactus-3350 ul li{
+  margin-bottom: 20px;
+}
+#contactus-3350 ul li a{
+  font-family: "IRANSans Light";
+  font-size: 12px;
+  color: #212529;
+  text-decoration: none;
+
+}
+#contactus-3350 ul li a svg{
+  color: rgba(0, 144, 158, 0.6);
+  font-size: 15px;
+}
+
+.city-cap , .city-cap2 {
+  color: #0e1f43 !important;
+}
+#news-1548, .none-sami {
+  display: none !important;
+}
+
+
+#implementions-3350 .companylogo-3350{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px dashed #cccccc;
+
+}
+#supports-3350 .companylogo-3350{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px dashed #cccccc;
+
+}
+#fourth-3350{
+  background-color: rgba(245, 245, 245,0.5);
+  padding: 30px 0px;
+  text-align: center;
+}
+#fourth-3350 h5{
+  font-family: iransansbold;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+#fourth-3350 .seminar-location-3350{
+  padding: 30px;
+}
+#fourth-3350 .seminar-location-3350 span {
+  font-family: "IRANSans Light";
+  font-size: 12px;
+}
+#supporters-3350 h5{
+  font-family: iransansbold;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#footer-3350{
+  margin-top: 50px;
+  background-color: #142850;
+  padding: 10px 0px;
+}
+#footer-3350 .mainlogo-3350{
+  width: 70%;
+}
+#footer-3350 .mainlogo-3350{
+  margin-right: -68px;
+  margin-bottom:5px ;
+}
+#footer-3350 h2{
+  font-family: iransansbold;
+  font-size: 18px;
+  text-align: right;
+  color: #ffffff;
+  line-height: 30px;
+}
+#footer-3350 h3{
+  margin-top: 15px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: "IRANSans Medium";
+
+}
+#footer-3350 .contact-3350 ul{
+  list-style: none;
+  padding: 0;
+}
+
+#footer-3350 .contact-3350 ul li{
+  margin-bottom: 20px;
+}
+#footer-3350 .contact-3350 ul li a{
+  color: #cccccc;
+  font-family: "IRANSans Light";
+  font-size: 12px;
+  text-decoration: none;
+}
+
+
+.webinar-poosters-3350 {
+  margin-top: 60px;
+}
+
+#main-pooster-3350 {
+  text-align: center;
+}
+
+/*-------------------------- talab notice style-->node/3420  ------------------------------*/
+//Page Address : https://waterhouse.ir/talab-notice
+// node : 3420
+//اطلاعیه های جشنواره آثار خبری در حوزه تالاب
+
+.page-node-3420 {
+  background-image: url('/sites/all/themes/waterhouse/images/meysam/image/3350/about/aboutslide.jpg');
+  #block-system-main {
+
+
+    .notice-3350 > :first-child{
+      position: relative;
+      top:150px;
+    }
+    .notice-3350 .cd-full-width .row .text-xs-left {
+      margin-bottom: 3px;
+      border-bottom: white 1px solid;
+      border-radius: 4px;
+    }
+
+    .cd-hero-slider .cd-full-width { padding-top: 0; }
+
+    /* Hero Slider */
+
+    .cd-hero-slider {
+      height: 100vh;
+
+    }
+    .cd-hero-slider li {
+
+      list-style: none;
+    }
+
+
+
+    //.cd-hero-slider li:nth-of-type(1) { background-image: url('/sites/all/themes/waterhouse/images/meysam/image/3350/about/aboutslide.jpg'); }
+
+    .tm-bg-white-translucent { background-color: rgba(255,255,255,0.8); }
+    .tm-bg-white-translucent p { color: black; }
+    .tm-textbox {
+      display: inline-block;
+      width: 100%;
+    }
+
+
+    .cd-hero-slider h2, .cd-hero-slider p {
+      max-width: none;
+      width: 100%;
+    }
+
+    .cd-hero-slider .tm-text {
+      font-size: 1em;
+      line-height: 1.8;
+    }
+
+    .cd-full-width .container-fluid.tm-page-width {
+      max-width: none;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+
+    .tm-3-col-container { overflow: auto; }
+
+    .cd-hero-slider h2.tm-text-title {
+      color: #000002;
+      font-size: 1.6em;
+      font-weight: 400;
+    }
+
+    @media only screen and (min-width: 480px) {
+      .tm-textbox-padding {
+        padding: 30px 40px;
+      }
+    }
+
+  }
+}
+
+.tourism-news {
+
 }

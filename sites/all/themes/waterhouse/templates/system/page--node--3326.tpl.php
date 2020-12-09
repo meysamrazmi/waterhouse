@@ -1,6 +1,6 @@
 <div id="block-system-main" style="font-family: fanum !important;">
 
-  
+
 		<section id="menu">
 		    <img src="/sites/all/themes/waterhouse/images/hkuz.png"/>
 			<?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
@@ -27,21 +27,21 @@
       <p>
         وزارت نیرو وظیفه شناسایی و معرفی مکان‌های اطراف بسترهای آبی را دارد. در چنین شرایطی بازار گردشگری بر بستر آبی توسعه خواهد یافت به همین دلیل وزارت نیرو به تدوین شیوه‌نامه اجرایی فعالیت‌های گردشگری و تفریحی در منابع و تاسیسات آبی پیرامون آنها پرداخته است.
       </p>
+      <?php
+      $node = node_load(3326);
+      ?>
       <div class="ouo">
-            <div class="colmd-5">
-              <div>
-              <a href="/sites/default/files/taf.pdf">
-                <h3>تفاهم‌نامه همکاری مشترک وزارت نیرو و وزارت میراث فرهنگی، صنایع دستی و گردشگری </h3>
-              </a>  
-              </div>
-            </div>
-            <div class="colmd-5">
-              <div>
-              <a href="/sites/default/files/shiv.pdf">
-                <h3>شیوه‌نامه اجرایی فعالیت‌های گردشگری و تفریحی در منابع و تاسیسات آبی</h3>
-              </a>  
-              </div>
-            </div>
+        <?php
+        foreach ($node->field_attachment['und'] as $item):
+        ?>
+        <div class="colmd-5">
+          <div>
+            <a href="<?php echo file_create_url($item['uri']);?>">
+              <h3><?php echo !empty($item['description'])? $item['description'] : $item['origname'];?></h3>
+            </a>
+          </div>
+        </div>
+        <?php endforeach;?>
       </div>
       </div>
     </div>
@@ -78,8 +78,7 @@
       padding: 1.5rem;
     }
     [dir=rtl] .caption_write {
-      border-right: 4px solid #fff;
-      border-left: 4px solid #fff;
+      border-bottom: 2px solid white;
       margin-right: -5px
     }
 
@@ -129,7 +128,6 @@
       margin-top:50px;
     }
     .ouo .colmd-5 div{
-     max-width: 600px;
     background: #f2f2f2;
     box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
     border: 1px solid #00bcd4;
@@ -137,7 +135,7 @@
     padding: 5px 0;
     margin-bottom: 15px;
     }
-    
+
     .ouo .colmd-5 div h3{
       font-size:14px
     }

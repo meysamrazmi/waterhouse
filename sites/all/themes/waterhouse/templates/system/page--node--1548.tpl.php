@@ -1,18 +1,239 @@
 <div id="block-system-main">
+
 	<div style="max-width:1500px;margin:0 auto">
 		<section id="menu">
 		    <img src="/sites/all/themes/waterhouse/images/hkuz.png"/>
-			<?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
+      <div class="tourism-search">
+        <?php
+        print drupal_render(drupal_get_form('search_block_form'));
+        ?>
+      </div>
+			<?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']); ?>
 		</section>
-		<section class="slideshow-tour row">
+<section>
+  <div class="row">
+       <ul class="pgwSlider" style="box-shadow: 5px 5px 15px 5px cornflowerblue;">
+         <li><a href="/tourism/provinces-map"><img src="/sites/default/files/tourism/ظرفیتهای گردشگری آب.jpg" alt="ظرفیتهای گردشگری آب" data-description=" استفاده و بهره‌برداری بهینه از پتانسیل‌های گردشگری آبی در کشور به منظور توسعه صنعت گردشگری آبی و ایجاد اشتغال در مناطق بومی ..."></a></li>
+         <li><img src="/sites/default/files/tourism/گنجینه آب.jpg" alt="گنجینه آب" data-description="گنجینه ملی آب ایران، آثار و ابنیه، تأسیسات، ابزار و وسایل، مدارک و مستندات آب را از دوران قدیم تاکنون شناسائی، بررسی، گردآوری، مرمت و باز سازی و نگهداری نموده و ضمن ارائه به همگان و ایجاد انگیزه تحقق و تبع به تهیه اطلاعاتی به منظور مطالعه، شناخت، تجزیه و تحلیل، آموزش و بهره گیری از این آثار پرداخته و در چارچوب اساسنامه خود فعالیت می نماید.">
+           <span><a href="/tourism/ganjineh">گنجینه آب</a></span>
+         </li>
+         <li>
+           <img src="/sites/default/files/tourism/فرصتهای سرمایه گذاری.jpg" data-description=" پتانسیل‌های بالقوه موجود در منابع و تأسیسات آبی و پیرامون آنها در کل کشور ...">
+           <span><a href="/content/3164">فرصتهای سرمایه گذاری
+             </a></span>
+         </li>
+<!--         <li>-->
+<!--           <a href="/content/3326" target="_blank">-->
+<!--             <a href="/content/3326"><img src="/sites/default/files/tourism/ضوابط و قوانین.jpg" data-description="وزارت نیرو وظیفه شناسایی و معرفی مکان‌های اطراف بسترهای آبی را دارد. در چنین شرایطی بازار گردشگری بر بستر آبی توسعه خواهد یافت..."></a>-->
+<!--             <a href="/content/3326"><span>ضوابط و قوانین</span></a>-->
+<!--           </a>-->
+<!--         </li>-->
+       </ul>
+  </div>
+</section>
+    <br><hr>
+
+    <section class="circular-status" data-aos="zoom-in" data-aos-delay="450">
+      <div class="row">
+        <div class="col col-lg-3 col-md-3 col-sm-12">
+          <div>
+            <div class="circle" href="#demo2" class="circle circle-shode" data-toggle="collapse">
+              <div class="info">
+                <svg height="44pt" viewBox="-32 0 440 440.5" width="44pt">
+                  <path d="m326.648438 31.300781h-17.5v-21.300781c0-5.523438-4.476563-10-10-10-5.519532 0-10 4.476562-10 10v21.398438h-201.898438v-21.398438c0-5.523438-4.476562-10-10-10s-10
+								      4.476562-10 10v21.398438h-17c-27.609375.011718-49.988281 22.390624-50 50v309.101562c.011719 27.609375 22.390625 49.988281 50 50h276.300781c27.609375-.011719
+								      49.988281-22.390625 50-50v-309.199219c0-27.574219-22.324219-49.945312-49.902343-50zm-185.398438 295.097657-43.898438 42c-1.835937 1.816406-4.320312 2.824218-6.902343
+								      2.800781-2.652344-.011719-5.199219-1.050781-7.097657-2.898438l-23.902343-23.902343c-3.894531-3.890626-3.894531-10.203126 0-14.097657s10.207031-3.894531 14.101562 0l17
+								      17 36.898438-35.199219c1.910156-1.835937 4.46875-2.832031 7.113281-2.777343 2.644531.058593 5.160156 1.164062 6.988281 3.074219 1.832031 1.890624 2.832031 4.433593
+								      2.773438 7.0625-.054688 2.632812-1.164063 5.128906-3.074219 6.9375zm0-100-43.898438 42c-1.835937 1.816406-4.320312 2.824218-6.902343
+								      2.800781-2.652344-.011719-5.199219-1.050781-7.097657-2.898438l-23.902343-23.902343c-3.894531-3.890626-3.894531-10.203126 0-14.097657s10.207031-3.894531
+								      14.101562 0l17 17 36.898438-35.199219c1.910156-1.835937 4.46875-2.832031 7.113281-2.777343 2.644531.058593 5.160156 1.164062 6.988281 3.074219
+								      1.832031 1.890624 2.832031 4.433593 2.773438 7.0625-.054688 2.632812-1.164063 5.128906-3.074219 6.9375zm0-100-43.898438 42c-1.835937
+								      1.816406-4.320312 2.824218-6.902343 2.800781-2.652344-.011719-5.199219-1.050781-7.097657-2.898438l-23.902343-23.902343c-3.894531-3.890626-3.894531-10.203126
+								      0-14.097657s10.207031-3.894531 14.101562 0l17 17 36.898438-35.199219c1.910156-1.835937 4.46875-2.832031 7.113281-2.777343 2.644531.058593 5.160156 1.164062
+								      6.988281 3.074219 1.832031 1.890624 2.832031 4.433593 2.773438 7.0625-.054688 2.632812-1.164063 5.128906-3.074219 6.9375zm169.199219
+								      223.800781h-115c-5.523438 0-10-4.476563-10-10 0-5.523438 4.476562-10 10-10h115c5.523437 0 10 4.476562
+								      10 10 0 5.523437-4.476563 10-10 10zm0-100h-115c-5.523438 0-10-4.476563-10-10 0-5.523438 4.476562-10 10-10h115c5.523437 0 10 4.476562 10 10 0 5.523437-4.476563
+								      10-10 10zm0-100h-115c-5.523438 0-10-4.476563-10-10 0-5.523438 4.476562-10 10-10h115c5.523437 0 10 4.476562 10 10 0 5.523437-4.476563 10-10 10zm0 0" />
+                </svg>
+                <p class="text">سفرهای برگزار شده</p>
+              </div>
+            </div>
+            <div id="demo2" class="collapse">
+              <table class="table">
+                <tr>
+                  <td class="th">نام شهر</td>
+                  <td class="th">تاریخ</td>
+                  <td class="th"></td>
+                </tr>
+                <tr>
+                  <td>یزد</td>
+                  <td>8 آبان 97</td>
+                  <td><a href="http://waterhouse.ir/tourism/Yazd" target="_blank">بیشتر</a></td>
+                </tr>
+                <tr>
+                  <td>خوزستان</td>
+                  <td>14 اسفند 97</td>
+                  <td><a href="http://waterhouse.ir/tourism/Khuzestan" target="_blank">بیشتر</a></td>
+                </tr>
+                <tr>
+                  <td>ارس</td>
+                  <td>1 آبان 98</td>
+                  <td><a href="http://waterhouse.ir/tourism/aras" target="_blank">بیشتر</a></td>
+                </tr>
+                <tr>
+                  <td>سد لار</td>
+                  <td>23 آبان 98</td>
+                  <td><a href="http://waterhouse.ir/tourism/lar" target="_blank">بیشتر</a></td>
+                </tr>
+                <tr>
+                  <td>سد امیر کبیر</td>
+                  <td>7 آذر 98</td>
+                  <td><a href="http://waterhouse.ir/tourism/amirkabir" target="_blank">بیشتر</a></td>
+                </tr>
+                <tr>
+                  <td>طبس</td>
+                  <td>2 بهمن 98</td>
+                  <td><a href="http://waterhouse.ir/tourism/tabas" target="_blank">بیشتر</a></td>
+                </tr>
+                <tr>
+                  <td>سد امیر کبیر 2</td>
+                  <td>18 بهمن 98</td>
+                  <td><a href="http://waterhouse.ir/tourism/amirkabir2" target="_blank">بیشتر</a></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-3 col-sm-12">
+          <div>
+            <div href="#demo1" class="circle circle-darhal" data-toggle="collapse">
+              <div class="info">
+                <svg  xmlns="http://www.w3.org/2000/svg"  height="59px" viewBox="0 0 21.477 21.478">
+                  <g>
+                    <path d="M17.782,4.736c-2.172-1.708-4.248-1.705-6.36-0.141C9.248,6.203,5.35,4.935,4.904,2.339
+		C4.702,1.158,4.373,1.303,3.708,1.802C2.775,2.503,1.91,2.79,1.095,1.652C0.871,1.342,0.623,1.396,0.317,1.618
+		c-0.295,0.218-0.37,0.427-0.284,0.771C0.407,3.899,0.62,5.485,1.877,6.6c0.31,0.272,0.466,0.64,0.255,0.893
+		C0.765,9.143,2.157,9.903,3.18,10.72c0.579,0.46,0.972,0.84,1.054,1.683c0.05,0.508,0.223,1.724,1.038,1.555
+		c1.742-0.364,2.017,0.871,2.751,1.876c0.984,1.351,2.489,2.471,4.113,2.386c1.329-0.066,2.246-0.939,3.266,0.938
+		c0.546,1.011,2.75,0.57,4.194,0.867c0.934,0.191,0.398-1.01,0.926-1.305c0.088-0.051,0.171-0.115,0.253-0.174
+		c0.402-0.287,0.763-1.446,0.693-1.911c-0.064-0.415-0.307-0.552-0.61-0.773c-0.93-0.668-2.031-1.346-0.711-2.661
+		c0.259-0.259,0.379-0.816-0.034-0.912c-1.441-0.326-0.783-1.525-1.035-2.321c-0.365-1.154,0.618-2.102,0.661-3.535
+		C20.003,5.2,18.499,5.3,17.782,4.736z"/>
+                  </g>
+                </svg>
+                <p class="text">نقشه گردشگری ایران</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-3 col-sm-12">
+          <div>
+            <div href="#demo" class="circle circle-ati" data-toggle="collapse">
+              <div class="info">
+                <svg height="59px" viewBox="-18 -18 597.33331 597.33331" width="59px" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m93.5 80.320312c-5.730469 6.59375-8.324219 15.347657-7.097656 24l18.597656 130c2.1875 14.726563 14.808594 25.644532 29.703125 25.679688h25.296875v-40c0-5.523438
+							            4.476562-10 10-10h60c5.523438 0 10 4.476562 10 10v40h80v-40c0-5.523438 4.476562-10 10-10h60c5.523438 0 10 4.476562 10 10v40h25.296875c14.898437-.039062 27.523437-10.96875
+							            29.703125-25.699219l18.597656-130c1.222656-8.613281-1.347656-17.332031-7.039062-23.910156-5.695313-6.578125-13.960938-10.367187-22.65625-10.390625h-327.804688c-8.671875.003906-16.914062
+							            3.769531-22.597656 10.320312zm0 0" />
+                  <path d="m500 420h60v120h-60zm0 0" />
+                  <path d="m340 230h40v80h-40zm0 0" />
+                  <path d="m80 560h400v-359.226562l-5.199219 36.34375c-3.625 24.570312-24.667969 42.800781-49.503906 42.882812h-25.296875v40c0 5.523438-4.476562 10-10 10h-60c-5.523438
+							            0-10-4.476562-10-10v-40h-80v40c0 5.523438-4.476562 10-10 10h-60c-5.523438
+							            0-10-4.476562-10-10v-40h-25.296875c-24.839844-.085938-45.878906-18.320312-49.503906-42.890625l-5.199219-36.320313zm60-160c0-5.523438 4.476562-10
+							            10-10h260c5.523438 0 10 4.476562 10 10v120c0 5.523438-4.476562 10-10 10h-260c-5.523438 0-10-4.476562-10-10zm0 0" />
+                  <path d="m180 230h40v80h-40zm0 0" />
+                  <path d="m0 420h60v120h-60zm0 0" />
+                  <path d="m160 410h240v100h-240zm0 0" />
+                  <path d="m360 50h-20v-30h-120v30h-20v-40c0-5.523438 4.476562-10 10-10h140c5.523438 0 10 4.476562 10 10zm0 0" />
+                </svg>
+                <p class="text">سفرهای آتی</p>
+              </div>
+            </div>
+            <div id="demo" class="collapse">
+              <table class="table">
+                <tr>
+                  <td class="th">نام شهر</td>
+                  <td class="th">تاریخ</td>
+                  <td class="th"></td>
+                </tr>
+                <tr>
+                  <td  colspan="3">در حال حاضر سفری وجود ندارد</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-3 col-md-3 col-sm-12">
+          <div>
+            <div href="#demo0" class="circle circle-search" data-toggle="collapse">
+              <div class="info">
+                <svg x="0px" y="0px" width="60px" height="60px" viewBox="0 0 310.42 310.42">
+                  <g>
+                    <g>
+                      <path d="M273.587,214.965c49.11-49.111,49.109-129.021,0-178.132c-49.111-49.111-129.02-49.111-178.13,0
+								                 C53.793,78.497,47.483,140.462,76.51,188.85c0,0,2.085,3.498-0.731,6.312c-16.065,16.064-64.263,64.263-64.263,64.263
+								                 c-12.791,12.79-15.836,30.675-4.493,42.02l1.953,1.951c11.343,11.345,29.229,8.301,42.019-4.49c0,0,48.096-48.097,64.128-64.128
+								                 c2.951-2.951,6.448-0.866,6.448-0.866C169.958,262.938,231.923,256.629,273.587,214.965z M118.711,191.71
+								                 c-36.288-36.288-36.287-95.332,0.001-131.62c36.288-36.287,95.332-36.288,131.619,0c36.288,36.287,36.288,95.332,0,131.62
+								                 C214.043,227.996,155,227.996,118.711,191.71z" />
+                      <g>
+                        <path d="M126.75,118.424c-1.689,0-3.406-0.332-5.061-1.031c-6.611-2.798-9.704-10.426-6.906-17.038
+								                     c17.586-41.559,65.703-61.062,107.261-43.476c6.611,2.798,9.704,10.426,6.906,17.038c-2.799,6.612-10.425,9.703-17.039,6.906
+								                     c-28.354-11.998-61.186,1.309-73.183,29.663C136.629,115.445,131.815,118.424,126.75,118.424z" />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <p class="text">جستجو سفرها</p>
+              </div>
+            </div>
+            <div id="demo0" class="collapse">
+              <?php $block = module_invoke('views', 'block_view', 'gardesh-block'); print render($block['content']);; ?>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </section>
+<hr>
+
+    <div class="col-lg-12 col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12 tourism-news" style="margin-bottom: 70px;">
+      <h2>اخبار گردشگری</h2>
+      <div class="owl-carousel owl-theme">
+
+        <div class="item" style="text-align: center">
+          <h4>
+            <p>افتتاح کتابخانه تخصصی گردشگری</p>
+          </h4>
+        </div>
+
+        <div class="item" style="text-align: center">
+          <h4>
+            <p>تعیین اعضای هیات رئیسه فراکسیون گردشگری مجلس</p>
+          </h4>
+        </div>
+
+        <div class="item" style="text-align: center">
+          <h4>
+            <p>تاثیرات کرونا بر صنعت گردشگری</p>
+          </h4>
+        </div>
+      </div>
+
+      <a href="/tourism/news" style="text-align: left;color: white"><h4>مشاهده اخبار</h4></a>
+    </div>
+    <br><br><hr><div style="margin-bottom: 8px;"> </div>
+
+		<section class="slideshow-tour row" style="display: none;">
 			<div id="myCarousel" class="carousel slide col-md-10" data-ride="carousel">
 			    <div class="carousel-inner">
-			    
+
 			        <div class="item active">
 			            <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/zer2.png" style="width:100%"/>
 
 			        </div>
-			        
+
 			        <div class="item">
 			            <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/zer.png" style="width:100%"/>
 
@@ -45,241 +266,8 @@
 				</a>
 			</div>
 		</section>
-		<section class="slideshow-tour secen row">
-		    <div class="slieding-tab">
-		        <div class="grid">
-		            <div class="col-md-2" style="margin-top:-30px">
-		                <div class="menu">
-		                
-		                        <div class="active"><span data-links-to="slide_3">موزه ملی آب</span></div>
-		                   
-		                    <div><span data-links-to="slide_5">سازه های آبی باستانی </span></div>
-		                    <div><span data-links-to="slide_2">سفرهای آتی گردشگری آب</span></div>
-		                   
-		                    <div><span data-links-to="slide_4">گردشگری آب و کودک</span></div>
-		                    <div><span data-links-to="slide_7">فروشگاه گردشگری آب</span></div>
-		                    <div><span data-links-to="slide_7">سفر بعدی کجاست؟</span></div>
-		                </div>
-		            </div>
-		            <div class="col-md-8" style="margin-top:-30px">
-		                <ul class="nacc">
-		                    <li class="active" id="slide_3">
-		                        <div>
-		                            <div>
-		                                 <a href="http://iwnm.wrm.ir" target="_blank" rel="nofollow" title="برای مشاهده کلیک کنید">
-		                                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/muz.png" />
-		                                  </a>
-		                            </div>
-		                        </div>
-		                    </li>
-		                    <li id="slide_5">
-		                        <div>
-		                            <div>
-		                                <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/saz.png" />
-		                            </div>
-		                        </div>
-		                    </li>
-		                    <li id="slide_3">
-		                        <div>
-		                            <div>
-                                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/lazm.jpg" />
-		                            </div>
-		                        </div>
-		                    </li>
-		                    <li id="slide_4">
-		                        <div>
-		                            <div>
-		                                <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/kk2.jpg" />
-		                            </div>
-		                        </div>
-		                    </li>
-		                    <li id="slide_7">
-		                        <div>
-		                            <div>
-		                                <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/shop.jpg" />
-		                            </div>
-		                        </div>
-		                    </li>
-		                    <li id="slide_8">
-		                        <div>
-		                            <div>
-		                                <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/nex.jpg" />
-		                            </div>
-		                        </div>
-		                    </li>
-		                </ul>
-		            </div>
-		        </div>
-		    </div>
-			<div class="ganj col-md-2 hidden-sm hidden-xs">
-				<a href="http://waterhouse.ir/tourism/news" target="_blank">
-					<img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/akh.jpg" style="height:384px">
-				</a>
-			</div>
-		</section>
-		<section class="circular-status" data-aos="zoom-in" data-aos-delay="450">
-			<div class="row">
-			    <div class="col col-lg-3 col-md-3 col-sm-12">
-			        <div>
-			            <div class="circle" href="#demo2" class="circle circle-shode" data-toggle="collapse">
-			                <div class="info">
-								 <svg height="44pt" viewBox="-32 0 440 440.5" width="44pt">
-								     <path d="m326.648438 31.300781h-17.5v-21.300781c0-5.523438-4.476563-10-10-10-5.519532 0-10 4.476562-10 10v21.398438h-201.898438v-21.398438c0-5.523438-4.476562-10-10-10s-10
-								      4.476562-10 10v21.398438h-17c-27.609375.011718-49.988281 22.390624-50 50v309.101562c.011719 27.609375 22.390625 49.988281 50 50h276.300781c27.609375-.011719
-								      49.988281-22.390625 50-50v-309.199219c0-27.574219-22.324219-49.945312-49.902343-50zm-185.398438 295.097657-43.898438 42c-1.835937 1.816406-4.320312 2.824218-6.902343
-								      2.800781-2.652344-.011719-5.199219-1.050781-7.097657-2.898438l-23.902343-23.902343c-3.894531-3.890626-3.894531-10.203126 0-14.097657s10.207031-3.894531 14.101562 0l17
-								      17 36.898438-35.199219c1.910156-1.835937 4.46875-2.832031 7.113281-2.777343 2.644531.058593 5.160156 1.164062 6.988281 3.074219 1.832031 1.890624 2.832031 4.433593
-								      2.773438 7.0625-.054688 2.632812-1.164063 5.128906-3.074219 6.9375zm0-100-43.898438 42c-1.835937 1.816406-4.320312 2.824218-6.902343
-								      2.800781-2.652344-.011719-5.199219-1.050781-7.097657-2.898438l-23.902343-23.902343c-3.894531-3.890626-3.894531-10.203126 0-14.097657s10.207031-3.894531
-								      14.101562 0l17 17 36.898438-35.199219c1.910156-1.835937 4.46875-2.832031 7.113281-2.777343 2.644531.058593 5.160156 1.164062 6.988281 3.074219
-								      1.832031 1.890624 2.832031 4.433593 2.773438 7.0625-.054688 2.632812-1.164063 5.128906-3.074219 6.9375zm0-100-43.898438 42c-1.835937
-								      1.816406-4.320312 2.824218-6.902343 2.800781-2.652344-.011719-5.199219-1.050781-7.097657-2.898438l-23.902343-23.902343c-3.894531-3.890626-3.894531-10.203126
-								      0-14.097657s10.207031-3.894531 14.101562 0l17 17 36.898438-35.199219c1.910156-1.835937 4.46875-2.832031 7.113281-2.777343 2.644531.058593 5.160156 1.164062
-								      6.988281 3.074219 1.832031 1.890624 2.832031 4.433593 2.773438 7.0625-.054688 2.632812-1.164063 5.128906-3.074219 6.9375zm169.199219
-								      223.800781h-115c-5.523438 0-10-4.476563-10-10 0-5.523438 4.476562-10 10-10h115c5.523437 0 10 4.476562
-								      10 10 0 5.523437-4.476563 10-10 10zm0-100h-115c-5.523438 0-10-4.476563-10-10 0-5.523438 4.476562-10 10-10h115c5.523437 0 10 4.476562 10 10 0 5.523437-4.476563
-								      10-10 10zm0-100h-115c-5.523438 0-10-4.476563-10-10 0-5.523438 4.476562-10 10-10h115c5.523437 0 10 4.476562 10 10 0 5.523437-4.476563 10-10 10zm0 0" />
-								 </svg>
-			                    <p class="text">سفرهای برگزار شده</p>
-			                </div>
-			            </div>
-						<div id="demo2" class="collapse">
-							<table class="table">
-								<tr>
-									<td class="th">نام شهر</td>
-									<td class="th">تاریخ</td>
-									<td class="th"></td>
-								</tr>
-								<tr>
-									<td>یزد</td>
-									<td>8 آبان 97</td>
-									<td><a href="http://waterhouse.ir/tourism/Yazd" target="_blank">بیشتر</a></td>
-								</tr>
-								<tr>
-									<td>خوزستان</td>
-									<td>14 اسفند 97</td>
-									<td><a href="http://waterhouse.ir/tourism/Khuzestan" target="_blank">بیشتر</a></td>
-								</tr>
-								<tr>
-									<td>ارس</td>
-									<td>1 آبان 98</td>
-									<td><a href="http://waterhouse.ir/tourism/aras" target="_blank">بیشتر</a></td>
-								</tr>
-								<tr>
-									<td>سد لار</td>
-									<td>23 آبان 98</td>
-									<td><a href="http://waterhouse.ir/tourism/lar" target="_blank">بیشتر</a></td>
-								</tr>
-								<tr>
-									<td>سد امیر کبیر</td>
-									<td>7 آذر 98</td>
-									<td><a href="http://waterhouse.ir/tourism/amirkabir" target="_blank">بیشتر</a></td>
-								</tr>
-								<tr>
-									<td>طبس</td>
-									<td>2 بهمن 98</td>
-									<td><a href="http://waterhouse.ir/tourism/tabas" target="_blank">بیشتر</a></td>
-								</tr>
-								<tr>
-									<td>سد امیر کبیر 2</td>
-									<td>18 بهمن 98</td>
-									<td><a href="http://waterhouse.ir/tourism/amirkabir2" target="_blank">بیشتر</a></td>
-								</tr>
-							</table>
-						</div>
-			        </div>
-			    </div>
-			    <div class="col col-lg-3 col-md-3 col-sm-12">
-			        <div>
-			            <div href="#demo1" class="circle circle-darhal" data-toggle="collapse">
-			                <div class="info">
-								 <svg  xmlns="http://www.w3.org/2000/svg"  height="59px" viewBox="0 0 21.477 21.478">
-<g>
-	<path d="M17.782,4.736c-2.172-1.708-4.248-1.705-6.36-0.141C9.248,6.203,5.35,4.935,4.904,2.339
-		C4.702,1.158,4.373,1.303,3.708,1.802C2.775,2.503,1.91,2.79,1.095,1.652C0.871,1.342,0.623,1.396,0.317,1.618
-		c-0.295,0.218-0.37,0.427-0.284,0.771C0.407,3.899,0.62,5.485,1.877,6.6c0.31,0.272,0.466,0.64,0.255,0.893
-		C0.765,9.143,2.157,9.903,3.18,10.72c0.579,0.46,0.972,0.84,1.054,1.683c0.05,0.508,0.223,1.724,1.038,1.555
-		c1.742-0.364,2.017,0.871,2.751,1.876c0.984,1.351,2.489,2.471,4.113,2.386c1.329-0.066,2.246-0.939,3.266,0.938
-		c0.546,1.011,2.75,0.57,4.194,0.867c0.934,0.191,0.398-1.01,0.926-1.305c0.088-0.051,0.171-0.115,0.253-0.174
-		c0.402-0.287,0.763-1.446,0.693-1.911c-0.064-0.415-0.307-0.552-0.61-0.773c-0.93-0.668-2.031-1.346-0.711-2.661
-		c0.259-0.259,0.379-0.816-0.034-0.912c-1.441-0.326-0.783-1.525-1.035-2.321c-0.365-1.154,0.618-2.102,0.661-3.535
-		C20.003,5.2,18.499,5.3,17.782,4.736z"/>
-</g>
-								 </svg>
-			                    <p class="text">نقشه گردشگری ایران</p>
-			                </div>
-			            </div>
-			        </div>
-			    </div>
-			    <div class="col col-lg-3 col-md-3 col-sm-12">
-			        <div>
-			            <div href="#demo" class="circle circle-ati" data-toggle="collapse">
-			                <div class="info">
-							   <svg height="59px" viewBox="-18 -18 597.33331 597.33331" width="59px" xmlns="http://www.w3.org/2000/svg">
-							        <path d="m93.5 80.320312c-5.730469 6.59375-8.324219 15.347657-7.097656 24l18.597656 130c2.1875 14.726563 14.808594 25.644532 29.703125 25.679688h25.296875v-40c0-5.523438
-							            4.476562-10 10-10h60c5.523438 0 10 4.476562 10 10v40h80v-40c0-5.523438 4.476562-10 10-10h60c5.523438 0 10 4.476562 10 10v40h25.296875c14.898437-.039062 27.523437-10.96875
-							            29.703125-25.699219l18.597656-130c1.222656-8.613281-1.347656-17.332031-7.039062-23.910156-5.695313-6.578125-13.960938-10.367187-22.65625-10.390625h-327.804688c-8.671875.003906-16.914062
-							            3.769531-22.597656 10.320312zm0 0" />
-							        <path d="m500 420h60v120h-60zm0 0" />
-							        <path d="m340 230h40v80h-40zm0 0" />
-							        <path d="m80 560h400v-359.226562l-5.199219 36.34375c-3.625 24.570312-24.667969 42.800781-49.503906 42.882812h-25.296875v40c0 5.523438-4.476562 10-10 10h-60c-5.523438
-							            0-10-4.476562-10-10v-40h-80v40c0 5.523438-4.476562 10-10 10h-60c-5.523438
-							            0-10-4.476562-10-10v-40h-25.296875c-24.839844-.085938-45.878906-18.320312-49.503906-42.890625l-5.199219-36.320313zm60-160c0-5.523438 4.476562-10
-							            10-10h260c5.523438 0 10 4.476562 10 10v120c0 5.523438-4.476562 10-10 10h-260c-5.523438 0-10-4.476562-10-10zm0 0" />
-							        <path d="m180 230h40v80h-40zm0 0" />
-							        <path d="m0 420h60v120h-60zm0 0" />
-							        <path d="m160 410h240v100h-240zm0 0" />
-							        <path d="m360 50h-20v-30h-120v30h-20v-40c0-5.523438 4.476562-10 10-10h140c5.523438 0 10 4.476562 10 10zm0 0" />
-							    </svg>
-			                    <p class="text">سفرهای آتی</p>
-			                </div>
-			            </div>
-						<div id="demo" class="collapse">
-							<table class="table">
-								<tr>
-									<td class="th">نام شهر</td>
-									<td class="th">تاریخ</td>
-									<td class="th"></td>
-								</tr>
-								<tr>
-								    <td  colspan="3">در حال حاضر سفری وجود ندارد</td>
-								</tr>
-							</table>
-						</div>
-			        </div>
-			    </div>
-			    <div class="col col-lg-3 col-md-3 col-sm-12">
-			        <div>
-					    <div href="#demo0" class="circle circle-search" data-toggle="collapse">
-					        <div class="info">
-								 <svg x="0px" y="0px" width="60px" height="60px" viewBox="0 0 310.42 310.42">
-								     <g>
-								         <g>
-								             <path d="M273.587,214.965c49.11-49.111,49.109-129.021,0-178.132c-49.111-49.111-129.02-49.111-178.13,0
-								                 C53.793,78.497,47.483,140.462,76.51,188.85c0,0,2.085,3.498-0.731,6.312c-16.065,16.064-64.263,64.263-64.263,64.263
-								                 c-12.791,12.79-15.836,30.675-4.493,42.02l1.953,1.951c11.343,11.345,29.229,8.301,42.019-4.49c0,0,48.096-48.097,64.128-64.128
-								                 c2.951-2.951,6.448-0.866,6.448-0.866C169.958,262.938,231.923,256.629,273.587,214.965z M118.711,191.71
-								                 c-36.288-36.288-36.287-95.332,0.001-131.62c36.288-36.287,95.332-36.288,131.619,0c36.288,36.287,36.288,95.332,0,131.62
-								                 C214.043,227.996,155,227.996,118.711,191.71z" />
-								             <g>
-								                 <path d="M126.75,118.424c-1.689,0-3.406-0.332-5.061-1.031c-6.611-2.798-9.704-10.426-6.906-17.038
-								                     c17.586-41.559,65.703-61.062,107.261-43.476c6.611,2.798,9.704,10.426,6.906,17.038c-2.799,6.612-10.425,9.703-17.039,6.906
-								                     c-28.354-11.998-61.186,1.309-73.183,29.663C136.629,115.445,131.815,118.424,126.75,118.424z" />
-								             </g>
-								         </g>
-								     </g>
-								 </svg>
-					            <p class="text">جستجو سفرها</p>
-					        </div>
-					    </div>
-						<div id="demo0" class="collapse">
-							<?php $block = module_invoke('views', 'block_view', 'gardesh-block'); print render($block['content']);; ?>
-						</div>
-			        </div>
-			    </div>
-			</div>
-		</section>
-		</section>
+
+
 		<section class="water" style="display:none">
 			<img alt="آسمان نورانی" class="noor" src="/sites/all/themes/waterhouse/images/meysam/image/noor2.png" />
 			<div class="house-text">
@@ -289,10 +277,10 @@
 				WATER
 			</div>
 		</section>
-		<div>
+		<div style="display: none">
 		    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/hamsafar.png" />
 		</div>
-		<section id="trip" class="trip">
+		<section id="trip" class="trip" style="display: none">
 			<div class="purp">
 				<div class="container">
 					<div class="col-md-4">
@@ -503,9 +491,9 @@
 			                <a class="active">
 			                    <div ><span class="light"></span></div>
 			                </a>
-			                <a>
-			                    <div><span class="light"></span></div>
-			                </a>
+<!--			                <a>-->
+<!--			                    <div><span class="light"></span></div>-->
+<!--			                </a>-->
 			                <a>
 			                    <div><span class="light"></span></div>
 			                </a>
@@ -516,68 +504,68 @@
 			        </div>
 			        <div class="tab">
 			            <ul class="city" style="height:300px">
-                    <h3 style="position: relative;top: -25px;background: #fdb913;color: white;font-size: 18px;padding: 2px 12px;left: 50px;">سفر های چند روزه</h3>
+                    <h3 style="position: relative;top: -25px;background: #fdb913;color: white;font-size: 18px;padding: 2px 12px;left: 50px;">جدیدترین فراخوانهای سرمایه گذاری</h3>
 			                <li class="active row">
 			                    <div class="image-border" >
-								      <img title="سفر گردشگری یزد" alt="سفر گردشگری یزد" src="/sites/all/themes/waterhouse/images/meysam/y1.jpg" />
+								      <img title="سدهای استان گلستان" alt="سدهای استان گلستان" src="/sites/default/files/tourism/1-سدهای استان گلستان.jpg"/>
 									  <div class="img-shape"></div>
 								</div>
 								<div class="txt">
-									<h2 class="city-name">برنامه شماره یک : یزد</h2>
+									<h2 class="city-name">شناسایی سرمایه‌گذار سدهای استان گلستان</h2>
 									<p class="city-cap">
-										 از وقتی شروع کردیم به برنامه ریزی این سفر، هر روز از آدم ها و جاهای کمتر دیده شده یزد، کشف تازه ای داشتیم و هربار کلی ذوق کردیم و به ایرانی بودنمون بالیدیم
+                    آگهی فراخوان سرمایه گذاری گردشگری آب سدهای مخزنی دانشمند، محمدآباد کتول وتوشن
 									</p>
 									<span class="city-link swip-right">
-										<a href="http://waterhouse.ir/tourism/Yazd" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
+										<a href="http://waterhouse.ir/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
 									</span>
 								</div>
 			                </li>
 			                <li>
 			                    <div class="image-border" >
-								      <img title="سفر گردشگری یزد" alt="سفر گردشگری خوزستان"  src="/sites/all/themes/waterhouse/images/meysam/k2.jpg" />
+								      <img title="سدهای آذربایجان غربی" alt="سدهای آذربایجان غربی"  src="/sites/default/files/tourism/2-سدهای آذربایجان غربی.jpg" />
 									  <div class="img-shape"></div>
 								</div>
 								<div class="txt">
-									<h2 class="city-name">برنامه شماره دو : شمال خوزستان</h2>
+									<h2 class="city-name">واگذاری سدهای آذربایجان غربی در راستای فعالیتهای گردشگری</h2>
 									<p class="city-cap">
-										اين دفعه مسافر سرزمین آب و آفتاب! سرزمين رودهای خروشان! سرزمین هزاره‌های پیش از تاریخ هستیم! بله! درست حدس زدید، خوزستان
-									</p>
+                    فراخوان واگــذاری ســدهاي شــهرچای، حســنلو و زولا بــه منظــور اجــرای فعالیتهــای گردشــگری بــه صــورت اجــاره
+                  </p>
 									<span class="city-link swip-right">
-										<a href="http://waterhouse.ir/tourism/Khuzestan" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
+										<a href="http://waterhouse.ir/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
 									</span>
 								</div>
 			                </li>
 			                <li>
 			                    <div class="image-border" >
-								      <img title="سفر گردشگری ارس" alt="سفر گردشگری ارس" src="/sites/default/files/aras11.JPG" />
+								      <img title="سد قلعه چای" alt="سد قلعه چایسفر گردشگری ارس" src="/sites/default/files/tourism/3-سد قلعه چای.jpg" />
 									  <div class="img-shape"></div>
 								</div>
 								<div class="txt">
-									<h2 class="city-name">سفر شماره سه : رودخانه ارس</h2>
+									<h2 class="city-name">فراخوان شناسایی و جذب سرمایه گذار و ایده های برتر جهت توسعه گردشگری سد قلعه چای</h2>
 									<p class="city-cap">
-                    بازدید از طبیعت زیبا و تاسیسات سد و نیروگاه ارس، تجربه ای بی نظیر از چگونگی تسهیم منابع مشترک مرزی کشورهای ایران و جمهوری آذربایجان است
+                    شرکت آب منطقه ای آذربایجان شرقی در نظر دارد سرمایه گذاری در طرح گردشگری و تفریحی پیرامون سد قلعه چای شهرستان عجب شیر را به سرمایه گذاران واجد شرایط و دارای ایده های نو واگذار نماید.
 									</p>
 									<span class="city-link swip-right">
-										<a href="http://waterhouse.ir/tourism/aras" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
+										<a href="http://waterhouse.ir/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
 									</span>
 								</div>
 			                </li>
 
-			                <li>
-			                    <div class="image-border" >
-								      <img title="سفر گردشگری طبس" alt="سفر گردشگری طبس" src="/sites/all/themes/waterhouse/images/meysam/image/tabas/az.jpg" />
-									  <div class="img-shape"></div>
-								</div>
-								<div class="txt">
-									<h2 class="city-name">سفر شماره شش : طبس</h2>
-									<p class="city-cap">
-									    بی شک طبس یکی از زیباترین شهرهای کویری ایران است که دارای جاذبه های فراوان طبیعی ،تاریخی و فرهنگی می باشد
-									</p>
-									<span class="city-link swip-right">
-										<a href="http://waterhouse.ir/tourism/tabas" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
-									</span>
-								</div>
-			                </li>
+<!--			                <li>-->
+<!--			                    <div class="image-border" >-->
+<!--								      <img title="سفر گردشگری طبس" alt="سفر گردشگری طبس" src="/sites/all/themes/waterhouse/images/meysam/image/tabas/az.jpg" />-->
+<!--									  <div class="img-shape"></div>-->
+<!--								</div>-->
+<!--								<div class="txt">-->
+<!--									<h2 class="city-name">سفر شماره شش : طبس</h2>-->
+<!--									<p class="city-cap">-->
+<!--									    بی شک طبس یکی از زیباترین شهرهای کویری ایران است که دارای جاذبه های فراوان طبیعی ،تاریخی و فرهنگی می باشد-->
+<!--									</p>-->
+<!--									<span class="city-link swip-right">-->
+<!--										<a href="http://waterhouse.ir/tourism/tabas" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>-->
+<!--									</span>-->
+<!--								</div>-->
+<!--			                </li>-->
 			            </ul>
 			        </div>
 			    </div>
@@ -601,49 +589,49 @@
 			        </div>
 			        <div class="tab2">
 			            <ul class="city2" style="height:300px">
-                    <h3 style="position: relative;top: -25px;background: #fdb913;color: white;font-size: 18px;padding: 2px 12px;left: -75px;">سفر های یک روزه</h3>
+                    <h3 style="position: relative;top: -25px;background: #fdb913;color: white;font-size: 18px;padding: 2px 12px;left: -75px;">ظرفیتهای سرمایه گذاری استانها</h3>
 							<li class="active2">
 			                    <div class="image-border2" >
-								      <img title="سفر گردشگری سد لار" alt="سفر گردشگری سد لار"  src="/sites/all/themes/waterhouse/images/meysam/image/tourism/lars.jpg" />
+								      <img title="سد امیرکبیر" alt="سد امیرکبیر"  src="/sites/default/files/tourism/1-سد امیرکبیر.jpg" />
 									  <div class="img-shape"></div>
 								</div>
 								<div class="txt2">
-									<h2 class="city-name2">برنامه شماره چهار : سد لار</h2>
+									<h2 class="city-name2">سد امیرکبیر</h2>
 									<p class="city-cap2">
-										می‌خوایم شما رو به یک سفر آموزنده و لذت بخش دعوت کنیم. یه سفر با محوریت آب و محیط زیست درست در همین حوالی؛
+                    سد امیرکبیر واقع بر بر روی رودخانه کرج در ۲۵ کیلومتری جاده کرج به چالوس قرار دارد. این سد، اولین سد چندمنظوره کشور و یکی از منابع تأمین آب شهر تهران است.؛
 									</p>
 									<span class="city-link2 swip-left">
-										<a href="http://waterhouse.ir/tourism/lar">مشاهده و کسب اطلاعات بیشتر</a>
+										<a href="https://waterhouse.ir/tourism/provinces/3229">مشاهده و کسب اطلاعات بیشتر</a>
 									</span>
 								</div>
 			                </li>
 							<li>
 			                    <div class="image-border2" >
-								      <img title="سفر گردشگری سد امیرکبیر" alt="سفر گردشگری سد امیر کبیر"  src="/sites/all/themes/waterhouse/images/meysam/image/tourism/am1.jpg" />
+								      <img title="سد تبارک قوچان" alt="سد تبارک قوچان"  src="/sites/default/files/tourism/2-سد تبارک.jpg" />
 									  <div class="img-shape"></div>
 								</div>
 								<div class="txt2">
-									<h2 class="city-name2">برنامه شماره پنج : سد امیرکبیر </h2>
+									<h2 class="city-name2">سد تبارک قوچان</h2>
 									<p class="city-cap2">
-                    در این سفر یکروزه به اندازه سه روز برنامه بازدید از تاسیسات آبی و همینطور مناطق طبیعی داریم
+                    سد تبارک قوچان از به ارتفاع 74 متر در راستای تامین نیاز آب شرب و کنترل سیلاب های منطقه بنا شده و یکی از جاذبه های گردشگری استان خراسان رضوی محسوب میشود.
 									</p>
 									<span class="city-link2 swip-left">
-										<a href="http://waterhouse.ir/tourism/amirkabir">مشاهده و کسب اطلاعات بیشتر</a>
+										<a href="https://waterhouse.ir/tourism/provinces/3333">مشاهده و کسب اطلاعات بیشتر</a>
 									</span>
 								</div>
 			                </li>
 							<li>
 			                    <div class="image-border2" >
-								      <img title="سفر گردشگری سد امیرکبیر" alt="سفر گردشگری سد امیر کبیر"  src="/sites/all/themes/waterhouse/images/meysam/image/karaj/amm2.jpg" />
+								      <img title="سد گاران مریوان" alt="سد گاران مریوان"  src="/sites/default/files/tourism/3-سد گاران مریوان.jpg" />
 									  <div class="img-shape"></div>
 								</div>
 								<div class="txt2">
-									<h2 class="city-name2">برنامه شماره هفت : سد امیرکبیر (سفر دوم)</h2>
+									<h2 class="city-name2">سد گاران مریوان</h2>
 									<p class="city-cap2">
-                    سفر اول مجابمون کرد که بازدید از سد امیرکبیر و روستای زیبای واریان توی زمستون لطف دیگه ای داره
+                    سفر اول مجابمون کرد که بازدید از سد امیرکبیر و روستای زیبای واریان توی زمستون لطف دیگه ای دارهسد گاران واقع در مریوان استان کردستان با قابلیت انواع طرح‌های #گردشگری مورد امکان‌سنجی قرار گرفته و پتانسیل تبدیل شدن به یکی از مراکز مهم #گردشگری_آبی منطقه را داراست.
 									</p>
 									<span class="city-link2 swip-left">
-										<a href="http://waterhouse.ir/tourism/amirkabir2">مشاهده و کسب اطلاعات بیشتر</a>
+										<a href="https://waterhouse.ir/tourism/provinces/3284">مشاهده و کسب اطلاعات بیشتر</a>
 									</span>
 								</div>
 			                </li>
@@ -678,87 +666,373 @@
 		        </div>
 		    </div>
 		</div>
-		<div id="timeline" class="hidden-sm hidden-xs" style="margin-top:100px">
-		    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/taghvim.png" />
-		</div>
 
-		<section  class="timeline hidden-sm hidden-xs">
-		    <div class="row">
-		        <div class="show col-lg-1 col-md-1 month">
-		            <div class="list">
-		                <a class="active">
-		                    <div>دی98</div>
-		                </a>
-		                <a>
-		                    <div>بهمن98</div>
-		                </a>
-		                <a>
-		                    <div>بهمن98</div>
-		                </a>
-		                <a>
-		                    <div>اسفند98</div>
-		                </a>
-		                <a>
-		                    <div>فروردین99</div>
-		                </a>
-		            </div>
-		        </div>
-		        <div class="show col-lg-11 col-md-11 result">
-		            <ul class="city">
-		                <li class="active img trip1">
-		                    <div class="info">
-								<h6>سفر چند روزه</h6>
-		                        <h2>خراسان جنوبی</h2>
-		                        <p><strong style="color:#fdb913">(6 تا 2 بهمن)</strong></p>
-		                    </div>
-		                </li>
-		                <li class="img trip2">
-		                    <div class="info">
-								<h6>بازدید یک روزه</h6>
-		                        <h2>سد لتیان</h2>
-		                        <p><strong style="color:#fdb913">(18 بهمن)</strong></p>
-		                    </div>
-		                </li>
-		                <li class="img trip3">
-		                    <div class="info">
-								<h6>سفر چند روزه</h6>
-		                        <h2>سد مارون</h2>
-		                        <p><strong style="color:#fdb913">(21 تا 25 بهمن)</strong></p>
-		                    </div>
-		                </li>
-		                <li class="img trip4">
-		                    <div class="info">
-								<h6>سفر چند روزه</h6>
-		                        <h2>هرمزگان</h2>
-		                        <p><strong style="color:#fdb913">(14 تا 18 اسفند)</strong></p>
-		                    </div>
-		                </li>
-		                <li class="img trip5">
-		                    <div class="info">
-								<h6>بازدید یک روزه</h6>
-		                        <h2>طالقان</h2>
-		                        <p><strong style="color:#fdb913">(فروردین 99)</strong></p>
-		                    </div>
-		                </li>
-		            </ul>
-		        </div>
-		    </div>
-		</section>
-		<section class="jine">
+    <div class="Main-timeline none-sami">
+      <div>
+        <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/taghvim.png" />
+      </div>
+      <section class="Tslide">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 col-sm-10">
+              <ul class="box-left">
+                <li class="active img trip1">
+                  <div class="info">
+                    <h6>سفر</h6>
+                    <h2>زاینده رود</h2>
+                    <p><strong style="color:#fdb913">(مهر 99)</strong></p>
+                  </div>
+                </li>
+                <li class="img trip2">
+                  <div class="info">
+                    <h6>بازدید یک روزه</h6>
+                    <h2>سد لتیان</h2>
+                    <p><strong style="color:#fdb913">(آبان 99)</strong></p>
+                  </div>
+                </li>
+                <li class="img trip3">
+                  <div class="info">
+                    <h6>سفر</h6>
+                    <h2>استان گلستان</h2>
+                    <p><strong style="color:#fdb913">(آذر 99)</strong></p>
+                  </div>
+                </li>
+                <li class="img trip4">
+                  <div class="info">
+                    <h6>سفر</h6>
+                    <h2>خلیج فارس</h2>
+                    <p><strong style="color:#fdb913">(دی 99)</strong></p>
+                  </div>
+                </li>
+                <li class="img trip5">
+                  <div class="info">
+                    <h6>سفر یک روزه</h6>
+                    <h2>بازدید از سد 15 خرداد قم</h2>
+                    <p><strong style="color:#fdb913">(بهمن 99)</strong></p>
+                  </div>
+                </li>
+                <li class="img trip6">
+                  <div class="info">
+                    <h6>سفر</h6>
+                    <h2>کارون</h2>
+                    <p><strong style="color:#fdb913">(اسفند 99)</strong></p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <div class="listnumber">
+                <a class="active">
+                  <p>مهر 99</p>
+                </a>
+                <a>
+                  <p>آبان 99</p>
+                </a>
+                <a>
+                  <p>آذر 99</p>
+                </a>
+                <a>
+                  <p>دی 99</p>
+                </a>
+                <a>
+                  <p>بهمن 99</p>
+                </a>
+                <a>
+                  <p>اسفند 99</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+<!--    <div class="Main-timeline">-->
+<!--      <div id="timeline">-->
+<!--        <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/taghvim.png" />-->
+<!--      </div>-->
+<!--      <section  class="timeline">-->
+<!--        <div class="container">-->
+<!--          <div class="row">-->
+<!--            <div class="show col-md-11 col-sm-11 result">-->
+<!--              <ul class="city">-->
+<!--                <li class="active img trip1">-->
+<!--                  <div class="info">-->
+<!--                    <h6>سفر</h6>-->
+<!--                    <h2>زاینده رود</h2>-->
+<!--                    <p><strong style="color:#fdb913">(مهر 99)</strong></p>-->
+<!--                  </div>-->
+<!--                </li>-->
+<!--                <li class="img trip2">-->
+<!--                  <div class="info">-->
+<!--                    <h6>بازدید یک روزه</h6>-->
+<!--                    <h2>سد لتیان</h2>-->
+<!--                    <p><strong style="color:#fdb913">(آبان 99)</strong></p>-->
+<!--                  </div>-->
+<!--                </li>-->
+<!--                <li class="img trip3">-->
+<!--                  <div class="info">-->
+<!--                    <h6>سفر</h6>-->
+<!--                    <h2>استان گلستان</h2>-->
+<!--                    <p><strong style="color:#fdb913">(آذر 99)</strong></p>-->
+<!--                  </div>-->
+<!--                </li>-->
+<!--                <li class="img trip4">-->
+<!--                  <div class="info">-->
+<!--                    <h6>سفر</h6>-->
+<!--                    <h2>خلیج فارس</h2>-->
+<!--                    <p><strong style="color:#fdb913">(دی 99)</strong></p>-->
+<!--                  </div>-->
+<!--                </li>-->
+<!--                <li class="img trip5">-->
+<!--                  <div class="info">-->
+<!--                    <h6>سفر یک روزه</h6>-->
+<!--                    <h2>بازدید از سد 15 خرداد قم</h2>-->
+<!--                    <p><strong style="color:#fdb913">(بهمن 99)</strong></p>-->
+<!--                  </div>-->
+<!--                </li>-->
+<!--                <li class="img trip6">-->
+<!--                  <div class="info">-->
+<!--                    <h6>سفر</h6>-->
+<!--                    <h2>کارون</h2>-->
+<!--                    <p><strong style="color:#fdb913">(اسفند 99)</strong></p>-->
+<!--                  </div>-->
+<!--                </li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--            <div class="col-md-1 col-sm-1">-->
+<!--              <div class="list">-->
+<!--                <a class="active">-->
+<!--                  <p>مهر 99</p>-->
+<!--                </a>-->
+<!--                <a>-->
+<!--                  <p>آبان 99</p>-->
+<!--                </a>-->
+<!--                <a>-->
+<!--                  <p>آذر 99</p>-->
+<!--                </a>-->
+<!--                <a>-->
+<!--                  <p>دی 99</p>-->
+<!--                </a>-->
+<!--                <a>-->
+<!--                  <p>بهمن 99</p>-->
+<!--                </a>-->
+<!--                <a>-->
+<!--                  <p>اسفند 99</p>-->
+<!--                </a>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </section>-->
+<!--    </div>-->
+
+		<!--<section class="jine">
 			<img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/ganjine.png" />
 			<div class="row">
 				<div class="col-md-12"><a href="http://waterhouse.ir/tourism/ganjineh" target="_blank"><img style="padding: 0 60px 60px 60px;" src="/sites/all/themes/waterhouse/images/meysam/image/tourism/ganj-main.jpg" /></a></div>
 			</div>
-		</section>
-		<section class="news">
+		</section>-->
+
+
+		<section class="news" id="news-1548">
 			<div>
 			    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/akhbar.png" />
 			</div>
-			<?php print views_embed_view('water_tourism','block_2'); ?>
-			</br>
-			</br>
+			<?php /*print views_embed_view('water_tourism','block_2'); */?>
+
+      <div class="main-2-bottom-bottom">
+        <div class="container">
+        <div class="row mt-5">
+          <div class="col-12 col-lg-6">
+            <div class="main-2-bottom-bottom-left">
+              <div class="owl-catalog owl-carousel owl-theme mb-5">
+                <div class="item">
+                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/akhbar.png" />
+                </div>
+                <div class="item">
+                  <img src="/sites/all/themes/waterhouse/images/tourismdate/aban99.jpg" />
+                </div>
+                <div class="item">
+                  <img src="/sites/all/themes/waterhouse/images/tourismdate/azar99.jpg" />
+                </div>
+                <div class="item">
+                  <img src="/sites/all/themes/waterhouse/images/tourismdate/dey99.jpg" />
+                </div>
+                <div class="item">
+                  <img src="/sites/all/themes/waterhouse/images/tourismdate/bahman99.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 d-flex justify-content-center">
+            <ul class="rtl main-2-bottom-bottom-right-ul">
+              <li class="ptitr" style=" color : #F8BB60">
+                <i class="far fa-chevron-left"></i>
+                <p style="width : 80px">خبر 1</p>
+              </li>
+              <li class="ptitr">
+                <i class="far fa-chevron-left"></i>
+                <p>خبر 2</p>
+              </li>
+              <li class="ptitr">
+                <i class="far fa-chevron-left"></i>
+                <p>خبر 3</p>
+              </li>
+              <li class="ptitr">
+                <i class="far fa-chevron-left"></i>
+                <p>خبر 4</p>
+              </li>
+              <li class="ptitr">
+                <i class="far fa-chevron-left"></i>
+                <p>خبر 5</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+
 			<div class="more"> <a href="http://waterhouse.ir/tourism/news" class="swip-right" target="_blank">مشاهده اخبار بیشتر</a></div>
 		</section>
+  <script>
+
+    $('.owl-carousel').owlCarousel({
+      rtl:true,
+      loop:true,
+      margin:10,
+      dots: false,
+      animateOut: 'fadeOut',
+      nav:false,
+      autoplay:  true,
+      autoplayTimeout: 4000,
+      autoHeight:true,
+      responsiveClass:true,
+      responsive:{
+        0:{
+          items:1
+        },
+        600:{
+          items:1
+        },
+        1000:{
+          items:1
+        }
+      }
+    })
+
+
+
+    $.getScript('/sites/all/themes/waterhouse/js/Aminch/pgwslider.min.js', function(){
+      $('.pgwSlider').pgwSlider();
+    })
+
+    var owlcatalog = $(".owl-catalog").owlCarousel(
+      {
+        loop: true,
+        margin: 20,
+        nav: false,
+        smartSpeed: 2000,
+        dots: true,
+        center: true,
+        mouseDrag: true,
+        touchDrag: true,
+        stagePadding: 8,
+        autoplay: false,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: false,
+        items: 1,
+      });
+    owlcatalog.on('changed.owl.carousel', function (e) {
+      $('.main-2-bottom-bottom-right-ul li').css("color", "black");
+      $('.main-2-bottom-bottom-right-ul p').css("width", "250px");
+      $('.main-2-bottom-bottom-right-ul li').eq(e.item.index - 3).css("color", "#F8BB60");
+      $('.main-2-bottom-bottom-right-ul p').eq(e.item.index - 3).css("width", "80px");
+    });
+    $('.main-2-bottom-bottom-right-ul li').mouseenter(function (e) {
+      owlcatalog.trigger('stop.owl.autoplay')
+      owlcatalog.trigger('to.owl.carousel', [$(this).index()]);
+    });
+    $('.main-2-bottom-bottom-right-ul').mouseleave(function (e) {
+      owlcatalog.trigger('play.owl.autoplay', [3000])
+    });
+  </script>
+
+
+  <section class="slideshow-tour secen row" style="margin-top: 120px;">
+    <div class="slieding-tab">
+      <div class="grid">
+        <div class="col-md-2" style="margin-top:-30px">
+          <div class="menu">
+
+            <div class="active"><span data-links-to="slide_3">موزه ملی آب</span></div>
+
+            <div><span data-links-to="slide_5">سازه های آبی باستانی </span></div>
+            <div><span data-links-to="slide_2">سفرهای آتی گردشگری آب</span></div>
+
+            <div><span data-links-to="slide_4">گردشگری آب و کودک</span></div>
+            <div><span data-links-to="slide_7">فروشگاه گردشگری آب</span></div>
+            <div><span data-links-to="slide_7">سفر بعدی کجاست؟</span></div>
+          </div>
+        </div>
+        <div class="col-md-10" style="margin-top:-30px">
+          <ul class="nacc">
+            <li class="active" id="slide_3">
+              <div>
+                <div>
+                  <a href="http://iwnm.wrm.ir" target="_blank" rel="nofollow" title="برای مشاهده کلیک کنید">
+                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/muz.png" />
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li id="slide_5">
+              <div>
+                <div>
+                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/saz.png" />
+                </div>
+              </div>
+            </li>
+            <li id="slide_3">
+              <div>
+                <div>
+                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/lazm.jpg" />
+                </div>
+              </div>
+            </li>
+            <li id="slide_4">
+              <div>
+                <div>
+                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/kk2.jpg" />
+                </div>
+              </div>
+            </li>
+            <li id="slide_7">
+              <div>
+                <div>
+                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/shop.jpg" />
+                </div>
+              </div>
+            </li>
+            <li id="slide_8">
+              <div>
+                <div>
+                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/nex.jpg" />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="ganj col-md-2 hidden-sm hidden-xs" style="display: none;">
+      <a href="http://waterhouse.ir/tourism/news" target="_blank">
+        <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/akh.jpg" style="height:384px">
+      </a>
+    </div>
+  </section>
+
+
 
 		<section class="faq">
 			<div>
@@ -858,37 +1132,98 @@
 		        </div>
 		    </div>
 		</section>
-		<section class="popup-fix">
-			<div id="popup" class="popup-overlay floating2 row" style="border-radius:100% 100% 0 0% / 14% 14%">
-				<div class="text-tour-animate col col-lg-4 hidden-sm hidden-xs">
-					<a href="http://waterhouse.ir/tourism/taleghan" target="_blank">
-						 <p>سفرهای در حال برگزاری</p>
-					</a>
-				</div>
-			    <div class="boat"></div>
-			    <div class="popup-item home"><a target="_blank" href="http://waterhouse.ir" class="itemMenu" title="صفحه اصلی"></a></div>
-			    <div class="popup-item user"><a target="_blank" href="http://waterhouse.ir/user" class="itemMenu" title="ورود یا ثبت نام"></a></div>
-			    <div class="popup-item shop"><a target="_blank" href="http://waterhouse.ir/shop" class="itemMenu" title="فروشگاه"></a></div>
-			    <div class="popup-item contact"><a target="_blank" href="http://waterhouse.ir/contact-us" class="itemMenu" title="تماس با ما"></a></div>
-				<div class="col-lg-4 social">
-					<P class="txt">
-						ما را در شبکه های اجتماعی دنبال کنید
-					</p>
-					<div class="icons">
-					<a target="_blank" href="https://www.instagram.com/iranWaterhouse/"><img src="/sites/all/themes/waterhouse/images/meysam/icons/instagram.png"/></a>
-					<a target="_blank" href="https://telegram.me/WaterOnline"><img src="/sites/all/themes/waterhouse/images/meysam/icons/teleg.png"/></a>
-					<a target="_blank" href=""><img src="/sites/all/themes/waterhouse/images/meysam/icons/facebook.png"/></a>
-					<a target="_blank" href=""><img src="/sites/all/themes/waterhouse/images/meysam/icons/linkedin.png"/></a>
-					<a target="_blank" href=""><img src="/sites/all/themes/waterhouse/images/meysam/icons/twitter.png"/></a>
-					</div>
-				</div>
-			</div>
-			<div id="myModal" class="modal hidden-sm hidden-xs">
-			    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
-			    <img class="modal-content" id="img01">
-			    <div id="caption"></div>
-			</div>
-		</section>
+<!--		<section class="popup-fix">-->
+<!--			<div id="popup" class="popup-overlay floating2 row" style="border-radius:100% 100% 0 0% / 14% 14%">-->
+<!--				<div class="text-tour-animate col col-lg-4 hidden-sm hidden-xs">-->
+<!--					<a href="http://waterhouse.ir/tourism/taleghan" target="_blank">-->
+<!--						 <p>سفرهای در حال برگزاری</p>-->
+<!--					</a>-->
+<!--				</div>-->
+<!--			    <div class="boat"></div>-->
+<!--			    <div class="popup-item home"><a target="_blank" href="http://waterhouse.ir" class="itemMenu" title="صفحه اصلی"></a></div>-->
+<!--			    <div class="popup-item user"><a target="_blank" href="http://waterhouse.ir/user" class="itemMenu" title="ورود یا ثبت نام"></a></div>-->
+<!--			    <div class="popup-item shop"><a target="_blank" href="http://waterhouse.ir/shop" class="itemMenu" title="فروشگاه"></a></div>-->
+<!--			    <div class="popup-item contact"><a target="_blank" href="http://waterhouse.ir/contact-us" class="itemMenu" title="تماس با ما"></a></div>-->
+<!--				<div class="col-lg-4 social">-->
+<!--					<P class="txt">-->
+<!--						ما را در شبکه های اجتماعی دنبال کنید-->
+<!--					</p>-->
+<!--					<div class="icons">-->
+<!--					<a target="_blank" href="https://www.instagram.com/iranWaterhouse/"><img src="/sites/all/themes/waterhouse/images/meysam/icons/instagram.png"/></a>-->
+<!--					<a target="_blank" href="https://telegram.me/WaterOnline"><img src="/sites/all/themes/waterhouse/images/meysam/icons/teleg.png"/></a>-->
+<!--					<a target="_blank" href=""><img src="/sites/all/themes/waterhouse/images/meysam/icons/facebook.png"/></a>-->
+<!--					<a target="_blank" href=""><img src="/sites/all/themes/waterhouse/images/meysam/icons/linkedin.png"/></a>-->
+<!--					<a target="_blank" href=""><img src="/sites/all/themes/waterhouse/images/meysam/icons/twitter.png"/></a>-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--			<div id="myModal" class="modal hidden-sm hidden-xs">-->
+<!--			    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>-->
+<!--			    <img class="modal-content" id="img01">-->
+<!--			    <div id="caption"></div>-->
+<!--			</div>-->
+<!--		</section>-->
+
+
+
+<!-- footer -->
+    <?php if (!empty($page['footer'])): ?>
+      <footer class="footer <?php print $container_class; ?>">
+        <?php print render($page['footer']); ?>
+      </footer>
+    <?php endif; ?>
+
+
+
+
+<!--    <footer>-->
+<!--      <div class="footer">-->
+<!--        <div class="continer">-->
+<!--          <div class="col-lg-4 social" style="position: relative;top:197px;">-->
+<!--            <P class="txt">-->
+<!--              ما را در شبکه های اجتماعی دنبال کنید-->
+<!--            </p>-->
+<!--            <div class="icons">-->
+<!--              <a target="_blank" href="https://www.instagram.com/iranWaterhouse/"><img src="/sites/all/themes/waterhouse/images/meysam/icons/instagram.png"/></a>-->
+<!--              <a target="_blank" href="https://telegram.me/WaterOnline"><img src="/sites/all/themes/waterhouse/images/meysam/icons/teleg.png"/></a>-->
+<!--              <a target="_blank" href=""><img src="/sites/all/themes/waterhouse/images/meysam/icons/facebook.png"/></a>-->
+<!--              <a target="_blank" href=""><img src="/sites/all/themes/waterhouse/images/meysam/icons/linkedin.png"/></a>-->
+<!--              <a target="_blank" href=""><img src="/sites/all/themes/waterhouse/images/meysam/icons/twitter.png"/></a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">-->
+<!---->
+<!--            <path fill="#a2d9ff" fill-opacity="1" d="M0,96L80,85.3C160,-->
+<!--                75,320,53,480,69.3C640,85,800,139,960,154.7C1120,171,1280,149,1360,138.7L1440,128L1440,-->
+<!--                320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">-->
+<!--            </path>-->
+<!--          </svg>-->
+<!--        <div style="position: relative;right: 50px;">-->
+<!--          <a href="http://waterhouse.ir/" style="margin: 10px;"><img src="sites/all/themes/waterhouse/images/meysam/icons/home.ico"></a>-->
+<!--          <a href="http://waterhouse.ir/contact-us" style="margin: 10px;"><img src="/sites/all/themes/waterhouse/images/meysam/icons/call.ico"></a>-->
+<!--          <a href="http://waterhouse.ir/shop" style="margin: 10px;"><img src="sites/all/themes/waterhouse/images/meysam/icons/buy.ico"></a>-->
+<!--          <a href="http://waterhouse.ir/user" style="margin: 10px;"><img src="sites/all/themes/waterhouse/images/meysam/icons/user.ico"></a>-->
+<!--        </div>-->
+<!--          <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top: -225px;">-->
+<!--            <path fill="#000b76" fill-opacity="3" d="M0,192L80,-->
+<!--                    181.3C160,171,320,149,480,128C640,107,800,85,960,69.3C1120,53,1280,43,1360,37.3L1440,32L1440-->
+<!--                    ,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">-->
+<!--            </path>-->
+<!--            <a href="http://watertourism.ir/"> <text class="text" fill="#ffffff" font-size="30" font-family="Verdana" x="350" y="260">watertourism.ir</text></a>-->
+<!---->
+<!---->
+<!---->
+<!--          </svg>-->
+<!---->
+<!--        </div>-->
+<!--      </div>-->
+<!---->
+<!--    </footer>-->
+
+
+
+
+
 	</div>
 	<style>
 
@@ -1245,6 +1580,40 @@
 		//popup
 		        $("#popup").toggleClass('open');
 		//TAB
+    setInterval(moveCitySlide, 3000);
+    setInterval(moveCitySlide2, 4000);
+
+
+  function moveCitySlide(){
+      var len = $('.show-city .menu a');
+      var i=1;
+    $('.show-city .menu a').each(function () {
+      i++;
+      var numberIndex = $(this).index();
+
+      if($(this).attr('class')=="active"){
+        $(this).removeClass('active');
+        $(".show-city ul").find("li:eq(" + numberIndex + ")").removeClass("active");
+        $('.show-city ul li').removeClass('active');
+        $(this).next('.show-city .menu a').addClass('active');
+        $(this).next('.show-city ul li').addClass('active');
+        $(".show-city ul").find("li:eq(" + numberIndex + ")").addClass("active");
+        return false;
+      }
+
+      if(len.length==i){
+        $('.show-city .menu a:nth-child(1)').addClass('active');
+        $('.show-city ul li:nth-child(1)').addClass('active');
+        $(".show-city:nth-child(1)").find("li:eq(" + numberIndex + ")").addClass("active");
+      }
+      numberIndex--;
+
+    });
+
+  }
+
+
+
 		$(document).on("click", ".show-city .menu a", function () {
             var numberIndex = $(this).index();
             if (!$(this).is("active")) {
@@ -1255,6 +1624,36 @@
             }
         });
 		//TAB2
+
+    function moveCitySlide2(){
+      var len = $('.show-city2 .menu2 a');
+      var i=1;
+      $('.show-city2 .menu2 a').each(function () {
+        i++;
+        var numberIndex = $(this).index();
+
+        if($(this).attr('class')=="active2"){
+          $(this).removeClass('active2');
+          $(".show-city2 ul").find("li:eq(" + numberIndex + ")").removeClass("active2");
+          $('.show-city2 ul li').removeClass('active2');
+          $(this).next('.show-city2 .menu2 a').addClass('active2');
+          $(this).next('.show-city2 ul li').addClass('active2');
+          $(".show-city2 ul").find("li:eq(" + numberIndex + ")").addClass("active2");
+          return false;
+        }
+
+        if(len.length==i){
+          $('.show-city2 .menu2 a:nth-child(1)').addClass('active2');
+          $('.show-city2 ul li:nth-child(1)').addClass('active2');
+          $(".show-city2:nth-child(1)").find("li:eq(" + numberIndex + ")").addClass("active2");
+        }
+        numberIndex--;
+
+      });
+
+    }
+
+
 		$(document).on("click", ".show-city2 .menu2 a", function () {
             var numberIndex = $(this).index();
             if (!$(this).is("active2")) {
@@ -1264,8 +1663,23 @@
                 $(".show-city2 ul").find("li:eq(" + numberIndex + ")").addClass("active2");
             }
         });
+
+
+
+
+
+
+    $(document).on("click", ".Tslide .listnumber a", function () {
+      var numberIndex = $(this).index();
+      if (!$(this).is("active")) {
+        $(".Tslide .listnumber a").removeClass("active");
+        $(".Tslide ul li").removeClass("active");
+        $(this).addClass("active");
+        $(".Tslide ul").find("li:eq(" + numberIndex + ")").addClass("active");
+      }
+    });
 		//timeline
-        $(document).on("click", ".timeline .list a", function () {
+        /*$(document).on("click", ".timeline .list a", function () {
             var numberIndex = $(this).index();
             if (!$(this).is("active")) {
                 $(".timeline .list a").removeClass("active");
@@ -1273,7 +1687,7 @@
                 $(this).addClass("active");
                 $(".timeline ul").find("li:eq(" + numberIndex + ")").addClass("active");
             }
-        });
+        });*/
 
         // Acc
         $(document).on("click", ".slieding-tab .menu div", function () {
@@ -1305,5 +1719,10 @@
             x.className = "topnav";
           }
         }
+
+    if (matchMedia('(max-width: 768px)').matches) {
+      $(".page-node-1548#block-system-main.trip.col-md-4").append($("hr"));
+    }
+
     </script>
 </div>
