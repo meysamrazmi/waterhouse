@@ -1,10 +1,12 @@
 ﻿
 <div id="block-system-main">
 
-		<section id="menu">
-
-			<?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
-		</section>
+  <section id="menu" class="tourism-menu container">
+    <?php
+    $block = module_invoke('menu', 'block_view', 'menu-tourismmain');
+    print render($block['content']);
+    ?>
+  </section>
 	<div>
 		<ul class="navigat">
 			<li to-id="moarefi"><span>معرفی</span></li>

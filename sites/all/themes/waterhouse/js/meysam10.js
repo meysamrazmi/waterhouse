@@ -119,8 +119,4 @@ $(document).ready(function () {
      $('.group-prices .list-price .uc-price').addClass('deco');
 }
   })
-  // link to page tourism
-
-    $('.page-taxonomy-term-408 header#navbar, .page-taxonomy-term-407 header#navbar, .page-taxonomy-term-499 header#navbar').prepend($('<img>',{id:'theImg',src:'/sites/all/themes/waterhouse/images/hkuz.png'}))
-        // End Of document
 });

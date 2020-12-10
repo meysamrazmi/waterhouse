@@ -2,10 +2,12 @@
 <link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
 <div id="block-system-main">
 
-		<section id="menu">
-
-			<?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
-		</section>
+  <section id="menu" class="tourism-menu container">
+    <?php
+    $block = module_invoke('menu', 'block_view', 'menu-tourismmain');
+    print render($block['content']);
+    ?>
+  </section>
 	<div style="background:rgba(255,255,255,0.8)">
 		<ul class="navigat">
         <li to-id="moarefi"><span>معرفی</span></li>
