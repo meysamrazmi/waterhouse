@@ -105,6 +105,7 @@
   }
   .node-province .field-name-body {
     line-height: 3em;
+    font-size: 15px;
   }
   .node-type-province #block-system-main {
     position: relative;

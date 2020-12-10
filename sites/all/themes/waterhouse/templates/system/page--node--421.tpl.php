@@ -1,8 +1,10 @@
 <div id="block-system-main">
 
-  <section id="menu">
-
-    <?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
+  <section id="menu" class="tourism-menu container">
+    <?php
+    $block = module_invoke('menu', 'block_view', 'menu-tourismmain');
+    print render($block['content']);
+    ?>
   </section>
 
   <div id="header_zarfiat">

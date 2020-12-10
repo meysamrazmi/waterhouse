@@ -1,10 +1,13 @@
 <div id="block-system-main" style="font-family: fanum !important;">
 
 
-		<section id="menu">
+  <section id="menu" class="tourism-menu container">
+    <?php
+    $block = module_invoke('menu', 'block_view', 'menu-tourismmain');
+    print render($block['content']);
+    ?>
+  </section>
 
-			<?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
-		</section>
   <div id="header_zarfiat">
 
     <section id="sectionBanner">

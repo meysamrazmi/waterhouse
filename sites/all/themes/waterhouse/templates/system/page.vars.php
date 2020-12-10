@@ -18,7 +18,24 @@ function waterhouse_preprocess_page(&$variables) {
 	if (isset($variables['node']->type)) {
 		$variables['theme_hook_suggestions'][] = 'page__type__' . $variables['node']->type;
 	}
-/*-------------------edit by marjan-----------------*/
+
+  $path = drupal_get_path_alias();
+  $aliases = explode('/', $path);
+
+//  if (!empty($aliases[0])) {
+//    $variables['theme_hook_suggestions'][] = 'page__' . $aliases[0];
+//  }
+//  if (!empty($aliases[1])) {
+//    $variables['theme_hook_suggestions'][] = 'page__' . $aliases[0] . '__' . $aliases[1];
+//  }
+//  if (!empty($aliases[2])) {
+//    $variables['theme_hook_suggestions'][] = 'page__' . $aliases[0] . '__' . $aliases[1] . '__' . $aliases[2];
+//  }
+//  if (!empty($aliases[3])) {
+//    $variables['theme_hook_suggestions'][] = 'page__' . $aliases[0] . '__' . $aliases[1] . '__' . $aliases[2] . '__' . $aliases[3];
+//  }
+
+  /*-------------------edit by marjan-----------------*/
 	if( empty($variables['page']['sidebar_first']) && empty($variables['page']['sidebar_second']) ){
 		$variables['container_class'] = 'container';
 	}

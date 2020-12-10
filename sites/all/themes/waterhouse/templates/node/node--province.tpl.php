@@ -35,35 +35,46 @@
     <?php print render($content['body']); ?>
   </div>
 
-  <?php if(isset($content['field_province']['#items'][0]['tid'])):?>
-  <div class="relative-films">
-    <div class="field-label province-labels">فرصت های سرمایه گذاری:</div>
-    <div class="carousel">
-      <?php print views_embed_view('province_films', 'block', $content['field_province']['#items'][0]['tid']); ?>
-    </div>
-  </div>
+  <?php
+  if(isset($content['field_province']['#items'][0]['tid'])):
+    $view = views_get_view_result('province_films', 'block', $content['field_province']['#items'][0]['tid']);
+    if (count($view)):
+      ?>
+      <div class="relative-films">
+        <div class="field-label province-labels">فرصت های سرمایه گذاری:</div>
+        <div class="carousel">
+          <?php print views_embed_view('province_films', 'block', $content['field_province']['#items'][0]['tid']); ?>
+        </div>
+      </div>
+    <?php endif;?>
   <?php endif;?>
 
-  <div class="relative-files">
-    <div class="field-label province-labels">فایل های مرتبط:</div>
-    <div class="carousel">
-      <?php print render($content['field_uploads']); ?>
-    </div>
-  </div>
-
-  <?php if(isset($content['field_province']['#items'][0]['tid'])):?>
-    <div class="relative-spots">
-      <div class="field-label province-labels">جاذبه های گردشگری استان:</div>
+  <?php if(!empty($content['field_uploads']['#items'][0])):?>
+    <div class="relative-files">
+      <div class="field-label province-labels">فایل های مرتبط:</div>
       <div class="carousel">
-        <?php print views_embed_view('province_films', 'block_1', $content['field_province']['#items'][0]['tid']); ?>
+        <?php print render($content['field_uploads']); ?>
       </div>
     </div>
   <?php endif;?>
 
-  <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
+  <?php
+  if(isset($content['field_province']['#items'][0]['tid'])):
+    $view = views_get_view_result('province_films', 'block_1', $content['field_province']['#items'][0]['tid']);
+    if (count($view)):
+    ?>
+      <div class="relative-spots">
+        <div class="field-label province-labels">جاذبه های گردشگری استان:</div>
+        <div class="carousel">
+          <?php print views_embed_view('province_films', 'block_1', $content['field_province']['#items'][0]['tid']); ?>
+        </div>
+      </div>
+    <?php endif;?>
+  <?php endif;?>
+
+  <?php if (!empty($content['field_tags'])): ?>
   <footer>
     <?php print render($content['field_tags']); ?>
-    <?php print render($content['links']); ?>
   </footer>
   <?php endif; ?>
 </article>
