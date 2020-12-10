@@ -15,22 +15,6 @@
  */
 function waterhouse_preprocess_page(&$variables) {
 
-	// global $user;
-	// if( $user->uid == 1 ){
-	// 	foreach($variables['page']['content']['system_main']['nodes'] as $key => $val){
-	// 		$variables['page']['content']['system_main']['nodes'][$key]['#view_mode'] = 'event';
-	// 		foreach($variables['page']['content']['system_main']['nodes'][$key] as $key1 => $val1){
-	// 			if(is_array($val1) && array_key_exists('#view_mode', $val1)){
-	// 				$variables['page']['content']['system_main']['nodes'][$key][$key1]['#view_mode'] = 'event';
-	// 			}
-	// 		}
-	// 	}
-	// 	echo '<pre>';
-	// 	print_r($variables['page']['content']['system_main']['nodes'][666]);
-	// 	echo '</pre>';
-	// 	die();
-	// }
-
 	if (isset($variables['node']->type)) {
 		$variables['theme_hook_suggestions'][] = 'page__type__' . $variables['node']->type;
 	}
@@ -43,9 +27,9 @@ function waterhouse_preprocess_page(&$variables) {
 	}
  	// $variables['navbar_classes'] .= ' container';
 	$variables['navbar_classes_array'][] = 'container-fluid';
-	
+
 /*--------------------------------------------------*/
-	
+
 	// Add information about the number of sidebars.
 	if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
 		$variables['content_column_class'] = ' class="col-sm-6"';
@@ -58,4 +42,3 @@ function waterhouse_preprocess_page(&$variables) {
 	  }
 
 }
- 

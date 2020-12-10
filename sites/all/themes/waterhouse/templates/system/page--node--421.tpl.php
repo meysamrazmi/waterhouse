@@ -1,7 +1,7 @@
 <div id="block-system-main">
 
   <section id="menu">
-    <img src="/sites/all/themes/waterhouse/images/hkuz.png"/>
+
     <?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
   </section>
 

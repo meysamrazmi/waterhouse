@@ -37,9 +37,11 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
 
-      <section id="menu" class="tourism-menu">
-        <img src="/sites/all/themes/waterhouse/images/hkuz.png"/>
-        <?php $block = module_invoke('menu', 'block_view', 'menu-tourismmain'); print render($block['content']);; ?>
+      <section id="menu" class="tourism-menu container">
+        <?php
+        $block = module_invoke('menu', 'block_view', 'menu-tourismmain');
+        print render($block['content']);
+        ?>
       </section>
       <div class="container">
         <?php print render($page['content']); ?>
@@ -61,13 +63,6 @@
   </footer>
 <?php endif; ?>
 <style>
-  .tourism-menu {
-    background: #fff;
-    box-shadow: 0 0 5px 0 #ccc;
-  }
-  .tourism-menu .menu {
-    display: flex;
-  }
   .field-name-field-icons .entity .content {
     display: flex;
     justify-content: center;
@@ -120,9 +115,10 @@
     width: 90%;
     padding: 40px 0 40px;
     border: 2px solid #fff;
-    background: #00000020;
+    background: #ffffff33;
     color: #fff;
     right: 5%;
+    text-shadow: 0 0 10px #000;
   }
   .caption_slide h1 {
     border: 2px solid;
@@ -144,19 +140,10 @@
   .province-labels:before {
     content: "";
     position: absolute;
-    width: 160px;
-    background: #ff000040;
+    width: 140px;
+    background: #2196F3;
     height: 2px;
     bottom: -10px;
-    box-shadow: 0 0px 3px red, 0 0px 3px red;
-  }
-  .relative-spots .province-labels:before {
-    background: #4caf5030;
-    box-shadow: 0 0px 3px #4CAF50, 0 0px 3px #4CAF50;
-  }
-  .relative-films .province-labels:before {
-    background: #ffc107;
-    box-shadow: 0 0px 3px #FFEB3B, 0 0px 3px #FFEB3B;
   }
   .field-name-field-uploads .field-collection-view.view-mode-full {
     padding: 0;
@@ -209,5 +196,27 @@
   }
   .node-province-spots.node-teaser .field-name-body {
     margin: 0 !important;
+  }
+  .node-province-spots.node-teaser .field-name-title h2 {
+    font-weight: 500;
+  }
+  .owl-carousel .owl-dots .owl-dot span:before {
+    width: 7px;
+    height: 6px;
+  }
+  .relative-films {
+    position: relative;
+    padding: 50px 0;
+  }
+  .relative-films:before {
+    content: "";
+    position: absolute;
+    right: calc(50% - 50vw);
+    width: 100vw;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    border: 1px solid #ddd;
+    border-width: 1px 0;
   }
 </style>
