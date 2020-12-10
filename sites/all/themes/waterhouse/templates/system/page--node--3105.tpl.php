@@ -119,7 +119,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="sad-info" >   
+	<section id="sad-info" >
 	    <div class="sad-info container">
 	        <div class="grid">
 	            <div class="tab tab--1-of-3">
@@ -431,7 +431,7 @@
 	<section id="sign">
 		<div class="container">
 			<div class="col-md-4"><p class="haz">ثبت نام عادی : ۲۴۰ هزار تومان</p></div>
-			<div class="col-md-4"><a href="http://waterhouse.ir/tourism/sign" target="_blank">ثبت نام </a></div>
+			<div class="col-md-4"><a href="/tourism/sign" target="_blank">ثبت نام </a></div>
 			<div class="col-md-4"><p class="haz">ثبت نام دانشجویی : ۱۹۰ هزار تومان</p></div>
 		</div>
 	</section>
@@ -471,7 +471,7 @@
 	<section id="pish">
 		<div class="row">
 			<div class="col-md-3 col-sm-12 col-xs-12 outer on">
-				<a href="http://waterhouse.ir/tourism/yazd" target="_blank">
+				<a href="/tourism/yazd" target="_blank">
 					<div class="out one">
 						<h3>یزد</h3>
 						<p>8 تا 11 آبان 97</p>
@@ -479,7 +479,7 @@
 				</a>
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12 outer">
-				<a href="http://waterhouse.ir/tourism/khuzestan" target="_blank">
+				<a href="/tourism/khuzestan" target="_blank">
 					<div class="out two">
 						<h3>شمال خوزستان</h3>
                         <p>14 تا 17 اسفند 97</p>
@@ -487,7 +487,7 @@
 				</a>
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12 outer">
-				<a href="http://waterhouse.ir/tourism/aras" target="_blank">
+				<a href="/tourism/aras" target="_blank">
 					<div class="out three">
 						<h3>رودخانه ارس</h3>
 						<p>1 تا 4 آبان 98</p>
@@ -495,7 +495,7 @@
 				</a>
 			</div>
 			<div class="col-md-3 col-sm-12 col-xs-12 outer">
-				<a href="http://waterhouse.ir/tourism/lar" target="_blank">
+				<a href="/tourism/lar" target="_blank">
 					<div class="out four">
 						<h3>سد لار</h3>
 						<p>23 آبان 98</p>
@@ -526,7 +526,7 @@
 		transform: translateY(-100px);
 	}
 	#places .col-md-4:hover img{
-	
+
     transform: scale(1.2);
 	}
 	#places .col-md-4{
@@ -558,7 +558,7 @@
 			 text-align: center;
 	}
 	</style>
-    <script> 
+    <script>
 		// tab sad info
 		$(document).on("click", ".sad-info .menu div", function() {
 	    	var numberIndex = $(this).index();

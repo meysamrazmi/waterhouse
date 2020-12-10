@@ -25,7 +25,7 @@
 				<div class="matn col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					می‌خوایم شما رو به یک سفر آموزنده و لذت بخش دعوت کنیم. یه سفر با محوریت آب و محیط زیست درست در همین حوالی؛
 					<br/>
-					اين دفعه مسافر دشت لار در پای سرو سپید ایران، کوه دماوند هستیم و قراره در کنار دیدنیهای منطقه از سد لار و تاسیسات اون بازدید کنیم.	
+					اين دفعه مسافر دشت لار در پای سرو سپید ایران، کوه دماوند هستیم و قراره در کنار دیدنیهای منطقه از سد لار و تاسیسات اون بازدید کنیم.
 					<br/>
 					این سفر با وجود سد و دریاچه زیبای لار و همینطور گالری ها و تاسیسات ایستگاه پمپاژ سد لار، یه مقصد مهم و پر از یادگیری برای کساییه که به صنعت آب علاقه‌مندن
 					و اینکه کوه‌های بالابلند البرز با پوشش گیاهی بی‌نظیر دشت هاش، باب طبع دوست‌داران طبیعته.
@@ -35,7 +35,7 @@
 					پس بازم شعار "هم فال و هم تماشا" ی ما پابرجاست.
 					راستی این‌بار چند تا مهمون ویژه داریم که قراره همسفرمون باشن و از همسفری و هم صحبتی باهاشون کلی درس یاد بگیریم، درس آب و زندگی؛ مشتاقانه منتظرتونیم که یه تجربه ناب دیگه رو با هم بسازیم 🙂
 				</div>
-				<div class="col col-lg-6 show-video">    
+				<div class="col col-lg-6 show-video">
 		 			<video width="400" controls>
 						<source src="/sites/default/files/manual/tour/motion-lar.mp4" type="video/mp4">
 						<source src="/sites/default/files/manual/tour/motion-lar.mp4" type="video/ogg">
@@ -43,7 +43,7 @@
 					</video>
 				</div>
 			</div>
-				
+
 			</div>
 		</section>
 		<h3 id="information" class="h3"><img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-0safar.png"/></h3>
@@ -80,7 +80,7 @@
 			</div>
 		</section>
 		<h3 id="roads" class="h3"><img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-place.png"/></h3>
-		
+
 		<section id="places">
 			<div class="row one">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -162,7 +162,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="row four">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<div id="myCarousel4" class="carousel slide" data-ride="carousel">
@@ -198,7 +198,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="sad-info" >   
+		<section id="sad-info" >
 		    <div class="sad-info container">
 		        <div class="grid">
 		            <div class="tab tab--1-of-3">
@@ -563,13 +563,13 @@
 		</section>
 		<p id="sabt" style="padding-top:75px"></p>
 		<section id="sign">
-			<a href="http://waterhouse.ir/lar/sign" target="_blank">
+			<a href="/lar/sign" target="_blank">
 				<div class="container any" style="text-align:center;">
 					ثبت نام
 				</div>
 			</a>
 		</section>
-		
+
 		<h3 id="show-poster" class="h3"><img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-poo.png"/></h3>
 		<section id="poost">
 			<div class="container">
@@ -580,7 +580,7 @@
 				<div class="col-md-3"></div>
 			</div>
 		</section>
-		
+
 		<h3 id="we" class="h3"><img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-tem.png"/></h3>
 		<section id="our">
 			<div class="container">
@@ -600,7 +600,7 @@
 							<br/>
 							<small style="color:white;font-size:10px">مسئول خانه آب ایران و مدیر سفر</small>
 						</h2>
-			
+
 			        </div>
 			    </div>
 			    <div class="col-md-4">
@@ -622,7 +622,7 @@
 					<div class="over a">
 						<div>
 							<h4>ارس</h4>
-							<a href="http://waterhouse.ir/tourism/aras" target="_blank">مشاهده</a>
+							<a href="/tourism/aras" target="_blank">مشاهده</a>
 						</div>
 					</div>
 				</div>
@@ -630,7 +630,7 @@
 					<div class="over k">
 						<div>
 							<h4>خوزستان</h4>
-							<a href="http://waterhouse.ir/tourism/khuzestan" target="_blank">مشاهده</a>
+							<a href="/tourism/khuzestan" target="_blank">مشاهده</a>
 						</div>
 					</div>
 				</div>
@@ -638,7 +638,7 @@
 					<div class="over y">
 						<div>
 							<h4>یزد</h4>
-							<a href="http://waterhouse.ir/tourism/Yazd" target="_blank">مشاهده</a>
+							<a href="/tourism/Yazd" target="_blank">مشاهده</a>
 						</div>
 					</div>
 				</div>
@@ -658,12 +658,12 @@
 			min-height:350px;
 		}
 		.matn{
-			
+
 			font-size: 14px;
 			font-weight: 500;
 		}
 	</style>
-    <script> 
+    <script>
 	    $('#timing .tab1').click(function(){
             if(!$(this).hasClass('active')){
                 $(this).addClass('active');
@@ -701,7 +701,7 @@
 	    		scrollTop: ($('#'+ $(this).attr('to-id')).offset().top)
 	    	}, 1000);
         });
-		
+
     </script>
 </div>
 <?php if (!empty($page['footer'])): ?>

@@ -37,7 +37,7 @@
             </div>
         <?php endif; ?>
     </div>
-</header> 
+</header>
 <div id="block-system-main">
 	<div>
 		<ul class="navigat">
@@ -70,7 +70,7 @@
 		<section id="video">
 			<div class="row">
 				<div class="col col-lg-3"></div>
-				<div class="col col-lg-6 show-video">    
+				<div class="col col-lg-6 show-video">
 		 			<video width="400" controls>
 						<source src="/sites/default/files/manual/tour/motion-taleghan.mp4" type="video/mp4">
 						<source src="/sites/default/files/manual/tour/motion-taleghan.mp4" type="video/ogg">
@@ -90,7 +90,7 @@
 			        <div class="details">
 			            <div class="center">
 			                <h2>آرمین نوربخش<br><span>مسئول خانه آب ایران و مدیر سفر</span></h2>
-			                <p>ما رویایی داریم. زیبا و امیدبخش. وقتی بهش فکر میکنیم چشمامون برق میزنه و دلگرم میشیم: 
+			                <p>ما رویایی داریم. زیبا و امیدبخش. وقتی بهش فکر میکنیم چشمامون برق میزنه و دلگرم میشیم:
 								</br>
 								به تصویر کشیدن تعامل مردم سرزمین مون با آب در طول تاریخ ؛ و شکل دادن خانواده آب ایران در سفرهایی بیاد ماندنی</p>
 			            </div>
@@ -208,7 +208,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<h2>سد طالقان 
+					<h2>سد طالقان
 						<br>
 						<small style="color:white">(بدنه و دریاچه)</small>
 					</h2>
@@ -232,8 +232,8 @@
 					<p class="padding">
 						<strong>معرفی : </strong>
 						تنها نیروگاهی در جهان است که زیر دریاچه سد ساخته شده است.
-						
-						
+
+
 					</p>
 					<p>
 						<strong>هدف از ساخت : </strong>
@@ -335,7 +335,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 			<div class="row four">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<div id="myCarousel4" class="carousel slide" data-ride="carousel">
@@ -566,7 +566,7 @@
 			            </div>
 			        </div>
 				</div>
-		</section> 
+		</section>
 
 		<h3 id="rec" class="h3">  <img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-lava.png"/></h3>
 		<div class="plan hidden-sm hidden-xs" style="margin: -50px 0">
@@ -646,7 +646,7 @@
 		</section>
 		<section id="sign">
 			<div class="container">
-				<a target="_blank" href="http://waterhouse.ir/taleghan/sign"><button id="pribtn">ثبت نام <small style="display:none; font-size:16px; font-weight:100">(به پایان رسید)</small></button></a>
+				<a target="_blank" href="/taleghan/sign"><button id="pribtn">ثبت نام <small style="display:none; font-size:16px; font-weight:100">(به پایان رسید)</small></button></a>
 			</div>
 		</section>
 		<h3 id="pish" class="h3"> <img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-pish.png"/></h3>
@@ -656,7 +656,7 @@
 					<div class="over k">
 						<div>
 							<h4>خوزستان</h4>
-							<a href="http://waterhouse.ir/tourism/khuzestan" target="_blank">مشاهده</a>
+							<a href="/tourism/khuzestan" target="_blank">مشاهده</a>
 						</div>
 					</div>
 				</div>
@@ -665,23 +665,23 @@
 					<div class="over y">
 						<div>
 							<h4>یزد</h4>
-							<a href="http://waterhouse.ir/tourism/Yazd" target="_blank">مشاهده</a>
+							<a href="/tourism/Yazd" target="_blank">مشاهده</a>
 						</div>
 				</div>
 				</div>
 			</div>
 		</section>
 		<div class="alert success">
-		  <span class="closebtn">&times;</span>  
-		  <a class="pop"  href="http://waterhouse.ir/taleghan/sign">
-			  ثبت نام	
+		  <span class="closebtn">&times;</span>
+		  <a class="pop"  href="/taleghan/sign">
+			  ثبت نام
 		  </a>
 		</div>
 	</div>
-	
+
 
 </div>
-	<style> 
+	<style>
 		.padding{
 			padding:0 25px;
 		}
@@ -741,7 +741,7 @@
 			color: black;
 		}
 	</style>
-    <script> 
+    <script>
         /*-------------------------برای ارام پایین رفتن دسترسی سریع کنار صفحه------------------------------*/
         $("ul.navigat li").click(function(e) {
 	    	e.preventDefault();
@@ -749,11 +749,11 @@
 	    		scrollTop: ($('#'+ $(this).attr('to-id')).offset().top)
 	    	}, 1000);
         });
-		
+
 		//pop
 		var close = document.getElementsByClassName("closebtn");
 		var i;
-		
+
 		for (i = 0; i < close.length; i++) {
 		  close[i].onclick = function(){
 		    var div = this.parentElement;

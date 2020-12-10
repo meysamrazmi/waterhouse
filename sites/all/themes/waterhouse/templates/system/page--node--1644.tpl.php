@@ -28,9 +28,9 @@
 					<div class="p"><p> سفر به سرزمین آب و آفتاب</p></div>
 				</div>
 				<div class="col col-lg-8 col-md-12 col-sm-12 col-xs-12 text" data-aos="zoom-in" data-aos-delay="150">
-					<div>ما بچه‌های خانه آب، دوباره عزم سفر کردیم و می‌خوایم شما رو هم به این سفر دعوت کنیم! 
+					<div>ما بچه‌های خانه آب، دوباره عزم سفر کردیم و می‌خوایم شما رو هم به این سفر دعوت کنیم!
 						یه سفر با محوریت آب و محیط زیست توی مام وطنمون ایران؛ البته که از فرهنگ هم توی این سفر غافل نیستیم.</br>
-						اين دفعه مسافر سرزمین آب و آفتاب! سرزمين رودهای خروشان! سرزمین هزاره‌های پیش از تاریخ هستیم! 
+						اين دفعه مسافر سرزمین آب و آفتاب! سرزمين رودهای خروشان! سرزمین هزاره‌های پیش از تاریخ هستیم!
 						بله! درست حدس زدید، خوزستان! </br>
 						خب هدفمون از انتخاب این استان و زمان سفر چی بود؟!</br>
 						دوم اینکه این استان با کلی رودخونه و سازه آبی، یه مقصد مهم و پر از یادگیری برای کساییه که به صنعت آب علاقه‌مندن! </br>
@@ -38,8 +38,8 @@
 						به خصوص که قراره با قطار گردشگری، توی دره‌های پر پیچ و خمش در پی رودخونه دز و کرخه روانه بشیم. </br>
 						چهارم اینکه خوزستان، زادگاه یکی از اولین تمدن‌های ایرانی و بشریه، و می‌ریم که رد پای این تاریخ و پیشینه  رو میون  کوچه پس کوچه‌هاش و آدماش پیدا کنیم!</br>
 						پس بازم شعار "هم فال و هم تماشا" ی ما پابرجاست.
-						راستی این‌بار چند تا مهمون ویژه داریم که قراره همسفرمون باشن و از همسفری و هم صحبتی باهاشون کلی درس یاد بگیریم، درس آب و زندگی! 
-						مشتاقانه منتظرتونیم که یه تجربه ناب دیگه رو با هم بسازیم					
+						راستی این‌بار چند تا مهمون ویژه داریم که قراره همسفرمون باشن و از همسفری و هم صحبتی باهاشون کلی درس یاد بگیریم، درس آب و زندگی!
+						مشتاقانه منتظرتونیم که یه تجربه ناب دیگه رو با هم بسازیم
 					</div>
 				</div>
 			</div>
@@ -61,7 +61,7 @@
 			                </div>
 			                <div class="mc-description">
 			                    ما رویایی داریم. زیبا و امیدبخش. وقتی بهش فکر میکنیم چشمامون برق میزنه و دلگرم میشیم:
-								به تصویر کشیدن تعامل مردم سرزمین مون با آب در طول تاریخ ؛ و شکل دادن خانواده آب ایران در سفرهایی بیاد ماندنی				
+								به تصویر کشیدن تعامل مردم سرزمین مون با آب در طول تاریخ ؛ و شکل دادن خانواده آب ایران در سفرهایی بیاد ماندنی
 			                </div>
 			            </div>
 			            <a class="mc-btn-action">
@@ -163,7 +163,7 @@
 				<p>مسئول علمی</p>
 			</div>
 			<div class="col col-lg-2 col-md-2 hidden-sm hidden-xs">
-				<img src="http://waterhouse.ir/sites/default/files/styles/200_200/public/pictures/picture-1256-1562072246.jpg?itok=U9BD9A5l" alt="میثم سلیمی"/>
+				<img src="/sites/default/files/styles/200_200/public/pictures/picture-1256-1562072246.jpg?itok=U9BD9A5l" alt="میثم سلیمی"/>
 				<h3>میثم سلیمی</h3>
 				<p>کارشناس سایت</p>
 			</div>
@@ -533,7 +533,7 @@
 						<p>کارت شناسایی</p>
 					</div>
 					<div class="box">
-						<div class="userbox">	
+						<div class="userbox">
 							<span class="fa fa-id-card"></span>
 						</div>
 						<p>دفترچه بیمه</p>
@@ -701,14 +701,14 @@
 			</div>
 		 </section>
 		<section id="sabtenam" data-aos="zoom-in" data-aos-delay="150" style="background:none;padding:10px">
-			<div class="wh" style="margin-bottom: 30px;"> 
+			<div class="wh" style="margin-bottom: 30px;">
 			    <div class="tickets">
 			        <div>
-					<!--http://waterhouse.ir/product/khuzestan-tour!-->
+					<!--/product/khuzestan-tour!-->
 			            <a style="width: 360px; min-height: 100px;">
 			                <div style="display: flex;justify-content: center;align-items: center;color: white;font-weight: 500;font-size: 23px;padding: 18px 15px 0px 15px;"><span> مهلت ثبت نام به پایان رسید </span></div>
 			            </a>
-			            <a href="http://waterhouse.ir/Khuzestan-Survey" style="width: 360px; min-height: 100px; background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);" target="_blank">
+			            <a href="/Khuzestan-Survey" style="width: 360px; min-height: 100px; background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);" target="_blank">
 			                <div style="display: flex;justify-content: center;align-items: center;color: white;font-weight: 500;font-size: 23px;padding: 18px 15px 0px 15px;"><span>  نظرسنجی آنلاین  </span></div>
 			                <span class="sabtenam">  </span>
 			            </a>
@@ -739,7 +739,7 @@
 			            اولین برنامه گردشگری آب : سفر به شهر قنات و قنوت و قناعت
 			        </p>
 			        <div class="city_link" style="margin-left:75px">
-			            <a href="http://waterhouse.ir/tourism/Yazd">مشاهده</a>
+			            <a href="/tourism/Yazd">مشاهده</a>
 			        </div>
 			    </div>
 			</div>

@@ -183,7 +183,7 @@
 						<p>زمان بازدید: روز دوم 11:30 الی 11</p>
 					</div>
 				</div>
-				
+
 			</div>
 		<div class="row sec4">
 			<div class="col-md-4">
@@ -454,14 +454,14 @@
 		        </div>
 		    </div>
 		</div>
-	</section> 
+	</section>
 	<h3 id="rec" class="h3"> <img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-lava.png"></h3>
 
 	<h3 id="pish" class="h3"> <img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-pish.png"></h3>
 	<section id="tours">
 		<div class="row">
 			<div class="tour one">
-				<a href="http://waterhouse.ir/tourism/yazd" target="_blank">
+				<a href="/tourism/yazd" target="_blank">
 					<div class="over">
 						<h3>یزد</h3>
 						<p>8 تا 11 آبان 97</p>
@@ -470,7 +470,7 @@
 				</a>
 			</div>
 			<div class="tour two">
-				<a href="http://waterhouse.ir/tourism/khuzestan" target="_blank">
+				<a href="/tourism/khuzestan" target="_blank">
 					<div class="over">
 						<h3>شمال خوزستان</h3>
 						<p>14 تا 17 اسفند 97</p>
@@ -479,7 +479,7 @@
 				</a>
 			</div>
 			<div class="tour three">
-				<a href="http://waterhouse.ir/tourism/aras" target="_blank">
+				<a href="/tourism/aras" target="_blank">
 					<div class="over">
 						<h3>رودخانه ارس</h3>
 						<p>1 تا 4 آبان 98</p>
@@ -488,7 +488,7 @@
 				</a>
 			</div>
 			<div class="tour four">
-				<a href="http://waterhouse.ir/tourism/lar" target="_blank">
+				<a href="/tourism/lar" target="_blank">
 					<div class="over">
 						<h3>سد لار</h3>
 						<p>23 آبان 98</p>
@@ -497,7 +497,7 @@
 				</a>
 			</div>
 			<div class="tour five">
-				<a href="http://waterhouse.ir/tourism/amirkabir" target="_blank">
+				<a href="/tourism/amirkabir" target="_blank">
 					<div class="over">
 						<h3>سد امیرکبیر</h3>
 						<p>14 آذر 98</p>
@@ -562,8 +562,8 @@
 		transform:translateY(-150px)
 	}
 	</style>
-    <script> 
-	
+    <script>
+
 	    $('#timing .tab1').click(function(){
             if(!$(this).hasClass('active')){
                 $(this).addClass('active');

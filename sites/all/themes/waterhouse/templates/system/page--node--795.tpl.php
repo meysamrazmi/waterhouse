@@ -48,7 +48,7 @@
 	        </header>
             <p data-aos="fade-up" data-aos-delay="1100" class="desc" style="word-spacing:1px; margin-top: 31px; font-family: fanum;"> گزارش نشست و نمایشگاه تخصصی؛  ستاد وزارت نیرو  </p>
             <p data-aos="fade-up" data-aos-delay="1100" class="desc" style="word-spacing:1px; margin-top: 24px; font-family: fanum;"> برگزار شده در تاریخ 21 و 22 آذرماه 1396 </p>
-            <a href="#navigat"  data-aos-delay="1800"  class="scroll" data-aos="zoom-out" data-aos-anchor-placement="top-bottom"></a> 
+            <a href="#navigat"  data-aos-delay="1800"  class="scroll" data-aos="zoom-out" data-aos-anchor-placement="top-bottom"></a>
         </div>
         <div class="newlogo" data-aos-delay="2400" data-aos="zoom-out">
             <img src="./sites/all/themes/waterhouse/images/land/loole.png" width="90" height="90" alt="نشست و نمایشگاه تخصصی توانمندی های داخلی تولید و کاربرد انواع لوله در بخش آب کشور" title="نشست و نمایشگاه تخصصی توانمندی های داخلی تولید و کاربرد انواع لوله در بخش آب کشور">
@@ -71,7 +71,7 @@
                </a>
                <a href="#statement" class="navi" data-aos="fade-up" data-aos-delay="950" >
                    <span> بیانیه همایش </span>
-               </a>                
+               </a>
                <a href="#virtual" class="navi" data-aos="fade-up" data-aos-delay="950" >
                    <span>نمایشگاه مجازی</span>
                </a>
@@ -130,30 +130,30 @@
            <h2 data-aos="fade-down-left" data-aos-delay="850">برگزارکنندگان همایش، انجمن ها و سندیکاهای شرکت های تولیدکننده</h2>
                <!--<img src="../conf/images/logo-bg.jpg" alt="logo-pipeline" width="100%" height="auto" >!-->
             <div>
-               <a data-aos="fade-up" data-aos-delay="900" class="logo" href="http://waterhouse.ir/sandika/steel" target="_blank">
+               <a data-aos="fade-up" data-aos-delay="900" class="logo" href="/sandika/steel" target="_blank">
                    <!--<img src="./images/logo1.png" width="90" height="90" alt="سندیکای تولیدکنندگان لوله و پروفیل فولادی ایران" title="سندیکای تولیدکنندگان لوله و پروفیل فولادی ایران"> -->
                    <span>تولیدکنندگان لوله های فولادی</span>
                    <span class="more"><span>صفحه اختصاصی</span></span>
                </a>
-               <a data-aos="fade-up" data-aos-delay="900" class="logo" href="http://waterhouse.ir/sandika/pe" target="_blank">
+               <a data-aos="fade-up" data-aos-delay="900" class="logo" href="/sandika/pe" target="_blank">
                    <!--<img src="./images/logo2.png" width="90" height="90" alt="انجمن صنفی تولیدکنندگان لوله و اتصالات پلی اتیلن" title="انجمن صنفی تولیدکنندگان لوله و اتصالات پلی اتیلن"> -->
                    <span>تولیدکنندگان لوله های پلی اتیلن</span>
                    <span class="more"><span>صفحه اختصاصی</span></span>
                </a>
-               <a data-aos="fade-up" data-aos-delay="900" class="logo" href="http://waterhouse.ir/sandika/composite" target="_blank">
+               <a data-aos="fade-up" data-aos-delay="900" class="logo" href="/sandika/composite" target="_blank">
                    <!--<img src="./images/logo3.png" width="90" height="90" alt="انجمن کامپوزیت ایران" title="انجمن کامپوزیت ایران">-->
                    <span>تولیدکنندگان لوله های کامپوزیت </span>
                    <span class="more"><span>صفحه اختصاصی</span></span>
                </a>
-               <a data-aos="fade-up" data-aos-delay="1200" class="logo" href="http://waterhouse.ir/sandika/cast-iron" target="_blank">
+               <a data-aos="fade-up" data-aos-delay="1200" class="logo" href="/sandika/cast-iron" target="_blank">
                    <span>تولیدکنندگان لوله های چدنی</span>
                    <span class="more"><span>صفحه اختصاصی</span></span>
-               </a>                
-               <a data-aos="fade-up" data-aos-delay="1200" class="logo" href="http://waterhouse.ir/sandika/pvc" target="_blank">
+               </a>
+               <a data-aos="fade-up" data-aos-delay="1200" class="logo" href="/sandika/pvc" target="_blank">
                    <span>تولید کنندگان لوله و اتصالات پی وی سی</span>
                    <span class="more"><span>صفحه اختصاصی</span></span>
                </a>
-               <a data-aos="fade-up" data-aos-delay="1200" class="logo" href="http://waterhouse.ir/sandika/transfer" target="_blank">
+               <a data-aos="fade-up" data-aos-delay="1200" class="logo" href="/sandika/transfer" target="_blank">
                    <span>تولید کنندگان پوشش لوله خطوط انتقال</span>
                    <span class="more"><span>صفحه اختصاصی</span></span>
                </a>
@@ -171,7 +171,7 @@
             </div>
             <div class="bought-package" data-aos="zoom-in-up" data-aos-delay="1100" >
                 <div class="muted">
-                    برای خرید پکیج فایل ها و فیلم ها با تخفیف ویژه به <span class="to-end" to-id="discount-box" >انتهای بخش</span> مراجعه کنید. 
+                    برای خرید پکیج فایل ها و فیلم ها با تخفیف ویژه به <span class="to-end" to-id="discount-box" >انتهای بخش</span> مراجعه کنید.
                 </div>
             </div>
             <!-- tab1 -->
@@ -192,14 +192,14 @@
                         <p class="description">چشم‌انداز بخش آب وزارت نیرو رعايت حقوق کليه ذی نفعان و دسترسی عادلانه همگان به آب سالم و کافی و ماموريت بخش آب مديريت پايدار کمی و کيفی منابع و مصارف آب، عرضه آب مطمئن، کافی و قابل مصرف متناسب با ظرفيت‌های ملی در جهت ارتقاء بهداشت، رفاه اجتماعی و توسعه پايدار است که در این ارتباط برنامه های عملیاتی را به اجرا در می آورند از جمله اجرای طرح های انتقال آب از دیدگاه توسعه پایدار، با رعایت حقوق ذی‌نفعان و برای تامین نیازهای مختلف مصرف، مشروط به توجیهات فنی، اقتصادی، اجتماعی و منافع ملی.</p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <a class="colorbox-time" href="http://waterhouse.ir/iframe/873" target="_self">
-                                   پیش نمایش فیلم سخنرانی   
+                                <a class="colorbox-time" href="/iframe/873" target="_self">
+                                   پیش نمایش فیلم سخنرانی
                                 </a>
                                 <a class="download-time buybox-hover" href="/sites/default/files/Dr%20shafie_x264_1_0.mp4" target="_self" title="دانلود فیلم"download="Film Sokhanrani Dr.shafiee"> </a>
                             </div>
                             <div class="buybox-part">
                                 <a class="colorbox-time" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f01-EngShafei.pdf" target="_self">
-                                   پیش نمایش فایل سخنرانی   
+                                   پیش نمایش فایل سخنرانی
                                 </a>
                                 <a class="download-time buybox-hover" href="/sites/default/files/manual/pipe-landing/pdf/01-EngShafei.pdf" target="_self"title="دانلود فایل" download="File Sokhanrani Dr.shafiee"></a>
                             </div>
@@ -221,9 +221,9 @@
                         <h3 class="title">سخنرانی افتتاحیه</h3>
                         <p class="description"></p>
                         <div class="buybox">
-                            <div class="buybox-part"> 
-                                <a class="colorbox-time" href="http://waterhouse.ir/iframe/874" target="_self">
-                                  پیش نمایش فیلم سخنرانی  
+                            <div class="buybox-part">
+                                <a class="colorbox-time" href="/iframe/874" target="_self">
+                                  پیش نمایش فیلم سخنرانی
                                 </a>
                                 <a class="download-time buybox-hover" href="/sites/default/files/Daemi_x264_1_0.mp4" title="دانلود فایل"  target="_self" download="Film Sokhanrani Dr.Daemi"> </a>
                             </div>
@@ -246,14 +246,14 @@
                         <p class="description">وضعيت طرح های اجرايی، بهره برداری و در دست مطالعه انتقال آب و نيازمندی های كنونی و آتی انواع لوله</p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <a class="colorbox-time" href="http://waterhouse.ir/iframe/875" target="_self">
-                                   پیش نمایش فیلم سخنرانی  
+                                <a class="colorbox-time" href="/iframe/875" target="_self">
+                                   پیش نمایش فیلم سخنرانی
                                 </a>
-                                <a class="download-time buybox-hover" href="http://waterhouse.ir/sites/default/files/Dr.hasani_x264_1_0.mp4" title="دانلود فیلم"target="_self"  download="Film Sokhanrani Dr.Hasani">  </a>
+                                <a class="download-time buybox-hover" href="/sites/default/files/Dr.hasani_x264_1_0.mp4" title="دانلود فیلم"target="_self"  download="Film Sokhanrani Dr.Hasani">  </a>
                             </div>
                             <div class="buybox-part">
                                 <a class="colorbox-time" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f03-Dr.hasani.pdf" target="_self">
-                                   پیش نمایش فایل سخنرانی  
+                                   پیش نمایش فایل سخنرانی
                                 </a>
                                 <a class="download-time buybox-hover" href="/sites/default/files/manual/pipe-landing/pdf/03-Dr.hasani.pdf" target="_self"title="دانلود فایل" download="File Sokhanrani Dr.Hasani">  </a>
                             </div>
@@ -277,16 +277,16 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-173 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-173 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-173">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-173" name="attributes[11][173]" value="173" class="form-checkbox">
-                                           خرید فیلم ارائه بابک دیانت پی: 10,000+ تومان 
+                                           خرید فیلم ارائه بابک دیانت پی: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/847" title="پیش نمایش فایل" target="_self"> </a>
+                                <a class="colorbox-time preview" href="/iframe/847" title="پیش نمایش فایل" target="_self"> </a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-220 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-220 form-type-checkbox checkbox">
                                     <label  class="control-label" for="edit-attributes-11-220">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-220" name="attributes[11][220]" value="220" class="form-checkbox">
                                         خرید فایل ارائه بابک دیانت پی: 5,000+ تومان
@@ -311,19 +311,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-174 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-174 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-174">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-174" name="attributes[11][174]" value="174" class="form-checkbox">
-                                           خرید فیلم ارائه فرزانه خرمیان: 10,000+ تومان 
+                                           خرید فیلم ارائه فرزانه خرمیان: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/848" title="پیش نمایش فیلم" target="_self">  </a>
+                                <a class="colorbox-time preview" href="/iframe/848" title="پیش نمایش فیلم" target="_self">  </a>
                             </div>
                             <div class="buybox-part">
                                 <div class="form-item form-item-attributes-11-209 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-209">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-209" name="attributes[11][209]" value="209" class="form-checkbox">
-                                        خرید فایل ارائه فرزانه خرمیان: 5,000+ تومان 
+                                        خرید فایل ارائه فرزانه خرمیان: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f05-Pages-from-PVC-Anjoman.pdf" title="پیش نمایش فایل" target="_self"> </a>
@@ -345,19 +345,19 @@
                         <p class="description">در این مقاله، ابتدا انجمن کامپوزیت ایران و کمیته لوله انجمن کامپوزیت معرفی می شود، سپس به معرفی لوله کامپوزیت و بیان خصوصیات فنی لوله کامپوزیت و ویژگی ها و مزایای آن پرداخته می شود، در ادامه روش-های تولید لوله GRP و تولیدکنندگان داخلی این لوله معرفی می شوند و ظرفیت تولید داخلی مورد بررسی واقع می شود. درنهایت، چالش های صنعت لوله کامپوزیت در سه بخش چالش های طراحی و بهره برداری، چالش های کیفیتی و چالش های تولیدکنندگان بیان می شود و نقاط قابل بهبود‌ در حوزه این فناوری به صورت کلان معرفی می گردند.</p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-175 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-175 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-175">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-175" name="attributes[11][175]" value="175" class="form-checkbox">
-                                        خرید فیلم ارائه رهام رفیعی: 10,000+ تومان 
+                                        خرید فیلم ارائه رهام رفیعی: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/849" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/849" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-207 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-207 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-207">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-207" name="attributes[11][207]" value="207" class="form-checkbox">
-                                        خرید فایل ارائه رهام رفیعی: 5,000+ تومان 
+                                        خرید فایل ارائه رهام رفیعی: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f06-Pages-from-RMR-COMP-WAT03.pdf" title="پیش نمایش  فایل" target="_self"> </a>
@@ -379,19 +379,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-176 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-176 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-176">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-176" name="attributes[11][176]" value="176" class="form-checkbox">
-                                        خرید فیلم ارائه عبدالحمید قدیمی: 10,000+ تومان 
+                                        خرید فیلم ارائه عبدالحمید قدیمی: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/850" title="پیش نمایش فیلم" target="_self">  </a>
+                                <a class="colorbox-time preview" href="/iframe/850" title="پیش نمایش فیلم" target="_self">  </a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-234 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-234 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-234">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-234" name="attributes[11][234]" value="234" class="form-checkbox">
-                                        خرید فایل ارائه عبدالحمید قدیمی: 5,000+ تومان 
+                                        خرید فایل ارائه عبدالحمید قدیمی: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f07-Pages-from-Cast-Iron.pdf" title="پیش نمایش فایل" target="_self">  </a>
@@ -417,19 +417,19 @@
                         <p class="description">لوله های پلیمری به دلیل مزیت های قابل توجهشان مانند دوام خوب، مقاومت به خوردگی، قیمت پایین، نصب آسان و غیره، به طور گسترده ای جایگزین لوله های فلزی قدیمی برای آب آشامیدنی شده اند. در طول این پیشرفت و تغییر، انواع مختلفی از لوله های پلاستیکی مانند PVC، PE و PP عمدتاً در شبکه های توزیع آب آشامیدنی در سراسر دنیا استفاده شده اند. بر اساس تخمین آژانس حفاظت محیط زیست آمریکا(EPA) ؛ در طول 20 سال آینده، آمریکا بین 20 تا 22 میلیون دلار برای تعمیر و جایگزینی زیرساخت های سیستم های آب آشامیدنی هزینه خواهد کرد و قابل ذکر است که در شمال آمریکا معروف ترین لوله های پلیمری؛ PVC و PE می باشند. در برنامه ملی پنج ساله دهم چین، لوله های پلاستیکی در شبکه های آب آشامیدنی شهری استفاده شدند و در سال 2015، 80% از کل لوله های مورد مصرف در سیستم توزیع آب را به خود اختصاص دادند. بنابراین، استفاده از مواد پلیمری در انتقال آب از واحدهای تصفیه آب به محل های مصرف آب آشامیدنی رو به افزایش است.</p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-177 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-177 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-177">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-177" name="attributes[11][177]" value="177" class="form-checkbox">
-                                        خرید فیلم ارائه پریسا جهانمرد: 10,000+ تومان 
+                                        خرید فیلم ارائه پریسا جهانمرد: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/851" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/851" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-224 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-224 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-224">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-224" name="attributes[11][224]" value="224" class="form-checkbox">
-                                        خرید فایل ارائه پریسا جهانمرد: 5,000+ تومان 
+                                        خرید فایل ارائه پریسا جهانمرد: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f08-Pages-from-PVC-Panel01.pdf" title="پیش نمایش فایل"target="_self"></a>
@@ -451,19 +451,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-178 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-178 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-178">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-178" name="attributes[11][178]" value="178" class="form-checkbox">
-                                        خرید فیلم ارائه روزبه آقامجیدی: 10,000+ تومان 
+                                        خرید فیلم ارائه روزبه آقامجیدی: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/852" title="پیش نمایش فیلم" target="_self"></a>
-                            </div>    
+                                <a class="colorbox-time preview" href="/iframe/852" title="پیش نمایش فیلم" target="_self"></a>
+                            </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-212 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-212 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-212">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-212" name="attributes[11][212]" value="212" class="form-checkbox">
-                                       خرید فایل ارائه روزبه آقامجیدی: 5,000+ تومان 
+                                       خرید فایل ارائه روزبه آقامجیدی: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f09-PANEL1ROOZBEH-AGHAMAJIDI.pdf"  title="پیش نمایش فایل" target="_self"></a>
@@ -485,19 +485,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-179 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-179 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-179">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-179" name="attributes[11][179]" value="179" class="form-checkbox">
-                                        خرید فیلم ارائه سجاد مقتدر: 10,000+ تومان 
+                                        خرید فیلم ارائه سجاد مقتدر: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/853" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/853" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-227 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-227 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-227">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-227" name="attributes[11][227]" value="227" class="form-checkbox">
-                                       خرید فایل ارائه سجاد مقتدر: 5,000+ تومان 
+                                       خرید فایل ارائه سجاد مقتدر: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f10-Pagesfrom-Cast-Iron-Panel 01.pdf"   title="پیش نمایش فایل" target="_self"></a>
@@ -519,19 +519,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-180 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-180 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-180">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-180" name="attributes[11][180]" value="180" class="form-checkbox">
-                                        خرید فیلم ارائه حامد جباری: 10,000+ تومان 
+                                        خرید فیلم ارائه حامد جباری: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/854" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/854" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-232 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-232 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-232">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-232" name="attributes[11][232]" value="232" class="form-checkbox">
-                                        خرید فایل ارائه حامد جباری: 5,000+ تومان 
+                                        خرید فایل ارائه حامد جباری: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f11-POLYETHYLENE-PANEL1-MR HAMED-JABBARI.pdf" title="پیش نمایش فایل" target="_self"></a>
@@ -553,10 +553,10 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-181 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-181 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-181">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-181" name="attributes[11][181]" value="181" class="form-checkbox">
-                                        خرید فیلم پرسش و پاسخ پنل اول: 10,000+ تومان 
+                                        خرید فیلم پرسش و پاسخ پنل اول: 10,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview"  href="" title="پیش نمایش فیلم"  target="_self"></a>
@@ -582,19 +582,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-182 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-182 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-182">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-182" name="attributes[11][182]" value="182" class="form-checkbox">
-                                        خرید فیلم ارائه عصایی: 10,000+ تومان 
+                                        خرید فیلم ارائه عصایی: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/855" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/855" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-214 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-214 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-214">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-214" name="attributes[11][214]" value="214" class="form-checkbox">
-                                        خرید فایل ارائه عصایی: 5,000+ تومان 
+                                        خرید فایل ارائه عصایی: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f13-Flood-Panel2-dr-asayee.pdf" title="پیش نمایش فایل" target="_self"></a>
@@ -616,19 +616,19 @@
                         <p class="description">كشور ايران بر روي كمربند زلزله واقع شده است، بنابراين پرداختن به برنامه هاي پدافند غيرعامل و مديريت بحران و آماده سازي جهت مقابله با اين شرايط بسيار حائز اهميت است. از اين منظر مقاوم سازی شبكه های آبرسانی و آبرسانی در بحران داراي اهميت ويژه ايست كه شركت لوله و ماشين سازی ايران هم محصولاتی را با همين اهداف به توليد رسانده است: لوله هاي چدن نشكن مقاوم به زلزله و مخازن چدن نشكن مقاوم به زلزله محصولاتی هستند كه در زمينه ايمن سازی شبكه های آبرسانی و آبرسانی در شرايط بحرانی كاربرد دارند.</p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-183 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-183 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-183">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-183" name="attributes[11][183]" value="183" class="form-checkbox">
-                                        خرید فیلم ارائه فریبا تشکری: 10,000+ تومان 
+                                        خرید فیلم ارائه فریبا تشکری: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/856" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/856" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-221 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-221 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-221">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-221" name="attributes[11][221]" value="221" class="form-checkbox">
-                                        خرید فایل ارائه فریبا تشکری: 5,000+ تومان 
+                                        خرید فایل ارائه فریبا تشکری: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f14-Pages-from-Cast-Iron-Panel02.pdf"  title="پیش نمایش فایل" target="_self"></a>
@@ -650,19 +650,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-184 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-184 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-184">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-184" name="attributes[11][184]" value="184" class="form-checkbox">
-                                        خرید فیلم ارائه هوسپ هارطونیان: 10,000+ تومان 
+                                        خرید فیلم ارائه هوسپ هارطونیان: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/857" title="پیش نمایش فیلم" target="_self"></a>
-                            </div>    
+                                <a class="colorbox-time preview" href="/iframe/857" title="پیش نمایش فیلم" target="_self"></a>
+                            </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-208 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-208 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-208">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-208" name="attributes[11][208]" value="208" class="form-checkbox">
-                                        خرید فایل ارائه هوسپ هارطونیان: 5,000+ تومان 
+                                        خرید فایل ارائه هوسپ هارطونیان: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f15-POLYETHYLENE-PANEL2-MR-HOSEP-HARTUNIAN.pdf" title="پیش نمایش فایل" target="_self"></a>
@@ -684,19 +684,19 @@
                         <p class="description">لوله و اتصالات پی وی سی سخت قدیمی ترین لوله پلیمری در صنعت آب و فاضلاب در سطح بین الملل و ایران است. این لوله ها پس از جنگ جهانی دوم در کشورهای آلمان و آمریکا برای اصلاح خسارت های وارد شده به زیر ساخت ها استفاده شده است. لوله های پی وی سی سخت در ایران نیز قدمتی شصت ساله دارد. با توجه به بهینه سازی روش های اتصال این لوله ها و همچنین اصلاح خواص لوله، پیش بینی می گردد میزان تولید و استفاده از این لوله ها در آینده افزایش خواهد داشت. در این مقاله پس از معرفی تاریخچه و ویژگی های لوله و اتصالات پی وی سی به بررسی سوابق کشورهای مختلف صنعتی دنیا در استفاده از این لوله ها و تاثیرات عوامل محیطی بر روی شبکه های لوله گذاری شده پرداخته می شود.</p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-185 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-185 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-185">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-185" name="attributes[11][185]" value="185" class="form-checkbox">
-                                        خرید فیلم ارائه دکتر صباغی: 10,000+ تومان 
+                                        خرید فیلم ارائه دکتر صباغی: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/858" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/858" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-216 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-216 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-216">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-216" name="attributes[11][216]" value="216" class="form-checkbox">
-                                        خرید فایل ارائه دکتر صباغی: 5,000+ تومان 
+                                        خرید فایل ارائه دکتر صباغی: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f16-Pages-from-PVC-Design_Earthquake-Final.pdf"      title="پیش نمایش فایل" target="_self"></a>
@@ -718,10 +718,10 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-186 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-186 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-186">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-186" name="attributes[11][186]" value="186" class="form-checkbox">
-                                        خرید فیلم پرسش و پاسخ پنل دوم: 10,000+ تومان 
+                                        خرید فیلم پرسش و پاسخ پنل دوم: 10,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href=""  title="پیش نمایش فیلم" target="_self"></a>
@@ -752,19 +752,19 @@
                         <p class="description"> امروزه در دنیا انواع و اقسام لوله برای انتقال آب و پساب تولید می شوند که هر کدام از آنها می بایست دقیقاً متناسب با نیازهای طرح سفارش و مورد استفاده قرار گیرند. در سال های اخیر کاهش بسیار شدید اعتبارات عمومی دولتی جهت اجرای طرح های عمرانی، ضرورت و نیاز به استفاده از ظرفیت های سرمایه گذاری بخش خصوصی جهت تامین مالی و سرمایه گذاری و اجرای طرح احداث خط دوم انتقال پساب تصفیه خانه جنوب تهران به دشت ورامین را بوجود آورد. کلیات طرح استفاده از یک خط لوله پلی اتیلن تقویت شده با ورق های فولادی و با قطر 3 متر و با دبی 9 متر مکعب بر ثانیه در طول 36 کیلومتر بوده است. سامانه انتقال سالانه 280 میلیون متر مکعب از پساب های تصفیه خانه جنوب تهران را به دشت های ورامین، پاکدشت و شهر ری تحت رژیم کم فشار منتقل نماید. حجم سرمایه گذاری صرفاً برای خط انتقال بالغ بر 1300 میلیارد ریال بر اساس قیمت های سال 92 بوده و حداکثر هشتاد درصد هزینه مذکور می تواند ازجانب موسسات پولی و بانک هـا در قالب تسهیلات تـامین گردد. از آنجا که انجام کار به روش bot مد نظر بوده است سرمایه گذار به شرط رعایت الزامات فنی مختار بوده که نوع لوله را خود انتخاب نماید. استفاده از این لوله ها و در این قطر برای نخستین بار در کشور در حال اجرا می باشد. در این طرح باستناد ماده 142 قـانون بـرنامه پنجم توسعه، بهـره برداری از 30 میلیون متر مکعب از کل پساب انتقالی طی مدت 15 سال به سرمایه گذار برنده مناقصه واگذار و از این طریق عمده سرمایه و سود انتظاری سرمایه گذار بازیافت می گردد. سالانه 250 میلیون متر مکعب از پساب انتقالی طی مدت 15 سال بصورت تضمینی از سرمایه گذار خریداری می شود تا مشوقی برای سرمایه گذار باشد.</p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-187 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-187 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-187">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-187" name="attributes[11][187]" value="187" class="form-checkbox">
-                                        خرید فیلم ارائه علی حسین معیدی نیا: 10,000+ تومان 
+                                        خرید فیلم ارائه علی حسین معیدی نیا: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/859"  title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/859"  title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-217 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-217 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-217">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-217" name="attributes[11][217]" value="217" class="form-checkbox">
-                                        خرید فایل ارائه علی حسین معیدی نیا: 5,000+ تومان 
+                                        خرید فایل ارائه علی حسین معیدی نیا: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f18-Pages-from-SRPE-moaidi-nia.pdf"  title="پیش  نمایش فایل" target="_self"></a>
@@ -788,19 +788,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-188 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-188 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-188">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-188" name="attributes[11][188]" value="188" class="form-checkbox">
-                                        خرید فیلم ارائه حسین جمشیدی: 10,000+ تومان 
+                                        خرید فیلم ارائه حسین جمشیدی: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/860" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/860" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-219 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-219 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-219">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-219" name="attributes[11][219]" value="219" class="form-checkbox">
-                                        خرید فایل ارائه حسین جمشیدی: 5,000+ تومان 
+                                        خرید فایل ارائه حسین جمشیدی: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f19-Pages-from-02.Golestan-Cast-iron.pdf"      title="پیش نمایش فایل" target="_self"></a>
@@ -822,19 +822,19 @@
                         <p class="description">با توجه به اینکه در فرآیند تولید لوله های فایبرگلاس از مواد اولیه متفاوت با کیفیت های مختلف و از طرف دیگر از روش های تولید و ماشین آلات و تجهیزات متفاوتی استفاده می گردد، لذا لوله های تولید شده از کیفیت یکسانی برخوردار نبوده و ضروری است تست های ثانویه ای بعد از تولید لوله ها انجام گردد تا از تطابق لوله های تولید شده با استانداردهای موجود اطمینان حاصل شود. جهت این امر کارفرما یا خریدار می تواند سیستم یا شخصی را به عنوان سیستم بازرسی در محل کارخانه تولید مستقر نماید، از سوی دیگر می توان آزمایشات تکمیلی را در مراحل پس از تولید و حتی در حین اجرا جهت اطمینان از کیفیت لوله ها انجام داد. در این مقاله به بررسی آزمایشات فیزیکی، مکانیکی و شیمیایی که پس از تولید لوله ها قابل انجام است پرداخته می-شود و طبق ارایه استاندارد ها و معیارها برای هر کمیت، یک سری نکات قراردادی مشخص در ساخت لوله های فایبرگلاس نیز ذکر می گردد. چرا که برای برخی کمیت ها مقدار خاصی در استانداردهای موجود ذکر نشده است و ضروری است، کارفرمای طرح در زمان انعقاد قرارداد میزان و مقدار برخی کمیت ها را با توجه به مشخصات فنی طرح مورد نظر، ذکر نماید تا سازنده ملزم به رعایت آنها گردد.</p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-189 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-189 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-189">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-189" name="attributes[11][189]" value="189" class="form-checkbox">
-                                        خرید فیلم ارائه منا امیدواری نیا: 10,000+ تومان 
+                                        خرید فیلم ارائه منا امیدواری نیا: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/861" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/861" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-228 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-228 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-228">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-228" name="attributes[11][228]" value="228" class="form-checkbox">
-                                        خرید فایل ارائه منا امیدواری نیا: 5,000+ تومان 
+                                        خرید فایل ارائه منا امیدواری نیا: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f20-Pages-from-final-seminar-presentation.pdf"   title="پیش نمایش فایل" target="_self"></a>
@@ -854,23 +854,23 @@
                     <div class="left">
                         <h3 class="title"> تجربیات اجرای خطوط فولادی در مناطق کویری و مرکزی کشور </h3>
                         <p><strong> ارائه کنندگان: </strong>امید طاهری زاده، علی اکبر رضایی، روح ا.. کریم زاده اصفهانی، مهسا نوری</p>
-                        <p class="description">با افزایش جمعیت و گسترش شهرنشینی، بحران آب هر روز شدید و شدیدتر می‌گردد. در حال حاضر در کشور ما با اقلیم نیمه صحرائی خشک تأمین آب برای مصارف شهری با مشکلات فراوانی روبرو شده است. 
+                        <p class="description">با افزایش جمعیت و گسترش شهرنشینی، بحران آب هر روز شدید و شدیدتر می‌گردد. در حال حاضر در کشور ما با اقلیم نیمه صحرائی خشک تأمین آب برای مصارف شهری با مشکلات فراوانی روبرو شده است.
                         شهر کرمان به عنوان مرکز استان کرمان از قدیمی‌ترین شهرهای ایران است که به عنوان یکی از قطب‌های مهم تاریخی، توریستی، جمعیتی، صنعتی، معدنی و اقتصادی کشور در منطقه ویژه جغرافیایی قرار گرفته است که به لحاظ مرکزیت و دارا بودن فرصت‌های فراوان اقتصادی و اجتماعی به سرعت در حال توسعه است. چاره‌جویی برای تأمین آب میان مدت و بلند مدت شهر کرمان و مناطق صنعتی اطراف، از دیرباز مطابق با سیاست‌های توسعه‌ای مطرح بوده و با طرح تأمین آب از سرشاخه‌های هلیل رود در دهه هفتاد اوج گرفت. منبع تامین آب فعلی شهر کرمان چاه های موجود در اطراف شهر و تعدادی چاه در منطقه قریه العرب می باشد. با توجه به برداشت های دائم و بیش از حد از چاه های دشت کرمان و خشکسالی های اخیر، آب سفره های زیرزمینی این منطقه کاهش یافته است و شهر را دچار کمبود آب نموده است. در چنین شرایطی طرح های آبرسانی اهمیت دو چندان پیدا می-کند. برای حل بخش عمده‌ای از مشکلات شهر کرمان طرح انتقال آب از سد صفارود (شهیدان تیموری) به شهر کرمان در نظر گرفته شد و طرح تامین آب شرب شهر کرمان در جلسات متعدد در شرکت منابع آب ایران و همچنین شرکت مهندسی آب و فاضلاب کشور و در بالاترین سطوح وزارت نیرو مطرح و کلیات آن به تصویب رسیده است.</p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-190 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-190 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-190">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-190" name="attributes[11][190]" value="190" class="form-checkbox">
-                                        خرید فیلم ارائه امید طاهری زاده: 10,000+ تومان 
+                                        خرید فیلم ارائه امید طاهری زاده: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/862" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/862" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-211 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-211 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-211">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-211" name="attributes[11][211]" value="211" class="form-checkbox">
-                                       خرید فایل ارائه امید طاهری زاده: 5,000+ تومان 
+                                       خرید فایل ارائه امید طاهری زاده: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f21-Pages-from-final-ppt.rayab.co.pdf"  title="پیش نمایش فایل" target="_self"></a>
@@ -893,19 +893,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-191 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-191 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-191">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-191" name="attributes[11][191]" value="191" class="form-checkbox">
-                                        خرید فیلم ارائه هوشنگ ملایی: 10,000+ تومان 
+                                        خرید فیلم ارائه هوشنگ ملایی: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/863" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/863" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-226 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-226 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-226">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-226" name="attributes[11][226]" value="226" class="form-checkbox">
-                                        خرید فایل ارائه هوشنگ ملایی: 5,000+ تومان 
+                                        خرید فایل ارائه هوشنگ ملایی: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f22-Pages-from-power-point-hormozghanl-96.pdf"   title="پیش نمایش فایل" target="_self"></a>
@@ -929,10 +929,10 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-192 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-192 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-192">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-192" name="attributes[11][192]" value="192" class="form-checkbox">
-                                        خرید فیلم ارائه دانش ستاری: 10,000+ تومان 
+                                        خرید فیلم ارائه دانش ستاری: 10,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="" title="پیش نمایش فیلم" target="_self"></a>
@@ -941,7 +941,7 @@
                                 <div class="form-item form-item-attributes-11-218 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-218">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-218" name="attributes[11][218]" value="218" class="form-checkbox">
-                                        خرید فایل ارائه دانش ستاری: 5,000+ تومان 
+                                        خرید فایل ارائه دانش ستاری: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f23-Pages-from-Sattari-Siphon-F.pdf"  title="پیش نمایش فایل" target="_self"></a>
@@ -964,10 +964,10 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-193 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-193 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-193">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-193" name="attributes[11][193]" value="193" class="form-checkbox">
-                                        خرید فیلم پرسش وپاسخ پنل سوم: 10,000+ تومان 
+                                        خرید فیلم پرسش وپاسخ پنل سوم: 10,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="" title="پیش نمایش فیلم" target="_self"></a>
@@ -999,19 +999,19 @@
                             •  در نظر گرفتن عرض ترانشه</br></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-194 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-194 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-194">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-194" name="attributes[11][194]" value="194" class="form-checkbox">
-                                        خرید فیلم ارائه سعید عبدی: 10,000+ تومان 
+                                        خرید فیلم ارائه سعید عبدی: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/864" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/864" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-206 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-206 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-206">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-206" name="attributes[11][206]" value="206" class="form-checkbox">
-                                       خرید فایل ارائه سعید عبدی: 5,000+ تومان 
+                                       خرید فایل ارائه سعید عبدی: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f25-Pages-from-Cast-Iron-Panel-04.pdf"  title="پیش نمایش فایل" target="_self"></a>
@@ -1033,19 +1033,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-195 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-195 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-195">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-195" name="attributes[11][195]" value="195" class="form-checkbox">
-                                        خرید فیلم ارائه پیمان زندیه: 10,000+ تومان 
+                                        خرید فیلم ارائه پیمان زندیه: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/865" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/865" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-210 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-210 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-210">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-210" name="attributes[11][210]" value="210" class="form-checkbox">
-                                       خرید فایل ارائه پیمان زندیه: 5,000+ تومان 
+                                       خرید فایل ارائه پیمان زندیه: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f26-POLYETHYLENE-PANEL4-MR-ZANDIYEH.pdf" title="پیش نمایش فایل" target="_self"></a>
@@ -1067,19 +1067,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-196 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-196 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-196">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-196" name="attributes[11][196]" value="196" class="form-checkbox">
-                                        خرید فیلم ارائه عباس ابهجی: 10,000+ تومان 
+                                        خرید فیلم ارائه عباس ابهجی: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/866" title="پیش نمایش فیلم" target="_self">   </a>
+                                <a class="colorbox-time preview" href="/iframe/866" title="پیش نمایش فیلم" target="_self">   </a>
                             </div>
-                            <div class="buybox-part">    
-                                <div class="form-item form-item-attributes-11-225 form-type-checkbox checkbox"> 
+                            <div class="buybox-part">
+                                <div class="form-item form-item-attributes-11-225 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-225">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-225" name="attributes[11][225]" value="225" class="form-checkbox">
-                                        خرید فایل ارائه عباس ابهجی: 5,000+ تومان 
+                                        خرید فایل ارائه عباس ابهجی: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f27-UPVC-Pipe-installation-service.pdf" title="پیش نمایش فایل" target="_self"></a>
@@ -1091,7 +1091,7 @@
                     <div class="right no-icon">
                         <div class="icon-dot">
                             <div class="icon"></div>
-                            <span class="dot"></span>   
+                            <span class="dot"></span>
                         </div>
                         <h4>ارائه چهارم:</h4>
                         <span class="name"> دهقان</span>
@@ -1101,19 +1101,19 @@
                         <p class="description">در این مقاله، ابتدا روش (CLSM: Controlled Low Strength Material) به عنوان روشی جدید برای نصب لوله های دفنی در مناطقی که دسترسی مناسب به خاک جانشین نظیر شن شکسته وجود ندارد معرفی شده است. سپس، مراحل اجرایی نصب میدانی لوله GRP به دو روش CLSM و شن شکسته تشریح گردیده است. تغییر شکل لوله در مراحل مختلف نصب اندازه گیری و گزارش شده است. نتایج نصب لوله به دو روش ارائه و ارزیابی شده است و در نهایت مزایا و چالش های نصب به روش CLSM بیان شده است.</p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-197 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-197 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-197">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-197" name="attributes[11][197]" value="197" class="form-checkbox">
-                                        خرید فیلم ارائه دهقان: 10,000+ تومان 
+                                        خرید فیلم ارائه دهقان: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/867"  title="پیش نمایش فیلم" target="_self"></a>
-                            </div>    
+                                <a class="colorbox-time preview" href="/iframe/867"  title="پیش نمایش فیلم" target="_self"></a>
+                            </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-229 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-229 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-229">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-229" name="attributes[11][229]" value="229" class="form-checkbox">
-                                        خرید فایل ارائه دهقان: 5,000+ تومان 
+                                        خرید فایل ارائه دهقان: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f28-Pages-from-farassan-Dr.dehghan-panel4.pdf"   title="پیش نمایش فایل" target="_self"></a>
@@ -1135,10 +1135,10 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-198 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-198 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-198">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-198" name="attributes[11][198]" value="198" class="form-checkbox">
-                                        خرید فیلم پرسش وپاسخ پنل چهارم: 10,000+ تومان 
+                                        خرید فیلم پرسش وپاسخ پنل چهارم: 10,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="" title="پیش نمایش فیلم" target="_self"></a>
@@ -1166,19 +1166,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-199 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-199 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-199">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-199" name="attributes[11][199]" value="199" class="form-checkbox">
-                                        خرید فیلم ارائه علی مظفریان: 10,000+ تومان 
+                                        خرید فیلم ارائه علی مظفریان: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/868" title="پیش نمایش فیلم" target="_self"></a>
-                            </div>    
-                            <div class="buybox-part">    
-                                <div class="form-item form-item-attributes-11-233 form-type-checkbox checkbox"> 
+                                <a class="colorbox-time preview" href="/iframe/868" title="پیش نمایش فیلم" target="_self"></a>
+                            </div>
+                            <div class="buybox-part">
+                                <div class="form-item form-item-attributes-11-233 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-233">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-233" name="attributes[11][233]" value="233" class="form-checkbox">
-                                       خرید فایل ارائه علی مظفریان: 5,000+ تومان 
+                                       خرید فایل ارائه علی مظفریان: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f30-Pages-from-Pasab-Alborz.pdf" title="پیش نمایش فایل" target="_self"></a>
@@ -1201,19 +1201,19 @@
                         ایران بعنوان امضا کننده پروتکل پاریس موظف به کاهش گازهای گلخانه ای می باشد، متاسفانه رتبه ایران در شاخص محیط زیستی  EPI در دنیا در سال 2016 و با 21 پله سقوط رتبه 105 دنیا می باشد که اصلا جایگاه مناسبی نمی باشد. در بین شاخص های محیط زیستی بدترین رتبه ایران (154) مربوط به تمایل کشورها به کاهش گاز CO2 می باشد که لذا اهمیت تغییر نگاه تصمیم گیران برای بهبود این شاخص بیش از پیش مهم و حیاتی می باشد. قطعا لزوم اضافه نمودن یک شاخص محیط زیستی برای انتخاب جنس لوله ها در پروژه ها می تواند گام مهمی در این زمینه  باشد .</p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-200 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-200 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-200">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-200" name="attributes[11][200]" value="200" class="form-checkbox">
-                                        خرید فیلم ارائه علیرضا صحاف امین: 10,000+ تومان 
+                                        خرید فیلم ارائه علیرضا صحاف امین: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/869" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/869" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-213 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-213 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-213">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-213" name="attributes[11][213]" value="213" class="form-checkbox">
-                                       خرید فایل ارائه علیرضا صحاف امین: 5,000+ تومان 
+                                       خرید فایل ارائه علیرضا صحاف امین: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f31-POLYETHYLENE-PANEL5-MR-ALIREZA-SAHAF-AMIN.pdf" title="پیش نمایش فایل"  target="_self"></a>
@@ -1235,19 +1235,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-201 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-201 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-201">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-201" name="attributes[11][201]" value="201" class="form-checkbox">
-                                        خرید فیلم ارائه احمدرضا پاکزاد: 10,000+ تومان 
+                                        خرید فیلم ارائه احمدرضا پاکزاد: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/870" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/870" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-222 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-222 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-222">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-222" name="attributes[11][222]" value="222" class="form-checkbox">
-                                       خرید فایل ارائه احمدرضا پاکزاد: 5,000+ تومان 
+                                       خرید فایل ارائه احمدرضا پاکزاد: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f32-Pages-from-PVC-Panel05.pdf" title="پیش نمایش فایل" target="_self"></a>
@@ -1269,19 +1269,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-202 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-202 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-202">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-202" name="attributes[11][202]" value="202" class="form-checkbox">
-                                        خرید فیلم ارائه محمد منصوری و احمدی: 10,000+ تومان 
+                                        خرید فیلم ارائه محمد منصوری و احمدی: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/871" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/871" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-223 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-223 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-223">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-223" name="attributes[11][223]" value="223" class="form-checkbox">
-                                       خرید فایل ارائه محمد منصوری و احمدی: 5,000+ تومان 
+                                       خرید فایل ارائه محمد منصوری و احمدی: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f33-Panel5-mansuri-mohammad.pdf"     title="پیش نمایش فایل" target="_self"></a>
@@ -1303,19 +1303,19 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-203 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-203 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-203">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-203" name="attributes[11][203]" value="203" class="form-checkbox">
-                                        خرید فیلم ارائه معصومه کاظمی مقدم: 10,000+ تومان 
+                                        خرید فیلم ارائه معصومه کاظمی مقدم: 10,000+ تومان
                                     </label>
                                 </div>
-                                <a class="colorbox-time preview" href="http://waterhouse.ir/iframe/872" title="پیش نمایش فیلم" target="_self"></a>
+                                <a class="colorbox-time preview" href="/iframe/872" title="پیش نمایش فیلم" target="_self"></a>
                             </div>
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-230 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-230 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-230">
                                         <input mablagh="5000" type="checkbox" id="edit-attributes-11-230" name="attributes[11][230]" value="230" class="form-checkbox">
-                                       خرید فایل ارائه معصومه کاظمی مقدم: 5,000+ تومان 
+                                       خرید فایل ارائه معصومه کاظمی مقدم: 5,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2f34-Cast-Iron-Panel5.pdf" title="پیش نمایش فایل" target="_self"></a>
@@ -1337,10 +1337,10 @@
                         <p class="description"></p>
                         <div class="buybox">
                             <div class="buybox-part">
-                                <div class="form-item form-item-attributes-11-204 form-type-checkbox checkbox"> 
+                                <div class="form-item form-item-attributes-11-204 form-type-checkbox checkbox">
                                     <label class="control-label" for="edit-attributes-11-204">
                                         <input mablagh="10000" type="checkbox" id="edit-attributes-11-204" name="attributes[11][204]" value="204" class="form-checkbox">
-                                        خرید فیلم پرسش وپاسخ پنل پنجم:10,000+ تومان 
+                                        خرید فیلم پرسش وپاسخ پنل پنجم:10,000+ تومان
                                     </label>
                                 </div>
                                 <a class="colorbox-time preview" href="" title="پیش نمایش فیلم" target="_self"></a>
@@ -1351,20 +1351,20 @@
             </div>
             <!-- discount -->
             <div class="discount" style="font-family: fanum;margin-top: 70px;" data-aos="zoom-in-up" data-aos-delay="1100">
-                <div class="form-item form-item-attributes-11-235 form-type-checkbox checkbox"> 
+                <div class="form-item form-item-attributes-11-235 form-type-checkbox checkbox">
                     <label class="control-label" for="edit-attributes-11-235">
                         <input mablagh="250,000" type="checkbox" id="edit-attributes-11-235" name="attributes[11][235]" value="235" class="form-checkbox">
                             خرید کل پکیج با تخفیف: 250,000+ تومان
                     </label>
                 </div>
-            </div> 
+            </div>
         </div>
     </section>
-    
+
     <section id="statement" class="panel">
         <div class="wh">
             <h2 data-aos="flip-right" data-aos-delay="400"> بیانیه همایش </h2>
-            <div data-aos="zoom-out" data-aos-delay="900" class="aboutus">                      
+            <div data-aos="zoom-out" data-aos-delay="900" class="aboutus">
                 <div class="sec-li li">
                     <div>
                         <p>در سال "اقتصاد مقاومتی؛ توليد و اشتغال"، با ميزبانی و مشاركت فعال انجمن‌ها، سنديكاها و توليدكنندگان داخلی انواع لوله و با حمايت و پشتيبانی معاونت طرح و توسعه شركت مديريت منابع آب ايران، اولين نمايشگاه و نشست تخصصی توانمندی های داخلی توليد و كاربرد انواع لوله در بخش آب كشور، توسط موسسه پژوهشی آموزشی خانه آب ايران در تاريخ 21 و 22 آذرماه 1396 در محل ستاد وزارت نيرو برگزار گرديد. همچنين تجارب ارزشمندی توسط شركت‌های آب منطقه‌ای در خصوص كاربرد انواع لوله در طرح‌های بزرگ بخش آب كشور ارائه گرديد. بر اساس جمع‌بندی صورت گرفته توسط كميته راهبری، كميته علمی و همچنين اخذ نقطه‌نظرات نمايندگان توليدكنندگان، موارد زير مورد تاكيد قرار گرفت:</p>
@@ -1394,11 +1394,11 @@
             </div>
         </div>
     </section>
-    
+
     <section id="virtual" class="panel" >
         <div class="wh">
             <h2 data-aos="flip-right" data-aos-delay="400">نمایشگاه مجازی چیست ؟</h2>
-            <div data-aos="zoom-out" data-aos-delay="900" class="aboutus">                 
+            <div data-aos="zoom-out" data-aos-delay="900" class="aboutus">
                 <div class="sec-li li">
                     <span class="icon-laptop">
                         <img src="../sites/all/themes/waterhouse/images/land/laptop.png" width="530" height="auto" alt="نمایشگاه مجازی چیست" title="نمایشگاه مجازی چیست">
@@ -1406,19 +1406,19 @@
                     <div>
                         <p> هدف "دیده شدن" است.دنیای مجازی پدیده ایست نوظهور و با توجه به قابلیت های عمیق و موثرآن چشم پوشی از آن در این عصر منجر به سبقت رقیبان در هر زمینه ای میگردد.با توجه به عرصه فعالیتی "خانه آب ایران" و به منظور تعامل بهتر تولیدکنندگان بخش صنعت لوله سازی کشور با مخاطبان خاص خود اعم از مدیران و کارشناسان دولتی،مشاوران و مجریان فعال در حوزه آب کشور؛ فضایی نو در نظر گرفته شده است.نمایشگاه مجازی این امکان را در اختیار فعالان حوزه آب قرار میدهد که محصولات،توانمندیها و فعالیت های خود را به روز در معرض دید مخاطبان خود قرار دهند و باز خوردی بسیار بیشتر از میزان فعالیت های تبلیغاتی خود داشته باشند. </p>
                         <a class="poster view" href="http://pipeline.waterhouse.ir/waterhouse" target="_blank"> مشاهده نمونه </a>
-                        <a class="poster view" href="http://waterhouse.ir/node/730" target="_blank"> ثبت نام در نمایشگاه مجازی </a>
+                        <a class="poster view" href="/node/730" target="_blank"> ثبت نام در نمایشگاه مجازی </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section> 
-    
+    </section>
+
     <section id="vijename" class="panel" >
         <div class="wh" style="padding: 50px 0px 20px 0px;">
             <h2 data-aos="flip-right" data-aos-delay="700" style="color: #fff;text-shadow: none;padding: 0px 0 10px 0px;margin: 20px 0 0 0px;"> مشارکت در ویژه نامه </h2>
-            <div data-aos="zoom-out" data-aos-delay="1100" class="aboutus">                 
+            <div data-aos="zoom-out" data-aos-delay="1100" class="aboutus">
                 <div class="sec-li li">
-                    <div style="background-color: transparent; box-shadow: none;"> 
+                    <div style="background-color: transparent; box-shadow: none;">
                         <div>
                             <p style="text-align: justify; margin-bottom: 55px; font-size:1em; color:#fff; font-family: fanum;"> همانگونه كه مستحضر هستيد، لوله از جمله پركاربردترين توليدات صنعتی در  صنعت آب می باشد و تجارب مرتبط با استفاده گسترده از انواع آن، نشان‌دهنده ضرورت ارتقاء دانش عوامل اجرايی طرح‌ها، اطلاع از آخرين فناوری ها و    دستاوردهای توليد‌كنندگان داخلی و همچنين ايجاد هماهنگی و همكاری مستمر بين مديران و تصميم‌گيران اين صنعت با توليد‌كنندگان می باشد. در اين راستا  "نشست تخصصی و نمايشگاه توانمندی های توليد و كاربرد انواع لوله در بخش آب كشور" در روزهای 21 و 22 آذرماه در محل وزارت نيرو با همكاری سندیکاها و    انجمن‌های صنفی تولیدکننده انواع لوله و تحت حمايت معاونت طرح و توسعه شركت مديريت منابع اب ايران طراحی و برگزار گردید. به همین منظور در راستای   برنامه‌های اعلامی مقام عالی وزارت در خصوص حمايت از توليد داخل، بهبود محيط كسب و كار و توانمندسازی بخش خصوصی، توسعه طرح‌های بهره‌برداری از پساب    و رعايت اصول زيست‌ محيطی و همچنین در جهت اجرایی نمودن مفاد بیانیه و نشر یافته‌های همايش مذكور، ویژه‌نامه‌ای در حال تدوین می‌باشد. از این‌رو     پویایی این اثر در گرو مشارکت مجموعه‌های فعال در این حوزه می‌باشد و نیز فرصتی متقابل را برای معرفی توانمند‌ی های علمی و تجاری کلیه مجموعه‌های    حاضر در نشست و سایر مجموعه‌هایی که در نشست حضور نداشته‌اند با تخصیص صفحات ویژه و اختصاصی، برای ايشان فراهم می‌آورد. </p>
                             <!-- <a class="poster view colorbox-time" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2ffehrest-vijename-v1.1.pdf" target="_self">فهرست مطالب</a>
@@ -1431,10 +1431,10 @@
                             <a class="poster view" href="../sites/default/files/manual/pipe-landing/pdf/Example-vijename.pdf"   target="_self">مشاهده نمونه ویژه نامه</a>
                         </div>
                         <div>
-                            <a class="poster view sabt-vije" href="http://waterhouse.ir/vijename" target="_blank"> ثبت نام در ویژه نامه </a>
+                            <a class="poster view sabt-vije" href="/vijename" target="_blank"> ثبت نام در ویژه نامه </a>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -1445,7 +1445,7 @@
             <h2> گالری فیلم </h2>
             <?php print views_embed_view('report_landing','block'); ?>
         </div>
-    </section> 
+    </section>
 
     <!-- <script type="text/javascript" src="/sites/all/themes/waterhouse/js/lib/masonry.pkgd.min.js"></script>-->
     <section id="gallery-picture" class="panel">
@@ -1455,22 +1455,22 @@
                 <div data-aos="fade-up" data-aos-delay="1500" class="page-aks">
                     <span class="icon"></span>
                     <div class="esm">تصاویر قبل همایش</div>
-                    <a class="link-pageaks" href="http://waterhouse.ir/waterchallenge/report-landing/820" target="_blank">مشاهده</a>
+                    <a class="link-pageaks" href="/waterchallenge/report-landing/820" target="_blank">مشاهده</a>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="1500" class="page-aks">
                     <span class="icon"></span>
                     <div class="esm">تصاویر همایش</div>
-                    <a class="link-pageaks" href="http://waterhouse.ir/waterchallenge/report-landing/1055" target="_blank">مشاهده</a>
+                    <a class="link-pageaks" href="/waterchallenge/report-landing/1055" target="_blank">مشاهده</a>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="1500" class="page-aks">
                     <span class="icon"></span>
                     <div class="esm">تصاویر غرفه ها</div>
-                    <a class="link-pageaks" href="http://waterhouse.ir/waterchallenge/report-landing/1056" target="_blank">مشاهده</a>
+                    <a class="link-pageaks" href="/waterchallenge/report-landing/1056" target="_blank">مشاهده</a>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="1500" class="page-aks">
                     <span class="icon"></span>
                     <div class="esm"> تصاویر پشت صحنه</div>
-                    <a class="link-pageaks" href="http://waterhouse.ir/waterchallenge/report-landing/1058" target="_blank">مشاهده</a>
+                    <a class="link-pageaks" href="/waterchallenge/report-landing/1058" target="_blank">مشاهده</a>
                 </div>
                 <div style="margin: 50px 0 -20px 0;" data-aos="fade-up" data-aos-delay="1600">
                     <!-- <a class="companylist colorbox-time" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2fCompony-list.pdf" title="پیش نمایش فایل" target="_self"> لیست شرکت های حاضر در نمایشگاه </a> -->
@@ -1478,7 +1478,7 @@
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
 
     <style>
         #navigat h4{
@@ -1792,7 +1792,7 @@
             margin: 8px 8px;
             box-sizing: border-box;
             vertical-align: top;
-            background: #fff; 
+            background: #fff;
             /* width: 131px; */
         }
         .aboutus a:hover, a.poster:hover {
@@ -1861,7 +1861,7 @@
             padding: 6px 19px;
             background-color: #f2f2f2;
             vertical-align: top;
-            margin: 10px 10px -3px 10px; 
+            margin: 10px 10px -3px 10px;
             transition: all 0.2s;
             box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
             cursor: pointer;
@@ -1877,7 +1877,7 @@
         }
         #timing .tab-section {
             display: none;
-        }        
+        }
         section#timing:before {
             background-image: url(/sites/all/themes/waterhouse/images/land/slimvideo.png);
             opacity: 0.15;
@@ -1991,7 +1991,7 @@
             width: calc(100% - 200px);
             display: inline-block;
             position: relative;
-        }   
+        }
         h3.title {
             font-size: 17px;
             margin-top: 10px;
@@ -2017,7 +2017,7 @@
             display: block;
             width: fit-content;
             width: -moz-fit-content;
-            
+
         }
         input[type="checkbox"]{
             margin-left: 5px !important;
@@ -2107,7 +2107,7 @@
         }
         .buybox a.colorbox-time,
         .buybox a.download-time{
-            position: relative; 
+            position: relative;
         }
         .buybox a.colorbox-time:focus,
         .buybox a.download-time:focus{
@@ -2448,7 +2448,7 @@
         }
         /* ---End Media--- */
     </style>
-    
+
     <script>
     	AOS.init({
     	    offset: 0,
@@ -2498,17 +2498,17 @@
         }
         /*
         * for adding multiple products to car at the same time
-        * http://waterhouse.ir/cart/add/p798_a11o30
+        * /cart/add/p798_a11o30
         */
         var mablagh = 0;
-        $('#timing .kharid').append('<p class="mablagh">'+mablagh+'</p><a href="http://waterhouse.ir/cart/add/" class="add-all-to-cart">افزودن به سبد خرید</a>');
+        $('#timing .kharid').append('<p class="mablagh">'+mablagh+'</p><a href="/cart/add/" class="add-all-to-cart">افزودن به سبد خرید</a>');
         $('#timing input').change(function(){
             var href = $('.add-all-to-cart').attr('href');
             if ($(this).is( ":checked" )) {
                 if($(this).attr('value') == 235){
                     $('#timing input[type="checkbox"]').not(this).prop("checked", false).attr('disabled',true);
                     mablagh = $('.form-item-attributes-11-235 input').attr("mablagh");
-                    $('.add-all-to-cart').attr('href', 'http://waterhouse.ir/cart/add/p798_a11o235');
+                    $('.add-all-to-cart').attr('href', '/cart/add/p798_a11o235');
                 }else {
                     if(href.indexOf('p798_a11o') > 0){
                         $('.add-all-to-cart').attr('href', href +'-');
@@ -2521,7 +2521,7 @@
                 if($(this).attr('value') == 235){
                     $('#timing input[type="checkbox"]').not(this).attr('disabled', false);
                     mablagh = 0;
-                    $('.add-all-to-cart').attr('href', 'http://waterhouse.ir/cart/add/');
+                    $('.add-all-to-cart').attr('href', '/cart/add/');
                 }
                 else{
                     var j = href.indexOf('p798_a11o' + $(this).attr('value'));
@@ -2531,10 +2531,10 @@
                             $('.add-all-to-cart').attr('href', href.substring(0, j) + href.substring(j + 13));
                         }else{
                             //dar entehast ya yekist
-                            $('.add-all-to-cart').attr('href', href.substring(0, j));			
+                            $('.add-all-to-cart').attr('href', href.substring(0, j));
                         }
                         if($('.add-all-to-cart').attr('href').slice(-1) == '-'){
-                            $('.add-all-to-cart').attr('href', $('.add-all-to-cart').attr('href').substring(0, $('.add-all-to-cart').attr('href').length - 1));				
+                            $('.add-all-to-cart').attr('href', $('.add-all-to-cart').attr('href').substring(0, $('.add-all-to-cart').attr('href').length - 1));
                         }
                     }
                     mablagh = mablagh - parseInt($(this).attr('mablagh'),10);
@@ -2546,13 +2546,13 @@
             e.preventDefault();
             window.location.href = $(this).attr('href') + "?destination=cart";
         });
-        /*--------------------------- ColorBox & Masonry ---------------------------------*/       
+        /*--------------------------- ColorBox & Masonry ---------------------------------*/
         // $('#gallery-picture').find( 'a' ).colorbox({rel:'gal',width:'auto',height:'100%',close:'close'});
-        $("a.colorbox-time").colorbox({width:"75%", height:"85%",iframe:"true",fixed:"true"});        
+        $("a.colorbox-time").colorbox({width:"75%", height:"85%",iframe:"true",fixed:"true"});
         // $('.grid').masonry({
         //     // options
         //     itemSelector: '.grid-item',
-        //     columnWidth: 200  
+        //     columnWidth: 200
         // });
         /* -------------------------------- fix position add cart ------------------------------*/
         var to_top = $('#timing > div.kharid').offset().top;
@@ -2588,20 +2588,20 @@
 	    	$('html, body').animate({
 	    		scrollTop: ($($(this).attr('href')).offset().top)
 	    	}, 700);
-        });	
-        
+        });
+
         $("#timing .to-end").click(function(e) {
 	    	e.preventDefault();
 	    	$('html, body').animate({
 	    		scrollTop: ($('#'+ $(this).attr('to-id')).offset().top)
 	    	}, 1000);
-        });	
-        
+        });
+
         $('#navigat a.navi').click(function(e) {
             e.preventDefault();
             $('html, body').animate({
                 scrollTop: $($(this).attr('href')).offset().top - 50
-            }, 700); 
+            }, 700);
         });
         /*برای بخش کوتاه کردن متن های بلند، جی اس در فایل اصلی زده شد */
     </script>

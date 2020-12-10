@@ -63,7 +63,7 @@
 				<h3 class="h3"><img src="/sites/all/themes/waterhouse/images/meysam/image/lable/tarikh.png"/></h3>
 				<h2>هدف نشریه آب و توسعه چیست ؟ </h2>
 				<p class="text">
-					فصلنامه آب و توسعه به صاحب امتیازی امور آب وزارت نیرو و در یک دوره هفت ساله، بین سال‌های  ۱۳۷۲ تا ۱۳۷۸ منتشر می‌گردید. در طی این مدت 22 شماره از نشریه انتشار یافت. 
+					فصلنامه آب و توسعه به صاحب امتیازی امور آب وزارت نیرو و در یک دوره هفت ساله، بین سال‌های  ۱۳۷۲ تا ۱۳۷۸ منتشر می‌گردید. در طی این مدت 22 شماره از نشریه انتشار یافت.
 					سردبیری نشریه بر عهده <b>عباسقلی جهانی</b> بود. در دوره‌های مختلف انتشار نشریه آب و توسعه، افراد مختلفی در هیأت تحریریه عضویت داشتند. از جمله: <b>فریدون برهمن</b>، <b>مصطفی بزرگ‌زاده</b>، <b>پرویز حکیمی لاریجانی</b>، <b>کریم شیعتی</b>، <b>قهرمان قدرت‌نما</b>، <b>غلامعلی معماری</b>، <b>محمد کارآموز</b> و <b>انوش نوری اسفندیاری</b>
 					<br/>
 					انتشار این نشریه در پاییز سال 1378 متوقف شد...
@@ -102,7 +102,7 @@
 	<section class="row conf">
 		<h3 class="h3" style="text-align:center"><img src="/sites/all/themes/waterhouse/images/meysam/image/lable/mo.png"/></h3>
 		<div class="col-md-2 col-sm-6 col-xs-6">
-			<a class="main" href="http://waterhouse.ir/%D8%AC%D9%87%D8%A7%D9%86%DB%8C" target="_blank">
+			<a class="main" href="/%D8%AC%D9%87%D8%A7%D9%86%DB%8C" target="_blank">
 				<div class="img1 pre">
 					<div class="over">
 						<p>مشاهده مصاحبه ها</p>
@@ -112,7 +112,7 @@
 			<p class="p">مصاحبه با آقای جهانی</p>
 		</div>
 		<div class="col-md-2 col-sm-6 col-xs-6">
-			<a class="main" href="http://waterhouse.ir/%D8%A7%D9%86%D9%88%D8%B4_%D8%A7%D8%B3%D9%81%D9%86%D8%AF%DB%8C%D8%A7%D8%B1%DB%8C" target="_blank">
+			<a class="main" href="/%D8%A7%D9%86%D9%88%D8%B4_%D8%A7%D8%B3%D9%81%D9%86%D8%AF%DB%8C%D8%A7%D8%B1%DB%8C" target="_blank">
 				<div class="img2 pre">
 					<div class="over">
 						<p>مشاهده مصاحبه ها</p>
@@ -122,7 +122,7 @@
 			<p class="p">مصاحبه با آقای نوری اسفندیاری</p>
 		</div>
 		<div class="col-md-2 col-sm-6 col-xs-6">
-			<a class="main" href="http://waterhouse.ir/video/tag/437" target="_blank">
+			<a class="main" href="/video/tag/437" target="_blank">
 				<div class="img6 pre">
 					<div class="over">
 						<p>مشاهده مصاحبه ها</p>
@@ -132,7 +132,7 @@
 			<p class="p">مصاحبه با آقای کارآموز</p>
 		</div>
 		<div class="col-md-2 col-sm-6 col-xs-6">
-			<a class="main" href="http://waterhouse.ir/%D8%A2%D8%B1%DB%8C%D8%A7%D9%86" target="_blank">
+			<a class="main" href="/%D8%A2%D8%B1%DB%8C%D8%A7%D9%86" target="_blank">
 				<div class="img5 pre">
 					<div class="over">
 						<p>مشاهده مصاحبه ها</p>
@@ -142,7 +142,7 @@
 			<p class="p">مصاحبه با خانم آریان</p>
 		</div>
 		<div class="col-md-2 col-sm-6 col-xs-6">
-			<a class="main" href="http://waterhouse.ir/%D8%B1%D8%A6%DB%8C%D8%B3%DB%8C" target="_blank">
+			<a class="main" href="/%D8%B1%D8%A6%DB%8C%D8%B3%DB%8C" target="_blank">
 				<div class="img4 pre">
 					<div class="over">
 						<p>مشاهده مصاحبه ها</p>
@@ -152,7 +152,7 @@
 			<p class="p">مصاحبه با آقای رئیسی</p>
 		</div>
 		<div class="col-md-2 col-sm-6 col-xs-6">
-			<a class="main" href="http://waterhouse.ir/%D8%B2%D9%87%D8%B1%D8%A7%DB%8C%DB%8C" target="_blank">
+			<a class="main" href="/%D8%B2%D9%87%D8%B1%D8%A7%DB%8C%DB%8C" target="_blank">
 				<div class="img3 pre">
 					<div class="over">
 						<p>مشاهده مصاحبه ها</p>
@@ -178,7 +178,7 @@
 					<figure class="image">
 					    <img src="/sites/default/files/%D9%86%D8%B4%D8%B3%D8%AA%20%D9%86%D8%B4%D8%B1%DB%8C%D9%87%20%D8%A2%D8%A8%20%D9%88%20%D8%AA%D9%88%D8%B3%D8%B9%D9%87%20%281%29.jpg" />
 					    <figcaption>
-					        <a href="http://waterhouse.ir/gallery/2831" target="_blank">گالری تصاویر</a>
+					        <a href="/gallery/2831" target="_blank">گالری تصاویر</a>
 					    </figcaption>
 					</figure>
 				</div>
@@ -186,7 +186,7 @@
 					<figure class="image">
 					    <img src="/sites/default/files/%D9%86%D8%B4%D8%B3%D8%AA%20%D9%86%D8%B4%D8%B1%DB%8C%D9%87%20%D8%A2%D8%A8%20%D9%88%20%D8%AA%D9%88%D8%B3%D8%B9%D9%87%20%2829%29.jpg" />
 					    <figcaption>
-					        <a href="http://waterhouse.ir/gallery/2831" target="_blank">گالری تصاویر</a>
+					        <a href="/gallery/2831" target="_blank">گالری تصاویر</a>
 					    </figcaption>
 					</figure>
 				</div>
@@ -194,14 +194,14 @@
 					<figure class="image">
 					    <img src="/sites/default/files/%D9%86%D8%B4%D8%B3%D8%AA%20%D9%86%D8%B4%D8%B1%DB%8C%D9%87%20%D8%A2%D8%A8%20%D9%88%20%D8%AA%D9%88%D8%B3%D8%B9%D9%87%20%2839%29.jpg" />
 					    <figcaption>
-					        <a href="http://waterhouse.ir/gallery/2831" target="_blank">گالری تصاویر</a>
+					        <a href="/gallery/2831" target="_blank">گالری تصاویر</a>
 					    </figcaption>
 					</figure>
 				</div>
 			</div>
 		</div>
 	</section>
-    <section id="article-base" style="background:#e1effb" >   
+    <section id="article-base" style="background:#e1effb" >
 		<h3 class="h3" style="padding-top:50px;text-align:center;"><img src="/sites/all/themes/waterhouse/images/meysam/image/lable/nash.png"/></h3>
         <div class="naccs container" style="direction:rtl">
             <div class="grid">
@@ -405,7 +405,7 @@
             color: rgba(0,0,0,0.7);
         }
 	</style>
-   
+
     <script>
         /*----------------------------- Tab -------------------------------- */
 	    $(document).on("click", ".naccs .menu div", function() {

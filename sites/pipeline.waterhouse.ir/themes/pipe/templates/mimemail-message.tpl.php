@@ -33,8 +33,8 @@
   <body id="mimemail-body" <?php if ($module && $key): print 'class="'. $module .'-'. $key .'"'; endif; ?>>
     <div id="center">
 		<div id="header-mail">
-			<a href="http://waterhouse.ir"  target="_blank">
-			<img src="http://waterhouse.ir/sites/default/files/iran-copy.png" alt="">
+			<a href="https://waterhouse.ir"  target="_blank">
+			<img src="https://waterhouse.ir/sites/default/files/iran-copy.png" alt="">
 			</a>
 		</div>
 		<div id="main">
@@ -42,29 +42,20 @@
 		</div>
 		<div id="footer-mail">
 			<div class="first-row">
-				<a href="http://waterhouse.ir"  target="_blank">با ما در ارتباط باشید</a>
+				<a href="https://waterhouse.ir"  target="_blank">با ما در ارتباط باشید</a>
 			</div>
 			<div>
-				<div class="socialss">	
+				<div class="socialss">
 					<a class="instagram" href="http://instagram.com/iranWaterhouse" target="_blank">
-						<img src="http://waterhouse.ir/sites/all/themes/waterhouse/images/socials/insta.png">
+						<img src="https://waterhouse.ir/sites/all/themes/waterhouse/images/socials/insta.png">
 					</a>
 					<a class="telegram" href="http://telegram.me/WaterOnline" target="_blank" title="عضویت در گروه تلگرام">
-						<img src="http://waterhouse.ir/sites/all/themes/waterhouse/images/socials/telegram-icon.png">
+						<img src="https://waterhouse.ir/sites/all/themes/waterhouse/images/socials/telegram-icon.png">
 					</a>
-					<!--
-					
-					<a class="linkedin"  href="https://www.linkedin.com/company/civil808?trk=mini-profile" target="_blank">
-						<img src="http://waterhouse.ir/sites/all/themes/sara/images/socials/linked.png">
-					</a>
-					<a class="facebook" href="https://www.facebook.com/elearning.civil" target="_blank">
-						<img src="http://civil808.com/sites/all/themes/sara/images/socials/facebook.png">
-					</a>
-					-->
 				</div>
 			</div>
 			<div class="las-row">
-			
+
 			</div>
 		</div>
 	</div>

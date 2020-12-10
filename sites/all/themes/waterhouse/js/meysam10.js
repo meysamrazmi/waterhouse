@@ -32,14 +32,14 @@ $(document).ready(function () {
 
     $('.page-wsa-edu.wsa-pedia, .page-taxonomy-term-313, .page-taxonomy-term-316, .page-taxonomy-term-317, .page-taxonomy-term-330, .page-taxonomy-term-362, .page-wsa-search').each(function () {
         $(".inline a").attr({
-            "href": "http://waterhouse.ir/wsa",
+            "href": "/wsa",
             "title": "رویداد ملی سازگاری با کم آبی",
             "target": "_blank"
         });
     });
     $('.page-node-1742').each(function () {
         $('input').keyup(function () {
-            var linkHref = "http://waterhouse.ir/cart/add/";
+            var linkHref = "/cart/add/";
             for (var i = 0; i < 3; i++)  if (!($('#edit-attributes-24-30' + i).val() == '' || $('#edit-attributes-24-30' + i).val() == '0'))
                 linkHref += 'p1742_q' + $('#edit-attributes-24-30' + i).val() + '_a24o30' + i + '-';
             linkHref = linkHref + ('?destination=cart');
@@ -59,10 +59,10 @@ $(document).ready(function () {
             });
     });
 
-    $('.page-taxonomy-term-313 #block-system-main, .page-taxonomy-term-316 #block-system-main, .page-taxonomy-term-317 #block-system-main, .page-taxonomy-term-330 #block-system-main, .page-taxonomy-term-362 #block-system-main').prepend('<a class="btn btn-info" href="http://waterhouse.ir/wsa/search" target="_blank"> جستجو پیشرفته </a>');
+    $('.page-taxonomy-term-313 #block-system-main, .page-taxonomy-term-316 #block-system-main, .page-taxonomy-term-317 #block-system-main, .page-taxonomy-term-330 #block-system-main, .page-taxonomy-term-362 #block-system-main').prepend('<a class="btn btn-info" href="/wsa/search" target="_blank"> جستجو پیشرفته </a>');
     $('.page-node-1469').each(function () {
         if ($("body").hasClass("not-logged-in")) {
-            $(".file").html('<p class="log">فقط کاربران سایت قادر به مشاهده فایل می باشند<a target="_blank" href="http://waterhouse.ir/user/register">عضویت</a> یا <a target="_blank" href="http://waterhouse.ir/user">ورود</a></p>');
+            $(".file").html('<p class="log">فقط کاربران سایت قادر به مشاهده فایل می باشند<a target="_blank" href="/user/register">عضویت</a> یا <a target="_blank" href="/user">ورود</a></p>');
         }
     });
     $('.page-cart').each(function () {
@@ -120,7 +120,7 @@ $(document).ready(function () {
 }
   })
   // link to page tourism
-  
+
     $('.page-taxonomy-term-408 header#navbar, .page-taxonomy-term-407 header#navbar, .page-taxonomy-term-499 header#navbar').prepend($('<img>',{id:'theImg',src:'/sites/all/themes/waterhouse/images/hkuz.png'}))
         // End Of document
 });

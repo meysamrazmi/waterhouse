@@ -23,7 +23,7 @@
 		<h3 id="moarefi" class="h3"><img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-moarefi.png"/></h3>
 		<section id="map">
 			<div class="container">
-				<div class="col col-lg-6 show-video">    
+				<div class="col col-lg-6 show-video">
 		 			<video width="400" controls>
 						<source src="/sites/default/files/manual/tour/motion-aras.mp4" type="video/mp4">
 						<source src="/sites/default/files/manual/tour/motion-aras.mp4" type="video/ogg">
@@ -173,7 +173,7 @@
 		    </div>
 		</section>
 		<h3 id="pep" class="h3"> <img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-pepole.png"/> </h3>
-		
+
 		<section id="pepole">
 			<div class="over">
 				<div class="container">
@@ -424,7 +424,7 @@
 			        </div>
 			    </div>
 			</div>
-		</section> 
+		</section>
 
 		<h3 id="rec" class="h3"> <img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-lava.png"/></h3>
 		<section id="lavazems">
@@ -434,7 +434,7 @@
 		</section>
 		<p id="sabt"></p>
 		<section id="sign">
-			<a href="http://waterhouse.ir/aras/sign" target="_blank">
+			<a href="/aras/sign" target="_blank">
 				<div class="container any">
 					ثبت نام
 				</div>
@@ -451,7 +451,7 @@
 			</div>
 		</section>
 		<h3 id="we" class="h3"><img src="/sites/all/themes/waterhouse/images/meysam/image/aras/l-tem.png"/></h3>
-		
+
 		<section id="our">
 		    <div class="container">
 		        <div class="col-md-4">
@@ -487,7 +487,7 @@
 		    </div>
 		</section>
 			<div class="container">
-			
+
 				<div class="col-md-12">
 					<div class="">
 						<div class="file item col-md-2 col-sm-6 col-xs-6">
@@ -520,14 +520,14 @@
 						</div>
 						<div class="file item col-md-2 col-sm-6 col-xs-6">
 							<div>
-								<img src="http://waterhouse.ir/sites/default/files/styles/200_200/public/pictures/picture-1617-1555723834.jpg?itok=kke8HDXC">
+								<img src="/sites/default/files/styles/200_200/public/pictures/picture-1617-1555723834.jpg?itok=kke8HDXC">
 								<h3>محبوبه پوریوسفی</h3>
 								<p>کارشناس فروش و محتوا</p>
 							</div>
 						</div>
 						<div class="file item col-md-2 col-sm-6 col-xs-6">
 							<div>
-								<img src="http://waterhouse.ir/sites/default/files/styles/200_200/public/pictures/picture-1163-1564387462.jpg?itok=fU10Ly45">
+								<img src="/sites/default/files/styles/200_200/public/pictures/picture-1163-1564387462.jpg?itok=fU10Ly45">
 								<h3>پگاه حسینی</h3>
 								<p>کارشناس   محتوا</p>
 							</div>
@@ -542,7 +542,7 @@
 					<div class="over k">
 						<div>
 							<h4>خوزستان</h4>
-							<a href="http://waterhouse.ir/tourism/khuzestan" target="_blank">مشاهده</a>
+							<a href="/tourism/khuzestan" target="_blank">مشاهده</a>
 						</div>
 					</div>
 				</div>
@@ -551,7 +551,7 @@
 					<div class="over y">
 						<div>
 							<h4>یزد</h4>
-							<a href="http://waterhouse.ir/tourism/Yazd" target="_blank">مشاهده</a>
+							<a href="/tourism/Yazd" target="_blank">مشاهده</a>
 						</div>
 				</div>
 				</div>
@@ -559,7 +559,7 @@
 		</section>
 	</div>
 </div>
-	<style> 
+	<style>
 		.padding{
 			padding:0 25px;
 		}
@@ -568,9 +568,9 @@
 		}
 
 		@media screen and (max-width: 680px) {
-		  
+
 			#accordion { height: auto; }
-		
+
 			#accordion ul li,
 			#accordion ul li:hover,
 			#accordion ul:hover li,
@@ -603,7 +603,7 @@
 		}
 	</style>
 
-    <script> 
+    <script>
 	    $('#timing .tab1').click(function(){
             if(!$(this).hasClass('active')){
                 $(this).addClass('active');

@@ -51,45 +51,45 @@
 		    <nav>
 		        <div class="nav-wsa">
 		            <ul>
-		                <li><a href="http://waterhouse.ir/wsa">صفحه اصلی</a></li>
+		                <li><a href="/wsa">صفحه اصلی</a></li>
 		                <li>
-		                    <a href="http://waterhouse.ir/wsa/document">کارگروه ملی سازگاری با کم آبی<span class="arrow-down"></span></a>
+		                    <a href="/wsa/document">کارگروه ملی سازگاری با کم آبی<span class="arrow-down"></span></a>
 		                    <ul class="dropdown">
-		                        <li><a href="http://waterhouse.ir/wsa/document#two">مصوبات کارگروه ملی</a></li>
-		                        <li><a href="http://waterhouse.ir/wsa/document#ziro">گاه شمار</a></li>
-		                        <li><a href="http://waterhouse.ir/wsa/document#three">مصوبات کمیته تخصصی سازگاری با کم آبی</a></li>
-		                        <li><a href="http://waterhouse.ir/wsa/document#one">مستندات</a></li>
-		                        <li><a href="http://waterhouse.ir/wsa/document#map">کارگروه های استانی</a></li>
-		                        <li><a href="http://waterhouse.ir/wsa/document#five">گزارش های ویژه</a></li>
+		                        <li><a href="/wsa/document#two">مصوبات کارگروه ملی</a></li>
+		                        <li><a href="/wsa/document#ziro">گاه شمار</a></li>
+		                        <li><a href="/wsa/document#three">مصوبات کمیته تخصصی سازگاری با کم آبی</a></li>
+		                        <li><a href="/wsa/document#one">مستندات</a></li>
+		                        <li><a href="/wsa/document#map">کارگروه های استانی</a></li>
+		                        <li><a href="/wsa/document#five">گزارش های ویژه</a></li>
 		                    </ul>
 		                </li>
 		                <li>
 		                    <a>اطلاعات رویداد<span class="arrow-down"></span></a>
 		                    <ul class="dropdown">
-		                        <li><a href="http://waterhouse.ir/wsa/information">مقدمه</a></li>
-		                        <li><a href="http://waterhouse.ir/wsa/information">زمان و مکان برگزاری</a></li>
-		                        <li><a href="http://waterhouse.ir/wsa/information">اهداف برگزاری</a></li>
-		                        <li><a href="http://waterhouse.ir/wsa/information">گروه های هدف اصلی</a></li>
-		                        <li><a href="http://waterhouse.ir/wsa/information">اجزای رویداد</a></li>
+		                        <li><a href="/wsa/information">مقدمه</a></li>
+		                        <li><a href="/wsa/information">زمان و مکان برگزاری</a></li>
+		                        <li><a href="/wsa/information">اهداف برگزاری</a></li>
+		                        <li><a href="/wsa/information">گروه های هدف اصلی</a></li>
+		                        <li><a href="/wsa/information">اجزای رویداد</a></li>
 		                    </ul>
 		                </li>
 		                <li>
 		                    <a>ارسال تجارب<span class="arrow-down"></span></a>
 		                    <ul class="dropdown">
-		                        <li><a href="http://waterhouse.ir/greenspace">شرب، فضای سبز و محیط زیست</a></li>
-		                        <li><a href="http://waterhouse.ir/tillag">کشاورزی</a></li>
-		                        <li><a href="http://waterhouse.ir/industry">صنعت، معدن و انرژی</a></li>
-		                        <li><a href="http://waterhouse.ir/anomalistic">دانش بومی سازگاری با کم‌آبی</a></li>
-		                        <li><a href="http://waterhouse.ir/state">تجارب کارگروه های استانی</a></li>
+		                        <li><a href="/greenspace">شرب، فضای سبز و محیط زیست</a></li>
+		                        <li><a href="/tillag">کشاورزی</a></li>
+		                        <li><a href="/industry">صنعت، معدن و انرژی</a></li>
+		                        <li><a href="/anomalistic">دانش بومی سازگاری با کم‌آبی</a></li>
+		                        <li><a href="/state">تجارب کارگروه های استانی</a></li>
 		                    </ul>
 						</li>
 		                <li><a href="http://pipeline.waterhouse.ir/">نمایشگاه مجازی</a></li>
 		                <li>
-							<a href="http://waterhouse.ir/wsa/workshop">کارگاه های آموزشی<span class="arrow-down"></span></a>
+							<a href="/wsa/workshop">کارگاه های آموزشی<span class="arrow-down"></span></a>
 		                    <ul class="dropdown">
-		                        <li><a href="http://waterhouse.ir/wsa/workshop">کارگاه یک</a></li>
-		                        <li><a href="http://waterhouse.ir/wsa/workshop">کارگاه دو</a></li>
-		                        <li><a href="http://waterhouse.ir/wsa/workshop">کارگاه سه</a></li>
+		                        <li><a href="/wsa/workshop">کارگاه یک</a></li>
+		                        <li><a href="/wsa/workshop">کارگاه دو</a></li>
+		                        <li><a href="/wsa/workshop">کارگاه سه</a></li>
 		                    </ul>
 						</li>
 		                <li>
@@ -104,9 +104,9 @@
 		                        <li><a>غرفه نمایشگاهی</a></li>
 		                    </ul>
 						</li>
-		                <li><a href="http://waterhouse.ir/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1">اخبار</a></li>
-		                <li><a href="http://waterhouse.ir/wsa/edu">پایگاه دانش</a></li>
-		                <li><a href="http://waterhouse.ir/wsa/contact">تماس با ما</a></li>
+		                <li><a href="/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1">اخبار</a></li>
+		                <li><a href="/wsa/edu">پایگاه دانش</a></li>
+		                <li><a href="/wsa/contact">تماس با ما</a></li>
 		            </ul>
 		        </div>
 		        <div class="nav-bg-wsa">
@@ -118,7 +118,7 @@
 		    </div>
 		</div>
     </section>
-	<section id="font">	
+	<section id="font">
 		<div>
 			<img id="daftar" src="/sites/all/themes/waterhouse/images/meysam/slideshow/1690/text2.png" alt="هکس نوشته رویداد"/>
 		</div>
@@ -176,7 +176,7 @@
 				</div>
 				<div class="wlogo">
 					<img src="/sites/default/files/55555.png"/>
-					<p><a href="http://waterhouse.ir/">خانه آب ایران</a></p>
+					<p><a href="/">خانه آب ایران</a></p>
 				</div>
 				<div class="titr">
 					<h4>حامیان </h4>
@@ -244,7 +244,7 @@
 				<div class="pooster">
 					<img class="myImg" src="/sites/all/themes/waterhouse/images/meysam/slideshow/1690/graph.jpg" alt="اینفوگرافیک رویداد"/>
 					<a href="/sites/all/themes/waterhouse/images/meysam/slideshow/1690/graph.jpg" download>
-						دانلود اینفوگرافیک 
+						دانلود اینفوگرافیک
 					</a>
 				</div>
 				<div class="hidden-sm hidden-xs">
@@ -288,7 +288,7 @@
 				</div>
 				<div class="state">
 					<p>مقالات و طرح های رویداد ملی سازگاری با کم آبی، با امکان جستجوی پیشرفته براساس عنوان طرح، نام نویسنده، دسته بندی و ... را می توانید از طریق لینک زیر مشاهده نمایید</p>
-					<div id="state" style="margin:75px 0;"> 
+					<div id="state" style="margin:75px 0;">
 						<a href="node/2371" target="_blank"> مشاهده</a>
 					</div>
 				</div>
@@ -505,7 +505,7 @@
 				<div class="titr">
 					<h4>محل برگزاری</h4>
 				</div>
-				<img class="myImg" class="niro" src="http://waterhouse.ir/sites/default/files/styles/841x400/public/field/image/node_1611.jpg?itok=6dKFts-B"/ alt="ساختمان وزارت نیرو">
+				<img class="myImg" class="niro" src="/sites/default/files/styles/841x400/public/field/image/node_1611.jpg?itok=6dKFts-B"/ alt="ساختمان وزارت نیرو">
 				<div class="map">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.0664617132347!2d51.40919928525104!3d35.77374373250117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e065ef08fc9bd%3A0x2a9d7d02a13f7a9a!2z2YjYstin2LHYqiDZhtuM2LHZiA!5e0!3m2!1sfa!2s!4v1555155099617!5m2!1sfa!2s"
 						 allowfullscreen>
@@ -513,7 +513,7 @@
 					<div class="info">
 						<h5>آدرس محل برگزاری:</h5>
 						<p> تهران، خيابان ولي عصر، ابتداي بزرگراه آيت الله هاشمي رفسنجاني (نيايش)، پلاك 4 - ساختمان وزارت نيرو </p>
-						<a href="http://waterhouse.ir/sandika/place" target="_blank" dideo-checked="true"> اماکن ضروری در اطراف محل رویداد </a>
+						<a href="/sandika/place" target="_blank" dideo-checked="true"> اماکن ضروری در اطراف محل رویداد </a>
 					</div>
 				</div>
 				<div class="titr">
@@ -522,7 +522,7 @@
 				<div class="news">
 					<?php print views_embed_view('sample','page'); ?>
 					<div class="more">
-						<a href="http://waterhouse.ir/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1" target="_blank">بیشتر</a>
+						<a href="/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1" target="_blank">بیشتر</a>
 					</div>
 				</div>
 				<div class="titr">
@@ -531,7 +531,7 @@
 				<div class="news">
 					<?php print views_embed_view('sample','page_2'); ?>
 					<div class="more">
-						<a href="http://waterhouse.ir/wsa/edu" target="_blank">بیشتر</a>
+						<a href="/wsa/edu" target="_blank">بیشتر</a>
 					</div>
 				</div>
 			</div>
@@ -540,22 +540,22 @@
 					<h4>دسترسی سریع</h4>
 				</div>
 				<div class="links">
-					<a href="http://waterhouse.ir/اخبار" title="اخبار و گزارشات">
+					<a href="/اخبار" title="اخبار و گزارشات">
 						<img src="/sites/all/themes/waterhouse/images/meysam/image/1690/akhbar.jpg">
 					</a>
 					<a  title="مشاهده طرح ها و تجارب تصویب شده">
 						<img src="/sites/all/themes/waterhouse/images/meysam/image/1690/mosha.jpg">
 					</a>
-					<a href="http://waterhouse.ir/wsa/sendguide" title="ارسال تجارب">
+					<a href="/wsa/sendguide" title="ارسال تجارب">
 						<img src="/sites/all/themes/waterhouse/images/meysam/image/1690/t.png">
 					</a>
-					<a href="http://waterhouse.ir/wsa/guide" title="ارسال تجارب">
+					<a href="/wsa/guide" title="ارسال تجارب">
 						<img src="/sites/all/themes/waterhouse/images/meysam/image/1690/t-k.png">
 					</a>
-					<a href="http://waterhouse.ir/startup" title="طرح های استارتاپی">
+					<a href="/startup" title="طرح های استارتاپی">
 						<img src="/sites/all/themes/waterhouse/images/meysam/image/1690/startups.jpg">
 					</a>
-					<a href="http://waterhouse.ir/challenge" title="مسائل و چالش های صنعت">
+					<a href="/challenge" title="مسائل و چالش های صنعت">
 						<img src="/sites/all/themes/waterhouse/images/meysam/image/1690/chalesh.jpg">
 					</a>
 				</div>
@@ -609,14 +609,14 @@
 	<section class="row" id="other-content">
 		<div class="col-md-1"></div>
 		<div class="col-md-2">
-			<a href="http://waterhouse.ir/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1">
+			<a href="/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1">
 				<img src="/sites/all/themes/waterhouse/images/meysam/image/1690/rss.png" alt="sign-in">
 				<p>اخبار</p>
 				<span> دریافت جدیدترین اخبار </span>
 			</a>
 		</div>
 		<div class="col-md-2">
-			<a href="http://waterhouse.ir/wsa/guide">
+			<a href="/wsa/guide">
 				<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/doc.png" alt="file">
 				<p>ارائه تجارب</p>
 				<span>برای ارسال کلیک کنید</span>
@@ -630,7 +630,7 @@
 			</a>
 		</div>
 		<div class="col-md-2">
-			<a href="http://waterhouse.ir/%D9%85%D8%B5%D8%A7%D8%AD%D8%A8%D9%87">
+			<a href="/%D9%85%D8%B5%D8%A7%D8%AD%D8%A8%D9%87">
 				<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/media.png" alt="images">
 				<p>مصاحبه ها</p>
 				<span>فیلم ها، عکس ها، مصاحبه ها و...</span>

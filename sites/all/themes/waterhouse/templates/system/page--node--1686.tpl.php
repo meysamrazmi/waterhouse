@@ -13,25 +13,25 @@
 			<div class="col col-lg-3 col-md-3">
 				<div class="circle">
 					<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/nahadha.png"/>
-					<p><a href="http://waterhouse.ir/pedia2">نهادها</a></p>
+					<p><a href="/pedia2">نهادها</a></p>
 				</div>
 			</div>
 			<div class="col col-lg-3 col-md-3">
 				<div class="circle">
 					<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/subject.png"/>
-					<p><a href="http://waterhouse.ir/pedia2">مفاهیم و موضوعات</a></p>
+					<p><a href="/pedia2">مفاهیم و موضوعات</a></p>
 				</div>
 			</div>
 			<div class="col col-lg-3 col-md-3">
 				<div class="circle">
 					<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/doc.png"/>
-					<p><a href="http://waterhouse.ir/pedia2">اسناد</a></p>
+					<p><a href="/pedia2">اسناد</a></p>
 				</div>
 			</div>
 			<div class="col col-lg-3 col-md-3">
 				<div class="circle">
 					<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/history.png"/>
-					<p><a href="http://waterhouse.ir/pedia2">تاریخ و مشاهیر</a></p>
+					<p><a href="/pedia2">تاریخ و مشاهیر</a></p>
 				</div>
 			</div>
 		</div>
@@ -39,7 +39,7 @@
 			<div class="col col-lg-3 col-md-3">
 				<div class="circle">
 					<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/event.png"/>
-					<p><a href="http://waterhouse.ir/pedia2">رویداد ها</a></p>
+					<p><a href="/pedia2">رویداد ها</a></p>
 				</div>
 			</div>
 			<div class="col col-lg-3 col-md-3">
@@ -49,7 +49,7 @@
 			<div class="col col-lg-3 col-md-3">
 				<div class="circle">
 					<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/media.png"/>
-					<p><a href="http://waterhouse.ir/pedia2">چند رسانه ای</a></p>
+					<p><a href="/pedia2">چند رسانه ای</a></p>
 				</div>
 			</div>
 		</div>
@@ -57,25 +57,25 @@
 			<div class="col col-lg-3 col-md-3">
 				<div class="circle">
 					<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/tool.png"/>
-					<p><a href="http://waterhouse.ir/pedia2">ابزار و فناوری</a></p>
+					<p><a href="/pedia2">ابزار و فناوری</a></p>
 				</div>
 			</div>
 			<div class="col col-lg-3 col-md-3">
 				<div class="circle">
 					<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/tour.png"/>
-					<p><a href="http://waterhouse.ir/pedia2">گردشگری آب</a></p>
+					<p><a href="/pedia2">گردشگری آب</a></p>
 				</div>
 			</div>
 			<div class="col col-lg-3 col-md-3">
 				<div class="circle">
 					<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/news.png"/>
-					<p><a href="http://waterhouse.ir/pedia2">خبر آب</a></p>
+					<p><a href="/pedia2">خبر آب</a></p>
 				</div>
 			</div>
 			<div class="col col-lg-3 col-md-3">
 				<div class="circle">
 					<img src="/sites/all/themes/waterhouse/images/meysam/icons/pedia/edu.png"/>
-					<p><a href="http://waterhouse.ir/pedia2">آموزش</a></p>
+					<p><a href="/pedia2">آموزش</a></p>
 				</div>
 			</div>
 		</div>

@@ -19,10 +19,10 @@
 		<section id="gallery">
 			<div class="container">
 				<div class="titr">آلبوم تصاویر رویدادها و نشست ها
-					<p class="glyf"><span class="glyphicon glyphicon-picture"></span></p>	
+					<p class="glyf"><span class="glyphicon glyphicon-picture"></span></p>
 				</div>
 				<div class="col-md-3 col-md-3 col-xs-6 col-sm-6">
-					<a class="main" href="http://waterhouse.ir/gallery/2755" target="_blank">
+					<a class="main" href="/gallery/2755" target="_blank">
 						<div class="e1-img pre">
 							<div class="over">
 								<p>مشاهده تصاویر</p>
@@ -32,7 +32,7 @@
 					<p class="p">رویداد سازگاری با کم آبی</p>
 				</div>
 				<div class="col-md-3 col-md-3 col-xs-6 col-sm-6">
-					<a class="main" href="http://waterhouse.ir/gallery/2756" target="_blank">
+					<a class="main" href="/gallery/2756" target="_blank">
 						<div class="e2-img pre">
 							<div class="over">
 								<p>مشاهده تصاویر</p>
@@ -42,7 +42,7 @@
 					<p class="p">نشست تخصیص آب از منظر حکمرانی</p>
 				</div>
 				<div class="col-md-3 col-md-3 col-xs-6 col-sm-6">
-					<a class="main" href="http://waterhouse.ir/gallery/2831" target="_blank">
+					<a class="main" href="/gallery/2831" target="_blank">
 						<div class="e3-img pre">
 							<div class="over">
 								<p>مشاهده تصاویر</p>
@@ -56,10 +56,10 @@
 		<section id="gallery">
 			<div class="container">
 				<div class="titr">آلبوم تصاویر گردشگری آب
-					<p class="glyf"><span class="glyphicon glyphicon-picture"></span></p>	
+					<p class="glyf"><span class="glyphicon glyphicon-picture"></span></p>
 				</div>
 				<div class="col-md-3 col-md-3 col-xs-6 col-sm-6">
-					<a class="main" href="http://waterhouse.ir/gallery/2733" target="_blank">
+					<a class="main" href="/gallery/2733" target="_blank">
 						<div class="t1-img pre">
 							<div class="over">
 								<p>مشاهده تصاویر</p>
@@ -69,7 +69,7 @@
 					<p class="p">سفر گردشگری یزد</p>
 				</div>
 				<div class="col-md-3 col-md-3 col-xs-6 col-sm-6">
-					<a class="main" href="http://waterhouse.ir/gallery/2754" target="_blank">
+					<a class="main" href="/gallery/2754" target="_blank">
 						<div class="t2-img pre">
 							<div class="over">
 								<p>مشاهده تصاویر</p>
@@ -79,7 +79,7 @@
 					<p class="p">سفر گردشگری خوزستان</p>
 				</div>
 				<div class="col-md-3 col-md-3 col-xs-6 col-sm-6">
-					<a class="main" href="http://waterhouse.ir/gallery/2859" target="_blank">
+					<a class="main" href="/gallery/2859" target="_blank">
 						<div class="t3-img pre">
 							<div class="over">
 								<p>مشاهده تصاویر</p>
@@ -103,9 +103,9 @@
 				<div class="col-md-3">
 					<div id="bg">
 						<div class="titr">جستجو در فیلم ها
-							<p class="glyf"><span class="glyphicon glyphicon-search"></span></p>	
+							<p class="glyf"><span class="glyphicon glyphicon-search"></span></p>
 						</div>
-						<div class="v-search"> 
+						<div class="v-search">
 							<?php $block = module_invoke('views', 'block_view', 'gallery-block_2'); print render($block['content']);; ?>
 						</div>
 						<div class="list">

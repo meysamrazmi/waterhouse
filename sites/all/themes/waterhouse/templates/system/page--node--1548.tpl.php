@@ -69,37 +69,37 @@
                 <tr>
                   <td>یزد</td>
                   <td>8 آبان 97</td>
-                  <td><a href="http://waterhouse.ir/tourism/Yazd" target="_blank">بیشتر</a></td>
+                  <td><a href="/tourism/Yazd" target="_blank">بیشتر</a></td>
                 </tr>
                 <tr>
                   <td>خوزستان</td>
                   <td>14 اسفند 97</td>
-                  <td><a href="http://waterhouse.ir/tourism/Khuzestan" target="_blank">بیشتر</a></td>
+                  <td><a href="/tourism/Khuzestan" target="_blank">بیشتر</a></td>
                 </tr>
                 <tr>
                   <td>ارس</td>
                   <td>1 آبان 98</td>
-                  <td><a href="http://waterhouse.ir/tourism/aras" target="_blank">بیشتر</a></td>
+                  <td><a href="/tourism/aras" target="_blank">بیشتر</a></td>
                 </tr>
                 <tr>
                   <td>سد لار</td>
                   <td>23 آبان 98</td>
-                  <td><a href="http://waterhouse.ir/tourism/lar" target="_blank">بیشتر</a></td>
+                  <td><a href="/tourism/lar" target="_blank">بیشتر</a></td>
                 </tr>
                 <tr>
                   <td>سد امیر کبیر</td>
                   <td>7 آذر 98</td>
-                  <td><a href="http://waterhouse.ir/tourism/amirkabir" target="_blank">بیشتر</a></td>
+                  <td><a href="/tourism/amirkabir" target="_blank">بیشتر</a></td>
                 </tr>
                 <tr>
                   <td>طبس</td>
                   <td>2 بهمن 98</td>
-                  <td><a href="http://waterhouse.ir/tourism/tabas" target="_blank">بیشتر</a></td>
+                  <td><a href="/tourism/tabas" target="_blank">بیشتر</a></td>
                 </tr>
                 <tr>
                   <td>سد امیر کبیر 2</td>
                   <td>18 بهمن 98</td>
-                  <td><a href="http://waterhouse.ir/tourism/amirkabir2" target="_blank">بیشتر</a></td>
+                  <td><a href="/tourism/amirkabir2" target="_blank">بیشتر</a></td>
                 </tr>
               </table>
             </div>
@@ -261,7 +261,7 @@
 				</a>
 			</div>
 			<div class="ganj col-md-2 hidden-sm hidden-xs">
-				<a href="http://waterhouse.ir/tourism/ganjineh" target="_blank">
+				<a href="/tourism/ganjineh" target="_blank">
 					<img  src="/sites/all/themes/waterhouse/images/meysam/image/tourism/gan.jpg" style="width:100%">
 				</a>
 			</div>
@@ -375,7 +375,7 @@
 			    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/safar-negar.png" />
 			</div>
 			<div class="row">
-        	  <a href="http://waterhouse.ir/tourism/gallery" target="_blank">
+        	  <a href="/tourism/gallery" target="_blank">
 				<div class="col-md-6 col h550">
 					 <figure class="ax">
 						<img src="/sites/all/themes/waterhouse/images/meysam/y1.jpg"/>
@@ -389,7 +389,7 @@
 					  </figure>
 				</div>
 </a>
-        	  <a href="http://waterhouse.ir/tourism/gallery" target="_blank">
+        	  <a href="/tourism/gallery" target="_blank">
 				<div class="col-md-6" style="padding:0">
 					<div class="col-md-6 col h220">
 						 <figure class="ax">
@@ -404,7 +404,7 @@
 						  </figure>
 					</div>
 				</a>
-         		<a href="http://waterhouse.ir/tourism/gallery" target="_blank">
+         		<a href="/tourism/gallery" target="_blank">
 					  <div class="col-md-6 col h220">
 						 <figure class="ax">
 							<img src="/sites/default/files/aras11.JPG"/>
@@ -432,7 +432,7 @@
 		</section>
 		<section class="media2" style="display:none">
 			<div class="row">
-        <a href="http://waterhouse.ir/tourism/gallery" target="_blank">
+        <a href="/tourism/gallery" target="_blank">
           <div class="col-md-4 pr">
             <figure class="ax h550">
               <img src="/sites/all/themes/waterhouse/images/meysam/image/karaj/sad.jpg"/>
@@ -462,7 +462,7 @@
 						 </video>
 					 </div>
 				</div>
-        <a href="http://waterhouse.ir/tourism/gallery" target="_blank">
+        <a href="/tourism/gallery" target="_blank">
 				<div class="col-md-4 pl">
 					 <figure class="ax h550">
 						<img src="/sites/all/themes/waterhouse/images/meysam/image/lar/daryache.jpg"/>
@@ -516,7 +516,7 @@
                     آگهی فراخوان سرمایه گذاری گردشگری آب سدهای مخزنی دانشمند، محمدآباد کتول وتوشن
 									</p>
 									<span class="city-link swip-right">
-										<a href="http://waterhouse.ir/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
+										<a href="/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
 									</span>
 								</div>
 			                </li>
@@ -531,7 +531,7 @@
                     فراخوان واگــذاری ســدهاي شــهرچای، حســنلو و زولا بــه منظــور اجــرای فعالیتهــای گردشــگری بــه صــورت اجــاره
                   </p>
 									<span class="city-link swip-right">
-										<a href="http://waterhouse.ir/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
+										<a href="/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
 									</span>
 								</div>
 			                </li>
@@ -546,7 +546,7 @@
                     شرکت آب منطقه ای آذربایجان شرقی در نظر دارد سرمایه گذاری در طرح گردشگری و تفریحی پیرامون سد قلعه چای شهرستان عجب شیر را به سرمایه گذاران واجد شرایط و دارای ایده های نو واگذار نماید.
 									</p>
 									<span class="city-link swip-right">
-										<a href="http://waterhouse.ir/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
+										<a href="/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
 									</span>
 								</div>
 			                </li>
@@ -562,7 +562,7 @@
 <!--									    بی شک طبس یکی از زیباترین شهرهای کویری ایران است که دارای جاذبه های فراوان طبیعی ،تاریخی و فرهنگی می باشد-->
 <!--									</p>-->
 <!--									<span class="city-link swip-right">-->
-<!--										<a href="http://waterhouse.ir/tourism/tabas" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>-->
+<!--										<a href="/tourism/tabas" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>-->
 <!--									</span>-->
 <!--								</div>-->
 <!--			                </li>-->
@@ -830,7 +830,7 @@
 		<!--<section class="jine">
 			<img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/ganjine.png" />
 			<div class="row">
-				<div class="col-md-12"><a href="http://waterhouse.ir/tourism/ganjineh" target="_blank"><img style="padding: 0 60px 60px 60px;" src="/sites/all/themes/waterhouse/images/meysam/image/tourism/ganj-main.jpg" /></a></div>
+				<div class="col-md-12"><a href="/tourism/ganjineh" target="_blank"><img style="padding: 0 60px 60px 60px;" src="/sites/all/themes/waterhouse/images/meysam/image/tourism/ganj-main.jpg" /></a></div>
 			</div>
 		</section>-->
 
@@ -893,7 +893,7 @@
         </div>
       </div>
 
-			<div class="more"> <a href="http://waterhouse.ir/tourism/news" class="swip-right" target="_blank">مشاهده اخبار بیشتر</a></div>
+			<div class="more"> <a href="/tourism/news" class="swip-right" target="_blank">مشاهده اخبار بیشتر</a></div>
 		</section>
   <script>
 
@@ -1026,7 +1026,7 @@
       </div>
     </div>
     <div class="ganj col-md-2 hidden-sm hidden-xs" style="display: none;">
-      <a href="http://waterhouse.ir/tourism/news" target="_blank">
+      <a href="/tourism/news" target="_blank">
         <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/akh.jpg" style="height:384px">
       </a>
     </div>
@@ -1135,15 +1135,15 @@
 <!--		<section class="popup-fix">-->
 <!--			<div id="popup" class="popup-overlay floating2 row" style="border-radius:100% 100% 0 0% / 14% 14%">-->
 <!--				<div class="text-tour-animate col col-lg-4 hidden-sm hidden-xs">-->
-<!--					<a href="http://waterhouse.ir/tourism/taleghan" target="_blank">-->
+<!--					<a href="/tourism/taleghan" target="_blank">-->
 <!--						 <p>سفرهای در حال برگزاری</p>-->
 <!--					</a>-->
 <!--				</div>-->
 <!--			    <div class="boat"></div>-->
-<!--			    <div class="popup-item home"><a target="_blank" href="http://waterhouse.ir" class="itemMenu" title="صفحه اصلی"></a></div>-->
-<!--			    <div class="popup-item user"><a target="_blank" href="http://waterhouse.ir/user" class="itemMenu" title="ورود یا ثبت نام"></a></div>-->
-<!--			    <div class="popup-item shop"><a target="_blank" href="http://waterhouse.ir/shop" class="itemMenu" title="فروشگاه"></a></div>-->
-<!--			    <div class="popup-item contact"><a target="_blank" href="http://waterhouse.ir/contact-us" class="itemMenu" title="تماس با ما"></a></div>-->
+<!--			    <div class="popup-item home"><a target="_blank" href="/" class="itemMenu" title="صفحه اصلی"></a></div>-->
+<!--			    <div class="popup-item user"><a target="_blank" href="/user" class="itemMenu" title="ورود یا ثبت نام"></a></div>-->
+<!--			    <div class="popup-item shop"><a target="_blank" href="/shop" class="itemMenu" title="فروشگاه"></a></div>-->
+<!--			    <div class="popup-item contact"><a target="_blank" href="/contact-us" class="itemMenu" title="تماس با ما"></a></div>-->
 <!--				<div class="col-lg-4 social">-->
 <!--					<P class="txt">-->
 <!--						ما را در شبکه های اجتماعی دنبال کنید-->
@@ -1199,10 +1199,10 @@
 <!--            </path>-->
 <!--          </svg>-->
 <!--        <div style="position: relative;right: 50px;">-->
-<!--          <a href="http://waterhouse.ir/" style="margin: 10px;"><img src="sites/all/themes/waterhouse/images/meysam/icons/home.ico"></a>-->
-<!--          <a href="http://waterhouse.ir/contact-us" style="margin: 10px;"><img src="/sites/all/themes/waterhouse/images/meysam/icons/call.ico"></a>-->
-<!--          <a href="http://waterhouse.ir/shop" style="margin: 10px;"><img src="sites/all/themes/waterhouse/images/meysam/icons/buy.ico"></a>-->
-<!--          <a href="http://waterhouse.ir/user" style="margin: 10px;"><img src="sites/all/themes/waterhouse/images/meysam/icons/user.ico"></a>-->
+<!--          <a href="/" style="margin: 10px;"><img src="sites/all/themes/waterhouse/images/meysam/icons/home.ico"></a>-->
+<!--          <a href="/contact-us" style="margin: 10px;"><img src="/sites/all/themes/waterhouse/images/meysam/icons/call.ico"></a>-->
+<!--          <a href="/shop" style="margin: 10px;"><img src="sites/all/themes/waterhouse/images/meysam/icons/buy.ico"></a>-->
+<!--          <a href="/user" style="margin: 10px;"><img src="sites/all/themes/waterhouse/images/meysam/icons/user.ico"></a>-->
 <!--        </div>-->
 <!--          <svg class="svg1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top: -225px;">-->
 <!--            <path fill="#000b76" fill-opacity="3" d="M0,192L80,-->

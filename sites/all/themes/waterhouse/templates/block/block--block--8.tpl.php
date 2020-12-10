@@ -2,7 +2,7 @@
 		<div id="block-block-8" class="block block-block contextual-links-region first odd">
 		    <div class="content">
 		        <span class="close-banner">X</span>
-		        <a href="http://waterhouse.ir/college/groundwater-resuscitation/3030" target="_blank">
+		        <a href="/college/groundwater-resuscitation/3030" target="_blank">
 		            <div class="new-title">
 		                <div>نشست نقد و بررسی طرح احیا و تعادل بخشی آب های زیرزمینی</div>
 						سه شنبه 10 دی 98

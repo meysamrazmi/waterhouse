@@ -6,12 +6,12 @@
 			متاسفانه آدرسی که به دنبال آن هستید در سایت وجود ندارد
 		</p>
 		<p>
-			شاید آدرس آن تغییر کرده باشد و یا به صورت موقت غیر فعال شده است	
+			شاید آدرس آن تغییر کرده باشد و یا به صورت موقت غیر فعال شده است
 		</p>
 	</div>
     <div class="detail">
-        <a href="http://waterhouse.ir/" class="button1"><span class="swip-left">صفحه اصلی</span></a>
-        <a href="http://waterhouse.ir/contact-us" class="button1"><span class="swip-right">تماس با ما</span></a>
+        <a href="/" class="button1"><span class="swip-left">صفحه اصلی</span></a>
+        <a href="/contact-us" class="button1"><span class="swip-right">تماس با ما</span></a>
     </div>
 	<style>
 		#block-system-main{
@@ -48,7 +48,7 @@
         	padding: 0 25px;
             border:2px solid #fff;
         }
-        
+
         @media (max-width:768px){
             #top{
                     font-size:30px;

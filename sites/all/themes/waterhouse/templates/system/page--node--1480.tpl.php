@@ -18,22 +18,22 @@
     <section id="intro">
         <img src="/sites/all/themes/waterhouse/images/tour/tour-yazd-pic_1366.600.jpg" width="100%" height="auto" style="box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 6px, rgba(0, 0, 0, 0.157) 0px 1px 5px;">
         <a href="#moarrefi"  class="scroll"></a>
-        <!-- <a href="http://waterhouse.ir/node/1481/sale_report" class="report_sale" style="display:none">گزارش فروش</a> -->
+        <!-- <a href="/node/1481/sale_report" class="report_sale" style="display:none">گزارش فروش</a> -->
     </section>
 
     <section id="moarrefi" class="panel"  style="background-color: transparent;text-align: center;padding: 60px 0 110px 0;" >
-        <div class="wh">    
+        <div class="wh">
             <h2 style="position: relative; margin-bottom: 90px;" data-aos="flip-right" data-aos-delay="900">  معرفی برنامه </h2>
             <div class="part1" data-aos="fade-right" data-aos-delay="1200">
                 <div style="text-align: center;"><span style="font-size: large;"><strong>" <span style="color: #fb0000">گردشگری آب</span> ، فعالیتی جدید از مجموعه <span style="color: #03A9F4"> خانه آب ایران </span> "</strong></span></div>
-                <div>&nbsp;</div><div>&nbsp;</div><div>باعث خوشحالیه که بهتون خبر بدیم خانه آب ایران به تازگی یک محور جدید به محورهای فعالیتش اضافه کرده،&nbsp;<span>همه تلاشمون این هست که بتونیم به اندازه خودمون، گامی برای ارتقاء آگاهی و دانش هم‌وطنان عزیزمون و مخصوصا علاقمندان به علوم مرتبط با آب و محیط زیست برداریم.</span></div><blockquote style="border-right: 5px solid #03A9F4; background: #f5f5f5;"><div><span style="font-size: medium;"><strong>اصلا چرا ؟؟؟ </strong></span></div></blockquote><div><span>ما فکر کردیم تو این شرایط اقتصادی که انجام خیلی از کارا داره کم کم از برنامه مون حذف میشه، با یک تیر چند نشون بزنیم، چند تا سفر جالب و خاطره انگیز بریم، که هم فاله و هم تماشا !! هم کلی چیز یاد میگیریم و با حضور اساتید و خبرگان آب کشور، با دانش بومی آب در ایران عزیزمون بیشتر آشنا می‌شیم.</span></div><div><span> هم جاهای دیدنی و تاریخی رو می بینیم و حال و هوامون توی این روزگار سخت عوض میشه، و هم شبکه دوستی و کاری خودمون رو توسعه میدیم و با هم یک خانواده همدل و صمیمی میسازیم:</span></div><div><span>- حضور مهمانان ویژه از شخصیت‌های علمی و فرهنگی برجسته، کمک می‌کنه که توو این سفر، هم درس زندگی بگیریم و هم درس آب و از همنشینی و معاشرت با انسان‌های فرهیخته کیف کنیم.</span></div><blockquote style="border-right: 5px solid #03A9F4;background: #f5f5f5;"><div style="text-align: right;"><strong><span style="font-size: medium;">اولین سفر: یزد</span></strong></div></blockquote><div dir="rtl"><span><span><span>حالا وقتشه که از اولین سفرمون رونمایی کنیم؛ سفر به شهر قنات و قنوت و قناعت (با لهجه دلنشین یزدی بخونین)</span></span></span></div><div><span><span><span> از وقتی شروع کردیم به برنامه ریزی این سفر، هر روز از آدم ها و جاهای کمتر دیده شده یزد، کشف تازه ای داشتیم و هربار کلی ذوق کردیم و به ایرانی بودنمون بالیدیم !! هر روز ایمان و انگیزه مون بیشتر شد و با اشتیاق بیشتری از افراد برجسته یزد که از راه دور هم گرمای مهمان نوازیشون دلگرم مون می کرد، برنامه هامون رو دنبال کردیم. و حالا هم حسابی منتظر رسیدن آبان ماه هستیم که با هم یک تجربه ناب پاییزی رو در دل کویر رازآلود داشته باشیم !!</span></span></span></div><div><span><span><span> صبح سه شنبه 8 آبان که تعطیله، حرکت میکنیم و صبح جمعه 11 آبان دوباره میرسیم تهران؛</span></span></span></div><div><ul style="list-style-type: square;"><li>مجموعه متنوعی از بازدیدهای علمی و جاذبه های گردشگری و سیاحتی رو در این سفر برنامه ریزی کردیم و تمام تلاشمون این بوده که هزینه های سفر رو تا جای ممکن کاهش بدیم و امکان حضور عده بیشتری از علاقمندان رو فراهم کنیم.</li></ul><p>&nbsp;</p></div> 
+                <div>&nbsp;</div><div>&nbsp;</div><div>باعث خوشحالیه که بهتون خبر بدیم خانه آب ایران به تازگی یک محور جدید به محورهای فعالیتش اضافه کرده،&nbsp;<span>همه تلاشمون این هست که بتونیم به اندازه خودمون، گامی برای ارتقاء آگاهی و دانش هم‌وطنان عزیزمون و مخصوصا علاقمندان به علوم مرتبط با آب و محیط زیست برداریم.</span></div><blockquote style="border-right: 5px solid #03A9F4; background: #f5f5f5;"><div><span style="font-size: medium;"><strong>اصلا چرا ؟؟؟ </strong></span></div></blockquote><div><span>ما فکر کردیم تو این شرایط اقتصادی که انجام خیلی از کارا داره کم کم از برنامه مون حذف میشه، با یک تیر چند نشون بزنیم، چند تا سفر جالب و خاطره انگیز بریم، که هم فاله و هم تماشا !! هم کلی چیز یاد میگیریم و با حضور اساتید و خبرگان آب کشور، با دانش بومی آب در ایران عزیزمون بیشتر آشنا می‌شیم.</span></div><div><span> هم جاهای دیدنی و تاریخی رو می بینیم و حال و هوامون توی این روزگار سخت عوض میشه، و هم شبکه دوستی و کاری خودمون رو توسعه میدیم و با هم یک خانواده همدل و صمیمی میسازیم:</span></div><div><span>- حضور مهمانان ویژه از شخصیت‌های علمی و فرهنگی برجسته، کمک می‌کنه که توو این سفر، هم درس زندگی بگیریم و هم درس آب و از همنشینی و معاشرت با انسان‌های فرهیخته کیف کنیم.</span></div><blockquote style="border-right: 5px solid #03A9F4;background: #f5f5f5;"><div style="text-align: right;"><strong><span style="font-size: medium;">اولین سفر: یزد</span></strong></div></blockquote><div dir="rtl"><span><span><span>حالا وقتشه که از اولین سفرمون رونمایی کنیم؛ سفر به شهر قنات و قنوت و قناعت (با لهجه دلنشین یزدی بخونین)</span></span></span></div><div><span><span><span> از وقتی شروع کردیم به برنامه ریزی این سفر، هر روز از آدم ها و جاهای کمتر دیده شده یزد، کشف تازه ای داشتیم و هربار کلی ذوق کردیم و به ایرانی بودنمون بالیدیم !! هر روز ایمان و انگیزه مون بیشتر شد و با اشتیاق بیشتری از افراد برجسته یزد که از راه دور هم گرمای مهمان نوازیشون دلگرم مون می کرد، برنامه هامون رو دنبال کردیم. و حالا هم حسابی منتظر رسیدن آبان ماه هستیم که با هم یک تجربه ناب پاییزی رو در دل کویر رازآلود داشته باشیم !!</span></span></span></div><div><span><span><span> صبح سه شنبه 8 آبان که تعطیله، حرکت میکنیم و صبح جمعه 11 آبان دوباره میرسیم تهران؛</span></span></span></div><div><ul style="list-style-type: square;"><li>مجموعه متنوعی از بازدیدهای علمی و جاذبه های گردشگری و سیاحتی رو در این سفر برنامه ریزی کردیم و تمام تلاشمون این بوده که هزینه های سفر رو تا جای ممکن کاهش بدیم و امکان حضور عده بیشتری از علاقمندان رو فراهم کنیم.</li></ul><p>&nbsp;</p></div>
                 <!-- <p style="text-align: center; margin-bottom:50px" data-aos="fade-up" data-aos-delay="1500">
                         <a class="poster view colorbox-time" href="https://docs.google.com/gview?embedded=true&url=http%3A%2F%2Fwaterhouse.ir%2Fsites%2Fdefault%2Ffiles%2Fmanual%2Fpipe-landing%2Fpdf%2fpostergardeshgari1-yazd-3.pdf" target="_self"> نمایش پوستر </a>
                         <a class="poster download" href="./sites/all/themes/waterhouse/images/tour/postergardeshgari1-yazd-3.jpg" target="_self" download="yazd-tour-poster"> دانلود پوستر </a>
                 </p> -->
             </div>
         </div>
-        <div class="wh" style="padding: 0;;" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="900">    
+        <div class="wh" style="padding: 0;;" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="900">
             <h2 style="position: relative;" > موشن گرافیک معرفی برنامه </h2>
             <?php
             $video_attrs = array(
@@ -58,7 +58,7 @@
             <h2 style="position: relative;">  سفر در یک نگاه </h2>
         </div>
         <img src="/sites/all/themes/waterhouse/images/tour/info-yazd.jpg" width="100%" height="auto">
-    </section>  
+    </section>
 
     <section id="timing" class="panel">
         <div class="wh">
@@ -291,7 +291,7 @@
                         <h3 class="title">مکان های تاریخی شهر یزد</h3>
                         <p class="description"><span>- گشت در قدیمی ترین بافت یزد – فهادان<span>
                                                 <span>-	زندان اسکندر<span>
-                                                <span>-	خانه لاری ها<span>  
+                                                <span>-	خانه لاری ها<span>
                         </p>
                     </div>
                 </div>
@@ -324,7 +324,7 @@
             </div>
         </div>
     </section>
-    
+
     <section id="poster" class="panel"  data-aos="fade-right" data-aos-delay="1000" >
         <div class="wh">
             <h2 style="position: relative;">  اطلاعات تکمیلی </h2>
@@ -333,51 +333,51 @@
     </section>
 
     <section id="todolist" class="panel"  style="background-color: #fff" >
-        <div class="wh" style="max-width: 1200px;">    
+        <div class="wh" style="max-width: 1200px;">
             <h2 style="position: relative;" data-aos="flip-right" data-aos-delay="1500">  لوازم ضروری و پیشنهادی  </h2>
-            <div class="todo">    
-                <div class="list need " data-aos="fade-left" data-aos-delay="1500"> 
+            <div class="todo">
+                <div class="list need " data-aos="fade-left" data-aos-delay="1500">
                     <ul class="post-accessories-content" >
                         <p><span class="fa fa-list"></span> لوازم ضروری</p>
                         <li><a>کارت شناسایی<span class="fa fa-id-card"></span></a> </li>
-                        <li><a>دفترچه بیمه<span class="fa fa-id-card"></span></a> </li>  
-                        <li><a>دارو و لوازم بهداشتی<span class="fa fa-check-circle"></span></a> </li>  
-                        <li><a>لباس گرم<span class="fa fa-clothes"></span></a> </li>    
-                        <li><a>کفش مناسب پیاده روی<span class="fa fa-check-circle"></span></a> </li>  
+                        <li><a>دفترچه بیمه<span class="fa fa-id-card"></span></a> </li>
+                        <li><a>دارو و لوازم بهداشتی<span class="fa fa-check-circle"></span></a> </li>
+                        <li><a>لباس گرم<span class="fa fa-clothes"></span></a> </li>
+                        <li><a>کفش مناسب پیاده روی<span class="fa fa-check-circle"></span></a> </li>
                     </ul>
-                </div> 
-                <div class="list suggest " data-aos="fade-right" data-aos-delay="1500"> 
+                </div>
+                <div class="list suggest " data-aos="fade-right" data-aos-delay="1500">
                     <ul class="post-accessories-content">
-                        <p><span class="fa fa-list"></span> لوازم پیشنهادی</p> 
-                        <li><a>عینک آفتابی<span class="fa fa-sunglasses"></span></a> </li>  
-                        <li><a>کرم ضد آفتاب<span class="fa fa-check-circle"></span></a> </li>  
-                        <li><a>شارژر موبایل<span class="fa fa-charging"></span></a> </li> 
-                        <li><a>دوربین عکاسی<span class="fa fa-camera"></span></a> </li>  
+                        <p><span class="fa fa-list"></span> لوازم پیشنهادی</p>
+                        <li><a>عینک آفتابی<span class="fa fa-sunglasses"></span></a> </li>
+                        <li><a>کرم ضد آفتاب<span class="fa fa-check-circle"></span></a> </li>
+                        <li><a>شارژر موبایل<span class="fa fa-charging"></span></a> </li>
+                        <li><a>دوربین عکاسی<span class="fa fa-camera"></span></a> </li>
                     </ul>
                 </div>
             </div>
     </section>
 
     <section id="sabtenam" class="panel" data-aos="fade-right" data-aos-delay="1700">
-        <div class="wh" style="margin-bottom: 30px;"> 
+        <div class="wh" style="margin-bottom: 30px;">
             <h2 style="position: relative; color:#fff" data-aos="flip-right" data-aos-delay="1700"> ثبت نام آنلاین </h2>
             <div class="tickets" data-aos="fade-left" data-aos-delay="1800">
                 <!-- <div>
-                    <a href="http://waterhouse.ir/product/yazdtour2/1494" style="width: 360px; min-height: 100px;" target="_blank">
+                    <a href="/product/yazdtour2/1494" style="width: 360px; min-height: 100px;" target="_blank">
                         <div style="display: flex;justify-content: center;align-items: center;color: #5dca25;font-weight: 500;font-size: 23px;padding: 18px 15px 0px 15px;"><span>  ثبت نام سفر  </span></div>
                         <span class="sabtenam"> ثبت نام </span>
                     </a>
                 </div> -->
-                <div style="display: flex;justify-content: center;align-items: center;color: #ff0000;font-weight: 500;font-size: 23px;padding: 15px;background: #dcdcdc;width: 360px;margin: auto;min-height: 100px;border-radius: 40px;margin-top: 40px;"><span>  مهلت ثبت نام به پایان رسید </span></div>   
+                <div style="display: flex;justify-content: center;align-items: center;color: #ff0000;font-weight: 500;font-size: 23px;padding: 15px;background: #dcdcdc;width: 360px;margin: auto;min-height: 100px;border-radius: 40px;margin-top: 40px;"><span>  مهلت ثبت نام به پایان رسید </span></div>
 	        </div>
         </div>
      </section>
 
     <section id="survey" class="panel" data-aos="fade-right" data-aos-delay="1700" >
-        <div class="wh" style="margin-bottom: 30px;"> 
+        <div class="wh" style="margin-bottom: 30px;">
             <h2 style="position: relative; " data-aos="flip-right" data-aos-delay="1700">  نظرسنجی آنلاین </h2>
             <div class="yazd-survey" data-aos="fade-left" data-aos-delay="1800">
-                <a href="http://waterhouse.ir/Yazd-Survey" style="width: 360px; min-height: 100px;" target="_blank">
+                <a href="/Yazd-Survey" style="width: 360px; min-height: 100px;" target="_blank">
                     <div style="display: flex;justify-content: center;align-items: center;color: #fff;font-weight: 500;font-size: 23px;padding: 40px 15px 0px 15px;"><span>  نظرسنجی برنامه یزد  </span></div>
                 </a>
 	        </div>
@@ -391,48 +391,48 @@
 	</section>
 
      <!-- <section id="sabtenam2" class="panel" style="display:none;" data-aos="fade-right" data-aos-delay="500">
-        <div class="wh" style="margin-bottom: 30px;"> 
+        <div class="wh" style="margin-bottom: 30px;">
             <h2 style="position: relative; color:#fff"> ثبت نام آنلاین </h2>
             <div class="tickets">
                 <div>
                     <div>
-                        <div class="form-item form-item-attributes-15 form-type-radio radio"> 
+                        <div class="form-item form-item-attributes-15 form-type-radio radio">
                             <label class="control-label" for="edit-attributes-15-245">
                                 <input mablagh1="390000" type="radio" id="edit-attributes-15-245" name="attributes[15]" value="245" class="form-radio ajax-processed">
-                                ثبت نام عادی: 390,000 تومان 
+                                ثبت نام عادی: 390,000 تومان
                             </label>
                         </div>
-                        <div class="form-item form-item-attributes-14-243 form-type-checkbox checkbox"> 
+                        <div class="form-item form-item-attributes-14-243 form-type-checkbox checkbox">
                             <label class="control-label" for="edit-attributes-14-243">
                                 <input mablagh1="120000" type="checkbox" id="edit-attributes-14-243" name="attributes[14][243]" value="243" class="form-checkbox     ajax-processed">
-                                بلیط رفت و برگشت: 120,000+ تومان 
+                                بلیط رفت و برگشت: 120,000+ تومان
                             </label>
                         </div>
-                        <div class="form-item form-item-attributes-14-244 form-type-checkbox checkbox"> 
+                        <div class="form-item form-item-attributes-14-244 form-type-checkbox checkbox">
                             <label class="control-label" for="edit-attributes-14-244">
                                 <input mablagh1="130000" type="checkbox" id="edit-attributes-14-244" name="attributes[14][244]" value="244" class="form-checkbox     ajax-processed">
-                                هزینه اقامت: 130,000+ تومان 
+                                هزینه اقامت: 130,000+ تومان
                             </label>
                         </div>
                         <div class="kharid1"></div>
                     </div>
                     <div>
-                        <div class="form-item form-item-attributes-15 form-type-radio radio"> 
+                        <div class="form-item form-item-attributes-15 form-type-radio radio">
                             <label class="control-label" for="edit-attributes-15-246">
                                 <input mablagh2="240000" type="radio" id="edit-attributes-15-246" name="attributes[15]" value="246" class="form-radio ajax-processed">
-                                ثبت نام دانشجویی: 240,000 تومان 
+                                ثبت نام دانشجویی: 240,000 تومان
                             </label>
                         </div>
-                        <div class="form-item form-item-attributes-14-243 form-type-checkbox checkbox"> 
+                        <div class="form-item form-item-attributes-14-243 form-type-checkbox checkbox">
                             <label class="control-label" for="edit-attributes-14-243">
                                 <input mablagh2="120000" type="checkbox" id="edit-attributes-14-243" name="attributes[14][243]" value="243" class="form-checkbox     ajax-processed">
-                                بلیط رفت و برگشت: 120,000+ تومان 
+                                بلیط رفت و برگشت: 120,000+ تومان
                             </label>
                         </div>
-                        <div class="form-item form-item-attributes-14-244 form-type-checkbox checkbox"> 
+                        <div class="form-item form-item-attributes-14-244 form-type-checkbox checkbox">
                             <label class="control-label" for="edit-attributes-14-244">
                                 <input mablagh2="130000" type="checkbox" id="edit-attributes-14-244" name="attributes[14][244]" value="244" class="form-checkbox     ajax-processed">
-                                هزینه اقامت: 130,000+ تومان 
+                                هزینه اقامت: 130,000+ تومان
                             </label>
                         </div>
                         <div class="kharid2"></div>
@@ -524,7 +524,7 @@
         /*-----------------------------------------------------------------------------------*/
         /* for adding multiple products to car at the same tim*/
         // var mablagh1 = 390000;
-        // $('#sabtenam2 .kharid1').append('<p class="mablagh1">'+mablagh1+'</p><a href="http://waterhouse.ir/cart/add/p1494_a15o245" class="add-all-to-cart">ثبت نام عادی</a>');
+        // $('#sabtenam2 .kharid1').append('<p class="mablagh1">'+mablagh1+'</p><a href="/cart/add/p1494_a15o245" class="add-all-to-cart">ثبت نام عادی</a>');
         // $('#sabtenam2 input').change(function(){
         //     var href = $('.add-all-to-cart').attr('href');
         //     if ($(this).is( ":checked" )) {
@@ -542,10 +542,10 @@
         //                 $('.add-all-to-cart').attr('href', href.substring(0, j) + href.substring(j + 13));
         //             }else{
         //                 //dar entehast ya yekist
-        //                 $('.add-all-to-cart').attr('href', href.substring(0, j));			
+        //                 $('.add-all-to-cart').attr('href', href.substring(0, j));
         //             }
         //             if($('.add-all-to-cart').attr('href').slice(-1) == '-'){
-        //                 $('.add-all-to-cart').attr('href', $('.add-all-to-cart').attr('href').substring(0, $('.add-all-to-cart').attr('href').length - 1));			
+        //                 $('.add-all-to-cart').attr('href', $('.add-all-to-cart').attr('href').substring(0, $('.add-all-to-cart').attr('href').length - 1));
         //             }
         //         }
         //     }

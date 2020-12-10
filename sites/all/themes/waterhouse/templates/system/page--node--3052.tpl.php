@@ -50,7 +50,7 @@
 	</section>
 	<section id="intr">
 		<div class="row">
-			<div class="col col-lg-6 show-video">    
+			<div class="col col-lg-6 show-video">
 		 		<video width="400" controls>
 					<source src="/sites/default/files/manual/tour/motion-khuzestan2.mp4" type="video/mp4">
 					<source src="/sites/default/files/manual/tour/motion-khuzestan2.mp4" type="video/ogg">
@@ -59,7 +59,7 @@
 			</div>
 			<div class="matn col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="text">
-						
+
 					<h1>معرفی سفر به شرق و جنوب خوزستان و مارون </h1>
 					ما بچه‌های خانه آب، دوباره عزم سفر کردیم و می‌خوایم شما رو هم به این سفر دعوت کنیم! یه سفر با محوریت آب و محیط زیست توی مام وطنمون ایران؛ البته که از فرهنگ هم توی این سفر غافل نیستیم.
 					اين دفعه مسافر سرزمین آب و آفتاب! سرزمين رودهای خروشان! سرزمین هزاره‌های پیش از تاریخ هستیم! بله! درست حدس زدید،جنوب خوزستان!
@@ -121,13 +121,13 @@
 		</div>
 	</section>
 	<section id="place">
-		<div class="row">	
+		<div class="row">
 			<div class="col-md-3">
 				<div class="place">
 					<img src="/sites/all/themes/waterhouse/images/meysam/image/maroon/talab.jpg" alt="تالاب شادگان"/>
 					<p>تالاب شادگان</p>
 					<div class="more">
-						تالاب شادگان، یک تالاب بین المللی است که در خوزستان واقع شده است. 
+						تالاب شادگان، یک تالاب بین المللی است که در خوزستان واقع شده است.
 						<br/>
 						این تالاب در جنوب غربی ایران در جنوب شهر شادگان و در استان خوزستان قرار دارد
 						<br/>
@@ -136,7 +136,7 @@
 						قایق سواری در این تالاب تفریح برجسته و به نام است. تمام گردشگران برای حس تالاب و تجربۀ آن سوار قایق می‌شوند و در آن گردش می‌کنند
 					</div>
 				</div>
-			</div>	
+			</div>
 			<div class="col-md-3">
 				<div class="place">
 					<img src="/sites/all/themes/waterhouse/images/meysam/image/maroon/sad-m.jpg" alt="سد مخزنی مارون"/>
@@ -144,10 +144,10 @@
 					<div class="more">
 						یک سد خاکی است که بر روی رود مارون در ۱۵ کیلومتری شمال بهبهان در استان خوزستان قرار دارد
 						<br/>
-						این سد آب مورد نیاز کشاورزی و نیروی برق‌آبی را تأمین می‌کند	
+						این سد آب مورد نیاز کشاورزی و نیروی برق‌آبی را تأمین می‌کند
 					</div>
 				</div>
-			</div>	
+			</div>
 			<div class="col-md-3">
 				<div class="place">
 					<img src="/sites/all/themes/waterhouse/images/meysam/image/maroon/foolad.jpg" alt="کارخانه فولاد خوزستان"/>
@@ -155,10 +155,10 @@
 					<div class="more">
 						بزرگترین عرضه کننده شمش فولاد و دومین قطب تولید فولاد خام در کشور میباشد
 						<br/>
-						یکی از بنگاه های پیشرو اقتصادی  که در عرصه های ملی و منطقه ای صنعت فولاد حضوری فعال دارد	
+						یکی از بنگاه های پیشرو اقتصادی  که در عرصه های ملی و منطقه ای صنعت فولاد حضوری فعال دارد
 					</div>
 				</div>
-			</div>	
+			</div>
 			<div class="col-md-3">
 				<div class="place">
 					<img src="/sites/all/themes/waterhouse/images/meysam/image/maroon/ghir.jpg" alt="چشمه قیر جوشان مامتین"/>
@@ -171,7 +171,7 @@
 						در منطقه ماماتین، ۱۰ چشمه قیر طبیعی به صورت تنورهای نانوایی وجود دارد که با مصالحی از قبیل قلوه‌سنگ و ملات ساروج در دو طرف یک مسیل کم‌آب قرار گرفته‌اند. هنگامی که این چشمه‌ها فوران می‌کنند در بستر رودخانه قرار می‌گیرند.
 					</div>
 				</div>
-			</div>	
+			</div>
 			<div class="col-md-3">
 				<div class="place">
 					<img src="/sites/all/themes/waterhouse/images/meysam/image/maroon/dilam.jpg" alt=" بندر دیلم بوشهر"/>
@@ -182,13 +182,13 @@
 						ازجاذبه‌های دیگر دیلم: دریای ساحلی بکر ودست نخورده درمیان دریاهای استان، اسکله دیلم - بازار ماهی فروشان، قبرسید، قبورشهدای گمنام، بازارها (کویتی‌ها - بازارچه ساحلی - پاساردریم لند)، جنگل‌ها (بیدو - عامری - سیاهمکان)، امامزاده جعفر، امام زاده حسن درشهر امام حسن، تپه‌های صخره ای ساحل امام حسن، روستای هدف گردشگری حصار
 					</div>
 				</div>
-			</div>		
+			</div>
 			<div class="col-md-3">
 				<div class="place">
 					<img src="/sites/all/themes/waterhouse/images/meysam/image/maroon/minoo.jpg" alt="آبادان گردی"/>
 					<p>آبادان گردی</p>
 					<div class="more">
-							آبادان گردی می‌تواند یکی از لذت‌بخش‌ ترین تفریحات ایرانگردی باشد 
+							آبادان گردی می‌تواند یکی از لذت‌بخش‌ ترین تفریحات ایرانگردی باشد
 						<br/>
 
 					</div>
@@ -202,7 +202,7 @@
 						بندر امام خمینی بعد از بندر شهید رجایی بزرگترین بندر تجاری ایران است که راه آهن سراسری آن را به پایتخت پیوند می‌دهد. طول اسکلهٔ تجاری مجتمع بندری امام حدود هفت کیلومتر است و سالانه سی میلیون تن کالا را پذیرش می‌کند. از این رو از بزرگترین و مهمترین پایانه تجارتی دریایی کشور است.
 					</div>
 				</div>
-			</div>	
+			</div>
 			<div class="col-md-3">
 				<div class="place">
 					<img src="/sites/all/themes/waterhouse/images/meysam/image/maroon/karun.jpg" alt="نخلستانهای کارون"/>
@@ -353,7 +353,7 @@
 		                <p class="description">بندر دیلم - جاده ساحلی – بازار مرزی هندیجان – اسکله بندر امام</p>
 		            </div>
 		        </div>
-		        
+
 		        <div class="row">
 		            <div class="right">
 		                <div class="icon-dot">
@@ -425,7 +425,7 @@
 		            </div>
 		        </div>
             </div>
-            
+
             <div class="tab-section tab5-section">
                 <div class="row">
                     <div class="right">
@@ -470,16 +470,16 @@
                 </div>
             </div>
 		</div>
-	</section> 
+	</section>
 	<section id="sign">
-		<a href="http://waterhouse.ir/tourism/sign" target="_blank">
+		<a href="/tourism/sign" target="_blank">
 			<img src="/sites/all/themes/waterhouse/images/meysam/image/maroon/sign.png" alt="سفر به خوزستان">
 		</a>
 	</section>
 	<section id="tours">
 		<div class="row">
 			<div class="tour one">
-				<a href="http://waterhouse.ir/tourism/yazd" target="_blank">
+				<a href="/tourism/yazd" target="_blank">
 					<div class="over">
 						<h3>یزد</h3>
 						<p>8 تا 11 آبان 97</p>
@@ -488,7 +488,7 @@
 				</a>
 			</div>
 			<div class="tour two">
-				<a href="http://waterhouse.ir/tourism/khuzestan" target="_blank">
+				<a href="/tourism/khuzestan" target="_blank">
 					<div class="over">
 						<h3>شمال خوزستان</h3>
 						<p>14 تا 17 اسفند 97</p>
@@ -497,7 +497,7 @@
 				</a>
 			</div>
 			<div class="tour three">
-				<a href="http://waterhouse.ir/tourism/aras" target="_blank">
+				<a href="/tourism/aras" target="_blank">
 					<div class="over">
 						<h3>رودخانه ارس</h3>
 						<p>1 تا 4 آبان 98</p>
@@ -506,7 +506,7 @@
 				</a>
 			</div>
 			<div class="tour four">
-				<a href="http://waterhouse.ir/tourism/lar" target="_blank">
+				<a href="/tourism/lar" target="_blank">
 					<div class="over">
 						<h3>سد لار</h3>
 						<p>23 آبان 98</p>
@@ -515,7 +515,7 @@
 				</a>
 			</div>
 			<div class="tour five">
-				<a href="http://waterhouse.ir/tourism/amirkabir" target="_blank">
+				<a href="/tourism/amirkabir" target="_blank">
 					<div class="over">
 						<h3>سد امیرکبیر</h3>
 						<p>14 آذر 98</p>
@@ -525,7 +525,7 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<style>
 
 		@keyframes swing{
@@ -601,11 +601,11 @@
 		.tab2-section .row:nth-of-type(1) .icon, .tab2-section .row:nth-of-type(2) .icon,.tab2-section .row:nth-of-type(3) .icon,.tab2-section .row:nth-of-type(4) .icon
 		.tab2-section .row:nth-of-type(5) .icon, {
 		    background:#e7534c !important;
-		
+
 		}
 	</style>
-    <script> 
-	
+    <script>
+
 	$('#timing .tab1').click(function(){
             if(!$(this).hasClass('active')){
                 $(this).addClass('active');

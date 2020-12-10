@@ -35,7 +35,7 @@ $('.carousel').carousel();
 // });
 /*-------------------- Search menu -----------------
 $('#edit-sa').click(function(){
-	window.open('http://waterhouse.ir/search/google');
+	window.open('/search/google');
 });
 
 $('.navbar-static-top nav > ul > li.last.leaf').hover( function() {
@@ -92,12 +92,12 @@ $('#block-google-cse-google-cse').mouseenter(function(){
 /*----------------------------------------------*/
 $(".front .panels-flexible-region-1-shop.front-docs .field-name-file-count .without-file2").replaceWith( "<span> 168 فایل </span>" );
 /*------------------------- آپلود تصویر کارت دانشجویی ---------------------*/
- $('.page-node-3030 #uc_product_add_to_cart_form-3030-attributes').html($('.page-node-3030 #uc_product_add_to_cart_form-3030-attributes').html() + '<div class="kart-upload"><a class="upload-file btn-defult" href="http://waterhouse.ir/upload" target="_self">آپلود کارت دانشجویی</a></div>');
+ $('.page-node-3030 #uc_product_add_to_cart_form-3030-attributes').html($('.page-node-3030 #uc_product_add_to_cart_form-3030-attributes').html() + '<div class="kart-upload"><a class="upload-file btn-defult" href="/upload" target="_self">آپلود کارت دانشجویی</a></div>');
 
- $('.page-node-1532 #uc_product_add_to_cart_form-1532-attributes').html($('.page-node-1532 #uc_product_add_to_cart_form-1532-attributes').html() + '<div class="kart-upload"><a class="upload-file btn-defult" href="http://waterhouse.ir/upload2" target="_self">آپلود کارت دانشجویی</a></div>');
- $('.page-node-1656 #uc_product_add_to_cart_form-1656-attributes').html($('.page-node-1656 #uc_product_add_to_cart_form-1656-attributes').html() + '<div class="kart-upload"><a class="upload-file btn-defult" href="http://waterhouse.ir/upload2" target="_self">آپلود کارت دانشجویی</a></div>');
+ $('.page-node-1532 #uc_product_add_to_cart_form-1532-attributes').html($('.page-node-1532 #uc_product_add_to_cart_form-1532-attributes').html() + '<div class="kart-upload"><a class="upload-file btn-defult" href="/upload2" target="_self">آپلود کارت دانشجویی</a></div>');
+ $('.page-node-1656 #uc_product_add_to_cart_form-1656-attributes').html($('.page-node-1656 #uc_product_add_to_cart_form-1656-attributes').html() + '<div class="kart-upload"><a class="upload-file btn-defult" href="/upload2" target="_self">آپلود کارت دانشجویی</a></div>');
 
-// $('.page-college #block-views-college-block .attributes').html($('.page-college #block-views-college-block .attributes').html() + '<div class="kart-upload"><a class="upload-file btn-defult" href="http://waterhouse.ir/upload" target="_self">آپلود کارت دانشجویی</a></div>');
+// $('.page-college #block-views-college-block .attributes').html($('.page-college #block-views-college-block .attributes').html() + '<div class="kart-upload"><a class="upload-file btn-defult" href="/upload" target="_self">آپلود کارت دانشجویی</a></div>');
 /*----------------------------------------------*/
 $('.page-node-1656 #edit-attributes-3-241--2').click(function(){
     if ($(this).is(':checked'))

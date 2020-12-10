@@ -51,7 +51,7 @@
 	<h4 class="lable" id="moarefi"><img src="/sites/all/themes/waterhouse/images/meysam/image/tabas/intro.png"/></h4>
 	<section id="introduct">
 		<div class="container">
-			<div class="col col-lg-6 show-video">    
+			<div class="col col-lg-6 show-video">
 		 		<video width="400" controls>
 					<source src="/sites/default/files/manual/tour/motion-tabas.mp4" type="video/mp4">
 					<source src="/sites/default/files/manual/tour/motion-tabas.mp4" type="video/ogg">
@@ -60,7 +60,7 @@
 			</div>
 			<div class="matn col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<div class="text">
-						
+
 					<h1>معرفی سفر به طبس، <strong>بهشتی گمشده در دل کویر</strong></h1>
 					بی شک طبس یکی از زیباترین شهرهای کویری ایران است که دارای جاذبه های فراوان طبیعی ،تاریخی و فرهنگی می باشد
 					<br/>
@@ -298,7 +298,7 @@
 		                <p class="description">گشت در شهر طبس و خرید سوغات</p>
 		            </div>
 		        </div>
-		        
+
 		        <div class="row">
 		            <div class="right">
 		                <div class="icon-dot">
@@ -395,7 +395,7 @@
 		                <h3 class="title">صرف ناهار  </h3>
 		            </div>
 		        </div>
-		        
+
 		        <div class="row">
 		            <div class="right">
 		                <div class="icon-dot">
@@ -409,7 +409,7 @@
 		                <h3 class="title">حرکت به سمت قنات بلده و بازدید از آن</h3>
 		            </div>
 		        </div>
-		        
+
 		        <div class="row">
 		            <div class="right">
 		                <div class="icon-dot">
@@ -451,9 +451,9 @@
 		        </div>
             </div>
 		</div>
-	</section> 
+	</section>
 	<section id="sign">
-		<a href="http://waterhouse.ir/tourism/sign" target="_blank">
+		<a href="/tourism/sign" target="_blank">
 			<img src="/sites/all/themes/waterhouse/images/meysam/image/tabas/log.png" alt="سفر به طبس و کویر مصر"/>
 		</a>
 	</section>
@@ -470,7 +470,7 @@
 	<section id="tours">
 		<div class="row">
 			<div class="tour one">
-				<a href="http://waterhouse.ir/tourism/yazd" target="_blank">
+				<a href="/tourism/yazd" target="_blank">
 					<div class="over">
 						<h3>یزد</h3>
 						<p>8 تا 11 آبان 97</p>
@@ -479,7 +479,7 @@
 				</a>
 			</div>
 			<div class="tour two">
-				<a href="http://waterhouse.ir/tourism/khuzestan" target="_blank">
+				<a href="/tourism/khuzestan" target="_blank">
 					<div class="over">
 						<h3>شمال خوزستان</h3>
 						<p>14 تا 17 اسفند 97</p>
@@ -488,7 +488,7 @@
 				</a>
 			</div>
 			<div class="tour three">
-				<a href="http://waterhouse.ir/tourism/aras" target="_blank">
+				<a href="/tourism/aras" target="_blank">
 					<div class="over">
 						<h3>رودخانه ارس</h3>
 						<p>1 تا 4 آبان 98</p>
@@ -497,7 +497,7 @@
 				</a>
 			</div>
 			<div class="tour four">
-				<a href="http://waterhouse.ir/tourism/lar" target="_blank">
+				<a href="/tourism/lar" target="_blank">
 					<div class="over">
 						<h3>سد لار</h3>
 						<p>23 آبان 98</p>
@@ -506,7 +506,7 @@
 				</a>
 			</div>
 			<div class="tour five">
-				<a href="http://waterhouse.ir/tourism/amirkabir" target="_blank">
+				<a href="/tourism/amirkabir" target="_blank">
 					<div class="over">
 						<h3>سد امیرکبیر</h3>
 						<p>14 آذر 98</p>
@@ -517,12 +517,12 @@
 		</div>
 	</section>
 	<div class="alert success">
-		  <span class="closebtn">×</span>  
-		  <a class="pop" href="http://waterhouse.ir/tourism/sign">
-			  ثبت نام	
+		  <span class="closebtn">×</span>
+		  <a class="pop" href="/tourism/sign">
+			  ثبت نام
 		  </a>
 		</div>
-	
+
 	<style>
 		/*pop*/
 		.alert {
@@ -564,7 +564,7 @@
 		.closebtn:hover {
 			color: black;
 		}
-		
+
 		/*pop*/
 	     #timing .tab3-section .row:nth-of-type(6) .icon,#timing .tab4-section .row:nth-of-type(5) .icon, #timing .tab4-section .row:nth-of-type(8) .icon {
 		     background-image: url(/sites/all/themes/waterhouse/images/tour/16.jpg) !important
@@ -642,8 +642,8 @@
 			transform:translateY(-150px)
 		}
 	</style>
-    <script> 
-	
+    <script>
+
 	$('#timing .tab1').click(function(){
             if(!$(this).hasClass('active')){
                 $(this).addClass('active');

@@ -9,7 +9,7 @@ if ($('.our-work').length){
 	var totop = totop - 130;
 	$(window).scroll(function () {
 		if ($(this).scrollTop() > totop) {
-			if (!$('.our-work').hasClass('counting')){		
+			if (!$('.our-work').hasClass('counting')){
 //			} else{
 				$('.our-work').addClass('counting');
 				countup($('.counter'));
@@ -53,7 +53,7 @@ if(window.getComputedStyle(document.querySelector('body'), ':before' ).getProper
 
 $('#uc-cart-view-form .form-actions button:last-child,#edit-continue ,form#uc-zarinpal-pay-submission-form .btn').addClass('btn btn-success');
 $('#edit-continue-shopping, form#uc-cart-checkout-review-form .btn').addClass('btn btn-primary');
-$('#edit-empty,#edit-cancel').addClass('btn btn-danger'); 
+$('#edit-empty,#edit-cancel').addClass('btn btn-danger');
 $('.page-cart,.page-college').addClass('gray-main');
 $('.uc-cart-empty, .page-cart-zarinpal-complete').attr('zdepth' , '1').addClass('paper');
 $('.view-uc-orders-user tbody').addClass('paper');
@@ -87,7 +87,7 @@ $('div#billing-address-pane td > span.form-required').each(function(){
 	$(this).remove();
 });
 
-$('.uc-cart-checkout-form .form-actions').prepend('<a href="/cart" id="edit-cancel" class="back-to-cart btn btn-primary">بازگشت به سبد خرید</a>'); 
+$('.uc-cart-checkout-form .form-actions').prepend('<a href="/cart" id="edit-cancel" class="back-to-cart btn btn-primary">بازگشت به سبد خرید</a>');
 
 $('body.news-mainpage .main-container').removeClass('container');
 
@@ -146,7 +146,7 @@ $(".whole-taghvim .taghvim-firsttab").click(function(){
 	$(".whole-taghvim .taghvim-mainpage2").css({'z-index' : '3' });
 	$(this).addClass('active');
 	$(".whole-taghvim .taghvim-sectab").removeClass('active');
-	$(".whole-taghvim .taghvim-contain .underline-active").css({'right' : '0' });	
+	$(".whole-taghvim .taghvim-contain .underline-active").css({'right' : '0' });
 });
 
 $(".whole-taghvim .taghvim-sectab").click(function(){
@@ -163,7 +163,7 @@ $(".whole-taghvim .taghvim-sectab").click(function(){
 
 var $firstyear = $(".taghvim-mainpage1 .views-row-1 .views-field-field-eventdate-1 span").text();
 $(".taghvim-mainpage1 .views-row-1 .views-field-field-eventdate-1").css({'display' : 'block' });
-for (i = 2 ; i < 31 ; i++) { 
+for (i = 2 ; i < 31 ; i++) {
     var $newyear = $(".taghvim-mainpage1 .views-row-"+i+" .views-field-field-eventdate-1 span").text();
 	if($newyear != $firstyear){
 		$(".taghvim-mainpage1 .views-row-"+i+" .views-field-field-eventdate-1").css({'display' : 'block' });
@@ -174,7 +174,7 @@ for (i = 2 ; i < 31 ; i++) {
 
 var $firstyear2 = $(".taghvim-mainpage2 .views-row-1 .views-field-field-eventdate-1 span").text();
 $(".taghvim-mainpage2 .views-row-1 .views-field-field-eventdate-1").css({'display' : 'block' });
-for (i = 2 ; i < 31 ; i++) { 
+for (i = 2 ; i < 31 ; i++) {
     var $newyear2 = $(".taghvim-mainpage2 .views-row-"+i+" .views-field-field-eventdate-1 span").text();
 	if($newyear2 != $firstyear2){
 		$(".taghvim-mainpage2 .views-row-"+i+" .views-field-field-eventdate-1").css({'display' : 'block' });
@@ -191,7 +191,7 @@ if($('.views-field-addtocartlink .attribute').length){
 if($('.node-course.node-teaser .add-to-cart .attributes').length){
 	$('.node-course.node-teaser').addClass('has-attr');
 }
-    
+
 /*-----------for adding multiple products to cart at the same time-----------*/
 // $('.page-shop .view-shop').prepend('<a href="/cart/add/" class="add-all-to-cart">افزودن به سبد خرید</a>');
 // $('.page-shop .view-shop .views-row').each(function(index){
@@ -218,10 +218,10 @@ if($('.node-course.node-teaser .add-to-cart .attributes').length){
 // 			if(href.indexOf('p' + $(this).attr('nid') + '-') > 0){
 // 				$('.add-all-to-cart').attr('href', href.substring(0, j) + href.substring(j + 5));
 // 			}else{
-// 				$('.add-all-to-cart').attr('href', href.substring(0, j));			
+// 				$('.add-all-to-cart').attr('href', href.substring(0, j));
 // 			}
 // 			if($('.add-all-to-cart').attr('href').slice(-1) == '-'){
-// 				$('.add-all-to-cart').attr('href', $('.add-all-to-cart').attr('href').substring(0, $('.add-all-to-cart').attr('href').length - 1));							
+// 				$('.add-all-to-cart').attr('href', $('.add-all-to-cart').attr('href').substring(0, $('.add-all-to-cart').attr('href').length - 1));
 // 			}
 // 		}
 // 	}
@@ -253,14 +253,14 @@ $(".field-name-collegetabs .view-display-id-attachment_1 .views-row").click(func
 $('ul.nav li.dropdown').hover(function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(500);
 }, function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(500); 
+  $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(500);
 });
 
 $('ul.nav > li.dropdown:not(li:nth-child(4))').click(function() {
-    window.location.href = $(this).find('a').attr('href'); 
+    window.location.href = $(this).find('a').attr('href');
 });
 $('body:not(.page-waterchallenge-document) ul.nav > li.dropdown:nth-child(4)').click(function() {
-    window.location.href = $(this).find('a').attr('href'); 
+    window.location.href = $(this).find('a').attr('href');
 });
 
 /*------------just for main page of document-----------*/
@@ -271,7 +271,7 @@ $('body.page-waterchallenge-document.main-front ul.nav > li.dropdown:nth-child(4
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $($(this).attr('href')).offset().top - 50
-        }, 700); 
+        }, 700);
 });
 
 /*-----------for searching in media------------*/
@@ -298,13 +298,13 @@ if($('.owl-carousel').length){
         $('.owl-prev').text('بعدی')
         $('.owl-next').text('قبلی')
     })
-}	   
+}
 /*----------- masonry plugin -------------------
 $('.node-type-waterchallenge').each(function(){
 	$('.field-name-field-gallery .field-items').masonry({
 		// options
 		itemSelector: '.field-name-field-gallery .field-items field-item',
-		columnWidth: 200  
+		columnWidth: 200
 	});
 });*/
 
@@ -365,7 +365,7 @@ if($('body.page-node-712'.length)){
     $('.alert.alert-block.alert-danger.messages.error').css('display','none');
 }*/
 
-$('.page-sandika .main-container.container').prepend('<a class="back-to-pipe" href="http://waterhouse.ir/report">بازگشت به صفحه اصلی</a>');
+$('.page-sandika .main-container.container').prepend('<a class="back-to-pipe" href="/report">بازگشت به صفحه اصلی</a>');
 
 
 $('.page-node-730 .field-name-field-kholase td,.page-sandika .field-name-body td').each(function(){
@@ -392,39 +392,39 @@ $('.page-node-722 #edit-attributes-9 > .form-item').each(function(){
 		$(this).parent().text($(this).parent().text() + '(رزرو شده)')
     }
 })*/
- 
+
 
 
 $('.page-node-730 #pricing-table > div.pricing-table.pricing-tableD > div > div.register-btn > a').click(function(e){
 	e.preventDefault();
 	$('.page-node-730 #uc_product_add_to_cart_form-730-attributes #edit-attributes-10-123').prop( "checked", true );
-	$('.page-node-730 .add-to-cart button#edit-submit-730.node-add-to-cart').click();	
+	$('.page-node-730 .add-to-cart button#edit-submit-730.node-add-to-cart').click();
 });
 $('.page-node-730 #pricing-table > div.pricing-table.pricing-tableC > div > div.register-btn > a').click(function(e){
 	e.preventDefault();
 	$('.page-node-730 #uc_product_add_to_cart_form-730-attributes #edit-attributes-10-122').prop( "checked", true );
-	$('.page-node-730 .add-to-cart button#edit-submit-730.node-add-to-cart').click();	
+	$('.page-node-730 .add-to-cart button#edit-submit-730.node-add-to-cart').click();
 });
 $('.page-node-730 #pricing-table > div.pricing-table.pricing-tableB > div > div.register-btn > a').click(function(e){
 	e.preventDefault();
 	$('.page-node-730 #uc_product_add_to_cart_form-730-attributes #edit-attributes-10-121').prop( "checked", true );
-	$('.page-node-730 .add-to-cart button#edit-submit-730.node-add-to-cart').click();	
+	$('.page-node-730 .add-to-cart button#edit-submit-730.node-add-to-cart').click();
 });
 $('.page-node-730 #pricing-table > div.pricing-table.pricing-tableA > div > div.register-btn > a').click(function(e){
 	e.preventDefault();
 	$('.page-node-730 #uc_product_add_to_cart_form-730-attributes #edit-attributes-10-120').prop( "checked", true );
-	$('.page-node-730 .add-to-cart button#edit-submit-730.node-add-to-cart').click();	
+	$('.page-node-730 .add-to-cart button#edit-submit-730.node-add-to-cart').click();
 });
 
-$('.page-node-712.page-node-sale-report #block-system-main').prepend('<a class="btn btn-info" href="http://waterhouse.ir/node/717/webform-results/table" target="_blank"> اطلاعات تکمیل شده افراد </a>');
+$('.page-node-712.page-node-sale-report #block-system-main').prepend('<a class="btn btn-info" href="/node/717/webform-results/table" target="_blank"> اطلاعات تکمیل شده افراد </a>');
 
 /*----------------------------college---------------------------------------*/
 $('.node-teaser.node-course .field-name-field-course-step .field-item').each(function(){
-	switch ($(this).text()) { 
-		case 'در حال ثبت نام': 
+	switch ($(this).text()) {
+		case 'در حال ثبت نام':
 			$(this).addClass("sabtenam");
 			break;
-		case 'در حال برگزاری': 
+		case 'در حال برگزاری':
 			$(this).addClass("bargozari");
 			break;
 		case 'بزودی':
@@ -469,10 +469,10 @@ $('.view-college .views-exposed-widgets .filters').click(function(e){
 // 	}
 /*-----------------------------------------------------------------------------------------------------------------*/
 /*-------------- filter button shop ------------*/
-$('#block-mefibs-mefibs-shop-page-ffilter #views-exposed-form-shop-page-mefibs-form-ffilter').parent().append('<div class="click-to-open"><button class="primary">فیلتر ها</button></div>');   
+$('#block-mefibs-mefibs-shop-page-ffilter #views-exposed-form-shop-page-mefibs-form-ffilter').parent().append('<div class="click-to-open"><button class="primary">فیلتر ها</button></div>');
 $('#block-mefibs-mefibs-shop-page-ffilter .click-to-open').click(function(){
 	if($(this).parent().hasClass('opened')){
-		$('#views-exposed-form-shop-page-mefibs-form-ffilter').slideUp(600);  
+		$('#views-exposed-form-shop-page-mefibs-form-ffilter').slideUp(600);
 		$('.block-mefibs.opened').removeClass('opened');
 	}else{
 		$(this).parent().addClass('opened');
@@ -523,7 +523,7 @@ $('.not-front.page-college .group-left .field-name-title')
 /*-------margin right title page news--------- */
 $('.not-front.page-product .field-name-title')
 	.css({'margin-right':'30px'});
-		
+
 
 // /*-------- tabligh down page -------- */
 $('#block-block-8').find('.close-banner').click(function(){
@@ -581,7 +581,7 @@ var klickmore = function(temp , x){
 }
 
 function pipe(){
-	
+
 	$('#edit-attributes-8').prepend('<div class="tabel-title">کارکنان شرکت های آب منطقه ای در 31 استان</div><div class="form-item checkbox man-child"><span class="name">سمت شرکت کننده</span><span class="allprice">قیمت بدون تخفیف</span><span class="thisprice">قیمت با تخفیف</span><span class="num"> تعداد </span></div>');
 	$('#edit-attributes-8 .form-item-attributes-8-70 ').before('<div class="tabel-title">دیگر شرکت کنندگان</div><div class="form-item checkbox man-child"><span class="name">سمت شرکت کننده</span><span class="allprice">قیمت بدون تخفیف</span><span class="thisprice">قیمت با تخفیف</span><span class="num"> تعداد </span></div>');
 	$('#edit-attributes-8 .form-item-attributes-8-156 ').before('<div class="tabel-title">کارکنان شرکت های مهندسی آب و فاضلاب در 31 استان</div><div class="form-item checkbox man-child"><span class="name">سمت شرکت کننده</span><span class="allprice">قیمت بدون تخفیف</span><span class="thisprice">قیمت با تخفیف</span><span class="num"> تعداد </span></div>');
@@ -595,7 +595,7 @@ function pipe(){
 		$(this).append('<span class="thisprice">'+ attrlabel_n +'</span>');
 		$(this).append('<span class="num"> 1 </span>');
 	});
-	
+
 	var attribute = {
 		o47 : [48,44,45,46,61,62,63,64,60],
 		o52 : [53,54,50,51,67,68,69,65,66],
@@ -611,7 +611,7 @@ function pipe(){
 		key.push(val.substring(1));
 	});
 	var attId = '.form-item-attributes-8-';
-	
+
 	for( var i = 0 ; i < 8 ; i++ ){
 
 		var attId_num = Object.keys(attribute)[i].substring(1).trim();
@@ -627,7 +627,7 @@ function pipe(){
 		}
 
 	}
-	
+
 	$('#edit-attributes-8 .form-item input').change(function(){
 		var number = $(this).attr('value');
 		var add_o = 'o' + number;
@@ -687,7 +687,7 @@ function pipe(){
 		});
 	*/
 
-	
+
 }
 
 function shop_filter_close(){
@@ -703,7 +703,7 @@ function setCookie(name, value, days) {
         date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
         var expires = "; expires=" + date.toGMTString();
     }
-    else var expires = "";               
+    else var expires = "";
     document.cookie = name + "=" + value + expires + "; path=/";
 }
 function getCookie(name) {
@@ -723,7 +723,7 @@ Drupal.behaviors.myBehavior = {attach: function (context, settings) {
     if($('body.page-node-712'.length)){
 		//pipe();
 	}
-}};	
+}};
 
 
 
