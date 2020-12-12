@@ -4274,9 +4274,6 @@
 /*----------------------------------------- wsa/document -> content 1704------------------------------------- */
 .page-node-1704, .page-node-421 {
   #block-system-main {
-    padding-bottom: 1px;
-    background-color: #eeeeee;
-
     .intro {
       text-align: center;
       padding: 25px;
@@ -4347,16 +4344,10 @@
       font-size: 11px;
 
       .map {
-        display: block;
-        width: 90%;
-        text-align: left;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-
         svg {
           height: 100%;
           width: 100%;
+          max-height: 500px;
         }
 
         .border path, .island path {
@@ -4393,15 +4384,21 @@
         }
       }
 
-      /*.four {
-                .map {
-                    float: right;
-
-                    svg {
-                        width: 330px;
-                    }
-                }
-            }*/
+      .intro{
+        .title{
+          top: 20%;
+          right: 1%;
+          font-size: 15px;
+        }
+      }
+      .container{
+        .views-exposed-widget{
+          width:50%;
+        }
+        .views-submit-button{
+          width:100%
+        }
+      }
     }
 
     @media(min-width:768px) and (max-width:1200px) {
@@ -4851,172 +4848,6 @@
       }
       .row:last-child .right {
         height: initial !important;
-      }
-    }
-  }
-}
-/*----------------------------------------- wsa/document -> content 1704------------------------------------- */
-.page-node-1704, .page-node-421 {
-  #block-system-main {
-    background: #eeeeee;
-    padding-bottom: 1px;
-
-    .intro {
-      text-align: center;
-      padding: 25px;
-
-      h3 a {
-        position: absolute;
-        top: 75%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        text-align: center;
-      }
-    }
-
-    .one, .two, .three, .five {
-      margin: 0 40px;
-
-      .col-lg-4 {
-        float: right;
-        width: 350px;
-
-        .titr {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%,-50%);
-          font-size: 20px;
-          font-weight: 500;
-          color: #0e95e6;
-        }
-      }
-
-      .col-lg-8 {
-        display: flex;
-
-        .owl-carousel {
-          .owl-stage-outer {
-            direction: ltr;
-          }
-        }
-
-        .file {
-          background: deepskyblue;
-          padding: 10px;
-          text-align: center;
-          border-radius: 50px;
-          margin: 200px 10px 70px;
-
-          a {
-            color: white;
-          }
-        }
-      }
-    }
-
-    .two {
-      .col-lg-4 {
-        float: left;
-      }
-    }
-
-    .four {
-      width: 100%;
-      display: block;
-      position: relative;
-      direction: rtl;
-      text-align: right;
-      font-family: Tahoma;
-      font-size: 11px;
-
-      .map {
-        display: block;
-        width: 90%;
-        text-align: left;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-
-        svg {
-          height: 100%;
-          width: 100%;
-        }
-
-        .border path, .island path {
-          fill: #fff;
-        }
-
-        .province path {
-          fill: #999;
-        }
-
-        .sea path, .lake path {
-          fill: #01ADE8;
-        }
-
-        .province path:hover, .island path:hover, .province path.hover, .island path.hover {
-          fill: #6caed8 !important;
-          cursor: pointer;
-        }
-      }
-    }
-
-    @media(max-width:768px) {
-      .one, .three, .two, .five {
-        .col-lg-4 {
-          .titr {
-            font-size: 13px;
-          }
-        }
-
-        .col-lg-8 {
-          .file {
-            margin: 50px 10px;
-          }
-        }
-      }
-      /*.four {
-          .map {
-              float: right;
-
-              svg {
-                  width: 330px;
-              }
-          }
-      }*/
-    }
-
-    @media(min-width:768px) and (max-width:1200px) {
-      .one, .three, .two, .five {
-        img {
-          position: relative;
-          right: 25%;
-        }
-
-        .col-lg-4 {
-          .titr {
-            font-size: 14px;
-          }
-        }
-      }
-
-        }
-    @media(max-width:768px){
-      .intro{
-        .title{
-          top: 20%;
-          right: 1%;
-          font-size: 15px;
-        }
-      }
-      .container{
-        .views-exposed-widget{
-          width:50%;
-        }
-        .views-submit-button{
-          width:100%
-        }
       }
     }
   }

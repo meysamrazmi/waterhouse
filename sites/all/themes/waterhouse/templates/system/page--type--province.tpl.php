@@ -132,20 +132,6 @@
     display: inline-block !important;
     width: inherit !important;
   }
-  .province-labels {
-    font-size: 18px;
-    font-weight: bold;
-    position: relative;
-    margin-bottom: 20px;
-  }
-  .province-labels:before {
-    content: "";
-    position: absolute;
-    width: 140px;
-    background: #2196F3;
-    height: 2px;
-    bottom: -10px;
-  }
   .field-name-field-uploads .field-collection-view.view-mode-full {
     padding: 0;
   }

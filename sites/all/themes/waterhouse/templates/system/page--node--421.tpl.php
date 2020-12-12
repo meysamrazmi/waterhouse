@@ -18,11 +18,21 @@
       </div>
     </section>
   </div>
-
-  <section class="bottom">
+  <section class="bottom1">
     <div class="container">
-      <div class="row box-shadow" style="padding: 50px 0; background-color: white">
-        <div class="col-md-6 col-sm-12 col-xs-12">
+      <div class="row">
+        <p>در این بخش تلاش شده است ظرفیتهای گردشگری آبی در استانهای مختلف که مستعد توسعه و سرمایه‌گذاری هستند معرفی گردند. محتوای این بخش با تعامل کارشناسان، صاحبنظران و مطلعین محلی از طریق ارتباط با سایت، قابل اصلاح و تکمیل است.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bottom country">
+    <div class="container">
+      <div class="row" style="padding: 50px 0; background-color: white">
+        <div class="field-label province-labels">اطلاعات استان ها</div>
+        <p>برای مشاهده مشخصات هر استان  روی نقشه کلیک کنید.</p>
+
+        <div class="col-md-6 col-sm-12 col-xs-12 map-part open">
           <div class="bottom-left">
             <section id="IranMap" class="four" id="map" style="width:100%;">
               <div class="area-name"></div>
@@ -89,16 +99,13 @@
                                 </svg>
               </div>
             </section>
-            <div class="shtmavni area" name="3345" alt="شرکت توسعه منابع آب">
-              <p>ظرفیت‌های گردشگری آبی شرکت توسعه منابع آب و نیروی ایران</P>
-            </div>
           </div>
         </div>
         <div class="col-md-6 col-sm-12 col-xs-12">
-          <div class="bottom-right">
+          <div class="bottom-right row">
             <section class="zarf" style="display:none">
               <div class="allbox">
-                <h1><span class="province-name"></span></h1>
+                <h3><span class="province-name"></span></h3>
                 <div class="textbox">
                   <div>
                     <img src="https://waterhouse.ir/sites/default/files/styles/100x100/public/%D8%B4%D8%B4%D8%B4_1.png?itok=b1Lkg9Si">
@@ -131,17 +138,63 @@
       <div/>
   </section>
 
-  <section class="bottom1">
+  <section class="bottom company">
     <div class="container">
-      <div class="row box-shadow" style="padding: 50px ;background-color: white">
-        <p>در این بخش تلاش شده است ظرفیتهای گردشگری آبی در استانهای مختلف که مستعد توسعه و سرمایه‌گذاری هستند معرفی گردند. محتوای این بخش با تعامل کارشناسان، صاحبنظران و مطلعین محلی با ارتباط با سایت، قابل اصلاح و تکمیل است.</p>
+      <div class="row" style="padding: 50px 0; background-color: white">
+        <div class="field-label province-labels">اطلاعات شرکت ها</div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12 map-part open">
+          <div class="bottom-left">
+            <div class="shtmavni area" name="3345" alt="شرکت توسعه منابع آب">
+              <p>شرکت توسعه منابع آب و نیروی ایران</P>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12">
+          <div class="bottom-right row">
+            <section class="zarf" style="display:none">
+              <div class="allbox">
+                <h3><span class="province-name"></span></h3>
+                <div class="textbox">
+                  <div>
+                    <img src="https://waterhouse.ir/sites/default/files/styles/100x100/public/%D8%B4%D8%B4%D8%B4_1.png?itok=b1Lkg9Si">
+                  </div>
+                  <div>
+                    <p>تعداد فراخوان ها  : <span class="TD"> </span></p>
+                  </div>
+                </div>
+                <div  class="textbox">
+                  <div>
+                    <img src="https://waterhouse.ir/sites/default/files/styles/100x100/public/damdam.png?itok=FnuxS6Hm">
+                  </div>
+                  <div>
+                    <p>فرصت های سرمایه گذاری : <span class="TF"> </span></p>
+                  </div>
+                </div>
+                <div  class="textbox">
+                  <div>
+                    <img src="https://waterhouse.ir/sites/default/files/styles/100x100/public/pngegg%20%281%29_1.png?itok=wVtgoABS">
+                  </div>
+                  <div>
+                    <p>ظرفیت های فعال گردشگری آبی: <span class="TZ"> </span></p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
       </div>
-    </div>
+      <div/>
   </section>
+
   <script type="text/javascript">
     $(".area").hover(function () {
-
-        $(".zarf").fadeIn("slow");
+        if ($('.map-part.open').length) {
+          $('.map-part.open').removeClass('open')
+        }
+        setTimeout(function(){
+          $(".zarf").fadeIn("slow");
+        },600)
         $(".area-name").css({'display':'inline'});
 
         var offset = $(this).offset();
@@ -152,168 +205,168 @@
         $(".area-name").text($(this).attr('alt'));
         $(".province-name").text($(this).attr('alt'));
 
+        let section = $(this).parent().hasClass('province')? '.country' : '.company'
         var ostan = $(this).attr('name');
-        switch (ostan)
-        {
+        switch (ostan) {
           case "3327":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3328":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3329":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3330":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3331":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3332":
-            $(".TD").text("1");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("1");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3333":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3323":
-            $(".TD").text("0");
-            $(".TF").text("4");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("4");
+            $(section + " .TZ").text("0");
             break;
           case "3310":
-            $(".TD").text("0");
-            $(".TF").text("6");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("6");
+            $(section + " .TZ").text("0");
             break;
           case "3319":
-            $(".TD").text("3");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("3");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3315":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3308":
-            $(".TD").text("1");
-            $(".TF").text("2");
-            $(".TZ").text("0");
+            $(section + " .TD").text("1");
+            $(section + " .TF").text("2");
+            $(section + " .TZ").text("0");
             break;
           case "3304":
-            $(".TD").text("1");
-            $(".TF").text("4");
-            $(".TZ").text("0");
+            $(section + " .TD").text("1");
+            $(section + " .TF").text("4");
+            $(section + " .TZ").text("0");
             break;
           case "3300":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3230":
-            $(".TD").text("1");
-            $(".TF").text("4");
-            $(".TZ").text("0");
+            $(section + " .TD").text("1");
+            $(section + " .TF").text("4");
+            $(section + " .TZ").text("0");
             break;
           case "3231":
-            $(".TD").text("0");
-            $(".TF").text("3");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("3");
+            $(section + " .TZ").text("0");
             break;
           case "3294":
-            $(".TD").text("3");
-            $(".TF").text("3");
-            $(".TZ").text("1");
+            $(section + " .TD").text("3");
+            $(section + " .TF").text("3");
+            $(section + " .TZ").text("1");
             break;
           case "3284":
-            $(".TD").text("1");
-            $(".TF").text("10");
-            $(".TZ").text("0");
+            $(section + " .TD").text("1");
+            $(section + " .TF").text("10");
+            $(section + " .TZ").text("0");
             break;
           case "3261":
-            $(".TD").text("1");
-            $(".TF").text("8");
-            $(".TZ").text("1");
+            $(section + " .TD").text("1");
+            $(section + " .TF").text("8");
+            $(section + " .TZ").text("1");
             break;
           case "3229":
-            $(".TD").text("1");
-            $(".TF").text("5");
-            $(".TZ").text("0");
+            $(section + " .TD").text("1");
+            $(section + " .TF").text("5");
+            $(section + " .TZ").text("0");
             break;
           case "3220":
-            $(".TD").text(" -- ");
-            $(".TF").text(" -- ");
-            $(".TZ").text(" -- ");
+            $(section + " .TD").text(" -- ");
+            $(section + " .TF").text(" -- ");
+            $(section + " .TZ").text(" -- ");
             break;
           case "3334":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3335":
-            $(".TD").text(" -- ");
-            $(".TF").text(" -- ");
-            $(".TZ").text(" -- ");
+            $(section + " .TD").text(" -- ");
+            $(section + " .TF").text(" -- ");
+            $(section + " .TZ").text(" -- ");
             break;
           case "3336":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3337":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3338":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3339":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3340":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3341":
-            $(".TD").text("0");
-            $(".TF").text("4");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("4");
+            $(section + " .TZ").text("0");
             break;
           case "3342":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3343":
-            $(".TD").text("0");
-            $(".TF").text("1");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("1");
+            $(section + " .TZ").text("0");
             break;
           case "3345":
-            $(".TD").text("0");
-            $(".TF").text("10");
-            $(".TZ").text("0");
+            $(section + " .TD").text("0");
+            $(section + " .TF").text("10");
+            $(section + " .TZ").text("0");
             break;
         };
       },
@@ -326,7 +379,7 @@
       var linkurl = $(this).attr('name');
 
       if (linkurl != '') {
-        window.location = "https://waterhouse.ir/tourism/provinces/" + linkurl;
+        window.location = "/tourism/provinces/" + linkurl;
       }
     });
   </script>
@@ -342,24 +395,30 @@
   #header_zarfiat{
     z-index: 5;
     position: relative;
-    /*background-color: #006bb3;
-    background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");*/
+    background-color: #006bb3;
+    background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
   }
   .row{
     border-radius: 15px;
   }
-  .box-shadow{
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.4);
-  }
   .bottom1{
     margin: 50px 0;
-    padding: 35px 20px;
-    text-align: justify;
     font-size: 16px;
     line-height: 2;
   }
   bottom1-box{
     padding: 25px 0;
+  }
+  .bottom {
+    background: #fff;
+    border-top: 1px solid #eee;
+  }
+  .allbox {
+    margin: 100px 0 0;
+  }
+  .province-name {
+    border-right: 5px solid #2196F3;
+    padding: 0px 10px;
   }
   #sectionBanner .container{
     max-width: 1000px;tourismfooter
@@ -384,13 +443,8 @@
     display: table;
     color: #fff
   }
-  [dir] .caption_write {
+  .caption_write {
     padding: 1.5rem;
-  }
-  [dir=rtl] .caption_write {
-  }
-  .bottom{
-    margin-top: 50px;
   }
   .zarf{
     width : 100%;
@@ -403,15 +457,17 @@
   .zarf .textbox {
     display: flex;
     align-items: center;
-    width : 80%;
-    margin : 0 auto;
-    direction : rtl;
-    background : #f1f1f2;
-    border-radius : 25px;
-    margin-top : 20px;
-    padding : 10px;
   }
-
+  .zarf .textbox span {
+    background: #FFEBEE;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #F44336;
+    line-height: 25px;
+    padding-top: 3px;
+  }
   .zarf img {
     width: 50px;
   }
@@ -447,15 +503,20 @@
     display: flex;
     flex-direction: column;
   }
-  .bottom-left .shtmavni
-  {
-    cursor : pointer ;
-    margin : 15px 7px;
-    width : 70%;
-    display : flex;
-    background : #01ADE8;
-    border-radius : 25px;
-    padding : 15px;
+  .bottom-left .shtmavni {
+    cursor: pointer;
+    margin: 15px auto;
+    width: 140px;
+    display: flex;
+    text-align: center;
+    border-radius: 50%;
+    padding: 15px;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #aaa;
+    line-height: 2.4em;
+    background: #f9f9f9;
   }
   .bottom-left .shtmavni p
   {
@@ -465,5 +526,10 @@
     display: flex;
     justify-content: center;
   }
-
+  .map-part {
+    transition: all 0.5s ease;
+  }
+  .map-part.open {
+    width: 100%;
+  }
 </style>
