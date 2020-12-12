@@ -196,6 +196,7 @@
           $(".zarf").fadeIn("slow");
         },600)
         $(".area-name").css({'display':'inline'});
+        let section = $(this).closest('.container')
 
         var offset = $(this).offset();
         var postop = offset.top;
@@ -205,168 +206,167 @@
         $(".area-name").text($(this).attr('alt'));
         $(".province-name").text($(this).attr('alt'));
 
-        let section = $(this).parent().hasClass('province')? '.country' : '.company'
         var ostan = $(this).attr('name');
         switch (ostan) {
           case "3327":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3328":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3329":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3330":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3331":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3332":
-            $(section + " .TD").text("1");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("1");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3333":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3323":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("4");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("4");
+            section.find(".TZ").text("0");
             break;
           case "3310":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("6");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("6");
+            section.find(".TZ").text("0");
             break;
           case "3319":
-            $(section + " .TD").text("3");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("3");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3315":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3308":
-            $(section + " .TD").text("1");
-            $(section + " .TF").text("2");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("1");
+            section.find(".TF").text("2");
+            section.find(".TZ").text("0");
             break;
           case "3304":
-            $(section + " .TD").text("1");
-            $(section + " .TF").text("4");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("1");
+            section.find(".TF").text("4");
+            section.find(".TZ").text("0");
             break;
           case "3300":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3230":
-            $(section + " .TD").text("1");
-            $(section + " .TF").text("4");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("1");
+            section.find(".TF").text("4");
+            section.find(".TZ").text("0");
             break;
           case "3231":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("3");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("3");
+            section.find(".TZ").text("0");
             break;
           case "3294":
-            $(section + " .TD").text("3");
-            $(section + " .TF").text("3");
-            $(section + " .TZ").text("1");
+            section.find(".TD").text("3");
+            section.find(".TF").text("3");
+            section.find(".TZ").text("1");
             break;
           case "3284":
-            $(section + " .TD").text("1");
-            $(section + " .TF").text("10");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("1");
+            section.find(".TF").text("10");
+            section.find(".TZ").text("0");
             break;
           case "3261":
-            $(section + " .TD").text("1");
-            $(section + " .TF").text("8");
-            $(section + " .TZ").text("1");
+            section.find(".TD").text("1");
+            section.find(".TF").text("8");
+            section.find(".TZ").text("1");
             break;
           case "3229":
-            $(section + " .TD").text("1");
-            $(section + " .TF").text("5");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("1");
+            section.find(".TF").text("5");
+            section.find(".TZ").text("0");
             break;
           case "3220":
-            $(section + " .TD").text(" -- ");
-            $(section + " .TF").text(" -- ");
-            $(section + " .TZ").text(" -- ");
+            section.find(".TD").text(" -- ");
+            section.find(".TF").text(" -- ");
+            section.find(".TZ").text(" -- ");
             break;
           case "3334":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3335":
-            $(section + " .TD").text(" -- ");
-            $(section + " .TF").text(" -- ");
-            $(section + " .TZ").text(" -- ");
+            section.find(".TD").text(" -- ");
+            section.find(".TF").text(" -- ");
+            section.find(".TZ").text(" -- ");
             break;
           case "3336":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3337":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3338":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3339":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3340":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3341":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("4");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("4");
+            section.find(".TZ").text("0");
             break;
           case "3342":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3343":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("1");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("1");
+            section.find(".TZ").text("0");
             break;
           case "3345":
-            $(section + " .TD").text("0");
-            $(section + " .TF").text("10");
-            $(section + " .TZ").text("0");
+            section.find(".TD").text("0");
+            section.find(".TF").text("10");
+            section.find(".TZ").text("0");
             break;
         };
       },
