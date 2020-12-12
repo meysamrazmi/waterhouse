@@ -189,22 +189,23 @@
 
   <script type="text/javascript">
     $(".area").hover(function () {
-        if ($('.map-part.open').length) {
-          $('.map-part.open').removeClass('open')
+        let section = $(this).closest('.container')
+
+        if (section.find('.map-part.open').length) {
+          section.find('.map-part.open').removeClass('open')
         }
         setTimeout(function(){
-          $(".zarf").fadeIn("slow");
+          section.find(".zarf").fadeIn("slow");
         },600)
-        $(".area-name").css({'display':'inline'});
-        let section = $(this).closest('.container')
+        section.find(".area-name").css({'display':'inline'});
 
         var offset = $(this).offset();
         var postop = offset.top;
         var posleft = offset.left;
 
-        $(".area-name").css({ 'top': postop/3 + 'px', 'left': posleft/1.6 + 'px' });
-        $(".area-name").text($(this).attr('alt'));
-        $(".province-name").text($(this).attr('alt'));
+        section.find(".area-name").css({ 'top': postop/3 + 'px', 'left': posleft/1.6 + 'px' });
+        section.find(".area-name").text($(this).attr('alt'));
+        section.find(".province-name").text($(this).attr('alt'));
 
         var ostan = $(this).attr('name');
         switch (ostan) {
@@ -379,7 +380,7 @@
       var linkurl = $(this).attr('name');
 
       if (linkurl != '') {
-        window.location = "/tourism/provinces/" + linkurl;
+        window.open("/tourism/provinces/" + linkurl, '_blank');
       }
     });
   </script>
