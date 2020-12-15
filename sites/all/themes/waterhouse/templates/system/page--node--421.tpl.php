@@ -108,7 +108,7 @@
                 <h3><span class="province-name"></span></h3>
                 <div class="textbox">
                   <div>
-                    <img src="https://waterhouse.ir/sites/default/files/styles/100x100/public/%D8%B4%D8%B4%D8%B4_1.png?itok=b1Lkg9Si">
+                    <img src="/sites/all/themes/waterhouse/images/loan.svg">
                   </div>
                   <div>
                     <p>تعداد فراخوان ها  : <span class="TD"> </span></p>
@@ -116,7 +116,7 @@
                 </div>
                 <div  class="textbox">
                   <div>
-                    <img src="https://waterhouse.ir/sites/default/files/styles/100x100/public/damdam.png?itok=FnuxS6Hm">
+                    <img src="/sites/all/themes/waterhouse/images/gdp.svg">
                   </div>
                   <div>
                     <p>فرصت های سرمایه گذاری : <span class="TF"> </span></p>
@@ -124,7 +124,7 @@
                 </div>
                 <div  class="textbox">
                   <div>
-                    <img src="https://waterhouse.ir/sites/default/files/styles/100x100/public/pngegg%20%281%29_1.png?itok=wVtgoABS">
+                    <img src="/sites/all/themes/waterhouse/images/check-in.svg">
                   </div>
                   <div>
                     <p>ظرفیت های فعال گردشگری آبی: <span class="TZ"> </span></p>
@@ -157,7 +157,7 @@
                 <h3><span class="province-name"></span></h3>
                 <div class="textbox">
                   <div>
-                    <img src="https://waterhouse.ir/sites/default/files/styles/100x100/public/%D8%B4%D8%B4%D8%B4_1.png?itok=b1Lkg9Si">
+                    <img src="/sites/all/themes/waterhouse/images/loan.svg">
                   </div>
                   <div>
                     <p>تعداد فراخوان ها  : <span class="TD"> </span></p>
@@ -165,7 +165,7 @@
                 </div>
                 <div  class="textbox">
                   <div>
-                    <img src="https://waterhouse.ir/sites/default/files/styles/100x100/public/damdam.png?itok=FnuxS6Hm">
+                    <img src="/sites/all/themes/waterhouse/images/gdp.svg">
                   </div>
                   <div>
                     <p>فرصت های سرمایه گذاری : <span class="TF"> </span></p>
@@ -173,7 +173,7 @@
                 </div>
                 <div  class="textbox">
                   <div>
-                    <img src="https://waterhouse.ir/sites/default/files/styles/100x100/public/pngegg%20%281%29_1.png?itok=wVtgoABS">
+                    <img src="/sites/all/themes/waterhouse/images/check-in.svg">
                   </div>
                   <div>
                     <p>ظرفیت های فعال گردشگری آبی: <span class="TZ"> </span></p>

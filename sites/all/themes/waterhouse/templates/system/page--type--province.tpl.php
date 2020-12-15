@@ -71,21 +71,54 @@
   .field-name-field-icons > .field-items {
     display: flex;
     justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    max-width: 1170px;
+    margin: auto;
   }
   .field-name-field-icons > .field-items > .field-item {
     margin: 0;
+    width: 33.3%;
+    padding: 15px 0;
+  }
+  .field-name-field-icons > .field-items > .field-item:nth-child(2) {
+    border: 2px solid #fff;
+    border-width: 0 2px;
+  }
+  .field-name-field-icons .field-items .field-items .field-item:before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(/sites/all/themes/waterhouse/images/loan.svg);
+    background-position: center;
+    background-size: contain;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+  }
+  .field-name-field-icons .field-items .field-item:nth-child(2) .field-items .field-item:before {
+    background-image: url(/sites/all/themes/waterhouse/images/gdp.svg);
+  }
+  .field-name-field-icons .field-items .field-item:nth-child(3) .field-items .field-item:before {
+    background-image: url(/sites/all/themes/waterhouse/images/check-in.svg);
   }
   .field-name-field-icons {
-    margin: -120px 0 80px 0;
+    margin: -170px 0 0px 0;
+    height: 170px;
+    background: #00000096;
+    position: absolute;
+    width: 100vw;
+    /*bottom: 0;*/
   }
   .field-name-field-icons .field-collection-view.view-mode-full {
     margin: 0;
-    border-radius: 50px;
-    padding: 5px 5px 5px 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    background-color: transparent;
     box-shadow: none;
     overflow: hidden;
     font-size: 15px;
+    color: #fff;
   }
   .field-name-field-icons .field-collection-view img {
     width: 50px;

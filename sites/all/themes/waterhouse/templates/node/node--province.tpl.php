@@ -1,11 +1,12 @@
 <div class="main-image">
   <?php print render($content['field_image']); ?>
-</div>
   <div class="caption_slide">
     <div class="caption_write">
       <h1><?php echo $content['body']['#object']->title;?></h1>
     </div>
   </div>
+  <?php print render($content['field_icons']); ?>
+</div>
 
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
