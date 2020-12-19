@@ -187,6 +187,22 @@
       <div/>
   </section>
 
+  <div class="send-detail container text-center">
+    <p>
+      جهت ارسال اطلاعات و مستندات ظرفیتهای گردشگری آب استانها از طریق دو راه ارتباطی زیر اقدام فرمایید
+    </p>
+    <div>
+      <div>
+        <i class="fal fa-envelope-square"></i>
+        <span>nourbakhsh@sharif.edu</span>
+      </div>
+      <div>
+        <i class="fal fa-phone"></i>
+        <span>09202060552</span>
+      </div>
+    </div>
+  </div>
+
   <script type="text/javascript">
     $(".area").hover(function () {
         let section = $(this).closest('.container')
@@ -532,5 +548,38 @@
   }
   .map-part.open {
     width: 100%;
+  }
+  .send-detail {
+    padding: 40px 0;
+    font-size: 16px;
+  }
+  .send-detail > div {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto 0;
+    max-width: 500px;
+    font-family: 'fanum';
+    position: relative;
+    padding: 20px 0 0;
+  }
+  .send-detail > div:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 130px;
+    right: calc(50% - 65px);
+    height: 2px;
+    background: #3696f3;
+  }
+  .send-detail > div svg {
+    margin: 0 0 0 10px;
+    border: 1px solid #2196F3;
+    padding: 7px;
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50%;
+    background: #e3f2fd87;
+    color: #555;
+    vertical-align: middle;
   }
 </style>

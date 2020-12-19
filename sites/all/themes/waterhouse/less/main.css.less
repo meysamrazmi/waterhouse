@@ -1469,6 +1469,18 @@ form#webform-client-form-683, form.webform-client-form-717{
   .navbar-nav {
     display: none;
   }
+  &.page-video {
+    .breadcrumb,
+    .page-header {
+      display: none;
+    }
+    .flag-outer + .field-name-title {
+      margin-right: 30px;
+    }
+    .mediaelement-video {
+      max-width: 100%;
+    }
+  }
 }
 
 .province-labels {
@@ -1486,3 +1498,17 @@ form#webform-client-form-683, form.webform-client-form-717{
   }
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  clear: both;
+  li{
+    margin: 5px;
+    &:first-child,
+    &:last-child {
+      > a, > span {
+        border-radius: 0;
+      }
+    }
+  }
+}

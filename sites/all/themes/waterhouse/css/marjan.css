@@ -133,6 +133,7 @@ h1, .h1 {
     margin: 0 35px 35px 0;
     width:49%;
 }
+.node-video.view-mode-full .group-left,
 .one-sidebar .row .region-content .group-left{
 	padding: 35px;
     background-color: #fff;
@@ -144,6 +145,7 @@ h1, .h1 {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .06);
 	margin:20px 0;
 }
+.node-video.view-mode-full #comments,
 .one-sidebar #comments{
 	background-color: #fff;
 	box-shadow: 0 2px 2px #edeef0;
@@ -308,7 +310,7 @@ h3.block-title{
     width: 72%;
     box-shadow: none !important;
     padding: 19px 25px !important;
-    background-color: white; 
+    background-color: white;
 }
 .node-teaser .field-name-title h2 {
     margin-bottom: 5px;
@@ -394,9 +396,12 @@ h3.block-title{
 	padding:10px 0px;
 }
 .view-mode-card_style .field-name-title,
-.node-video.node-teaser .field-name-title{
-	height: 77px;
-    overflow: hidden;
+.node-video.node-teaser .field-name-title a {
+  height: 46px;
+  overflow: hidden;
+  display: flex;
+  padding: 10px 15px;
+  line-height: 23px;
 }
 .page-waterchallenge-wri .view-mode-card_style .field-name-title{
 /*	height: 107px;*/
@@ -460,7 +465,7 @@ h3.block-title{
     line-height: 23px;
     font-weight: normal;
     font-size: 14px;
-    margin: 5px 0 10px 0;
+    margin: 0;
 }
 .node-news.view-mode-card_style .field-name-post-date{
     padding-bottom: 15px !important;
@@ -478,8 +483,7 @@ h3.block-title{
 	background-color: #fff;
 }
 .node-teaser.node-course .group-footer,
-.view-mode-card_style .group-footer,
-.node-video.node-teaser .group-footer{
+.view-mode-card_style .group-footer {
     padding: 10px 15px;
 }
 .card-style .col-md-4,
@@ -545,7 +549,7 @@ h2.pane-title{
 	content: "\f138";
 	font-family: aw ;
 	font-size:25px;
-	color:white;	
+	color:white;
 }
 #views_slideshow_controls_text_next_news-block_2 a,
 #views_slideshow_controls_text_previous_news-block_2 a{
@@ -581,6 +585,7 @@ h2.pane-title{
     top: 0;
     border-radius: 25px;
     margin-top: 10px;
+    z-index: 5;
 }
 .tabs--primary:hover {
     width: 750px;
@@ -687,7 +692,7 @@ h2.pane-title{
     background-color: #337ab7;
     border-color: #337ab7;
 }
-.node-teaser.node-course .btn-success:focus, 
+.node-teaser.node-course .btn-success:focus,
 .node-teaser.node-course .btn-success.focus {
     color: #fff;
     background-color: #337ab7;
@@ -1275,7 +1280,7 @@ html.js fieldset.collapsed {
 .node-type-waterchallenge .field-collection-view ul.field-collection-view-links,
 .node-type-waterchallenge .field-collection-container ul.action-links-field-collection-add{
 	display:none;
-}    
+}
 
 /*----------video player------------*/
 /*--buttons--*/
@@ -1334,7 +1339,7 @@ html.js fieldset.collapsed {
 .mejs-button.mejs-fullscreen-button {
   width: 30px !important;
 }
-.mejs-button.mejs-playpause-button.mejs-play, 
+.mejs-button.mejs-playpause-button.mejs-play,
 .mejs-button.mejs-playpause-button.mejs-pause {
   width: 40px;
 }
@@ -1575,7 +1580,7 @@ video{
 .node .field-name-body {
     margin-bottom: 30px !important;
 }
-.menu.nav.navbar-nav.navbar-right .dropdown-menu > li > a {	
+.menu.nav.navbar-nav.navbar-right .dropdown-menu > li > a {
     text-align: right;
 }
 body.page-waterchallenge.main-front > div.main-container.container > div > section > div.breadcrumb{
@@ -1674,7 +1679,7 @@ body.page-waterchallenge.main-front #hexagondivs {
 }
 #hexagondivs .views-row-4 .views-field-field-picture ,
 #hexagondivs .views-row-5 .views-field-field-picture {
-	
+
 }
 #hexagondivs .views-row .views-field-title a{
 	/*width: 100%; */
@@ -1772,7 +1777,7 @@ body.page-waterchallenge.main-front .main-slide .views-field-title span:after {
     width: 14%;
     vertical-align: top;
     padding: 1% 1%;
-    margin: 0 9%; 
+    margin: 0 9%;
 	transition:all ease 0.9s;
 	position:relative;
 }
@@ -1839,7 +1844,7 @@ body.page-waterchallenge.main-front .main-slide .views-field-title span:after {
 
 }
 .gozareshha.pane-waterchalenge .view-id-waterchalenge.card-style .group-footer{
-	
+
 }
 .pane-waterchalenge.underground h2.pane-title:before,
 .pane-waterchalenge2.underground h2.pane-title:before,
@@ -1862,13 +1867,13 @@ body.page-waterchallenge.main-front .main-slide .views-field-title span:after {
 .underground-pane-view h2.pane-title:before{
 	content: "\f1ea";
 }
-.pane-waterchalenge.underground h2.pane-title, 
-.pane-waterchalenge2.underground h2.pane-title, 
-.underground-pane-view h2.pane-title{   
+.pane-waterchalenge.underground h2.pane-title,
+.pane-waterchalenge2.underground h2.pane-title,
+.underground-pane-view h2.pane-title{
 	padding: 1% 1% 1% 1%;
     text-align: center;
     z-index: 10;
-    width: 200px;    
+    width: 200px;
 	margin: 0 auto 20px auto;
     background-color: #f9f9f9;
 }
@@ -2106,7 +2111,7 @@ body.page-waterchallenge.main-front .main-slide .views-field-title span:after {
     /* left: 1.2%; */
     /* max-height: calc(100vh - 50px); */
     /* overflow: auto; */
-} 
+}
 .admin-menu #block-views-college-block.fixed{
 	/* top: 44px; */
 }
@@ -2116,7 +2121,7 @@ body.page-waterchallenge.main-front .main-slide .views-field-title span:after {
     /* left: 4.3%; */
     /* bottom: 0px; */
     /* top: inherit !important; */
-} 
+}
 .node-type-course.one-sidebar .row aside{
 	position:relative;
 }
@@ -2705,7 +2710,7 @@ a.uc-order-action.Edit:before{
     background-color: #337ab7;
     border-color: #337ab7;
 }
-.node-teaser.node-product .btn-success:focus, 
+.node-teaser.node-product .btn-success:focus,
 .node-teaser.node-product .btn-success.focus {
     color: #fff;
     background-color: #337ab7;
@@ -2830,7 +2835,7 @@ body.page-media:not(.page-node):after {
     left: 0;
     width: 100%;
     height: 281px;
-    z-index: -1;  
+    z-index: -1;
 }
 body.page-media {
     position: relative;
@@ -2854,20 +2859,23 @@ body.page-media form#views-exposed-form-video-page-mefibs-form-search {
     border: 0;
     border-radius: 0px;
 }
-.node-video.view-mode-card_style .group-header .field-name-field-filmstime ,
-.node-video.node-teaser .group-header .field-name-field-filmstime {
+.field-name-field-filmstime {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 5px;
     background-color: rgba(0, 0, 0, 0.49);
     padding: 1px 5px;
     border-radius: 5px;
     margin: 0 0 5px 5px;
     color: white;
 }
+.views-field.field-name-field-filmstime {
+  bottom: inherit;
+  margin-top: -30px;
+}
 #lastest_news_main .views-row{
     border-bottom: 1px solid #eee;
-    padding: 10px 0px !important; 
+    padding: 10px 0px !important;
     height: 106px;
 }
 #lastest_news_main .views-field-field-picture{
@@ -3061,10 +3069,10 @@ body.page-media form#views-exposed-form-video-page-mefibs-form-search {
     margin-top: 20px !important;
 }
 .front-film h2.pane-title{
-   display: block !important; 
+   display: block !important;
 }
 .main-front h2.pane-title:after{
-   display: none !important; 
+   display: none !important;
 }
 .main-front .front-shop .views-row{
     margin: 0 10px;
