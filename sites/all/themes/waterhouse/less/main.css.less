@@ -1432,6 +1432,8 @@ form#webform-client-form-683, form.webform-client-form-717{
 #block-menu-menu-tourismmain,
 .tourism-menu {
   position: relative;
+  max-width: 1170px;
+  width: 100%;
   &:before {
     content: "";
     position: absolute;
@@ -1443,9 +1445,11 @@ form#webform-client-form-683, form.webform-client-form-717{
   .nav > li > a {
     font-size: 15px;
     line-height: 30px;
+    white-space: nowrap;
   }
   .menu {
     display: flex;
+    padding: 0;
     > li.first.leaf a {
       display: flex;
       align-items: center;
@@ -1470,7 +1474,6 @@ form#webform-client-form-683, form.webform-client-form-717{
     display: none;
   }
   &.page-video {
-    .breadcrumb,
     .page-header {
       display: none;
     }
@@ -1480,6 +1483,16 @@ form#webform-client-form-683, form.webform-client-form-717{
     .mediaelement-video {
       max-width: 100%;
     }
+  }
+  header#navbar > .container {
+    padding: 0;
+    width: 100%;
+    .collapse {
+      display: block;
+    }
+  }
+  .breadcrumb {
+    display: none;
   }
 }
 
@@ -1509,6 +1522,110 @@ form#webform-client-form-683, form.webform-client-form-717{
       > a, > span {
         border-radius: 0;
       }
+    }
+  }
+}
+
+#tourism_header{
+  z-index: 5;
+  position: relative;
+  background-color: #006bb3;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  width: 100vw;
+  right: ~"calc(50% - 50vw)";
+  #sectionBanner {
+    .container{
+      max-width: 1000px;
+    }
+    h1{
+      font-size: 26px;
+    }
+    .caption_slide {
+      min-height: 160px;
+      border: 1px solid #fff;
+      background-color: rgba(255, 255, 255, .2);
+      padding: 2rem 0
+    }
+    .caption_write {
+      display: table;
+      color: #fff;
+      padding: 1.5rem;
+    }
+
+  }
+}
+
+.page-provinces-investments {
+  .page-header {
+    display: none;
+  }
+  header#navbar {
+    margin-bottom: 0;
+  }
+  table {
+    .paper(z1);
+  }
+  .view-filters {
+    padding: 25px 0 30px;
+  }
+  .intro {
+    background: #fff;
+    font-size: 15px;
+    line-height: 3em;
+    padding: 30px;
+    width: 100vw;
+    right: ~"calc(50% - 50vw)";
+    position: relative;
+    border-bottom: 1px solid #ddd;
+  }
+  .views-exposed-widgets {
+    display: flex;
+    .views-exposed-widget {
+      float: none !important;
+      width: 34%;
+      &.views-submit-button {
+        display: none;
+      }
+    }
+    th.views-field {
+      line-height: 40px !important;
+      font-weight: 500;
+    }
+  }
+}
+
+#block-webform-client-block-3165 {
+  position: relative;
+  margin: 0 -30px;
+  background: #f9f9f9;
+  padding-bottom: 50px !important;
+  form {
+    .paper(z1);
+  }
+  .block-title {
+    position: relative;
+    font-size: 20px;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 140px;
+      background: #2196F3;
+      height: 2px;
+      bottom: -10px;
+    }
+  }
+  .webform-component-file label, .btn-default{
+    margin-right: 15px;
+  }
+  .form-managed-file{
+    display: flex;
+    max-width: 47%;
+    margin-right: 15px;
+  }
+  .form-actions {
+    text-align: left;
+    #edit-webform-ajax-submit-3165{
+      min-width: 200px;
     }
   }
 }

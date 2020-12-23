@@ -325,3 +325,22 @@ function mdump($var, $depth = 0){
     die();
   }
 }
+
+function node_load_with_term($type, $field, $tid) {
+  $query = db_select('node', 'node');
+  $query->join('field_data_'. $field, 'field', 'node.nid = field.entity_id');
+  $query->fields('node', array('nid', 'title'));
+  $query->condition('node.type', $type);
+  $query->condition('field.'. $field . '_tid', $tid);
+  $query->condition('node.status', NODE_PUBLISHED);
+
+  $result = $query
+    ->execute()
+    ->fetchAll();
+
+  if (!empty($result)) {
+    return $result;
+  }
+
+  return NULL;
+}
