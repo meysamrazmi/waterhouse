@@ -1,12 +1,12 @@
 <div id="block-system-main">
 
-  <section id="menu" class="tourism-menu" style="background: #fff;border-bottom: 1px solid #ddd;">
+  <section id="menu" class="tourism-menu container">
     <?php
     $block = module_invoke('menu', 'block_view', 'menu-tourismmain');
     print render($block['content']);
     ?>
   </section>
-  <div style="max-width:1500px;margin:20px auto">
+  <div style="max-width:1500px;margin:20px auto 0">
     <section>
       <div class="row">
         <ul class="pgwSlider" style="box-shadow: 5px 5px 15px 5px cornflowerblue;">
@@ -186,91 +186,7 @@
         </div>
       </div>
     </section>
-    </section>
-    <hr>
 
-    <div class="col-lg-12 col-xl-12 col-lg-12 col-md-6 col-sm-12 col-12 tourism-news" style="margin-bottom: 70px;">
-      <h2>اخبار گردشگری</h2>
-      <div class="owl-carousel owl-theme">
-
-        <div class="item" style="text-align: center">
-          <h4>
-            <p>افتتاح کتابخانه تخصصی گردشگری</p>
-          </h4>
-        </div>
-
-        <div class="item" style="text-align: center">
-          <h4>
-            <p>تعیین اعضای هیات رئیسه فراکسیون گردشگری مجلس</p>
-          </h4>
-        </div>
-
-        <div class="item" style="text-align: center">
-          <h4>
-            <p>تاثیرات کرونا بر صنعت گردشگری</p>
-          </h4>
-        </div>
-      </div>
-
-      <a href="/tourism/news" style="text-align: left;color: white"><h4>مشاهده اخبار</h4></a>
-    </div>
-    <br><br><hr><div style="margin-bottom: 8px;"> </div>
-
-    <section class="slideshow-tour row" style="display: none;">
-      <div id="myCarousel" class="carousel slide col-md-10" data-ride="carousel">
-        <div class="carousel-inner">
-
-          <div class="item active">
-            <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/zer2.png" style="width:100%"/>
-
-          </div>
-
-          <div class="item">
-            <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/zer.png" style="width:100%"/>
-
-          </div>
-          <div class="item">
-            <img alt="water_tourism airplane" title="water_tourism plane" src="/sites/all/themes/waterhouse/images/meysam/image/tourism/qatar.jpg" style="width:100%"/>
-
-          </div>
-          <div class="item">
-            <img alt="water_tourism train" title="water_tourism train" src="/sites/all/themes/waterhouse/images/meysam/image/tourism/kesh.jpg" style="width:100%"/>
-
-          </div>
-          <div class="item">
-            <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/hava.jpg" style="width:100%"/>
-
-          </div>
-        </div>
-        <a class="left carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-hand-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-hand-right"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <div class="ganj col-md-2 hidden-sm hidden-xs">
-        <a href="/tourism/ganjineh" target="_blank">
-          <img  src="/sites/all/themes/waterhouse/images/meysam/image/tourism/gan.jpg" style="width:100%">
-        </a>
-      </div>
-    </section>
-
-
-    <section class="water" style="display:none">
-      <img alt="آسمان نورانی" class="noor" src="/sites/all/themes/waterhouse/images/meysam/image/noor2.png" />
-      <div class="house-text">
-        HOUSE
-      </div>
-      <div class="water-text">
-        WATER
-      </div>
-    </section>
-    <div style="display: none">
-      <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/hamsafar.png" />
-    </div>
     <section id="trip" class="trip" style="display: none">
       <div class="purp">
         <div class="container">
@@ -361,7 +277,7 @@
         </div>
       </div>
     </section>
-    <section id="media" class="media" style="display:none">
+  <section id="media" class="media" style="display:none">
       <div>
         <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/safar-negar.png" />
       </div>
@@ -419,7 +335,6 @@
           </div>
         </div>
       </div>
-  </div>
   </section>
   <section class="media2" style="display:none">
     <div class="row">
@@ -469,13 +384,10 @@
       </a>
     </div>
   </section>
-  <section class="ofers row">
-    <div class="col col-lg-4">
-      <img alt="آسمان نورانی" class="noor" src="/sites/all/themes/waterhouse/images/meysam/image/noor2.png" />
-    </div>
-  </section>
-  <section class="list-city">
-    <div class="show-city" data-aos="fade-right" data-aos-delay="450">
+
+  <section class="list-city full-width">
+    <h3 class="tourism-header">جدیدترین فراخوانهای سرمایه گذاری</h3>
+    <div class="show-city container" data-aos="fade-right" data-aos-delay="450">
       <div class="row">
         <div class="tab" style="z-index:1">
           <div class="menu">
@@ -492,7 +404,6 @@
         </div>
         <div class="tab">
           <ul class="city" style="height:300px">
-            <h3 style="position: relative;top: -25px;background: #fdb913;color: white;font-size: 18px;padding: 2px 12px;left: 50px;">جدیدترین فراخوانهای سرمایه گذاری</h3>
             <li class="active row">
               <div class="image-border" >
                 <img title="سدهای استان گلستان" alt="سدهای استان گلستان" src="/sites/default/files/tourism/1-سدهای استان گلستان.jpg"/>
@@ -545,7 +456,8 @@
     </div>
   </section>
   <section class="list-city2" style="direction:rtl">
-    <div class="show-city2" data-aos="fade-left" data-aos-delay="450">
+    <h3 class="tourism-header">ظرفیتهای سرمایه گذاری استانها</h3>
+    <div class="show-city2 container" data-aos="fade-left" data-aos-delay="450">
       <div>
         <div class="tab2">
           <div class="menu2">
@@ -562,7 +474,6 @@
         </div>
         <div class="tab2">
           <ul class="city2" style="height:300px">
-            <h3 style="position: relative;top: -25px;background: #fdb913;color: white;font-size: 18px;padding: 2px 12px;left: -75px;">ظرفیتهای سرمایه گذاری استانها</h3>
             <li class="active2">
               <div class="image-border2" >
                 <img title="سد امیرکبیر" alt="سد امیرکبیر"  src="/sites/default/files/tourism/1-سد امیرکبیر.jpg" />
@@ -720,91 +631,7 @@
     </section>
   </div>
 
-  <section class="news" id="news-1548">
-    <div>
-      <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/akhbar.png" />
-    </div>
-    <?php /*print views_embed_view('water_tourism','block_2'); */?>
-
-    <div class="main-2-bottom-bottom">
-      <div class="container">
-        <div class="row mt-5">
-          <div class="col-12 col-lg-6">
-            <div class="main-2-bottom-bottom-left">
-              <div class="owl-catalog owl-carousel owl-theme mb-5">
-                <div class="item">
-                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/akhbar.png" />
-                </div>
-                <div class="item">
-                  <img src="/sites/all/themes/waterhouse/images/tourismdate/aban99.jpg" />
-                </div>
-                <div class="item">
-                  <img src="/sites/all/themes/waterhouse/images/tourismdate/azar99.jpg" />
-                </div>
-                <div class="item">
-                  <img src="/sites/all/themes/waterhouse/images/tourismdate/dey99.jpg" />
-                </div>
-                <div class="item">
-                  <img src="/sites/all/themes/waterhouse/images/tourismdate/bahman99.jpg" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-6 d-flex justify-content-center">
-            <ul class="rtl main-2-bottom-bottom-right-ul">
-              <li class="ptitr" style=" color : #F8BB60">
-                <i class="far fa-chevron-left"></i>
-                <p style="width : 80px">خبر 1</p>
-              </li>
-              <li class="ptitr">
-                <i class="far fa-chevron-left"></i>
-                <p>خبر 2</p>
-              </li>
-              <li class="ptitr">
-                <i class="far fa-chevron-left"></i>
-                <p>خبر 3</p>
-              </li>
-              <li class="ptitr">
-                <i class="far fa-chevron-left"></i>
-                <p>خبر 4</p>
-              </li>
-              <li class="ptitr">
-                <i class="far fa-chevron-left"></i>
-                <p>خبر 5</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="more"> <a href="/tourism/news" class="swip-right" target="_blank">مشاهده اخبار بیشتر</a></div>
-  </section>
   <script>
-
-    $('.owl-carousel').owlCarousel({
-      rtl:true,
-      loop:true,
-      margin:10,
-      dots: false,
-      animateOut: 'fadeOut',
-      nav:false,
-      autoplay:  true,
-      autoplayTimeout: 4000,
-      autoHeight:true,
-      responsiveClass:true,
-      responsive:{
-        0:{
-          items:1
-        },
-        600:{
-          items:1
-        },
-        1000:{
-          items:1
-        }
-      }
-    })
 
 
 
@@ -817,14 +644,14 @@
         loop: true,
         margin: 20,
         nav: false,
-        smartSpeed: 2000,
+        smartSpeed: 10000,
         dots: true,
         center: true,
         mouseDrag: true,
         touchDrag: true,
         stagePadding: 8,
         autoplay: false,
-        autoplayTimeout: 4000,
+        autoplayTimeout: 10000,
         autoplayHoverPause: false,
         items: 1,
       });
@@ -839,182 +666,32 @@
       owlcatalog.trigger('to.owl.carousel', [$(this).index()]);
     });
     $('.main-2-bottom-bottom-right-ul').mouseleave(function (e) {
-      owlcatalog.trigger('play.owl.autoplay', [3000])
+      owlcatalog.trigger('play.owl.autoplay', [10000])
     });
   </script>
 
+    <section class="news">
+      <hr style="margin: -100px 0 80px;border-top: 1px solid #ccc;">
+      <h3 class="tourism-header">آخرین اخبار بخش گردشگری</h3>
+      <?php
+      echo views_embed_view('tourism_news', 'block');
+      ?>
+    </section>
 
-  <section class="slideshow-tour secen row" style="margin-top: 120px;">
-    <div class="slieding-tab">
-      <div class="grid">
-        <div class="col-md-2" style="margin-top:-30px">
-          <div class="menu">
-
-            <div class="active"><span data-links-to="slide_3">موزه ملی آب</span></div>
-
-            <div><span data-links-to="slide_5">سازه های آبی باستانی </span></div>
-            <div><span data-links-to="slide_2">سفرهای آتی گردشگری آب</span></div>
-
-            <div><span data-links-to="slide_4">گردشگری آب و کودک</span></div>
-            <div><span data-links-to="slide_7">فروشگاه گردشگری آب</span></div>
-            <div><span data-links-to="slide_7">سفر بعدی کجاست؟</span></div>
-          </div>
-        </div>
-        <div class="col-md-10" style="margin-top:-30px">
-          <ul class="nacc">
-            <li class="active" id="slide_3">
-              <div>
-                <div>
-                  <a href="http://iwnm.wrm.ir" target="_blank" rel="nofollow" title="برای مشاهده کلیک کنید">
-                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/muz.png" />
-                  </a>
-                </div>
-              </div>
-            </li>
-            <li id="slide_5">
-              <div>
-                <div>
-                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/saz.png" />
-                </div>
-              </div>
-            </li>
-            <li id="slide_3">
-              <div>
-                <div>
-                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/lazm.jpg" />
-                </div>
-              </div>
-            </li>
-            <li id="slide_4">
-              <div>
-                <div>
-                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/kk2.jpg" />
-                </div>
-              </div>
-            </li>
-            <li id="slide_7">
-              <div>
-                <div>
-                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/shop.jpg" />
-                </div>
-              </div>
-            </li>
-            <li id="slide_8">
-              <div>
-                <div>
-                  <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/nex.jpg" />
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+    <section class="hamian full-width">
+      <h3 class="tourism-header">حامیان</h3>
+      <div class="logos container">
+        <a href="http://www.wrm.ir/" target="_blank">
+          <img style="width:150px;" src="https://waterhouse.ir/sites/all/themes/waterhouse/images/tourismfooter/Logo.png">
+        </a>
+        <a href="https://www.moe.gov.ir/" target="_blank">
+          <img src="/sites/all/themes/waterhouse/images/meysam/image/niro.png">
+        </a>
+        <a href="https://www.mcth.ir/" target="_blank">
+          <img src="/sites/all/themes/waterhouse/images/meysam/image/gardeshgari.png">
+        </a>
       </div>
-    </div>
-    <div class="ganj col-md-2 hidden-sm hidden-xs" style="display: none;">
-      <a href="/tourism/news" target="_blank">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/akh.jpg" style="height:384px">
-      </a>
-    </div>
-  </section>
-
-  <section class="faq" style="display: none;">
-    <div>
-      <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/koj.png" />
-    </div>
-    <div class="container">
-      <div class="card">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/faq1.jpg">
-        <div class="card__head">گردشگری آب چیست</div>
-        <div id="soal">
-          <div class="soal">
-            <input type="checkbox" id="question1" name="q" class="questions">
-            <div class="plus">+</div>
-            <label for="question1" class="question">
-              گردشگری آبی چیست؟
-            </label>
-            <div class="answers">
-              منابع آبی بعنوان یکی از مقاصد مهم گردشگری همواره در فصول مختلف سال پذیرای گروه های متفاوتی از گردشگران و بازدیدکنندگان هستند که برای گذراندن اوقات فراغت، تفریح و یا با مقاصد درمانی به این منابع گردشگری مراجعه می‌کنند. سازه‌های آبی از جمله سد، نیروگاه‌های برقابی، قنات، آسیاب‌های آبی و .. از جمله ظرفیتهای دیگر گردشگری در حوزه آب است که می‌تواند مورد توجه گروه‌های مختلف مردم قرار گیرد.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/faq2.jpg">
-        <div class="card__head">اهداف گردشگری آبی</div>
-        <div id="soal">
-          <div class="soal">
-            <input type="checkbox" id="question01" name="q" class="questions">
-            <div class="plus">+</div>
-            <label for="question01" class="question">
-              اهداف گردشگری آبی چیست؟
-            </label>
-            <div class="answers">
-              <ul>
-                <li>تثبیت جایگاه آب در توسعه گردشگری</li>
-                <li>بهره‌برداری بهینه و پایدار از منابع آب </li>
-                <li> شناسایی و معرفی دانش بومی</li>
-                <li> کمک به ایجاد زمینه‌های اشتغال و افزایش درآمد جوامع محلی</li>
-                <li>  شناسایی و معرفی ظرفیت‌های گردشگری و تفریحی تاسیسات آبی</li>
-                <li>تشویق و ترغیب سرمایه‌گذاران بخش غیردولتی در زمینه گردشگری</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/faq3.jpg">
-        <div class="card__head">کجاها میریم؟</div>
-        <div id="soal">
-          <div class="soal">
-            <input type="checkbox" id="question001" name="q" class="questions">
-            <div class="plus">+</div>
-            <label for="question001" class="question">
-              کجاها میریم
-            </label>
-            <div class="answers">
-              در طراحی و برنامه‌ریزی سفرهای گردشگری آبی از سوی مجموعه خانه آب ایران تلاش شده است مجموعه ای از اهداف مورد توجه قرار گیرد. مناظر و منابع طبیعی با رویکرد حفظ محیط زیست، توسعه فرهنگی و تقویت اقتصاد جوامع محلی، دانش بومی و شناخت توانمندیهای مهندسی ایرانی در زمینه سازه‌های آبی، آثار تاریخی و باستانی از جمله محورهایی است که در انتخاب مقاصد گردشگری ما مورد توجه قرار می‌گیرد.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/faq4.jpg">
-        <div class="card__head">گنجینه آب</div>
-        <div id="soal">
-          <div class="soal">
-            <input type="checkbox" id="question0001" name="q" class="questions">
-            <div class="plus">+</div>
-            <label for="question0001" class="question">
-              گنجینه آب چیست؟
-            </label>
-            <div class="answers">
-              خانه آب ایران قصد دارد با هدف توسعه دانش‌بومی و ارتقای سطح دانش و آگاهی‌بخشی در حوزه آب و محیط زیست، مجموعه وسیعی از اسناد، اطلاعات و مراجع ارزشمند مرتبط با حوزه آب را در اختیار علاقه‌مندان و مخاطبان خود قرار دهد. گنجینه آب سایت گردشگری آب، مجموعه‌ای کامل از مقاصد گردشگری آبی است که با همراهی و تعامل دوسویه کارشناسان، مطلعین محلی و مخاطبان تهیه و تکمیل گردیده و اطلاعات ارزشمندی را به علاقه‌مندان ارائه می‌دهد.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/faq5.jpg">
-        <div class="card__head">تعامل با سایت</div>
-        <div id="soal">
-          <div class="soal">
-            <input type="checkbox" id="question00001" name="q" class="questions">
-            <div class="plus">+</div>
-            <label for="question00001" class="question">
-              راه های ارتباطی کدامند؟
-            </label>
-            <div class="answers">
-              <ul>
-                <li>تلفن تماس: 021-66166320</li>
-                <li>ایمیل: Info@WaterHouse.ir</li>
-                <li> تلگرام: 09202060552</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 </div>
 <!-- footer -->
 <?php if (!empty($page['footer'])): ?>
@@ -1022,6 +699,8 @@
     <?php print render($page['footer']); ?>
   </footer>
 <?php endif; ?>
+
+</div>
 <style>
 
   /* search block */
@@ -1032,15 +711,6 @@
     background: #fdb913;
     border: none;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
-  }
-  .view-content .views-row{
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-    padding: 10px 0;
-    border-bottom: 2px solid #fdb913;
-    display: table;
-    border-radius:25%
   }
   #demo0 .view-filters input {
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
@@ -1271,114 +941,41 @@
   figure.ax:hover .square div:after {
     height: 55%;
   }
-  /*fqaauq*/
-  .faq .container {
-    display: flex;
-    margin: 10vmin;
-    overflow: hidden;
-    transform: skew(5deg);
-  }
-  .faq .container:hover {
-    transform: skew(0)
-  }
-  .faq .container .card {
-    flex: 1;
-    transition: all 1.5s ease-in-out;
-    height: 75vmin;
-    position: relative;
-  }
-  .faq .container .card .card__head {
-    color: #474676;
-    background: rgba(231, 255, 30, 0.75);
-    padding: 0.5em;
-    transform: rotate(-90deg);
-    transform-origin: 0% 0%;
-    transition: all 0.5s ease-in-out;
-    min-width: 100%;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 1em;
-    white-space: nowrap;
-  }
-  .faq .container .card:hover {
-    flex-grow: 10;
-  }
-  .faq .container .card:hover .card__head {
-    text-align: center;
-    color: rgba(231, 255, 30, 0.75);
-    background: #474676;
-    font-size: 1em;
-    transform: rotate(0deg) skew(-5deg);
-  }
-  .faq .container .card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: all 1s ease-in-out;
-  }
-  .question {
-    position: relative;
-    background: lightgray;
-    margin: 0;
-    padding: 10px 10px 10px 50px;
-    display: block;
-    width: 100%;
-    cursor: pointer;
-  }
-  .questions:checked ~ .plus {
-    transform: rotate(45deg);
-  }
-  .questions:checked ~ .answers {
-    height: auto;
-    opacity: 1;
-    padding: 15px;
-  }
-  .answers{
-    padding: 0px 15px;
-    margin: 5px 0;
-    width: 100% !important;
-    height: 0;
-    overflow: hidden;
-    z-index: -1;
-    position: relative;
-    opacity: 0;
-    transition: .7s ease;
-    background:#fff;
-  }
-  .plus{
-    position: absolute;
-    margin-left: 10px;
-    z-index: 5;
-    font-size: 2em;
-    user-select: none;
-    transition: .3s ease;
-    left:10px;
-  }
-  .questions{
-    display:none;
-  }
-  #soal {
-    position: absolute;
-    top: 5%;
-    right: 10%;
-    z-index: 1;
-    opacity: 0;
-  }
-  .card:hover #soal{
-    opacity:1
-  }
-  .faq input {
-    display:none
-  }
 </style>
 <script>
+
+  $('.view-tourism-news .view-content').addClass('owl-carousel')
+  $('.view-tourism-news .view-content').owlCarousel({
+    rtl:true,
+    loop:true,
+    margin:15,
+    dots: true,
+    animateOut: 'fadeOut',
+    nav:false,
+    autoplay:  true,
+    autoplayTimeout: 10000,
+    autoHeight:true,
+    responsiveClass:true,
+    responsive:{
+      0:{
+        items:2
+      },
+      600:{
+        items:3
+      },
+      1000:{
+        items:4
+      },
+      1400:{
+        items:5
+      }
+    }
+  })
   //popup
   $("#popup").toggleClass('open');
   //TAB
-  setInterval(moveCitySlide, 3000);
-  setInterval(moveCitySlide2, 4000);
+  setInterval(moveCitySlide, 10000);
+  setInterval(moveCitySlide2, 10000);
 
 
   function moveCitySlide(){
@@ -1506,4 +1103,3 @@
   }
 
 </script>
-</div>
