@@ -7,22 +7,19 @@
     ?>
   </section>
   <div style="max-width:1500px;margin:20px auto 0">
-    <section>
-      <div class="row">
-        <ul class="pgwSlider" style="box-shadow: 5px 5px 15px 5px cornflowerblue;">
-          <li><a href="/tourism/provinces-map"><img src="/sites/default/files/tourism/ظرفیتهای گردشگری آب.jpg" alt="ظرفیتهای گردشگری آب" data-description=" پتانسیل‌های بالقوه موجود در منابع و تأسیسات آبی و پیرامون آنها در کل کشور ..."></a></li>
-          <li>
-            <img src="/sites/default/files/tourism/فرصتهای سرمایه گذاری.jpg" data-description=" استفاده و بهره‌برداری بهینه از پتانسیل‌های گردشگری آبی در کشور به منظور توسعه صنعت گردشگری آبی و ایجاد اشتغال در مناطق بومی ...">
-            <span><a href="/content/3164">فرصتهای سرمایه گذاری
-             </a></span>
-          </li>
-          <li><img src="/sites/default/files/tourism/گنجینه آب.jpg" alt="گنجینه آب" data-description="موسسه گنجینه ملی آب ایران، آثار و ابنیه، تأسیسات، ابزار و وسایل، مدارک و مستندات آب را از دوران قدیم تاکنون شناسائی، بررسی، گردآوری، مرمت و باز سازی و نگهداری نموده و ضمن ارائه به همگان و ایجاد انگیزه تحقق و تتبع به تهیه اطلاعاتی به منظور مطالعه، شناخت، تجزیه و تحلیل، آموزش و بهره گیری از این آثار پرداخته و در چارچوب اساسنامه خود فعالیت می نماید">
-            <span><a href="/tourism/ganjineh">گنجینه آب</a></span>
-          </li>
-        </ul>
+    <?php if(!empty($node->field_image['und'])):?>
+    <section class="container main-slider">
+      <div class="owl-carousel">
+        <?php
+        foreach ($node->field_image['und'] as $file) {
+          $image = image_style_url('1200x683', $file['uri']);
+          print '<img src="'. $image .'">';
+        }
+        ?>
       </div>
     </section>
     <br><hr>
+    <?php endif;?>
 
     <section id="trip" class="trip" style="display: none">
       <div class="purp">
@@ -470,41 +467,24 @@
 
   <script>
 
-
-
-    $.getScript('/sites/all/themes/waterhouse/js/Aminch/pgwslider.min.js', function(){
-      $('.pgwSlider').pgwSlider();
+    $('.main-slider .owl-carousel').owlCarousel({
+      rtl:true,
+      loop:true,
+      dots: true,
+      animateOut: 'fadeOut',
+      margin:15,
+      nav:false,
+      autoplay:  true,
+      autoplayTimeout: 10000,
+      autoHeight:true,
+      responsiveClass:true,
+      responsive:{
+        0:{
+          items:1
+        }
+      }
     })
 
-    var owlcatalog = $(".owl-catalog").owlCarousel(
-      {
-        loop: true,
-        margin: 20,
-        nav: false,
-        smartSpeed: 10000,
-        dots: true,
-        center: true,
-        mouseDrag: true,
-        touchDrag: true,
-        stagePadding: 8,
-        autoplay: false,
-        autoplayTimeout: 10000,
-        autoplayHoverPause: false,
-        items: 1,
-      });
-    owlcatalog.on('changed.owl.carousel', function (e) {
-      $('.main-2-bottom-bottom-right-ul li').css("color", "black");
-      $('.main-2-bottom-bottom-right-ul p').css("width", "250px");
-      $('.main-2-bottom-bottom-right-ul li').eq(e.item.index - 3).css("color", "#F8BB60");
-      $('.main-2-bottom-bottom-right-ul p').eq(e.item.index - 3).css("width", "80px");
-    });
-    $('.main-2-bottom-bottom-right-ul li').mouseenter(function (e) {
-      owlcatalog.trigger('stop.owl.autoplay')
-      owlcatalog.trigger('to.owl.carousel', [$(this).index()]);
-    });
-    $('.main-2-bottom-bottom-right-ul').mouseleave(function (e) {
-      owlcatalog.trigger('play.owl.autoplay', [10000])
-    });
   </script>
 
     <section class="news">
@@ -518,14 +498,14 @@
     <section class="hamian full-width">
       <h3 class="tourism-header">حامیان</h3>
       <div class="logos container">
-        <a href="http://www.wrm.ir/" target="_blank">
-          <img style="width:150px;" src="https://waterhouse.ir/sites/all/themes/waterhouse/images/tourismfooter/Logo.png">
-        </a>
         <a href="https://www.moe.gov.ir/" target="_blank">
           <img src="/sites/all/themes/waterhouse/images/meysam/image/niro.png">
         </a>
+        <a href="http://www.wrm.ir/" target="_blank">
+          <img style="width:150px;" src="https://waterhouse.ir/sites/all/themes/waterhouse/images/tourismfooter/Logo.png">
+        </a>
         <a href="https://www.mcth.ir/" target="_blank">
-          <img src="/sites/all/themes/waterhouse/images/meysam/image/gardeshgari.png">
+          <img src="/sites/all/themes/waterhouse/images/meysam/image/gardeshgari.png" style="width: 120px;">
         </a>
       </div>
     </section>

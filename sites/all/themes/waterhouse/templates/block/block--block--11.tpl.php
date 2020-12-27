@@ -1,8 +1,11 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4 text-center">
-      <img style="width:200px;" src="https://waterhouse.ir/sites/all/themes/waterhouse/images/tourismfooter/Logo.png" />
-      <P>ما را در شبکه های اجتماعی دنبال کنید</p>
+      <div class="logos">
+        <a href="http://www.wrm.ir/" target="_blank"><img src="/sites/all/themes/waterhouse/images/tourismfooter/Logo.png"></a>
+        <a href="/" target="_blank"><img src="/sites/all/themes/waterhouse/images/full-logo.png"></a>
+      </div>
+      <p style="margin-top: 35px;">ما را در شبکه های اجتماعی دنبال کنید</p>
       <div class="icons">
         <a target="_blank" href="https://www.instagram.com/iranWaterhouse/">
           <i class="fab fa-instagram"></i>

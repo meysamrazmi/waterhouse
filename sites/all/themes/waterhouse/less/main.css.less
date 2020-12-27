@@ -1453,8 +1453,7 @@ form#webform-client-form-683, form.webform-client-form-717{
     > li.first.leaf a {
       display: flex;
       align-items: center;
-      padding: 0px 15px 0 15px;
-      font-size: 0;
+      padding: 0px 0px 0 15px;
       &:before {
         content: "";
         width: 150px;
@@ -1463,6 +1462,7 @@ form#webform-client-form-683, form.webform-client-form-717{
         padding: 2px 15px;
         background: url(/sites/all/themes/waterhouse/images/tourism-logo.png) no-repeat center;
         background-size: contain;
+        margin-left: 15px;
       }
     }
   }
@@ -1493,6 +1493,15 @@ form#webform-client-form-683, form.webform-client-form-717{
   }
   .breadcrumb {
     display: none;
+  }
+  .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    img {
+      max-width: 170px;
+      margin: 0 15px;
+    }
   }
 }
 
