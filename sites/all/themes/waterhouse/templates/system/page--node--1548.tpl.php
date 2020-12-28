@@ -6,19 +6,18 @@
     print render($block['content']);
     ?>
   </section>
-  <div style="max-width:1500px;margin:20px auto 0">
+  <div style="max-width:1500px;margin:0 auto;">
     <?php if(!empty($node->field_image['und'])):?>
-    <section class="container main-slider">
+    <section class="main-slider">
       <div class="owl-carousel">
         <?php
         foreach ($node->field_image['und'] as $file) {
-          $image = image_style_url('1200x683', $file['uri']);
+          $image = image_style_url('1850x500', $file['uri']);
           print '<img src="'. $image .'">';
         }
         ?>
       </div>
     </section>
-    <br><hr>
     <?php endif;?>
 
     <section id="trip" class="trip" style="display: none">
