@@ -226,13 +226,13 @@
         var ostan = $(this).attr('name');
         switch (ostan) {
           case "3327":
-            section.find(".TD").text("0");
-            section.find(".TF").text("1");
+            section.find(".TD").text("2");
+            section.find(".TF").text("0");
             section.find(".TZ").text("0");
             break;
           case "3328":
-            section.find(".TD").text("0");
-            section.find(".TF").text("1");
+            section.find(".TD").text("3");
+            section.find(".TF").text("10");
             section.find(".TZ").text("0");
             break;
           case "3329":
@@ -256,13 +256,13 @@
             section.find(".TZ").text("0");
             break;
           case "3333":
-            section.find(".TD").text("0");
+            section.find(".TD").text("1");
             section.find(".TF").text("1");
             section.find(".TZ").text("0");
             break;
           case "3323":
-            section.find(".TD").text("0");
-            section.find(".TF").text("4");
+            section.find(".TD").text("2");
+            section.find(".TF").text("2");
             section.find(".TZ").text("0");
             break;
           case "3310":
@@ -336,9 +336,9 @@
             section.find(".TZ").text("0");
             break;
           case "3335":
-            section.find(".TD").text(" -- ");
-            section.find(".TF").text(" -- ");
-            section.find(".TZ").text(" -- ");
+            section.find(".TD").text("1");
+            section.find(".TF").text("3");
+            section.find(".TZ").text("0");
             break;
           case "3336":
             section.find(".TD").text("0");
@@ -346,7 +346,7 @@
             section.find(".TZ").text("0");
             break;
           case "3337":
-            section.find(".TD").text("0");
+            section.find(".TD").text("1");
             section.find(".TF").text("1");
             section.find(".TZ").text("0");
             break;
@@ -361,7 +361,7 @@
             section.find(".TZ").text("0");
             break;
           case "3340":
-            section.find(".TD").text("0");
+            section.find(".TD").text("3");
             section.find(".TF").text("1");
             section.find(".TZ").text("0");
             break;
@@ -371,7 +371,7 @@
             section.find(".TZ").text("0");
             break;
           case "3342":
-            section.find(".TD").text("0");
+            section.find(".TD").text("1");
             section.find(".TF").text("1");
             section.find(".TZ").text("0");
             break;
@@ -381,7 +381,7 @@
             section.find(".TZ").text("0");
             break;
           case "3345":
-            section.find(".TD").text("0");
+            section.find(".TD").text("1");
             section.find(".TF").text("10");
             section.find(".TZ").text("0");
             break;
