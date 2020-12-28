@@ -326,9 +326,9 @@
             section.find(".TZ").text("0");
             break;
           case "3220":
-            section.find(".TD").text(" -- ");
-            section.find(".TF").text(" -- ");
-            section.find(".TZ").text(" -- ");
+            section.find(".TD").text("0");
+            section.find(".TF").text("9");
+            section.find(".TZ").text("0");
             break;
           case "3334":
             section.find(".TD").text("0");
