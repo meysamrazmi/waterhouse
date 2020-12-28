@@ -26,6 +26,10 @@
             <span>شماره تلفن: 43680000 (داخلی 450 و 451)</span>
           </li>
           <li>
+            <i class="fal fa-phone"></i>
+            <span>تلفن خانه آب: 66166320</span>
+          </li>
+          <li>
             <i class="fal fa-fax"></i>
             <span> نمابر : 88801660</span>
           </li>

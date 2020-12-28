@@ -20,93 +20,53 @@
     </section>
     <?php endif;?>
 
-    <section id="trip" class="trip" style="display: none">
+    <section id="trip" class="trip full-width">
+      <h3 class="tourism-header">وبینارهای آموزشی</h3>
+      <p class="text-center" style="
+    font-size: 14px;
+    padding: 25px 0 0;
+    ">برگزاری دوره‌های آموزشی یکی از اقدامات موثر و مهم در راستای اجرایی شدن سیاستهای تسهیل و توسعه سرمایه‌گذاری در بخش گردشگری و تفریحی پیرامون منابع و تاسیسات آبی می‌باشد.</p>
       <div class="purp">
         <div class="container">
-          <div class="col-md-4">
+          <?php
+          $webinar1 = node_load(3434);
+          $webinar2 = node_load(3435);
+          $webinars = [$webinar1, $webinar2];
+          $i = 1;
+          foreach ($webinars as $webinar) :
+          ?>
+          <div class="col-md-6">
             <div class="main">
-              <h3>سفرهای چند روزه</h3>
-              <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-aos="fade-right" data-aos-delay="1200">
+              <div id="myCarousel<?php echo $i; ?>" class="carousel slide" data-ride="carousel" data-aos="fade-right" data-aos-delay="1200">
                 <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/chan1.jpg" style="width:100%"/>
-
+                  <?php
+                  $j = 0;
+                  foreach ($webinar->uc_product_image['und'] as $image) :
+                  $image = image_style_url('300x400', $image['uri']);
+                  ?>
+                  <div class="item <?php echo $j == 0 ? 'active' : ''; ?>">
+                    <img src="<?php echo $image; ?>"/>
                   </div>
-                  <div class="item">
-                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/chan2.jpg" style="width:100%"/>
-
-                  </div>
-                  <div class="item">
-                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/chan3.jpg" style="width:100%"/>
-
-                  </div>
+                  <?php endforeach;?>
                 </div>
                 <ol class="carousel-indicators">
-                  <li data-target="#myCarousel2" data-slide-to="0" class=""></li>
-                  <li data-target="#myCarousel2" data-slide-to="1" class="active"></li>
-                  <li data-target="#myCarousel2" data-slide-to="2"></li>
+                  <?php
+                  $j = 0;
+                  foreach ($webinar->uc_product_image['und'] as $image) :
+                    ?>
+                    <li data-target="#myCarousel<?php echo $i; ?>" data-slide-to="<?php echo $j; ?>" class="<?php echo $j == 0 ? 'active' : ''; ?>"></li>
+                  <?php
+                  $j++;
+                  endforeach;?>
                 </ol>
               </div>
-              <p>دور از هیاهو، تجربه آرامش و یادگیری</p>
-              <a href="" target="_blank" class="swip-left">اطلاعات بیشتر</a>
+              <p><?php echo $webinar->title; ?></p>
+              <a href="/node/<?php echo $webinar->nid; ?>" target="_blank" class="swip-left">ثبت نام</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="main">
-              <h3>سفرهای یک روزه</h3>
-              <div id="myCarousel3" class="carousel slide" data-ride="carousel" data-aos="fade-right" data-aos-delay="1200">
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/yek1.jpg" style="width:100%"/>
-
-                  </div>
-                  <div class="item">
-                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/yek2.jpg" style="width:100%"/>
-
-                  </div>
-                  <div class="item">
-                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/yek3.jpg" style="width:100%"/>
-
-                  </div>
-                </div>
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel3" data-slide-to="0" class=""></li>
-                  <li data-target="#myCarousel3" data-slide-to="1" class="active"></li>
-                  <li data-target="#myCarousel3" data-slide-to="2"></li>
-                </ol>
-              </div>
-              <p>با حالی خوب، جستجوگر باش!</p>
-              <a href="" target="_blank" class="swip">اطلاعات بیشتر</a>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="main">
-              <h3>گردشگری آب و کودک</h3>
-              <div id="myCarousel4" class="carousel slide" data-ride="carousel" data-aos="fade-right" data-aos-delay="1200">
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/kodak1.jpg" style="width:100%"/>
-
-                  </div>
-                  <div class="item">
-                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/kodak2.jpg" style="width:100%"/>
-
-                  </div>
-                  <div class="item">
-                    <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/kodak3.jpg" style="width:100%"/>
-
-                  </div>
-                </div>
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel4" data-slide-to="0" class=""></li>
-                  <li data-target="#myCarousel4" data-slide-to="1" class="active"></li>
-                  <li data-target="#myCarousel4" data-slide-to="2"></li>
-                </ol>
-              </div>
-              <p>سفر با دنیای کودکی، دنیایی از شادی</p>
-              <a href="" target="_blank" class="swip-right">بزودی</a>
-            </div>
-          </div>
+            <?php
+            $i++;
+          endforeach;?>
         </div>
       </div>
     </section>
