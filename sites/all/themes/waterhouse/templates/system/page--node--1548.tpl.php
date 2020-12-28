@@ -446,9 +446,8 @@
 
   </script>
 
-    <section class="news">
-      <hr style="margin: -100px 0 80px;border-top: 1px solid #ccc;">
-      <h3 class="tourism-header">آخرین اخبار بخش گردشگری</h3>
+    <section class="news full-width">
+      <h3 class="tourism-header"><span>اخبار بخش گردشگری</span></h3>
       <?php
       echo views_embed_view('tourism_news', 'block');
       ?>
@@ -469,7 +468,7 @@
       </div>
     </section>
 
-    <section class="circular-status" data-aos="zoom-in" data-aos-delay="450">
+    <section class="circular-status" data-aos="zoom-in" data-aos-delay="450" style="display: none;">
       <div class="row">
         <div class="col col-lg-3 col-md-3 col-sm-12">
           <div>
@@ -887,11 +886,11 @@
   $('.view-tourism-news .view-content').addClass('owl-carousel')
   $('.view-tourism-news .view-content').owlCarousel({
     rtl:true,
-    loop:true,
+    loop:false,
     margin:15,
-    dots: true,
+    dots: false,
     animateOut: 'fadeOut',
-    nav:false,
+    nav:true,
     autoplay:  true,
     autoplayTimeout: 10000,
     autoHeight:true,

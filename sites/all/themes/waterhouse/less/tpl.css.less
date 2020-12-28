@@ -1081,6 +1081,7 @@
 }
 /*----------------------------------------- Tourism -> content 1548------------------------------------- */
 .page-node-1548 {
+  background: #fff;
   &:before {display: none;}
   #block-system-main {
     font-family:fanum;
@@ -1105,7 +1106,6 @@
     .hamian {
       padding: 50px;
       margin-bottom: 0;
-      background: #eee;
       .logos {
         padding: 50px;
         a {
@@ -1816,8 +1816,65 @@
     }
 
     .news{
-      margin: 50px 0;
-      padding: 100px 0 50px;
+      margin: 50px 0 0;
+      padding: 50px 0 50px;
+      background: #03A9F4;
+      display: flex;
+      align-items: center;
+      .tourism-header {
+        width: 350px;
+        color: #fff;
+        font-weight: 500;
+        + * {
+          width: ~"calc(100vw - 350px)";
+        }
+        &:before {
+          background: #FFC107;
+          width: 50px;
+          right: ~"calc(50% - 40px)";
+        }
+        span {
+          width: 80px;
+          display: block;
+          margin: auto;
+          text-align: right;
+        }
+      }
+      .owl-nav {
+        position: absolute;
+        right: -120px;
+        width: 100px;
+        bottom: 10px;
+        margin: 0;
+        button {
+          outline: none;
+        }
+        span {
+          width: 35px;
+          height: 35px;
+          background: #00000047;
+          display: block;
+          font-size: 0;
+          border-radius: 50%;
+          position: relative;
+          &:before {
+            content: "";
+            display: block;
+            border: solid #fff;
+            border-width: 1px 1px 0 0;
+            width: 9px;
+            height: 9px;
+            transform: rotate(45deg);
+            position: absolute;
+            right: 14px;
+            top: 13px;
+          }
+          &.owl-next span:before {
+            transform: rotate(-135deg);
+            right: 11px;
+          }
+        }
+      }
       .view-content{
         margin-top: 50px;
         .views-slideshow-cycle-main-frame{
@@ -1826,6 +1883,8 @@
         .views-row{
           .paper(z1);
           padding: 0;
+          border-radius: 5px 5px;
+          overflow: hidden;
           .center-wrapper {
             display: none;
           }
@@ -1837,6 +1896,9 @@
             overflow: hidden;
             padding: 10px 10px;
             margin-bottom: 10px;
+            a {
+              color: #222;
+            }
           }
           .inside {
             display: flex;
