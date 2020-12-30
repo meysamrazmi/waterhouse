@@ -328,6 +328,7 @@
             background-color: white;
             border-radius: 100%;
             transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+            box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
           }
         }
         div.active {
@@ -341,6 +342,7 @@
             width: 5px;
             top: 0;
             border-radius: 0;
+            box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
           }
         }
       }
@@ -1106,10 +1108,12 @@
     .hamian {
       padding: 50px;
       margin-bottom: 0;
+      background: #f5f5f5;
+      border-top: 1px solid #ddd;
       .logos {
         padding: 50px;
         a {
-          width: 150px;
+          width: 200px;
           text-align: center;
         }
         img {
@@ -1366,13 +1370,33 @@
     }
     .trip {
       background: #fff;
-      padding: 40px 0;
+      padding: 40px 15px;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      .title-col {
+        width: 40%;
+        text-align: left;
+        padding-right: 15px;
+        p {
+          font-size: 15px;
+          padding: 25px 0 0;
+          line-height: 30px;
+        }
+        .tourism-header {
+          text-align: left;
+          &:before {
+            left: 0;
+            right: inherit;
+            width: 100px;
+          }
+        }
+      }
       .purp{
         background: rgba(255,255,255,0.6);
         padding: 50px 0;
-      }
-      .container{
         text-align:-webkit-center;
+        width: 60%;
         .main{
           width:300px;
           color: #0a84ad;
@@ -1384,29 +1408,33 @@
             padding:15px 0;
           }
           #myCarousel1, #myCarousel2, #myCarousel3, #myCarousel4{
-            width:300px;
+            width:260px;
             padding:10px 0;
             img{
-              height:400px;
+              height:340px;
               border-radius:5px;
             }
           }
-          p{
-            font-size:16px;
-            padding:15px 0;
-          }
-          a{
-            color: white;
-            padding: 6px 10px;
-            background: #2196F3;
-            transition: 0.5s ease-in-out;
-            box-shadow: 0px 5px 0px #3F51B5;
-            &:hover{
-              background: #3F51B5;
-              box-shadow: 0px 5px 0px  #2196F3;
+          a {
+            padding: 10px;
+            display: block;
+            color: #222;
+            font-size: 16px;
+            margin-bottom: 15px;
+            white-space: nowrap;
+            &.button {
+              color: white;
+              padding: 6px 10px;
+              background: #2196F3;
+              transition: 0.5s ease-in-out;
+              box-shadow: 0px 5px 0px #3F51B5;
+              &:hover{
+                background: #3F51B5;
+                box-shadow: 0px 5px 0px  #2196F3;
+              }
             }
           }
-        }
+      }
       }
     }
     .media{
@@ -1451,7 +1479,7 @@
       }
     }
     .list-city{
-      padding: 20px 0;
+      padding: 50px 0;
       margin-bottom:75px;
       direction:ltr;
       background: #eee;
@@ -1475,12 +1503,14 @@
               left: 10px;
               background-color: white;
               border-radius: 100%;
+              box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
             }
           }
           a.active{
             span.light{
               background:#fdb913;
               border:2px solid white;
+              box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
             }
           }
         }
@@ -1498,6 +1528,9 @@
               position: absolute;
               list-style: none;
               transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+              @media all and (max-width: 992px) {
+                flex-direction: column;
+              }
             }
             li.active{
               transition-delay: .3s;
@@ -1523,6 +1556,10 @@
                 height:253px;
                 z-index:2;
                 transform:translate(-45px,-85px);
+              }
+              @media all and (max-width: 992px) {
+                height: 180px;
+                margin-bottom: 20px;
               }
             }
             .txt{
@@ -1552,6 +1589,11 @@
             }
           }
         }
+        @media all and (max-width: 992px) {
+          ul.city {
+            min-height: 500px !important;
+          }
+        }
       }
     }
     .list-city2{
@@ -1572,12 +1614,14 @@
               top: 20px;
               background-color: #ddd;
               border-radius: 100%;
+              box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
             }
           }
           a.active2{
             span.light2{
               background:#fdb913;
               border:2px solid #ddd;
+              box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
             }
           }
         }
@@ -1595,6 +1639,9 @@
               position: absolute;
               list-style: none;
               transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+              @media all and (max-width: 992px) {
+                flex-direction: column;
+              }
             }
             li.active2{
               transition-delay: .3s;
@@ -1623,6 +1670,11 @@
                 top:20px;
                 border:10px solid #fdb913;
               }
+              @media all and (max-width: 992px) {
+                height: 180px;
+                margin-bottom: 20px;
+              }
+
             }
             .txt2{
               max-width:500px;
@@ -1651,6 +1703,12 @@
             }
           }
         }
+        @media all and (max-width: 992px) {
+          ul.city2 {
+            min-height: 500px !important;
+          }
+        }
+
       }
     }
     .Main-timeline{
@@ -1846,9 +1904,6 @@
         width: 100px;
         bottom: 10px;
         margin: 0;
-        button {
-          outline: none;
-        }
         span {
           width: 35px;
           height: 35px;
@@ -1869,6 +1924,9 @@
             right: 14px;
             top: 13px;
           }
+        }
+        button {
+          outline: none;
           &.owl-next span:before {
             transform: rotate(-135deg);
             right: 11px;
@@ -2088,7 +2146,7 @@
     }
     /*-------------------------- Tourism Site Changes  By Saman------------------------------*/
   }
-  @media(max-width:768px){
+  /*@media(max-width:768px){
     #block-system-main{
       background-position:unset;
       font-size: 16px !important;
@@ -2224,7 +2282,7 @@
         }
       }
     }
-  }
+  }*/
   @media(min-width:768px) and (max-width:1200px){
     #block-system-main{
       .circular-status{

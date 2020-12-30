@@ -73,6 +73,20 @@
     <?php endif;?>
   <?php endif;?>
 
+  <?php
+  if(isset($content['field_province']['#items'][0]['tid'])):
+    $view = views_get_view_result('zarfiats', 'block_1', $content['field_province']['#items'][0]['tid']);
+    if (count($view)):
+      ?>
+      <div class="relative-calls">
+        <div class="field-label province-labels">آخرین فراخوان ها:</div>
+        <div class="carousel">
+          <?php print views_embed_view('zarfiats', 'block_1', $content['field_province']['#items'][0]['tid']); ?>
+        </div>
+      </div>
+    <?php endif;?>
+  <?php endif;?>
+
   <?php if (!empty($content['field_tags'])): ?>
   <footer>
     <?php print render($content['field_tags']); ?>

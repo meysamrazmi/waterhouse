@@ -289,7 +289,7 @@ h3.block-title{
 }
 .node-teaser{
     display: flex;
-    box-shadow: 0 2px 2px #edeef0;
+    box-shadow: 0 2px 6px #ddd;
     flex-direction: row;
     margin-bottom: 15px;
     width: 100%;
@@ -3139,18 +3139,19 @@ body.page-media form#views-exposed-form-video-page-mefibs-form-search {
     justify-content: center;
 }
 .owl-carousel .owl-dots .owl-dot {
-    padding: 0 5px;
+    padding: 0 5px !important;
 }
 .owl-carousel.owl-carousel.owl-rtl {
     direction: rtl;
 }
 .owl-carousel .owl-dots .owl-dot span:before {
     content: "";
-    background: #aaa;
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
+  background: #fff;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.156863) 0px 3px 10px, rgba(0, 0, 0, 0.227451) 0px 3px 10px;
 }
 .owl-carousel .owl-dots .owl-dot.active span:before {
     background: #333;

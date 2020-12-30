@@ -228,7 +228,8 @@
     position: relative;
     padding: 50px 0;
   }
-  .relative-films:before {
+  .relative-films:before,
+  .relative-calls:before {
     content: "";
     position: absolute;
     right: calc(50% - 50vw);
@@ -238,5 +239,10 @@
     top: 0;
     border: 1px solid #ddd;
     border-width: 1px 0;
+  }
+  .relative-calls {
+    position: relative;
+    padding: 40px 0;
+    margin-bottom: -40px !important;
   }
 </style>

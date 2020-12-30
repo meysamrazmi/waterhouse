@@ -2,7 +2,6 @@
   <div class="row">
     <div class="col-md-4 text-center">
       <div class="logos">
-        <a href="http://www.wrm.ir/" target="_blank"><img src="/sites/all/themes/waterhouse/images/tourismfooter/Logo.png"></a>
         <a href="/" target="_blank"><img src="/sites/all/themes/waterhouse/images/full-logo.png"></a>
       </div>
       <p style="margin-top: 35px;">ما را در شبکه های اجتماعی دنبال کنید</p>
@@ -18,24 +17,35 @@
     <div class="col-md-4"></div>
     <div class="col-md-4">
       <div>
-        <h3>راه های ارتباطی</h3>
+        <h3>خانه آب ایران</h3>
 
         <ul style="padding: 0;">
           <li>
             <i class="fal fa-phone"></i>
-            <span>شماره تلفن: 43680000 (داخلی 450 و 451)</span>
+            <span>تلفن ثابت: 02166166320</span>
           </li>
           <li>
             <i class="fal fa-phone"></i>
-            <span>تلفن خانه آب: 66166320</span>
-          </li>
-          <li>
-            <i class="fal fa-fax"></i>
-            <span> نمابر : 88801660</span>
+            <span>تلفن همراه: 09202060552</span>
           </li>
           <li>
             <i class="fal fa-envelope-square"></i>
-            <span>پست الکترونیکی شرکت : info@wrm.ir</span>
+            <span>IranWaterHouse@gmail.com</span>
+          </li>
+          <li>
+            <i class="fal fa-envelope-square"></i>
+            <span>Nourbakhsh@sharif.edu</span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 style="font-size: 17px;">شرکت مدیریت منابع آب ایران</h3>
+
+        <ul style="padding: 0;">
+          <li>
+            <i class="fal fa-phone"></i>
+            <span>شماره تلفن: 02143680000 (داخلی 450 و 451)</span>
           </li>
         </ul>
       </div>
@@ -44,13 +54,11 @@
   </div>
 </div>
 
-<p class="text-center under-footer">کلیه حقوق مادی و معنوی این سایت متعلق به شرکت مدیریت منابع آب ایران می‌باشد.</p>
-
 <style>
   .footer.footer {
     background-color: #ddd;
     color: #222;
-    padding: 50px 0px 0;
+    padding: 50px 0px 30px;
     border: none;
   }
   .under-footer {

@@ -20,56 +20,6 @@
     </section>
     <?php endif;?>
 
-    <section id="trip" class="trip full-width">
-      <h3 class="tourism-header">وبینارهای آموزشی</h3>
-      <p class="text-center" style="
-    font-size: 14px;
-    padding: 25px 0 0;
-    ">برگزاری دوره‌های آموزشی یکی از اقدامات موثر و مهم در راستای اجرایی شدن سیاستهای تسهیل و توسعه سرمایه‌گذاری در بخش گردشگری و تفریحی پیرامون منابع و تاسیسات آبی می‌باشد.</p>
-      <div class="purp">
-        <div class="container">
-          <?php
-          $webinar1 = node_load(3434);
-          $webinar2 = node_load(3435);
-          $webinars = [$webinar1, $webinar2];
-          $i = 1;
-          foreach ($webinars as $webinar) :
-          ?>
-          <div class="col-md-6">
-            <div class="main">
-              <div id="myCarousel<?php echo $i; ?>" class="carousel slide" data-ride="carousel" data-aos="fade-right" data-aos-delay="1200">
-                <div class="carousel-inner">
-                  <?php
-                  $j = 0;
-                  foreach ($webinar->uc_product_image['und'] as $image) :
-                  $image = image_style_url('300x400', $image['uri']);
-                  ?>
-                  <div class="item <?php echo $j == 0 ? 'active' : ''; ?>">
-                    <img src="<?php echo $image; ?>"/>
-                  </div>
-                  <?php endforeach;?>
-                </div>
-                <ol class="carousel-indicators">
-                  <?php
-                  $j = 0;
-                  foreach ($webinar->uc_product_image['und'] as $image) :
-                    ?>
-                    <li data-target="#myCarousel<?php echo $i; ?>" data-slide-to="<?php echo $j; ?>" class="<?php echo $j == 0 ? 'active' : ''; ?>"></li>
-                  <?php
-                  $j++;
-                  endforeach;?>
-                </ol>
-              </div>
-              <p><?php echo $webinar->title; ?></p>
-              <a href="/node/<?php echo $webinar->nid; ?>" target="_blank" class="swip-left">ثبت نام</a>
-            </div>
-          </div>
-            <?php
-            $i++;
-          endforeach;?>
-        </div>
-      </div>
-    </section>
   <section id="media" class="media" style="display:none">
       <div>
         <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/safar-negar.png" />
@@ -179,7 +129,7 @@
   </section>
 
   <section class="list-city full-width">
-    <h3 class="tourism-header">جدیدترین فراخوانهای سرمایه گذاری</h3>
+    <h3 class="tourism-header" data-aos="fade-up" data-aos-delay="150">جدیدترین فراخوان های سرمایه گذاری در گردشگری</h3>
     <div class="show-city container" data-aos="fade-right" data-aos-delay="450">
       <div class="row">
         <div class="tab" style="z-index:1">
@@ -249,7 +199,7 @@
     </div>
   </section>
   <section class="list-city2" style="direction:rtl">
-    <h3 class="tourism-header">ظرفیتهای سرمایه گذاری استانها</h3>
+    <h3 class="tourism-header" data-aos="fade-up" data-aos-delay="150">ظرفیت های گردشگری آب در استانها</h3>
     <div class="show-city2 container" data-aos="fade-left" data-aos-delay="450">
       <div>
         <div class="tab2">
@@ -434,7 +384,7 @@
       margin:15,
       nav:false,
       autoplay:  true,
-      autoplayTimeout: 10000,
+      autoplayTimeout: 15000,
       autoHeight:true,
       responsiveClass:true,
       responsive:{
@@ -446,18 +396,66 @@
 
   </script>
 
-    <section class="news full-width">
-      <h3 class="tourism-header"><span>اخبار بخش گردشگری</span></h3>
+    <section class="news full-width" data-aos="fade-up" data-aos-delay="600">
+      <h3 class="tourism-header"><span>اخبار گردشگری آب</span></h3>
       <?php
       echo views_embed_view('tourism_news', 'block');
       ?>
     </section>
 
-    <section class="hamian full-width">
-      <h3 class="tourism-header">حامیان</h3>
+    <section id="trip" class="trip">
+      <div class="title-col" data-aos="fade-right" data-aos-delay="600">
+        <h3 class="tourism-header">گفتگو، میزگرد و بینارهای آموزشی</h3>
+        <p>برگزاری میزگردها و بینارهای آنلاین یکی از اقدامات موثر و مهم در راستای اجرایی شدن سیاستهای تسهیل و توسعه سرمایه‌گذاری در بخش گردشگری و تفریحی پیرامون منابع و تاسیسات آبی می‌باشد.</p>
+      </div>
+      <div class="purp">
+        <?php
+        $webinar1 = node_load(3434);
+        $webinar2 = node_load(3435);
+        $webinars = [$webinar1, $webinar2];
+        $i = 1;
+        foreach ($webinars as $webinar) :
+          ?>
+          <div class="col-md-6" data-aos="fade-left" data-aos-delay="600">
+            <div class="main">
+              <div id="myCarousel<?php echo $i; ?>" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <?php
+                  $j = 0;
+                  foreach ($webinar->uc_product_image['und'] as $image) :
+                    $image = image_style_url('300x400', $image['uri']);
+                    ?>
+                    <div class="item <?php echo $j == 0 ? 'active' : ''; ?>">
+                      <img src="<?php echo $image; ?>"/>
+                    </div>
+                  <?php endforeach;?>
+                </div>
+                <ol class="carousel-indicators">
+                  <?php
+                  $j = 0;
+                  foreach ($webinar->uc_product_image['und'] as $image) :
+                    ?>
+                    <li data-target="#myCarousel<?php echo $i; ?>" data-slide-to="<?php echo $j; ?>" class="<?php echo $j == 0 ? 'active' : ''; ?>"></li>
+                    <?php
+                    $j++;
+                  endforeach;?>
+                </ol>
+              </div>
+              <a href="/node/<?php echo $webinar->nid; ?>" target="_blank"><?php echo $webinar->title; ?></a>
+              <a class="button" href="/node/<?php echo $webinar->nid; ?>" target="_blank" class="swip-left">ثبت نام</a>
+            </div>
+          </div>
+          <?php
+          $i++;
+        endforeach;?>
+      </div>
+    </section>
+
+    <section class="hamian full-width" data-aos="fade-up" data-aos-delay="600">
+      <h3 class="tourism-header">حامیان و سیاستگذاران</h3>
       <div class="logos container">
         <a href="https://www.moe.gov.ir/" target="_blank">
-          <img src="/sites/all/themes/waterhouse/images/meysam/image/niro.png">
+          <img src="/sites/all/themes/waterhouse/images/meysam/image/niro.png"  style="width: 80px;">
         </a>
         <a href="http://www.wrm.ir/" target="_blank">
           <img style="width:150px;" src="https://waterhouse.ir/sites/all/themes/waterhouse/images/tourismfooter/Logo.png">
