@@ -1139,235 +1139,7 @@
     .footer.footer {
       margin-top: 0 !important;
     }
-    .tourism-news {
-      background-color: #fdb913;
-    }
-    .tourism-news >
 
-    a{
-      cursor: pointer!important;
-    }
-    #menu img {
-      height: 145px;
-    }
-    .testback{
-      background: url(/sites/all/themes/waterhouse/images/tourismdate/mehr99.jpg);
-      background-size:100%;
-    }
-    .ganj{
-      padding-right:0;
-      img{
-        margin-top:15px;
-        border-radius:5px;
-        width:100%;
-        height: 406px;
-        box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
-      }
-    }
-    .slideshow-tour{
-      margin:0 10px;
-      #myCarousel{
-        height:360px;
-        padding:0;
-        img{
-          height:360px;
-          border-radius:5px;
-        }
-      }
-      .carousel{
-        z-index:1;
-        top:15px;
-        .carousel-control{
-          background:none!important;
-          .glyphicon {
-            position:absolute;
-            top:50%;
-            color:#fdb913;
-            font-size:24px !important;
-          }
-        }
-      }
-    }
-    .secen{
-      .col{
-        padding:0;
-        margin-top:-30px;
-        img{
-          width:100%;
-          height:430px;
-        }
-      }
-    }
-    .slieding-tab{
-      margin-top:-30px;
-      @media (max-width: 1000px){
-        margin-top: 60px !important;
-      }
-      .menu{
-        div{
-          padding:10px 20px 10px 40px;
-          color:#61655a;
-          cursor:pointer;
-          position:relative;
-        }
-        div.active{
-          color: #fff;
-          padding: 10px 20px 10px 20px;
-          background:#ef5661;
-        }
-      }
-      img{
-        min-height: 430px;
-        width: 100%;
-        max-height: 430px;
-      }
-      ul.nacc {
-        position: relative;
-        height: 0px;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        transition: 0.5s all cubic-bezier(0.075, 0.82, 0.165, 1);
-        li {
-          opacity: 0;
-          transform: translateX(50px);
-          position: absolute;
-          list-style: none;
-          transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-          width:100%;
-        }
-        li.active {
-          transition-delay: .3s;
-          z-index: 2;
-          opacity: 1;
-          transform: translateX(0px);
-        }
-      }
-      .col-md-2 {
-        padding: 0;
-        background: #f6f7e5;
-        height:430px
-      }
-      .col-md-8 {
-        padding: 0;
-        height:430px;
-      }
-    }
-    .circular-status{
-      margin-top:100px;
-      text-align:-webkit-center;
-      .table{
-        border-collapse: collapse;
-        width: 100%;
-        margin-top:-30px;
-        font-size:13px;
-        z-index:10;
-        tr{
-          .th{
-            background:#ece70887;
-            color:white;
-            font-weight:bold;
-          }
-          td{
-            text-align:center;
-            padding:10px;
-          }
-          &:nth-child(even){
-            background:#f2f2f2;
-          }
-          &:nth-child(odd){
-            background:#e5f1f1;
-          }
-          a{
-            color:black;
-            text-decoration:none;
-            padding: 2px 12px;
-            background: #4CAF50;
-            border-radius: 17px;
-            color: white;
-          }
-        }
-        &:before{
-          position:relative;
-          content: '';
-          border-style: solid;
-          top: -15px;
-          border-width: 0 20px 20px 20px;
-          border-color: transparent transparent #e9eb75 transparent;
-          right:100%;
-        }
-      }
-      .row{
-        padding:0 12%;
-        .circle{
-          width: 185px;
-          height: 185px;
-          border: 6px solid #fdb913;
-          border-radius: 50%;
-          text-align:center;
-          cursor:pointer;
-          margin-bottom:30px;
-          &:hover{
-            svg{
-              fill:#33503b;
-            }
-          }
-          svg{
-            fill:#fdb913;
-          }
-          .info{
-            padding:25px;
-            img{
-              margin-bottom:10px;
-            }
-          }
-        }
-      }
-    }
-    .water{
-      @media (max-width: 1200px) and (min-width: 900px){
-        .water-text, .house-text{
-          font-size:19em !important;
-        }
-      }
-      @media(max-width: 900px){
-        display: none;
-      }
-      .noor{
-        position:absolute;
-        right:0;
-        animation:opacity 0.7s ease-in infinite;
-      }
-      @keyframes opacity{
-        from{
-          opacity:0.6;
-        }
-        to{
-          opacity:1;
-        }
-      }
-      .water-text, .house-text{
-        text-align:center;
-        font-size:26em;
-        font-weight:bold;
-        -webkit-animation-duration: 3s;
-        -webkit-animation-iteration-count: infinite;
-        -webkit-animation-timing-function: ease-in-out;
-      }
-      .water-text{
-        color: white;
-        opacity: 0.6;
-        -webkit-animation-name: Floatingx2;
-      }
-      .house-text{
-        color: #63cae1;
-        opacity: 0.2;
-        position:absolute;
-        left:10%;
-        margin-top:-45px;
-        -webkit-animation-name: Floatingx3;
-      }
-    }
     .trip {
       background: #fff;
       padding: 40px 15px;
@@ -1488,8 +1260,8 @@
       right: ~"calc(50% - 50vw)";
       .show-city{
         margin-top: 90px;
+        display: flex;
         .menu{
-          margin-left:50px;
           div{
             padding: 15px 20px 15px 40px;
             color: white;
@@ -1514,61 +1286,64 @@
             }
           }
         }
-        .tab{
-          box-sizing: border-box;
-          display: inline-block;
-          margin-right: -6.25em;
-          padding-left: 40px;
-          vertical-align: top;
+        .tab {
+          position: relative;
           ul{
+            padding: 0;
             li{
-              display:inline-flex;
+              display: flex;
               opacity: 0;
               transform: translateX(50px);
               position: absolute;
               list-style: none;
               transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-              @media all and (max-width: 992px) {
+              width: 100%;
+              @media @992 {
                 flex-direction: column;
               }
-            }
-            li.active{
-              transition-delay: .3s;
-              z-index: 2;
-              opacity: 1;
-              transform: translateX(0px);
+              &.active{
+                transition-delay: .3s;
+                z-index: 2;
+                opacity: 1;
+                transform: translateX(0px);
+              }
             }
             .image-border{
-              margin:50px;
-              width:450px;
-              height:253px;
+              width: ~"calc(100% - 20px)";
+              max-width: 450px;
+              height: ~"calc(66vw - 70px)";
+              max-height: 290px;
               position:relative;
+              margin: 20px auto 0;
               .img-shape{
-                position:relative;
-                width:435px;
-                height:220px;
-                top:-25px;
+                position: absolute;
+                width: 100%;
+                height: 100%;
                 border:10px solid #fdb913;
               }
               img{
-                position:absolute;
-                width:450px;
-                height:253px;
-                z-index:2;
-                transform:translate(-45px,-85px);
-              }
-              @media all and (max-width: 992px) {
-                height: 180px;
-                margin-bottom: 20px;
+                position: absolute;
+                width: 100%;
+                height: auto;
+                z-index: 2;
+                transform:translate(-45px,-45px);
+                @media @992 {
+                  transform:translate(-25px,-45px);
+                }
               }
             }
             .txt{
               max-width:500px;
               text-align:left;
               color:#fdb913;
-              margin-top:12px;
+              margin: 12px auto 0;
+              width: 90%;
+              @media @992 {
+                text-align: right;
+                width: 100%;
+              }
               .city-name{
-                margin-bottom:25px;
+                margin: 5px 0 10px;
               }
               .city-cap{
                 font-size:17px;
@@ -1589,7 +1364,7 @@
             }
           }
         }
-        @media all and (max-width: 992px) {
+        @media @992 {
           ul.city {
             min-height: 500px !important;
           }
@@ -1639,7 +1414,7 @@
               position: absolute;
               list-style: none;
               transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-              @media all and (max-width: 992px) {
+              @media @992 {
                 flex-direction: column;
               }
             }
@@ -1670,7 +1445,7 @@
                 top:20px;
                 border:10px solid #fdb913;
               }
-              @media all and (max-width: 992px) {
+              @media @992 {
                 height: 180px;
                 margin-bottom: 20px;
               }
@@ -1703,7 +1478,7 @@
             }
           }
         }
-        @media all and (max-width: 992px) {
+        @media @992 {
           ul.city2 {
             min-height: 500px !important;
           }
@@ -1751,7 +1526,6 @@
               right:46%;
               height:6px;
               width:6px;
-              background-color:1;
               border-radius:50%;
             }
           }
@@ -1834,45 +1608,6 @@
       }
     }
 
-    .main-2-bottom-bottom {
-      padding: 50px 0;
-      margin-bottom: 25px;
-      width: 100%;
-      text-align: center;
-      background-color: white;
-      min-height: 450px;
-      box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
-    }
-
-    .main-2-bottom-bottom img {
-      width: 300px;
-    }
-
-    .main-2-bottom-bottom ul {
-      list-style-type: none;
-    }
-
-    .main-2-bottom-bottom li {
-      padding: 10px 0;
-      text-align: right;
-    }
-    .main-2-bottom-bottom li:after {
-      width:100%;
-    }
-
-    .main-2-bottom-bottom-right-ul p {
-      margin: 0;
-      width: 250px;
-      cursor: pointer;
-      text-align: left;
-      display: inline-block;
-      transition: 0.9s;
-    }
-    .main-2-bottom-bottom-left {
-      width: 70% !important;
-      margin: 0 auto;
-    }
-
     .news{
       margin: 50px 0 0;
       padding: 50px 0 50px;
@@ -1885,6 +1620,10 @@
         font-weight: 500;
         + * {
           width: ~"calc(100vw - 350px)";
+        }
+        @media @992 {
+          width: 350px;
+          + * { width: ~"calc(100vw - 250px)"; }
         }
         &:before {
           background: #FFC107;
@@ -1968,332 +1707,6 @@
             font-size: 12px;
             line-height: 24px;
             text-align: left;
-          }
-        }
-      }
-      .more{
-        text-align:center;
-        a{
-          color: white;
-          padding: 8px 16px;
-          border: 2px solid;
-        }
-      }
-    }
-    .ofers{
-      .noor{
-        position:absolute;
-        right:-132%;
-        margin-top:-10px;
-        animation:opacity 1s ease-in-out infinite;
-      }
-    }
-    .popup-fix{
-      .popup-overlay {
-        background-color: rgba(34, 152, 195, 0.84);
-        position: relative;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: 999;
-        height: 320px;
-        box-shadow: 0 0 15px -3px #03374A;
-        border-radius: 100% 100% 0 0 / 14% 14%;
-        transition: bottom 3s ease;
-        .boat{
-          background:url(/sites/all/themes/waterhouse/images/meysam/icons/boat.png) no-repeat;
-          background-size:100% auto;
-          width:120px;
-          height:100px;
-          position:absolute;
-          top:-50px;
-          animation:boat ease-in-out infinite 24s;
-        }
-        @keyframes boat{
-          100%{transform:translate(-1366px,0px)}
-        }
-        .popup-item {
-          background: url(/sites/all/themes/waterhouse/images/meysam/icons/go.png) no-repeat center center;
-          background-size: 28px auto;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          margin: -31px 0 0 -31px;
-          height: 62px;
-          width: 142px;
-          text-align: right;
-          border-radius: 40px;
-          transform-origin: 31px 31px;
-          transition: all 1s ease 0.4s;
-          &:hover{
-            transform:rotate(360deg);
-          }
-          .itemMenu {
-            display: inline-block;
-            border: 2px solid rgba(255,255,255,0.6);
-            border-radius: 40px;
-            background-color: #1f97c2;
-            background-repeat: no-repeat;
-            background-position: center center;
-            width: 62px;
-            height: 62px;
-            border-radius: 40px;
-            transition: all 0.8s ease;
-            color:#FFF;
-            font-size:28px;
-            line-height:64px;
-            text-align:center;
-          }
-        }
-        .popup-item.home {
-          transform: rotate(0deg);
-          .itemMenu {
-            background: url(/sites/all/themes/waterhouse/images/meysam/icons/home.ico) no-repeat center;
-            background-size:45px;
-            transform: rotate(0deg);
-          }
-        }
-        .popup-item.user {
-          transform: rotate(90deg);
-          .itemMenu {
-            background: url(/sites/all/themes/waterhouse/images/meysam/icons/user.ico) no-repeat center;
-            background-size: 45px;
-            transform: rotate(-90deg);
-          }
-        }
-        .popup-item.shop {
-          transform: rotate(180deg);
-          .itemMenu {
-            background: url(/sites/all/themes/waterhouse/images/meysam/icons/buy.ico) no-repeat center;
-            background-size: 45px;
-            transform: rotate(180deg);
-          }
-        }
-        .popup-item.contact {
-          transform: rotate(270deg);
-          .itemMenu {
-            background: url(/sites/all/themes/waterhouse/images/meysam/icons/call.ico) no-repeat center;
-            background-size: 45px;
-            transform: rotate(270deg);
-          }
-        }
-        .social{
-          text-align: center;
-          color: white;
-          position: absolute;
-          top: 40%;
-          left: 5%;
-          font-size:16px;
-          .icons{
-            display:inline-block;
-            padding:25px 75px;
-          }
-        }
-        .text-tour-animate{
-          position:absolute;
-          top:40%;
-          font-size:24px;
-          margin: 0;
-          padding: 0;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding-top:15px;
-          p{
-            position: relative;
-            overflow: hidden;
-            background: linear-gradient(90deg, red, #fff, red);
-            background-repeat: no-repeat;
-            background-size: 80%;
-            animation: animate 3s linear infinite;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: rgba(255, 255, 255, 0);
-          }
-          @keyframes animate {
-            0% {
-              background-position: 500%;
-            }
-            100% {
-              background-position: -500%;
-            }
-          }
-        }
-      }
-      .floating2{
-        animation:Floatingx2 3s infinite ease-in-out;
-        .floating3{
-          animation: Floatingx3 3s infinite ease-in-out;
-        }
-        .floating{
-          animation: Floatingx 3s infinite ease-in-out;
-        }
-      }
-      @-webkit-keyframes Floatingx{
-        from {-webkit-transform:translate(0, 0px);}
-        65% {-webkit-transform:translate(0, 5px);}
-        to {-webkit-transform: translate(0, -0px);}
-      }
-      @-webkit-keyframes Floatingx2{
-        from {-webkit-transform:translate(0, 0px);}
-        45% {-webkit-transform:translate(0, 8px);}
-        to {-webkit-transform: translate(0, -0px);}
-      }
-      @-webkit-keyframes Floatingx3{
-        from {-webkit-transform:translate(0, 0px);}
-        50% {-webkit-transform:translate(2px, 4px);}
-        to {-webkit-transform: translate(0, -0px);}
-      }
-    }
-    /*-------------------------- Tourism Site Changes  By Saman------------------------------*/
-  }
-  /*@media(max-width:768px){
-    #block-system-main{
-      background-position:unset;
-      font-size: 16px !important;
-      #menu{
-        nav ul li{
-          display:block;
-          a{padding:5px}
-        }
-      }
-      .slideshow-tour{
-        #myCarousel{
-          height:auto;
-          img{
-            height:auto
-          }
-        }
-      }
-      .slieding-tab{
-        .col-md-8{
-          height:auto;
-        }
-        img{
-          min-height:auto;
-        }
-      }
-      .circular-status{
-        margin-top:200px;
-        .row{
-          padding:0 25%;
-        }
-        .table{
-          font-size:10px;
-        }
-      }
-      .list-city{
-        .show-city{
-          .tab{
-            padding-left:0;
-            ul{
-              li{
-                .txt{
-                  position:absolute;
-                  top:200px;
-                  left:20%;
-                  max-width: 300px;
-                  text-align: center;
-                }
-              }
-              .image-border{
-                margin-left:65px;
-                width:365px;
-                height:205px;
-                img{
-                  width:365px;
-                  height:205px;
-                  transform:translate(0,-85px);
-                }
-                .img-shape{
-                  border:none
-                }
-              }
-            }
-          }
-          .menu{
-            margin-left:10px;
-            display:inline-flex;
-            position:absolute;
-            top:-80px;
-            div{
-              padding:10px 20px 15px 0px;
-            }
-          }
-        }
-      }
-      .list-city2{
-        padding-bottom:0;
-        padding-top:200px;
-        .show-city2{
-          .tab2{
-            padding-left:0;
-            ul{
-              .image-border2{
-                width:365px;
-                height:205px;
-                img{
-                  width:365px;
-                  height:205px;
-                }
-                .img-shape{
-                  border:none;
-                }
-              }
-              .txt2{
-                position:absolute;
-                top:200px;
-                max-width:300px;
-                text-align:center;
-                left:25%;
-              }
-            }
-          }
-          .menu2{
-            display:inline-flex;
-            position:absolute;
-            top:-25%;
-            margin-right:0;
-            div{
-              padding:10px 10px 15px 10px;
-            }
-          }
-        }
-      }
-      .popup-fix{
-        .popup-overlay.open{
-          .togglepopup{
-            top:35%;
-          }
-          .popup-item{
-            width:135px;
-            background:none;
-          }
-        }
-        .popup-overlay{
-          .popup-item{
-            top:35%;
-          }
-          .social{
-            top:75%;
-            .icons{
-              padding:0 75px;
-            }
-          }
-        }
-      }
-    }
-  }*/
-  @media(min-width:768px) and (max-width:1200px){
-    #block-system-main{
-      .circular-status{
-        .row{
-          padding:0 0;
-        }
-      }
-      .popup-fix{
-        .popup-overlay{
-          .social{
-            left:0;
           }
         }
       }

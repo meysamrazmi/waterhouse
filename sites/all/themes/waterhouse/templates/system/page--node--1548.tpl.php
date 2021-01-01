@@ -131,70 +131,68 @@
   <section class="list-city full-width">
     <h3 class="tourism-header" data-aos="fade-up" data-aos-delay="150">جدیدترین فراخوان های سرمایه گذاری در گردشگری</h3>
     <div class="show-city container" data-aos="fade-right" data-aos-delay="450">
-      <div class="row">
-        <div class="tab" style="z-index:1">
-          <div class="menu">
-            <a class="active">
-              <div ><span class="light"></span></div>
-            </a>
-            <a>
-              <div><span class="light"></span></div>
-            </a>
-            <a>
-              <div><span class="light"></span></div>
-            </a>
-          </div>
+      <div class="tab" style="z-index:1">
+        <div class="menu">
+          <a class="active">
+            <div ><span class="light"></span></div>
+          </a>
+          <a>
+            <div><span class="light"></span></div>
+          </a>
+          <a>
+            <div><span class="light"></span></div>
+          </a>
         </div>
-        <div class="tab">
-          <ul class="city" style="height:300px">
-            <li class="active row">
-              <div class="image-border" >
-                <img title="سدهای استان گلستان" alt="سدهای استان گلستان" src="/sites/default/files/tourism/1-سدهای استان گلستان.jpg"/>
-                <div class="img-shape"></div>
-              </div>
-              <div class="txt">
-                <h2 class="city-name">شناسایی سرمایه‌گذار سدهای استان گلستان</h2>
-                <p class="city-cap">
-                  آگهی فراخوان سرمایه گذاری گردشگری آب سدهای مخزنی دانشمند، محمدآباد کتول وتوشن
-                </p>
-                <span class="city-link swip-right">
-										<a href="/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
-									</span>
-              </div>
-            </li>
-            <li>
-              <div class="image-border" >
-                <img title="سدهای آذربایجان غربی" alt="سدهای آذربایجان غربی"  src="/sites/default/files/tourism/2-سدهای آذربایجان غربی.jpg" />
-                <div class="img-shape"></div>
-              </div>
-              <div class="txt">
-                <h2 class="city-name">واگذاری سدهای آذربایجان غربی در راستای فعالیتهای گردشگری</h2>
-                <p class="city-cap">
-                  فراخوان واگــذاری ســدهاي شــهرچای، حســنلو و زولا بــه منظــور اجــرای فعالیتهــای گردشــگری بــه صــورت اجــاره
-                </p>
-                <span class="city-link swip-right">
-										<a href="/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
-									</span>
-              </div>
-            </li>
-            <li>
-              <div class="image-border" >
-                <img title="سد قلعه چای" alt="سد قلعه چایسفر گردشگری ارس" src="/sites/default/files/tourism/3-سد قلعه چای.jpg" />
-                <div class="img-shape"></div>
-              </div>
-              <div class="txt">
-                <h2 class="city-name">فراخوان شناسایی و جذب سرمایه گذار و ایده های برتر جهت توسعه گردشگری سد قلعه چای</h2>
-                <p class="city-cap">
-                  شرکت آب منطقه ای آذربایجان شرقی در نظر دارد سرمایه گذاری در طرح گردشگری و تفریحی پیرامون سد قلعه چای شهرستان عجب شیر را به سرمایه گذاران واجد شرایط و دارای ایده های نو واگذار نماید.
-                </p>
-                <span class="city-link swip-right">
-										<a href="/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
-									</span>
-              </div>
-            </li>
+      </div>
+      <div class="tab" style="width: 100%;">
+        <ul class="city" style="height:300px">
+          <li class="active">
+            <div class="image-border" >
+              <img title="سدهای استان گلستان" alt="سدهای استان گلستان" src="/sites/default/files/tourism/1-سدهای استان گلستان.jpg"/>
+              <div class="img-shape"></div>
+            </div>
+            <div class="txt">
+              <h2 class="city-name">شناسایی سرمایه‌گذار سدهای استان گلستان</h2>
+              <p class="city-cap">
+                آگهی فراخوان سرمایه گذاری گردشگری آب سدهای مخزنی دانشمند، محمدآباد کتول وتوشن
+              </p>
+              <span class="city-link swip-right">
+                  <a href="/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
+                </span>
+            </div>
+          </li>
+          <li>
+            <div class="image-border" >
+              <img title="سدهای آذربایجان غربی" alt="سدهای آذربایجان غربی"  src="/sites/default/files/tourism/2-سدهای آذربایجان غربی.jpg" />
+              <div class="img-shape"></div>
+            </div>
+            <div class="txt">
+              <h2 class="city-name">واگذاری سدهای آذربایجان غربی در راستای فعالیتهای گردشگری</h2>
+              <p class="city-cap">
+                فراخوان واگــذاری ســدهاي شــهرچای، حســنلو و زولا بــه منظــور اجــرای فعالیتهــای گردشــگری بــه صــورت اجــاره
+              </p>
+              <span class="city-link swip-right">
+                  <a href="/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
+                </span>
+            </div>
+          </li>
+          <li>
+            <div class="image-border" >
+              <img title="سد قلعه چای" alt="سد قلعه چایسفر گردشگری ارس" src="/sites/default/files/tourism/3-سد قلعه چای.jpg" />
+              <div class="img-shape"></div>
+            </div>
+            <div class="txt">
+              <h2 class="city-name">فراخوان شناسایی و جذب سرمایه گذار و ایده های برتر جهت توسعه گردشگری سد قلعه چای</h2>
+              <p class="city-cap">
+                شرکت آب منطقه ای آذربایجان شرقی در نظر دارد سرمایه گذاری در طرح گردشگری و تفریحی پیرامون سد قلعه چای شهرستان عجب شیر را به سرمایه گذاران واجد شرایط و دارای ایده های نو واگذار نماید.
+              </p>
+              <span class="city-link swip-right">
+                  <a href="/content/3164" target="_blank">مشاهده و کسب اطلاعات بیشتر</a>
+                </span>
+            </div>
+          </li>
 
-          </ul>
-        </div>
+        </ul>
       </div>
     </div>
   </section>
@@ -458,7 +456,7 @@
           <img src="/sites/all/themes/waterhouse/images/meysam/image/niro.png"  style="width: 80px;">
         </a>
         <a href="http://www.wrm.ir/" target="_blank">
-          <img style="width:150px;" src="https://waterhouse.ir/sites/all/themes/waterhouse/images/tourismfooter/Logo.png">
+          <img style="width:150px;" src="/sites/all/themes/waterhouse/images/tourismfooter/Logo.png">
         </a>
         <a href="https://www.mcth.ir/" target="_blank">
           <img src="/sites/all/themes/waterhouse/images/meysam/image/gardeshgari.png" style="width: 120px;">
@@ -897,13 +895,13 @@
       0:{
         items:2
       },
-      600:{
+      992:{
         items:3
       },
-      1000:{
+      1200:{
         items:4
       },
-      1400:{
+      1500:{
         items:5
       }
     }
@@ -1002,19 +1000,6 @@
       $(".Tslide ul li").removeClass("active");
       $(this).addClass("active");
       $(".Tslide ul").find("li:eq(" + numberIndex + ")").addClass("active");
-    }
-  });
-  // Acc
-  $(document).on("click", ".slieding-tab .menu div", function () {
-    var numberIndex = $(this).index();
-    if (!$(this).is("active")) {
-      $(".slieding-tab .menu div").removeClass("active");
-      $(".slieding-tab ul li").removeClass("active");
-      $(this).addClass("active");
-      $(".slieding-tab ul").find("li:eq(" + numberIndex + ")").addClass("active");
-      var listItemHeight = $(".slieding-tab ul")
-        .find("li:eq(" + numberIndex + ")")
-        .innerHeight();
     }
   });
   //AOS
