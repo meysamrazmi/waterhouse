@@ -627,6 +627,14 @@
       </div>
     </section>
 
+    <section class="news-letter full-width">
+      <div class="container">
+        <?php
+        $block = module_invoke('webform', 'block_view', 'client-block-1025');
+        print render($block['content']);
+        ?>
+      </div>
+    </section>
   </div>
 <!-- footer -->
 <?php if (!empty($page['footer'])): ?>
