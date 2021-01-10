@@ -31,7 +31,7 @@
     print render($content);
   ?>
   <?php
-  $is_province = !empty($content['field_province']['#items'][0]['tid']) && $content['field_province']['#items'][0]['tid'] > 530;
+  $is_province = !empty($content['field_province']['#items'][0]['tid']) && $content['field_province']['#items'][0]['tid'] < 531;
   ?>
 
   <div class="body">
