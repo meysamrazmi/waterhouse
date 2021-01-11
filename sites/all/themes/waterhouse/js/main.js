@@ -720,9 +720,10 @@ function eraseCookie(name) {setCookie(name, "", -1);}
 //
 
 Drupal.behaviors.myBehavior = {attach: function (context, settings) {
-    if($('body.page-node-712'.length)){
-		//pipe();
-	}
+  if($('#header_zarfiat').length) {
+    $('h1.page-header').remove();
+    $('body').addClass('has-tourism-header');
+  }
 }};
 
 

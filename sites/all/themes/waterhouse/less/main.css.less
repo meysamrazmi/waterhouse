@@ -1468,7 +1468,7 @@ form#webform-client-form-683, form.webform-client-form-717{
   }
 }
 
-.page-tourism{
+.page-tourism {
   .navbar-header,
   .navbar-nav {
     display: none;
@@ -1501,6 +1501,33 @@ form#webform-client-form-683, form.webform-client-form-717{
     img {
       max-width: 170px;
       margin: 0 15px;
+    }
+  }
+  #header_zarfiat{
+    z-index: 5;
+    position: relative;
+    background-color: #006bb3;
+    background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+    width: 100vw;
+    right: ~"calc(50% - 50vw)";
+    .caption_slide {
+      min-height: 160px;
+      border: 1px solid #fff;
+      background-color: rgba(255,255,255,0.2);
+      padding: 2rem 0;
+    }
+    .caption_write {
+      display: table;
+      color: #fff;
+      padding: 1.5rem;
+    }
+  }
+  &.has-tourism-header {
+    #navbar {
+      margin: 0;
+    }
+    .nav-tabs {
+      z-index: 10;
     }
   }
 }
@@ -1639,6 +1666,20 @@ form#webform-client-form-683, form.webform-client-form-717{
     text-align: left;
     #edit-webform-ajax-submit-3165{
       min-width: 200px;
+    }
+  }
+}
+
+.page-taxonomy-term {
+  #block-system-main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .term-listing-heading {
+      display: none;
+    }
+    > div:last-child {
+      width: 100%;
     }
   }
 }
