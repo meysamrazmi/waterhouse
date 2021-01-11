@@ -447,7 +447,6 @@
     display: none;
   }
   .caption_slide {
-
     border-radius: 15px;
     min-height: 160px
   }

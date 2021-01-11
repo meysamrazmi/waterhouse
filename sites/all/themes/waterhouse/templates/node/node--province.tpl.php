@@ -30,9 +30,12 @@
     hide($content['body']);
     print render($content);
   ?>
+  <?php
+  $is_province = !empty($content['field_province']['#items'][0]['tid']) && $content['field_province']['#items'][0]['tid'] < 531;
+  ?>
 
   <div class="body">
-    <div class="field-label province-labels">معرفی استان:</div>
+    <div class="field-label province-labels"><?php echo $is_province? 'معرفی استان:' : 'معرفی شرکت:';?></div>
     <?php print render($content['body']); ?>
   </div>
 
@@ -65,7 +68,7 @@
     if (count($view)):
     ?>
       <div class="relative-spots">
-        <div class="field-label province-labels">جاذبه های گردشگری استان:</div>
+        <div class="field-label province-labels">جاذبه های گردشگری <?php echo $is_province? 'استان' : 'شرکت';?>:</div>
         <div class="carousel">
           <?php print views_embed_view('province_films', 'block_1', $content['field_province']['#items'][0]['tid']); ?>
         </div>
