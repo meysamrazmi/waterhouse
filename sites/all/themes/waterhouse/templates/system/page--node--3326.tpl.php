@@ -12,7 +12,7 @@
       <div class="container" style="padding: 25px 10px;">
         <div class="caption_slide">
           <div class="caption_write">
-            <h1>ضوابط و قوانین</h1>
+            <h1>مجموعه ضوابط و قوانین</h1>
           </div>
         </div>
       </div>
@@ -21,29 +21,24 @@
 
   <section id="top">
     <div class="container">
-      <div class="title">
-        <h2>دستورالعمل های سرمایه گذاری اطراف مخازن</h2>
+      <div class="main-text">
+        <p class="container">
+          وزارت نیرو وظیفه شناسایی و معرفی مکان‌های اطراف بسترهای آبی را دارد. در چنین شرایطی بازار گردشگری بر بستر آبی توسعه خواهد یافت به همین دلیل وزارت نیرو به تدوین شیوه‌نامه اجرایی فعالیت‌های گردشگری و تفریحی در منابع و تاسیسات آبی پیرامون آنها پرداخته است.
+        </p>
       </div>
-      <div class="main-text container">
-      <p>
-        وزارت نیرو وظیفه شناسایی و معرفی مکان‌های اطراف بسترهای آبی را دارد. در چنین شرایطی بازار گردشگری بر بستر آبی توسعه خواهد یافت به همین دلیل وزارت نیرو به تدوین شیوه‌نامه اجرایی فعالیت‌های گردشگری و تفریحی در منابع و تاسیسات آبی پیرامون آنها پرداخته است.
-      </p>
-      <?php
-      $node = node_load(3326);
-      ?>
       <div class="ouo">
         <?php
+        $node = node_load(3326);
         foreach ($node->field_attachment['und'] as $item):
-        ?>
-        <div class="colmd-5">
-          <div>
-            <a href="<?php echo file_create_url($item['uri']);?>">
-              <h3><?php echo !empty($item['description'])? $item['description'] : $item['origname'];?></h3>
-            </a>
+          ?>
+          <div class="colmd-5">
+            <div>
+              <a href="<?php echo file_create_url($item['uri']);?>">
+                <h3><?php echo !empty($item['description'])? $item['description'] : $item['origname'];?></h3>
+              </a>
+            </div>
           </div>
-        </div>
         <?php endforeach;?>
-      </div>
       </div>
     </div>
   </section>
@@ -105,14 +100,15 @@
       margin-left: 10px;
     }
     #top .main-text {
-      margin-bottom: 50px;
-      background: #fff;
-      box-shadow: 0 0 5px 0 #ccc;
-      padding: 35px 20px;
+      padding: 40px 15px;
       text-align: justify;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 2;
-      border-top: 2px solid #006bb3;
+      position: relative;
+      width: 100vw;
+      right: calc(50% - 50vw);
+      background: #fff;
+      border-bottom: 1px solid #ddd;
     }
     @media(max-width:768px) {
       #top .main-text {
@@ -126,29 +122,28 @@
       }
     }
     .ouo{
-      margin-top:50px;
+      margin: 50px 0;
     }
     .ouo .colmd-5 div{
-    background: #f2f2f2;
-    box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
-    border: 1px solid #00bcd4;
-    border-width: 0px 2px 0px 0px;
-    padding: 5px 0;
-    margin-bottom: 15px;
+      background: #ffffff;
+      box-shadow: rgba(0,0,0,0.117647) 0px 1px 6px, rgba(0,0,0,0.117647) 0px 1px 4px;
+      border-right: 3px solid #FF9800;
+      margin-bottom: 15px;
     }
 
-    .ouo .colmd-5 div h3{
-      font-size:14px
+    .ouo .colmd-5 div h3 {
+      font-size: 14px;
+      padding: 15px 0;
+      margin: 0;
     }
-	.ouo .colmd-5 h3:before{
+    .ouo .colmd-5 h3:before{
       font-family: glyphi;
-    display: inline-block;
-    float: right;
-    font-size: 18px;
-    color: #2bbfbd;
-    padding-right: 15px;
-    content: "\e025";
-    margin-left:10px
+      vertical-align: middle;
+      font-size: 18px;
+      color: #FF9800;
+      padding-right: 15px;
+      content: "\e025";
+      margin-left:10px
     }
     .view-content{
       margin-right: 15px;
