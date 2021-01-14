@@ -111,6 +111,7 @@ $field = field_info_field('field_zarfiat_states');
     padding: 10px 10px 10px 15px;
     z-index: 1;
     border-radius: 50px;
+    border: 1px solid #ddd;
   }
   .field-name-field-zarfiat-states .field-item.past-state {
     border: 1px solid #4CAF50;
