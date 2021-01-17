@@ -6,17 +6,9 @@ core = 7.x
 ;; custom files
 ;;;;;;;;;;;;;;;;;;;;;
 
-stylesheets[all][] = css/bootstrap.css
-scripts[] = js/bootstrap.min.js
-stylesheets[all][] = css/razmi-costum.css
-scripts[] = js/razmi-costum.js
-
 ;;;;;;;;;;;;;;;;;;;;;
 ;; SimplyTest.me
 ;;;;;;;;;;;;;;;;;;;;;
-
-simplytest_dependencies[] = jquery_update
-
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Regions

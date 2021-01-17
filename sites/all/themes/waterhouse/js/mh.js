@@ -17,77 +17,17 @@ $('th.active img').each(function(){
 	}
 });
 /*-------------slide show home--------------*/
-var slidehome = $(' #block-system-main .view-slideshow-home .view-content ' );
-slidehome.html('<div class="carousel-inner" role="listbox">' + slidehome.html() + '</div>');
-$(' #block-system-main .view-content > .carousel-inner > .item:first-child').addClass('active');
-if($('.carousel-inner').children().length){
-	var html = '';
-	for(var i = 1 ; i < $('.carousel-inner').children().length ; i++){
-		html += '<li data-target="#carousel-example-generic" data-slide-to="'+ i +'"></li>';
-	}
-}
-slidehome.html('<ol class="carousel-indicators"><li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>'+ html +'</ol>' + slidehome.html() + '<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>' );
-slidehome.html('<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">' + slidehome.html() + '</div>');
-$('.carousel').carousel();
-/*-------------------- Radio product/yazdtour2/1494 -----------------*/
-// $('.page-node-1494.page-yazdtour2 .attribute-15 input[type="radio"]').click(function(){
-//     $('.page-node-1494.page-yazdtour2 .attribute.attribute-14.even').addClass('none');
-// });
-/*-------------------- Search menu -----------------
-$('#edit-sa').click(function(){
-	window.open('/search/google');
-});
-
-$('.navbar-static-top nav > ul > li.last.leaf').hover( function() {
-	$('#block-google-cse-google-cse').css({'display' : 'block'});
-});
-$('#block-google-cse-google-cse').mouseenter(function(){
-	$(this).addClass('hovered');
-}).mouseleave(function(){
-	$(this).removeClass('hovered').css('display','none');
-});
-
-
-$('.navbar-static-top nav > ul > li.last.leaf').mouseenter( function() {
-	$('#block-google-cse-google-cse').addClass('hovered');
-});
-$('#block-google-cse-google-cse').mouseleave(function(){
-	$('#block-google-cse-google-cse').removeClass('hovered');
-});
-
-$('.navbar-static-top nav > ul > li.last.leaf').mouseenter( function() {
-	$('#block-google-cse-google-cse').show();
-});
-$('#block-google-cse-google-cse').mouseleave(function(){
-	$('#block-google-cse-google-cse').hide;
-});
-
-
-$('.navbar-static-top nav > ul > li.last.leaf').mouseenter(function() {
-	$('#block-google-cse-google-cse').show();
-	$('.navbar-static-top nav > ul > li.last.leaf').mouseleave(function() {
-		$('#block-google-cse-google-cse').hide();
-	});
-});
-
-
-var temp = $('#block-google-cse-google-cse').parent().html();
-$('#block-google-cse-google-cse').remove();
-$('.navbar-static-top nav li.last.leaf').append(temp);
-
-$('.navbar-static-top nav > ul > li.last.leaf').mouseenter( function() {
-	$('#block-google-cse-google-cse').addClass('opened');
-}).mouseleave( function() {
-	$('#block-google-cse-google-cse').removeClass('opened');
-});
-
-
-
-$('#block-google-cse-google-cse').mouseenter(function(){
-	$(this).addClass('hovered');
-}).mouseleave(function(){
-	$(this).removeClass('hovered').removeClass('opened');
-});
+// var slidehome = $(' #block-system-main .view-slideshow-home .view-content ' );
+// slidehome.html('<div class="carousel-inner" role="listbox">' + slidehome.html() + '</div>');
+// $(' #block-system-main .view-content > .carousel-inner > .item:first-child').addClass('active');
+// if($('.carousel-inner').children().length){
+// 	var html = '';
+// 	for(var i = 1 ; i < $('.carousel-inner').children().length ; i++){
+// 		html += '<li data-target="#carousel-example-generic" data-slide-to="'+ i +'"></li>';
+// 	}
+// }
+// slidehome.html('<ol class="carousel-indicators"><li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>'+ html +'</ol>' + slidehome.html() + '<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>' );
+// slidehome.html('<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">' + slidehome.html() + '</div>');
 
 /*----------------------------------------------*/
 $(".front .panels-flexible-region-1-shop.front-docs .field-name-file-count .without-file2").replaceWith( "<span> 168 فایل </span>" );
@@ -97,7 +37,6 @@ $(".front .panels-flexible-region-1-shop.front-docs .field-name-file-count .with
  $('.page-node-1532 #uc_product_add_to_cart_form-1532-attributes').html($('.page-node-1532 #uc_product_add_to_cart_form-1532-attributes').html() + '<div class="kart-upload"><a class="upload-file btn-defult" href="/upload2" target="_self">آپلود کارت دانشجویی</a></div>');
  $('.page-node-1656 #uc_product_add_to_cart_form-1656-attributes').html($('.page-node-1656 #uc_product_add_to_cart_form-1656-attributes').html() + '<div class="kart-upload"><a class="upload-file btn-defult" href="/upload2" target="_self">آپلود کارت دانشجویی</a></div>');
 
-// $('.page-college #block-views-college-block .attributes').html($('.page-college #block-views-college-block .attributes').html() + '<div class="kart-upload"><a class="upload-file btn-defult" href="/upload" target="_self">آپلود کارت دانشجویی</a></div>');
 /*----------------------------------------------*/
 $('.page-node-1656 #edit-attributes-3-241--2').click(function(){
     if ($(this).is(':checked'))
@@ -107,12 +46,5 @@ $('.page-node-1656 #edit-attributes-3-241--2').click(function(){
 	}
 });
 
-/*----------------------------------------------*/
-
-
-
-
-
 
 });
-/*------------------------------end of document ready---------------------------*/
