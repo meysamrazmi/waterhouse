@@ -1288,18 +1288,27 @@
         }
         .tab {
           position: relative;
+          &:nth-child(2) {
+            padding-left: 45px;
+            @media @992 {
+              padding-left: 0;
+            }
+          }
           ul{
             padding: 0;
             li{
               display: flex;
+              flex-direction: row-reverse;
               opacity: 0;
               transform: translateX(50px);
               position: absolute;
               list-style: none;
               transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
-              width: 100%;
+              width: ~"calc(100% - 45px)";
+              direction: rtl;
               @media @992 {
                 flex-direction: column;
+                width: 100%;
               }
               &.active{
                 transition-delay: .3s;
@@ -1311,7 +1320,7 @@
             .image-border{
               width: ~"calc(100% - 20px)";
               max-width: 450px;
-              height: ~"calc(66vw - 70px)";
+              height: ~"calc(66vw - 90px)";
               max-height: 290px;
               position:relative;
               margin: 20px auto 0;
@@ -1326,6 +1335,7 @@
                 width: 100%;
                 height: auto;
                 z-index: 2;
+                right: 0;
                 transform:translate(-45px,-45px);
                 @media @992 {
                   transform:translate(-25px,-45px);
@@ -1338,9 +1348,11 @@
               color:#fdb913;
               margin: 12px auto 0;
               width: 90%;
+              padding-left: 30px;
               @media @992 {
                 text-align: right;
-                width: 100%;
+                width: ~"calc(100% + 60px)";
+                padding-left: 0;
               }
               .city-name{
                 margin: 5px 0 10px;
