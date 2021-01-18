@@ -344,3 +344,10 @@ function node_load_with_term($type, $field, $tid) {
 
   return NULL;
 }
+
+/**
+ * Implementation of hook_preprocess_html();
+ */
+function functions_preprocess_html(&$variables) {
+  drupal_add_css('https://cdn.materialdesignicons.com/4.2.95/css/materialdesignicons.min.css', array('type' => 'external'));
+}

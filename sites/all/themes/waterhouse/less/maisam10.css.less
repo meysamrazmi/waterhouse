@@ -1850,55 +1850,58 @@
 
 //تکسونومی اخبار گردشگری و گنجینه آب
 .page-taxonomy-term-407 , .page-taxonomy-term-408{
-    .main-container{
-        .breadcrumb{
-            display:none;
-        }
-        .page-header{
-            display:table;
-            border-bottom:1px solid #45ada8 !important;
-        }
-        #block-system-main{
-            .panel-2col-stacked {
-                display: inline-block;
-                vertical-align: top;
-                margin: 25px 10px 0 10px;
-                text-align:center;
-                width: 17%;
-                padding: 0;
-                .panel-col-top{
-                    background:white;
-                    box-shadow: 0 2px 2px #d8cfae;
-                    height:270px;
-                    overflow:hidden;
-                }
-                h5{
-                    a{
-                        color:black;
-                    }
-                }
-            }
-        }
+  .main-container{
+    .breadcrumb{
+      display:none;
     }
-    @media(max-width:768px){
-        .main-container{
-            #block-system-main{
-                .panel-2col-stacked{
-                    width:100%;
-                    margin:0;
-                    .panel-col-top{
-                        height:285px;
-                        .field-name-title{
-                            margin-top:-25px;
-                        }
-                    }
-                    img{
-                        width:100%
-                    }
-                }
-            }
+    #block-system-main{
+      .panel-2col-stacked {
+        margin: 25px 10px 0 10px;
+        width: ~"calc(25% - 20px)";
+        padding: 0;
+        @media @992 {
+          width: ~"calc(33% - 20px)";
         }
+        @media @768 {
+          width: ~"calc(50% - 20px)";
+        }
+        @media @425 {
+          width: ~"calc(100% - 20px)";
+        }
+        .inside {
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          .field-name-post-date {
+            order: 1;
+            text-align: left;
+            padding: 10px;
+          }
+          img {
+            width: 100%;
+          }
+        }
+        .panel-col-top{
+          background: white;
+          overflow: hidden;
+          box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px !important;
+        }
+        h5{
+          margin: 0;
+          a{
+            color: black;
+            display: block;
+            line-height: 2;
+            font-size: 15px;
+            padding: 10px 15px;
+            height: 70px;
+            font-weight: normal;
+            overflow: hidden;
+          }
+        }
+      }
     }
+  }
 }
 //گالری تصاویر
 .node-type-gallery.page-gallery{

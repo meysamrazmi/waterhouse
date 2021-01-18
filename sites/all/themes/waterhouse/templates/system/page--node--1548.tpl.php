@@ -148,7 +148,7 @@
         <ul class="city" style="height:300px">
           <li class="active">
             <div class="image-border" >
-              <img title="سدهای استان گلستان" alt="سدهای استان گلستان" src="/sites/default/files/tourism/1-سدهای استان گلستان.jpg"/>
+              <img title="سدهای استان گلستان" alt="سدهای استان گلستان" src="/sites/default/files/attachment1548/node-1548_1.jpg"/>
               <div class="img-shape"></div>
             </div>
             <div class="txt">
@@ -178,7 +178,7 @@
           </li>
           <li>
             <div class="image-border" >
-              <img title="سد قلعه چای" alt="سد قلعه چایسفر گردشگری ارس" src="/sites/default/files/tourism/3-سد قلعه چای.jpg" />
+              <img title="سد قلعه چای" alt="سد قلعه چایسفر گردشگری ارس" src="/sites/default/files/attachment1548/node-1548_0.jpg" />
               <div class="img-shape"></div>
             </div>
             <div class="txt">
@@ -627,6 +627,14 @@
       </div>
     </section>
 
+    <section class="news-letter full-width">
+      <div class="container">
+        <?php
+        $block = module_invoke('webform', 'block_view', 'client-block-1025');
+        print render($block['content']);
+        ?>
+      </div>
+    </section>
   </div>
 <!-- footer -->
 <?php if (!empty($page['footer'])): ?>

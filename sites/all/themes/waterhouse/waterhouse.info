@@ -56,7 +56,7 @@ scripts[] = js/meysam10.js
 
 
 scripts[] = js/Aminch/fontawesome.js
-scripts[] = js/Aminch/owl.carousel.min
+scripts[] = js/Aminch/owl.carousel.min.js
 
 
 
