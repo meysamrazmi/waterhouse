@@ -1,0 +1,26 @@
+<?php
+
+/*
+ * @author mbbn
+ * check Persian Language 
+ */ 
+function isPersian(){    
+    global $language;
+    return $language->language == 'fa';
+}
+
+/**
+ * Implements hook_library_alter().
+ * 
+ * @param type $libraries
+ * @param type $module
+ */ 
+function jalali_fullcalendar_library_alter(&$libraries, $module){    
+    if($module == 'fullcalendar' && isPersian()){
+        $path=libraries_get_path($module);
+        //$libraries['fullcalendar']['css'][$path . '/jfullcalendar.css'] = $libraries['fullcalendar']['css'][$path . '/fullcalendar.css'];
+        //unset($libraries['fullcalendar']['css'][$path . '/fullcalendar.css']);
+        $libraries['fullcalendar']['js'][$path . '/jfullcalendar.min.js'] = $libraries['fullcalendar']['js'][$path . '/fullcalendar.min.js'];
+        unset($libraries['fullcalendar']['js'][$path . '/fullcalendar.min.js']);
+    }    
+}

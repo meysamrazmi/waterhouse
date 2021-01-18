@@ -1,0 +1,19 @@
+Jalali_Fullcalendar
+===================
+
+Jalali Fullcalendar for Drupal
+
+Install fullcalendar
+===================
+download jfullcalendar.js , jfullcalendar.css from https://github.com/mbbn/jalali_fullcalendar
+and get to sites/all/libraries/fullcalendar.
+
+Apply patch
+==================
+* cd sites/all/module/fullcalendar/
+patch -p1 < fullcalendar_patch/fullcalendar.patch
+
+Install Jalali Fullcalendar
+
+
+

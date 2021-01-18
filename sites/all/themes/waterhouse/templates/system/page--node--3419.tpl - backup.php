@@ -36,9 +36,9 @@
     background-color: #008CBA;
   }
 
-  /*.slick-track {*/
-  /*  transform: translate3d(-5px, 0px, 0px) !important;*/
-  /*}*/
+  .slick-track {
+    transform: translate3d(-5px, 0px, 0px) !important;
+  }
   #footer-3350a{
     margin-top: 50px;
     background-color: #142850;
@@ -89,8 +89,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">  <!-- Google web font "Open Sans" -->
 <link rel="stylesheet" href="/sites/all/themes/waterhouse/css/Aminch/rvslider.min.css">
 
-<link rel="stylesheet" href="/sites/all/themes/waterhouse/css/templatemo-style.css">
 <link rel="stylesheet" href="/sites/all/themes/waterhouse/js/slick/slick.css">
+<link rel="stylesheet" href="/sites/all/themes/waterhouse/css/templatemo-style.css">
 <link rel="stylesheet" href="/sites/all/themes/waterhouse/js/slick/slick-theme.css">
 
 <div class="container-nav3350">
@@ -117,49 +117,49 @@
 </header>
 
 
-<div class="container">
+
 <section class="row tm-section-pb" style="margin-top: 50px">
   <div class="col-md-12 tm-bg-accent tm-gallery-pad tm-gallery-container mx-auto">
     <h2 class="text-center tm-mb-45">Image Gallery</h2>
     <div class="grid tm-gallery">
       <figure class="effect-lexi tm-gallery-item">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster(w1).png" alt="Image" class="">
+        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster (1).png" alt="Image" class="">
         <figcaption>
           <p>Orci varius natoque penatibus et magnis dis parturient montes.</p>
         </figcaption>
       </figure>
       <figure class="effect-lexi tm-gallery-item">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster(w1).png" alt="Image" class="">
+        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster (2).png" alt="Image" class="">
         <figcaption>
           <p>Vivamus interdum a lectus non auctor. Aliquam placerat.</p>
         </figcaption>
       </figure>
       <figure class="effect-lexi tm-gallery-item">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster(w1).png" alt="Image" class="">
+        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster (3).png" alt="Image" class="">
         <figcaption>
           <p>Maecenas quis risus sem. Fusce ac dolor in ipsum pretium.</p>
         </figcaption>
       </figure>
       <figure class="effect-lexi tm-gallery-item">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster(w1).png" alt="Image" class="">
+        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster (4).png" alt="Image" class="">
         <figcaption>
           <p>In scelerisque tincidunt elit nec luctus. Curabitur.</p>
         </figcaption>
       </figure>
       <figure class="effect-lexi tm-gallery-item">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster(w1).png" alt="Image" class="">
+        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster (5).png" alt="Image" class="">
         <figcaption>
           <p>Nulla molestie lectus in viverra dignissim. Donec aliquam.</p>
         </figcaption>
       </figure>
       <figure class="effect-lexi tm-gallery-item">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster(w1).png" alt="Image" class="">
+        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster (6).png" alt="Image" class="">
         <figcaption>
           <p>Nullam sagittis leo vitae mi ultricies, sed vestibulum libero.</p>
         </figcaption>
       </figure>
-      <figure class="effect-lexi tm-gallery-item">
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster(w1).png" alt="Image" class="">
+        <figure class="effect-lexi tm-gallery-item">
+        <img src="/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/pooster (7).png" alt="Image" class="">
         <figcaption>
           <p>Nullam sagittis leo vitae mi ultricies, sed vestibulum libero.</p>
         </figcaption>
@@ -167,90 +167,89 @@
     </div>
   </div>
 </section>
-</div>
 
 
-<!-- Responsive Video Slider HTML: START -->
+    <!-- Responsive Video Slider HTML: START -->
 
 <section class="container" id="first-clips" style="margin-top: 50px">
   <div class="row">
     <div class="col-md-10 content-right">
-      <div class="rvs-container">
-        <div class="rvs-item-container">
-          <div class="rvs-item-stage">
-            <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-1.png)">
-              <p class="rvs-item-text">رسانه‌شناسی و بازاریابی محتوا در رسانه‌های حرفه‌ای  <small>(دکتر ساعی)</small></p>
-              <a href="sites/default/files/films/talab-3350/S1-1.mp4" class="rvs-play-video"></a>
-            </div>
-            <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-2.png)">
-              <p class="rvs-item-text">آشنایی با حوضه‌های آبریز و چالش‌های آنها<small>دکتر باقری</small></p>
-              <a href="sites/default/files/films/talab-3350/S1-2.mp4" class="rvs-play-video"></a>
-            </div>
-            <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-3.png)">
-              <p class="rvs-item-text"> اصول و فنون خبر نویسی<small>دکتر ساعی</small></p>
-              <a href="sites/default/files/films/talab-3350/S2-1-1.mp4" class="rvs-play-video"></a>
-            </div>
-            <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-4.png)">
-              <p class="rvs-item-text"> چالشهای تالابهای ایران<small>دکتر باقری</small></p>
-              <a href="sites/default/files/films/talab-3350/S2-1-2.mp4" class="rvs-play-video"></a>
-            </div>
-            <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-5.png)">
-              <p class="rvs-item-text">تولید محتوا برای رسانه‌های اجتماعی<small>دکتر امامی</small></p>
-              <a href="sites/default/files/films/talab-3350/S2-2.mp4" class="rvs-play-video"></a>
-            </div>
-            <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-6.png)">
-              <p class="rvs-item-text"> ژینایی اکوسیستم‌های آبی<small>مهندس اویس ترابی</small></p>
-              <a href="sites/default/files/films/talab-3350/S3-1.mp4" class="rvs-play-video"></a>
-            </div>
-            <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-7.png)">
-              <p class="rvs-item-text">اصول مدیریت رسانه‌های اجنماعی<small>دکتر امامی</small></p>
-              <a href="sites/default/files/films/talab-3350/S3-2.mp4" class="rvs-play-video"></a>
-            </div>
+    <div class="rvs-container">
+      <div class="rvs-item-container">
+        <div class="rvs-item-stage">
+          <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-1.png)">
+            <p class="rvs-item-text">رسانه‌شناسی و بازاریابی محتوا در رسانه‌های حرفه‌ای  <small>(دکتر ساعی)</small></p>
+            <a href="sites/default/files/films/talab-3350/S1-1.mp4" class="rvs-play-video"></a>
           </div>
-        </div>
-        <div class="rvs-nav-container">
-          <a class="rvs-nav-prev"></a>
-          <div class="rvs-nav-stage">
-            <a class="rvs-nav-item">
-              <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-1.png)"></span>
-              <h4 class="rvs-nav-item-title">رسانه‌شناسی و بازاریابی محتوا در رسانه‌های حرفه‌ای</h4>
-              <small class="rvs-nav-item-credits">(دکتر ساعی)</small>
-            </a>
-            <a class="rvs-nav-item">
-              <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-2.png")"></span>
-              <h4 class="rvs-nav-item-title">آشنایی با حوضه‌های آبریز و چالش‌های آنها</h4>
-              <small class="rvs-nav-item-credits">(دکتر باقری)</small>
-            </a>
-            <a class="rvs-nav-item">
-              <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-3.png)"></span>
-              <h4 class="rvs-nav-item-title">اصول و فنون خبر نویسی</h4>
-              <small class="rvs-nav-item-credits">(دکتر ساعی)</small>
-            </a>
-            <a class="rvs-nav-item">
-              <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-4.png)"></span>
-              <h4 class="rvs-nav-item-title">چالشهای تالابهای ایران</h4>
-              <small class="rvs-nav-item-credits">(دکتر باقری)</small>
-            </a>
-            <a class="rvs-nav-item">
-              <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-5.png)"></span>
-              <h4 class="rvs-nav-item-title">تولید محتوا برای رسانه‌های اجتماعی</h4>
-              <small class="rvs-nav-item-credits">(دکتر امامی)</small>
-            </a>
-            <a class="rvs-nav-item">
-              <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-6.png)"></span>
-              <h4 class="rvs-nav-item-title">ژینایی اکوسیستم‌های آبی</h4>
-              <small class="rvs-nav-item-credits">(مهندس اویس ترابی)</small>
-            </a>
-            <a class="rvs-nav-item">
-              <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-7.png)"></span>
-              <h4 class="rvs-nav-item-title">اصول مدیریت رسانه‌های اجنماعی</h4>
-              <small class="rvs-nav-item-credits">(دکتر امامی)</small>
-            </a>
-
+          <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-2.png)">
+            <p class="rvs-item-text">آشنایی با حوضه‌های آبریز و چالش‌های آنها<small>دکتر باقری</small></p>
+            <a href="sites/default/files/films/talab-3350/S1-2.mp4" class="rvs-play-video"></a>
           </div>
-          <a class="rvs-nav-next"></a>
+          <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-3.png)">
+            <p class="rvs-item-text"> اصول و فنون خبر نویسی<small>دکتر ساعی</small></p>
+            <a href="sites/default/files/films/talab-3350/S2-1-1.mp4" class="rvs-play-video"></a>
+          </div>
+          <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-4.png)">
+            <p class="rvs-item-text"> چالشهای تالابهای ایران<small>دکتر باقری</small></p>
+            <a href="sites/default/files/films/talab-3350/S2-1-2.mp4" class="rvs-play-video"></a>
+          </div>
+          <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-5.png)">
+            <p class="rvs-item-text">تولید محتوا برای رسانه‌های اجتماعی<small>دکتر امامی</small></p>
+            <a href="sites/default/files/films/talab-3350/S2-2.mp4" class="rvs-play-video"></a>
+          </div>
+          <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-6.png)">
+            <p class="rvs-item-text"> ژینایی اکوسیستم‌های آبی<small>مهندس اویس ترابی</small></p>
+            <a href="sites/default/files/films/talab-3350/S3-1.mp4" class="rvs-play-video"></a>
+          </div>
+          <div class="rvs-item" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-7.png)">
+            <p class="rvs-item-text">اصول مدیریت رسانه‌های اجنماعی<small>دکتر امامی</small></p>
+            <a href="sites/default/files/films/talab-3350/S3-2.mp4" class="rvs-play-video"></a>
+          </div>
         </div>
       </div>
+      <div class="rvs-nav-container">
+        <a class="rvs-nav-prev"></a>
+        <div class="rvs-nav-stage">
+          <a class="rvs-nav-item">
+            <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-1.png)"></span>
+            <h4 class="rvs-nav-item-title">رسانه‌شناسی و بازاریابی محتوا در رسانه‌های حرفه‌ای</h4>
+            <small class="rvs-nav-item-credits">(دکتر ساعی)</small>
+          </a>
+          <a class="rvs-nav-item">
+            <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-2.png")"></span>
+            <h4 class="rvs-nav-item-title">آشنایی با حوضه‌های آبریز و چالش‌های آنها</h4>
+            <small class="rvs-nav-item-credits">(دکتر باقری)</small>
+          </a>
+          <a class="rvs-nav-item">
+            <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-3.png)"></span>
+            <h4 class="rvs-nav-item-title">اصول و فنون خبر نویسی</h4>
+            <small class="rvs-nav-item-credits">(دکتر ساعی)</small>
+          </a>
+          <a class="rvs-nav-item">
+            <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-4.png)"></span>
+            <h4 class="rvs-nav-item-title">چالشهای تالابهای ایران</h4>
+            <small class="rvs-nav-item-credits">(دکتر باقری)</small>
+          </a>
+             <a class="rvs-nav-item">
+            <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-5.png)"></span>
+            <h4 class="rvs-nav-item-title">تولید محتوا برای رسانه‌های اجتماعی</h4>
+            <small class="rvs-nav-item-credits">(دکتر امامی)</small>
+          </a>
+             <a class="rvs-nav-item">
+            <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-6.png)"></span>
+            <h4 class="rvs-nav-item-title">ژینایی اکوسیستم‌های آبی</h4>
+            <small class="rvs-nav-item-credits">(مهندس اویس ترابی)</small>
+          </a>
+             <a class="rvs-nav-item">
+            <span class="rvs-nav-item-thumb" style="background-image: url(/sites/all/themes/waterhouse/images/meysam/image/3350/webinar/webinar-7.png)"></span>
+            <h4 class="rvs-nav-item-title">اصول مدیریت رسانه‌های اجنماعی</h4>
+            <small class="rvs-nav-item-credits">(دکتر امامی)</small>
+          </a>
+
+        </div>
+        <a class="rvs-nav-next"></a>
+      </div>
+    </div>
     </div>
   </div>
 
@@ -288,15 +287,14 @@
 
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
-<!--<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
-<script src="/sites/all/themes/waterhouse/js/slick/jquery-3.2.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="/sites/all/themes/waterhouse/js/Aminch/rvslider.js"></script>
 <script src="/sites/all/themes/waterhouse/js/slick/slick.min.js"></script>
 <script>
 
-  // $(document).ready(function(){
+    // $(document).ready(function(){
 
-  $('.rvs-container').rvslider();
+        $('.rvs-container').rvslider();
 
   // });
 
@@ -304,7 +302,6 @@
     $('.tm-gallery').slick({
       dots: true,
       infinite: true,
-      speed: 200,
       slidesToShow: 4,
       slidesToScroll: 2,
       responsive: [
