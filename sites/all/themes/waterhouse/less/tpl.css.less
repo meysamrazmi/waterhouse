@@ -1639,6 +1639,10 @@
           width: 350px;
           + * { width: ~"calc(100vw - 250px)"; }
         }
+        @media @600 {
+          width: 150px;
+          + * { width: ~"calc(100vw - 150px)"; }
+        }
         &:before {
           background: #FFC107;
           width: 50px;
@@ -1657,6 +1661,7 @@
         width: 100px;
         bottom: 10px;
         margin: 0;
+        > div,
         span {
           width: 35px;
           height: 35px;
@@ -1665,6 +1670,8 @@
           font-size: 0;
           border-radius: 50%;
           position: relative;
+          min-width: auto;
+          box-shadow: none;
           &:before {
             content: "";
             display: block;
@@ -1676,13 +1683,19 @@
             position: absolute;
             right: 14px;
             top: 13px;
+            margin: 0;
           }
+          &:after {display: none;}
         }
+        > div,
         button {
           outline: none;
-          &.owl-next span:before {
-            transform: rotate(-135deg);
-            right: 11px;
+          &.owl-next {
+            &:before,
+            span:before {
+              transform: rotate(-135deg);
+              right: 11px;
+            }
           }
         }
       }
