@@ -1141,15 +1141,26 @@
     }
 
     .trip {
-      background: #fff;
+      background: #eee;
       padding: 40px 15px;
-      display: flex;
-      flex-direction: row-reverse;
-      align-items: center;
+      border-bottom: 1px solid #ccc;
+      > .container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        @media @768 {
+          flex-direction: column;
+        }
+      }
       .title-col {
         width: 40%;
         text-align: left;
         padding-right: 15px;
+        @media @768 {
+          width: 100%;
+          text-align: center;
+          padding-left: 15px;
+        }
         p {
           font-size: 15px;
           padding: 25px 0 0;
@@ -1157,20 +1168,27 @@
         }
         .tourism-header {
           text-align: left;
+          @media @768 {
+            text-align: center;
+          }
           &:before {
             left: 0;
             right: inherit;
             width: 100px;
+            @media @768 {
+              right: ~"calc(50% - 50px)";
+            }
           }
         }
       }
       .purp{
-        background: rgba(255,255,255,0.6);
         padding: 50px 0;
         text-align:-webkit-center;
         width: 60%;
+        @media @768 {
+          width: 100%;
+        }
         .main{
-          width:300px;
           color: #0a84ad;
           .carousel-inner {
             box-shadow: 0 0 13px #ccc;
@@ -1180,7 +1198,7 @@
             padding:15px 0;
           }
           #myCarousel1, #myCarousel2, #myCarousel3, #myCarousel4{
-            width:260px;
+            max-width:260px;
             padding:10px 0;
             img{
               height:340px;
@@ -1200,6 +1218,7 @@
               background: #2196F3;
               transition: 0.5s ease-in-out;
               box-shadow: 0px 5px 0px #3F51B5;
+              max-width: 260px;
               &:hover{
                 background: #3F51B5;
                 box-shadow: 0px 5px 0px  #2196F3;
@@ -1210,44 +1229,86 @@
       }
     }
     .media{
-      margin:150px 20px 0 20px;
+      padding: 30px 50px 5px;
+      > .row {
+        padding-top: 50px;
+      }
       .col{
         float:right;
-        padding:3px;
+        padding: 1px;
       }
       .h220{
         z-index:2;
-        figure img{
-          max-height:176px
+        figure img {
+          height: 15vw;
+          max-width: none;
+          width: auto;
+          @media @768 {
+            width: 100%;
+            height: auto;
+          }
         }
       }
-      .h550{
-        figure img{
-          min-height:550px
+      .h550 img {
+        height: 42vw;
+        width: auto;
+        max-width: none;
+        max-height: 698px;
+        @media @768 {
+          width: 100%;
+          height: auto;
         }
       }
       .col-md-12{
         padding:0;
-        .item{
-          max-height:260px
+        clear: both;
+      }
+      .col-md-6 {
+        padding: 1px;
+        @media @992 {
+          width: 50% !important;
+          position: relative;
+          float: right;
+        }
+        @media @768 {
+          width: 100% !important;
+          padding: 5px 0;
         }
       }
     }
     .media2{
-      margin:5px 20px 150px 20px;
+      padding: 0px 50px 70px;
       .h550{
         img{
-          min-height:520px;
+          height: 36vw;
+          width: auto;
+          max-width: none;
+          max-height: 550px;
         }
       }
       .pr{
-        padding-right:5px;
+        padding: 1px;
       }
       .pl{
-        padding-left:5px;
+        padding: 1px;
       }
       .p0{
         padding:0;
+      }
+      @media @992 {
+        .col-md-6 {
+          width: 50% !important;
+        }
+        .h550{
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .pr,
+        .pl{
+          padding: 5px 0;
+        }
       }
     }
     .list-city{

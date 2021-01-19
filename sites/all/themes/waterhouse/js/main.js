@@ -1,5 +1,15 @@
 var $ = jQuery;
 $(document).ready(function () {
+
+  if ($('.tourism-menu').length) {
+    $('body').on('click','.tourism-menu .menu-button', function(){
+      $('body').toggleClass('menu-open')
+    })
+    $('.menu-overlay').click(function(){
+      $('body').toggleClass('menu-open')
+    })
+  }
+
 	$('.front .alert-block').addClass("col-sm-10");
 /*----------------------------------------------------*/
 // $(".page-waterchallenge-document.page-document .pane-waterchalenge div:nth-child(7) .field-name-file-count .without-file2").replaceWith( "<span> 168 فایل </span>" );

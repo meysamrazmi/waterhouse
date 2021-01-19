@@ -1,6 +1,9 @@
 <div id="block-system-main">
 
   <section id="menu" class="tourism-menu container">
+    <a href="/tourism" class="menu-logo"><img src="/sites/all/themes/waterhouse/images/tourism-logo.png" class="menu-logo"></a>
+    <div class="menu-overlay"></div>
+    <div class="menu-button"><i class="mdi mdi-menu"></i></div>
     <?php
     $block = module_invoke('menu', 'block_view', 'menu-tourismmain');
     print render($block['content']);
@@ -19,114 +22,6 @@
       </div>
     </section>
     <?php endif;?>
-
-  <section id="media" class="media" style="display:none">
-      <div>
-        <img src="/sites/all/themes/waterhouse/images/meysam/image/tourism/safar-negar.png" />
-      </div>
-      <div class="row">
-        <a href="/tourism/gallery" target="_blank">
-          <div class="col-md-6 col h550">
-            <figure class="ax">
-              <img src="/sites/all/themes/waterhouse/images/meysam/y1.jpg"/>
-              <figcaption>
-                <div class="square">
-                  <div></div>
-                </div>
-                <h2>برنامه شماره<span> یک</span></h2>
-                <p>یزد</p>
-              </figcaption>
-            </figure>
-          </div>
-        </a>
-        <a href="/tourism/gallery" target="_blank">
-          <div class="col-md-6" style="padding:0">
-            <div class="col-md-6 col h220">
-              <figure class="ax">
-                <img src="/sites/all/themes/waterhouse/images/meysam/k2.jpg"/>
-                <figcaption>
-                  <div class="square">
-                    <div></div>
-                  </div>
-                  <h2>برنامه شماره<span> دو</span></h2>
-                  <p>شمال خوزستان</p>
-                </figcaption>
-              </figure>
-            </div>
-        </a>
-        <a href="/tourism/gallery" target="_blank">
-          <div class="col-md-6 col h220">
-            <figure class="ax">
-              <img src="/sites/default/files/aras11.JPG"/>
-              <figcaption>
-                <div class="square">
-                  <div></div>
-                </div>
-                <h2>برنامه شماره<span> سه </span></h2>
-                <p>رودخانه ارس</p>
-              </figcaption>
-            </figure>
-          </div>
-        </a>
-        <div class="col-md-12">
-          <div class="item">
-            <video width="176" controls>
-              <source src="/sites/default/files/manual/tour/Montion-yazd.mp4" type="video/mp4">
-              <source src="/sites/default/files/manual/tour/Montion-yazd.mp4" type="video/ogg">
-              مرورگر شما از این قابلیت استفاده نمی کند
-            </video>
-          </div>
-        </div>
-      </div>
-  </section>
-  <section class="media2" style="display:none">
-    <div class="row">
-      <a href="/tourism/gallery" target="_blank">
-        <div class="col-md-4 pr">
-          <figure class="ax h550">
-            <img src="/sites/all/themes/waterhouse/images/meysam/image/karaj/sad.jpg"/>
-            <figcaption>
-              <div class="square">
-                <div></div>
-              </div>
-              <h2>برنامه شماره<span> پنج</span></h2>
-              <p>سد امیر کبیر</p>
-            </figcaption>
-          </figure>
-        </div>
-      </a>
-      <div class="col-md-4 p0">
-        <div>
-          <video width="176" controls>
-            <source src="/sites/default/files/manual/tour/motion-aras.mp4" type="video/mp4">
-            <source src="/sites/default/files/manual/tour/motion-aras.mp4" type="video/ogg">
-            مرورگر شما از این قابلیت استفاده نمی کند
-          </video>
-        </div>
-        <div>
-          <video width="176" controls>
-            <source src="/sites/default/files/manual/tour/Montion-ahwaz.mp4" type="video/mp4">
-            <source src="/sites/default/files/manual/tour/Montion-ahwaz.mp4" type="video/ogg">
-            مرورگر شما از این قابلیت استفاده نمی کند
-          </video>
-        </div>
-      </div>
-      <a href="/tourism/gallery" target="_blank">
-        <div class="col-md-4 pl">
-          <figure class="ax h550">
-            <img src="/sites/all/themes/waterhouse/images/meysam/image/lar/daryache.jpg"/>
-            <figcaption>
-              <div class="square">
-                <div></div>
-              </div>
-              <h2>برنامه شماره<span> چهار</span></h2>
-              <p>سد لار</p>
-            </figcaption>
-          </figure>
-        </div>
-      </a>
-    </div>
-  </section>
 
   <section class="list-city full-width">
     <h3 class="tourism-header" data-aos="fade-up" data-aos-delay="150">جدیدترین فراخوان های سرمایه گذاری در گردشگری</h3>
@@ -401,51 +296,162 @@
       ?>
     </section>
 
-    <section id="trip" class="trip">
-      <div class="title-col" data-aos="fade-right" data-aos-delay="600">
-        <h3 class="tourism-header">گفتگو، میزگرد و بینارهای آموزشی</h3>
-        <p>برگزاری میزگردها و بینارهای آنلاین یکی از اقدامات موثر و مهم در راستای اجرایی شدن سیاستهای تسهیل و توسعه سرمایه‌گذاری در بخش گردشگری و تفریحی پیرامون منابع و تاسیسات آبی می‌باشد.</p>
-      </div>
-      <div class="purp">
-        <?php
-        $webinar1 = node_load(3434);
-        $webinar2 = node_load(3435);
-        $webinars = [$webinar1, $webinar2];
-        $i = 1;
-        foreach ($webinars as $webinar) :
-          ?>
-          <div class="col-md-6" data-aos="fade-left" data-aos-delay="600">
-            <div class="main">
-              <div id="myCarousel<?php echo $i; ?>" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <?php
-                  $j = 0;
-                  foreach ($webinar->uc_product_image['und'] as $image) :
-                    $image = image_style_url('300x400', $image['uri']);
-                    ?>
-                    <div class="item <?php echo $j == 0 ? 'active' : ''; ?>">
-                      <img src="<?php echo $image; ?>"/>
-                    </div>
-                  <?php endforeach;?>
-                </div>
-                <ol class="carousel-indicators">
-                  <?php
-                  $j = 0;
-                  foreach ($webinar->uc_product_image['und'] as $image) :
-                    ?>
-                    <li data-target="#myCarousel<?php echo $i; ?>" data-slide-to="<?php echo $j; ?>" class="<?php echo $j == 0 ? 'active' : ''; ?>"></li>
+    <section id="trip" class="trip full-width">
+      <div class="container">
+        <div class="title-col" data-aos="fade-right" data-aos-delay="600">
+          <h3 class="tourism-header">گفتگو، میزگرد و بینارهای آموزشی</h3>
+          <p>برگزاری میزگردها و بینارهای آنلاین یکی از اقدامات موثر و مهم در راستای اجرایی شدن سیاستهای تسهیل و توسعه سرمایه‌گذاری در بخش گردشگری و تفریحی پیرامون منابع و تاسیسات آبی می‌باشد.</p>
+        </div>
+        <div class="purp">
+          <?php
+          $webinar1 = node_load(3434);
+          $webinar2 = node_load(3435);
+          $webinars = [$webinar1, $webinar2];
+          $i = 1;
+          foreach ($webinars as $webinar) :
+            ?>
+            <div class="col-md-6" data-aos="fade-left" data-aos-delay="600">
+              <div class="main">
+                <div id="myCarousel<?php echo $i; ?>" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
                     <?php
-                    $j++;
-                  endforeach;?>
-                </ol>
+                    $j = 0;
+                    foreach ($webinar->uc_product_image['und'] as $image) :
+                      $image = image_style_url('300x400', $image['uri']);
+                      ?>
+                      <div class="item <?php echo $j == 0 ? 'active' : ''; ?>">
+                        <img src="<?php echo $image; ?>"/>
+                      </div>
+                    <?php endforeach;?>
+                  </div>
+                  <ol class="carousel-indicators">
+                    <?php
+                    $j = 0;
+                    foreach ($webinar->uc_product_image['und'] as $image) :
+                      ?>
+                      <li data-target="#myCarousel<?php echo $i; ?>" data-slide-to="<?php echo $j; ?>" class="<?php echo $j == 0 ? 'active' : ''; ?>"></li>
+                      <?php
+                      $j++;
+                    endforeach;?>
+                  </ol>
+                </div>
+                <a href="/node/<?php echo $webinar->nid; ?>" target="_blank"><?php echo $webinar->title; ?></a>
+                <a class="button" href="/node/<?php echo $webinar->nid; ?>" target="_blank" class="swip-left">ثبت نام</a>
               </div>
-              <a href="/node/<?php echo $webinar->nid; ?>" target="_blank"><?php echo $webinar->title; ?></a>
-              <a class="button" href="/node/<?php echo $webinar->nid; ?>" target="_blank" class="swip-left">ثبت نام</a>
+            </div>
+            <?php
+            $i++;
+          endforeach;?>
+        </div>
+      </div>
+    </section>
+
+    <section id="media" class="media">
+      <h3 class="tourism-header">سفر های پیشین</h3>
+      <div class="row">
+        <div class="col-md-6 col h550">
+          <a href="/tourism/gallery" target="_blank">
+            <figure class="ax">
+              <img src="/sites/all/themes/waterhouse/images/meysam/y1.jpg"/>
+              <figcaption>
+                <div class="square">
+                  <div></div>
+                </div>
+                <h2>برنامه شماره<span> یک</span></h2>
+                <p>یزد</p>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <div class="col-md-12" >
+            <div class="col-md-6 col h220">
+              <a href="/tourism/gallery" target="_blank">
+                <figure class="ax">
+                  <img src="/sites/all/themes/waterhouse/images/meysam/k2.jpg">
+                  <figcaption>
+                    <div class="square">
+                      <div></div>
+                    </div>
+                    <h2>برنامه شماره<span> دو</span></h2>
+                    <p>شمال خوزستان</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="col-md-6 col h220">
+              <a href="/tourism/gallery" target="_blank">
+                <figure class="ax">
+                  <img src="/sites/default/files/aras11.JPG">
+                  <figcaption>
+                    <div class="square">
+                      <div></div>
+                    </div>
+                    <h2>برنامه شماره<span> سه </span></h2>
+                    <p>رودخانه ارس</p>
+                  </figcaption>
+                </figure>
+              </a>
             </div>
           </div>
-          <?php
-          $i++;
-        endforeach;?>
+          <div class="col-md-12">
+            <div class="item">
+              <video width="176" controls>
+                <source src="/sites/default/files/manual/tour/Montion-yazd.mp4" type="video/mp4">
+                <source src="/sites/default/files/manual/tour/Montion-yazd.mp4" type="video/ogg">
+                مرورگر شما از این قابلیت استفاده نمی کند
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="media2" >
+      <div class="row">
+        <a href="/tourism/gallery" target="_blank">
+          <div class="col-md-4 pr">
+            <figure class="ax h550">
+              <img src="/sites/all/themes/waterhouse/images/meysam/image/karaj/sad.jpg"/>
+              <figcaption>
+                <div class="square">
+                  <div></div>
+                </div>
+                <h2>برنامه شماره<span> پنج</span></h2>
+                <p>سد امیر کبیر</p>
+              </figcaption>
+            </figure>
+          </div>
+        </a>
+        <div class="col-md-4 p0">
+          <div>
+            <video width="176" controls>
+              <source src="/sites/default/files/manual/tour/motion-aras.mp4" type="video/mp4">
+              <source src="/sites/default/files/manual/tour/motion-aras.mp4" type="video/ogg">
+              مرورگر شما از این قابلیت استفاده نمی کند
+            </video>
+          </div>
+          <div>
+            <video width="176" controls>
+              <source src="/sites/default/files/manual/tour/Montion-ahwaz.mp4" type="video/mp4">
+              <source src="/sites/default/files/manual/tour/Montion-ahwaz.mp4" type="video/ogg">
+              مرورگر شما از این قابلیت استفاده نمی کند
+            </video>
+          </div>
+        </div>
+        <a href="/tourism/gallery" target="_blank">
+          <div class="col-md-4 pl">
+            <figure class="ax h550">
+              <img src="/sites/all/themes/waterhouse/images/meysam/image/lar/daryache.jpg"/>
+              <figcaption>
+                <div class="square">
+                  <div></div>
+                </div>
+                <h2>برنامه شماره<span> چهار</span></h2>
+                <p>سد لار</p>
+              </figcaption>
+            </figure>
+          </div>
+        </a>
       </div>
     </section>
 
