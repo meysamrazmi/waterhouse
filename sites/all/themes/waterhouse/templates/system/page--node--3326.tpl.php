@@ -1,5 +1,8 @@
 <div id="block-system-main" style="font-family: fanum !important;">
   <section id="menu" class="tourism-menu container">
+    <a href="/tourism" class="menu-logo"><img src="/sites/all/themes/waterhouse/images/tourism-logo.png" class="menu-logo"></a>
+    <div class="menu-overlay"></div>
+    <div class="menu-button"><i class="mdi mdi-menu"></i></div>
     <?php
     $block = module_invoke('menu', 'block_view', 'menu-tourismmain');
     print render($block['content']);
