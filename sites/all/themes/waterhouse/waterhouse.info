@@ -44,7 +44,7 @@ stylesheets[all][] = less/maisam10.css.less
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;
-scripts[] = js/lib/jquery-1.10.2.min.js
+;scripts[] = js/lib/jquery-1.10.2.min.js
 scripts[] = js/main.js
 scripts[] = js/aos.js
 scripts[] = js/lib/owl.carousel.min.js
