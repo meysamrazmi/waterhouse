@@ -1463,9 +1463,8 @@ form#webform-client-form-683, form.webform-client-form-717{
     display: flex;
     padding: 0;
     max-width: ~"calc(100vw - 177px)";
-    overflow: overlay;
     transition: all 0.4s ease;
-    @media @768 {
+    @media @992 {
       width: 300px;
       position: absolute;
       height: 100vh;
@@ -1473,6 +1472,7 @@ form#webform-client-form-683, form.webform-client-form-717{
       z-index: 20;
       background: #fff;
       left: -300px;
+      overflow: overlay;
       > li > a {
         border-bottom: 1px solid #ddd;
       }
@@ -1510,7 +1510,7 @@ form#webform-client-form-683, form.webform-client-form-717{
     left: 0px;
     transition: all 0.4s ease;
     cursor: pointer;
-    @media @768 {
+    @media @992 {
       display: block;
     }
     .menu-open &{
@@ -1519,7 +1519,7 @@ form#webform-client-form-683, form.webform-client-form-717{
   }
   .menu-overlay {
     display: none;
-    @media @768 {
+    @media @992 {
       display: block;
     }
     .menu-open & {
