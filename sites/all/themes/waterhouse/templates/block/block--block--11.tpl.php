@@ -6,10 +6,10 @@
       </div>
       <p style="margin-top: 35px;">ما را در شبکه های اجتماعی دنبال کنید</p>
       <div class="icons">
-        <a target="_blank" href="https://www.instagram.com/iranWaterhouse/">
+        <a target="_blank" href="https://www.instagram.com/watertourism/">
           <i class="fab fa-instagram"></i>
         </a>
-        <a target="_blank" href="https://telegram.me/WaterOnline">
+        <a target="_blank" href="https://t.me/WaterTourism">
           <i class="fab fa-telegram-plane"></i>
         </a>
       </div>
