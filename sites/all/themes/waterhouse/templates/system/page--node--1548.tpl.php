@@ -24,7 +24,7 @@
     <?php endif;?>
 
   <section class="list-city full-width">
-    <h3 class="tourism-header" data-aos="fade-up" data-aos-delay="150">جدیدترین فراخوان های سرمایه گذاری در گردشگری</h3>
+    <h3 class="tourism-header" data-aos="fade-up" data-aos-delay="150">جدیدترین فراخوان های سرمایه گذاری در گردشگری آب</h3>
     <div class="show-city container" data-aos="fade-right" data-aos-delay="450">
       <div class="tab" style="z-index:1">
         <div class="menu">
@@ -299,8 +299,8 @@
     <section id="trip" class="trip full-width">
       <div class="container">
         <div class="title-col" data-aos="fade-right" data-aos-delay="600">
-          <h3 class="tourism-header">گفتگو، میزگرد و بینارهای آموزشی</h3>
-          <p>برگزاری میزگردها و بینارهای آنلاین یکی از اقدامات موثر و مهم در راستای اجرایی شدن سیاستهای تسهیل و توسعه سرمایه‌گذاری در بخش گردشگری و تفریحی پیرامون منابع و تاسیسات آبی می‌باشد.</p>
+          <h3 class="tourism-header">میزگرد و گفت و گوی آنلاین</h3>
+          <p>برگزاری میزگرها و گفت و گوهای آنلاین در حوزه گردشگری آب، یکی از اقدامات موثر در راستای ارتقاء دانش عمومی، شفاف شدن موانع و چالش های پیش روی توسعه این صنعت و جذب سرمایه گذاری بیشتر به سمت گردشگری حول منابع و تأسیسات آبی است.</p>
         </div>
         <div class="purp">
           <?php
@@ -350,7 +350,7 @@
       <h3 class="tourism-header">سفر های پیشین</h3>
       <div class="row">
         <div class="col-md-6 col h550">
-          <a href="/tourism/gallery" target="_blank">
+          <a href="/gallery/2733" target="_blank">
             <figure class="ax">
               <img src="/sites/all/themes/waterhouse/images/meysam/y1.jpg"/>
               <figcaption>
@@ -366,7 +366,7 @@
         <div class="col-md-6">
           <div class="col-md-12" >
             <div class="col-md-6 col h220">
-              <a href="/tourism/gallery" target="_blank">
+              <a href="/gallery/2754" target="_blank">
                 <figure class="ax">
                   <img src="/sites/all/themes/waterhouse/images/meysam/k2.jpg">
                   <figcaption>
@@ -380,7 +380,7 @@
               </a>
             </div>
             <div class="col-md-6 col h220">
-              <a href="/tourism/gallery" target="_blank">
+              <a href="/gallery/2859" target="_blank">
                 <figure class="ax">
                   <img src="/sites/default/files/aras11.JPG">
                   <figcaption>
@@ -408,7 +408,7 @@
     </section>
     <section class="media2" >
       <div class="row">
-        <a href="/tourism/gallery" target="_blank">
+        <a href="/gallery/3186" target="_blank">
           <div class="col-md-4 pr">
             <figure class="ax h550">
               <img src="/sites/all/themes/waterhouse/images/meysam/image/karaj/sad.jpg"/>
@@ -438,7 +438,7 @@
             </video>
           </div>
         </div>
-        <a href="/tourism/gallery" target="_blank">
+        <a href="/gallery/2755" target="_blank">
           <div class="col-md-4 pl">
             <figure class="ax h550">
               <img src="/sites/all/themes/waterhouse/images/meysam/image/lar/daryache.jpg"/>

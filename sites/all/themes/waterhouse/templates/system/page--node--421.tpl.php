@@ -148,7 +148,7 @@
 
         <div class="col-md-6 col-sm-12 col-xs-12 map-part open">
           <div class="bottom-left">
-            <div class="shtmavni area" name="3345" alt="شرکت توسعه منابع آب">
+            <div class="shtmavni area" name="3345" alt="شرکت توسعه منابع آب و نیروی ایران">
               <p>شرکت توسعه منابع آب و نیروی ایران</P>
             </div>
           </div>
