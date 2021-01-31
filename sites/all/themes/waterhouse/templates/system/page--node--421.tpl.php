@@ -381,7 +381,7 @@
             section.find(".TZ").text("0");
             break;
           case "3345":
-            section.find(".TD").text("1");
+            section.find(".TD").text("2");
             section.find(".TF").text("10");
             section.find(".TZ").text("0");
             break;
