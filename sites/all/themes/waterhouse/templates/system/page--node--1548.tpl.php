@@ -23,7 +23,19 @@
     </section>
     <?php endif;?>
 
-  <section class="list-city full-width">
+    <div id="page-slider-nav" class="uk-visible@m uk-position-center-left uk-position-medium uk-position-z-index">
+      <ul class="uk-slideshow-nav uk-dotnav uk-dotnav-vertical">
+        <li class=""><a href="#menu"></a></li>
+        <li class=""><a href="#farakhan"><span>2</span></a></li>
+        <li class=""><a href="#zarfiat"><span>3</span></a></li>
+        <li class="uk-active"><a href="#news"><span>4</span></a></li>
+        <li><a href="#trip"></a></li>
+        <li><a href="#media"></a></li>
+        <li><a href="#hamian"></a></li>
+      </ul>
+    </div>
+
+  <section id="farakhan" class="list-city full-width">
     <h3 class="tourism-header" data-aos="fade-up" data-aos-delay="150">جدیدترین فراخوان های سرمایه گذاری در گردشگری آب</h3>
     <div class="show-city container" data-aos="fade-right" data-aos-delay="450">
       <div class="tab" style="z-index:1">
@@ -91,7 +103,7 @@
       </div>
     </div>
   </section>
-  <section class="list-city2" style="direction:rtl">
+  <section id="zarfiat" class="list-city2" style="direction:rtl">
     <h3 class="tourism-header" data-aos="fade-up" data-aos-delay="150">ظرفیت های گردشگری آب در استانها</h3>
     <div class="show-city2 container" data-aos="fade-left" data-aos-delay="450">
       <div>
@@ -289,7 +301,7 @@
 
   </script>
 
-    <section class="news full-width" data-aos="fade-up" data-aos-delay="600">
+    <section id="news" class="news full-width" data-aos="fade-up" data-aos-delay="600">
       <h3 class="tourism-header"><span>اخبار گردشگری آب</span></h3>
       <?php
       echo views_embed_view('tourism_news', 'block');
@@ -455,7 +467,7 @@
       </div>
     </section>
 
-    <section class="hamian full-width" data-aos="fade-up" data-aos-delay="600">
+    <section id="hamian" class="hamian full-width" data-aos="fade-up" data-aos-delay="600">
       <h3 class="tourism-header">حامیان و سیاستگذاران</h3>
       <div class="logos container">
         <a href="https://www.moe.gov.ir/" target="_blank">
